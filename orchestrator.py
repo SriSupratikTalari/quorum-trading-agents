@@ -1,33 +1,40 @@
 from concurrent.futures import ThreadPoolExecutor
+
 from agents import fundamentals_agent,technical_agent,news_agent,macro_agent
 from agents import bull_agent,bear_agent,portfolio_manager_agent,execution_agent
 from agents.risk_agent import risk_check
-from config import UNIVERSE
+from datetime import date
 
-def run_ticker(ticker):
+RESEARCH={"fundamentals":fundamentals_agent.run,
+          "technical":technical_agent.run,
+          "news":news_agent.run,
+          "macro":macro_agent.run}
+
+def run_parallel(funcs:dict,*args)->dict:
+    """Run every function at once. One crashing doesn't stop the others."""
     with ThreadPoolExecutor() as pool:
-        # Phase 1: start all 4 at once
-        f=pool.submit(fundamentals_agent.run,ticker)
-        t=pool.submit(technical_agent.run,ticker)
-        n=pool.submit(news_agent.run,ticker)
-        m=pool.submit(macro_agent.run,ticker)
-        # Wait for all 4 reports
-        research={"fundamentals":f.result(),"technical":t.result(),
-                  "news":n.result(),"macro":m.result()}
+        futures={name:pool.submit(fn,*args) for name,fn in funcs.items()}
+        out={}
+        for name,f in futures.items():
+            try:
+                out[name]=f.result(timeout=300)
+            except Exception as e:
+                out[name]={"error":f"{name} failed: {e}"}
+        return out
 
-        # Phase 2: Bull and Bear at once
-        bull=pool.submit(bull_agent.run,research)
-        bear=pool.submit(bear_agent.run,research)
-        bull,bear=bull.result(),bear.result()
+def run_ticker(ticker:str)->dict:
+    """Run the full pipeline for one stock."""
+    state={"ticker":ticker,"date":date.today().isoformat()}
+
+    # Phase 1: 4 research agents at once
+    state["research"]=run_parallel(RESEARCH,ticker)
+
+    # Phase 2: Bull and Bear at once
+    debate=run_parallel({"bull":bull_agent.run,"bear":bear_agent.run},ticker,state["research"])
+    state["bull"],state["bear"]=debate["bull"],debate["bear"]
 
     # Phase 3: in order
-    decision=portfolio_manager_agent.run(ticker,research,bull,bear)
-    risk=risk_check(decision,research)
-    execution=execution_agent.execute(risk)
-    return {"ticker":ticker,"research":research,"bull":bull,"bear":bear,
-            "decision":decision,"risk":risk,"execution":execution}
-
-if __name__=="__main__":
-    for ticker in UNIVERSE:
-        state=run_ticker(ticker)
-        print(ticker,state["decision"].get("action"),state["execution"].get("status"))
+    state["decision"]=portfolio_manager_agent.run(ticker,state["research"],state["bull"],state["bear"])
+    state["risk"]=risk_check(state["decision"],state["research"])
+    state["execution"]=execution_agent.execute(state["risk"])
+    return state
