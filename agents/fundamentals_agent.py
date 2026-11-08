@@ -54,9 +54,12 @@ def run_tool(name,args):
         result={**result,"text":result["text"][:MAX_DOC_TOKENS*4],"truncated":True}
     return result
 
+from agents.key_metrics import add_key_metrics   # top of file
+
 def react_loop(msg):
     collected={}
-    resp=client.responses.create(...)   # unchanged
+    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
+                                 tools=Fundemental_tools_schema,text={"format":{"type":"json_object"}})
     for _ in range(8):
         calls=[i for i in resp.output if i.type=='function_call']
         if not calls:
@@ -67,16 +70,20 @@ def react_loop(msg):
             collected[i.name]=result
             tools_output.append({'type':'function_call_output','call_id':i.call_id,
                                  'output':json.dumps(result,default=str)})
-        resp=client.responses.create(...)   # unchanged
-    return json.dumps({"error":"... hit the step limit without an answer"}),collected
+        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
+                                     previous_response_id=resp.id,tools=Fundemental_tools_schema,
+                                     text={"format":{"type":"json_object"}})
+    return json.dumps({"error":"Fundamentals agent hit the step limit without an answer"}),collected
 
 def run(ticker):
     """What the orchestrator calls. Returns a dict."""
-    out=react_loop(f"Analyze the fundamentals of {ticker.upper()}.")
+    out,collected=react_loop(f"Analyze the fundamentals of {ticker.upper()}.")
     try:
-        return json.loads(out)
+        report=json.loads(out)
     except json.JSONDecodeError:
-        return {"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
+        report={"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
+    report["data"]=collected.get("get_fundamentals",{})  # not the filing text: it's huge
+    return add_key_metrics("fundamentals",report)
 
 if __name__=="__main__":
     print(json.dumps(run("AAPL"),indent=2))

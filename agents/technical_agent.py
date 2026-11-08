@@ -51,9 +51,12 @@ def run_tool(name,args):
     except Exception as e:
         return {"error":f"{name} failed: {e}"}
 
+from agents.key_metrics import add_key_metrics   # move to the top with the other imports
+
 def react_loop(msg):
     collected={}
-    resp=client.responses.create(...)   # unchanged
+    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
+                                 tools=Technical_tools_schema,text={"format":{"type":"json_object"}})
     for _ in range(8):
         calls=[i for i in resp.output if i.type=='function_call']
         if not calls:
@@ -64,10 +67,10 @@ def react_loop(msg):
             collected[i.name]=result
             tools_output.append({'type':'function_call_output','call_id':i.call_id,
                                  'output':json.dumps(result,default=str)})
-        resp=client.responses.create(...)   # unchanged
-    return json.dumps({"error":"... hit the step limit without an answer"}),collected
-
-from agents.key_metrics import add_key_metrics
+        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
+                                     previous_response_id=resp.id,tools=Technical_tools_schema,
+                                     text={"format":{"type":"json_object"}})
+    return json.dumps({"error":"Technical agent hit the step limit without an answer"}),collected
 
 def run(ticker):
     out,collected=react_loop(f"Analyze the price action of {ticker.upper()}.")
@@ -78,6 +81,5 @@ def run(ticker):
     report["data"]={"indicators":collected.get("get_technicals",{}),
                     "relative_strength":collected.get("get_relative_strength",{})}
     return add_key_metrics("technical",report)
-
 if __name__=="__main__":
     print(json.dumps(run("AAPL"),indent=2))

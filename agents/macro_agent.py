@@ -59,9 +59,12 @@ def run_tool(name,args):
     except Exception as e:
         return {"error":f"{name} failed: {e}"}
 
+from agents.key_metrics import add_key_metrics   # top of file
+
 def react_loop(msg):
     collected={}
-    resp=client.responses.create(...)   # unchanged
+    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
+                                 tools=Macro_tools_schema,text={"format":{"type":"json_object"}})
     for _ in range(8):
         calls=[i for i in resp.output if i.type=='function_call']
         if not calls:
@@ -72,15 +75,19 @@ def react_loop(msg):
             collected[i.name]=result
             tools_output.append({'type':'function_call_output','call_id':i.call_id,
                                  'output':json.dumps(result,default=str)})
-        resp=client.responses.create(...)   # unchanged
-    return json.dumps({"error":"... hit the step limit without an answer"}),collected 
+        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
+                                     previous_response_id=resp.id,tools=Macro_tools_schema,
+                                     text={"format":{"type":"json_object"}})
+    return json.dumps({"error":"Macro agent hit the step limit without an answer"}),collected
 
 def run(ticker):
-    out=react_loop(f"Analyze the macro environment for {ticker.upper()}.")
+    out,collected=react_loop(f"Analyze the macro environment for {ticker.upper()}.")
     try:
-        return json.loads(out)
+        report=json.loads(out)
     except json.JSONDecodeError:
-        return {"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
-
+        report={"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
+    report["data"]={"macro":collected.get("get_macro_data",{}),
+                    "sector":collected.get("get_sector_context",{})}
+    return add_key_metrics("macro",report)
 if __name__=="__main__":
     print(json.dumps(run("AAPL"),indent=2))

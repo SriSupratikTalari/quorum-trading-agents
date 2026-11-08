@@ -55,10 +55,13 @@ def run_tool(name,args):
     except Exception as e:
         return {"error":f"{name} failed: {e}"}
 
+from agents.key_metrics import add_key_metrics   # top of file
+
 def react_loop(msg):
     collected={}
-    resp=client.responses.create(...)   # unchanged
-    for _ in range(8):
+    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
+                                 tools=News_tools_schema,text={"format":{"type":"json_object"}})
+    for _ in range(10):
         calls=[i for i in resp.output if i.type=='function_call']
         if not calls:
             return resp.output_text,collected
@@ -68,15 +71,22 @@ def react_loop(msg):
             collected[i.name]=result
             tools_output.append({'type':'function_call_output','call_id':i.call_id,
                                  'output':json.dumps(result,default=str)})
-        resp=client.responses.create(...)   # unchanged
-    return json.dumps({"error":"... hit the step limit without an answer"}),collected
+        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
+                                     previous_response_id=resp.id,tools=News_tools_schema,
+                                     text={"format":{"type":"json_object"}})
+    return json.dumps({"error":"News agent hit the step limit without an answer"}),collected
 
 def run(ticker):
-    out=react_loop(f"Analyze the recent news and crowd mood for {ticker.upper()}.")
+    out,collected=react_loop(f"Analyze the recent news and crowd mood for {ticker.upper()}.")
     try:
-        return json.loads(out)
+        report=json.loads(out)
     except json.JSONDecodeError:
-        return {"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
+        report={"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
+    as_list=lambda x:x if isinstance(x,list) else []   # tool errors come back as dicts
+    report["data"]={"articles":(collected.get("get_news") or {}).get("articles",[]),
+                    "posts":as_list(collected.get("get_bluesky_posts"))+as_list(collected.get("get_hn_posts")),
+                    "filings_8k":as_list(collected.get("get_recent_8k"))}
+    return add_key_metrics("news",report)
 
 if __name__=="__main__":
     print(json.dumps(run("AAPL"),indent=2))
