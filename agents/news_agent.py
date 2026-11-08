@@ -56,20 +56,20 @@ def run_tool(name,args):
         return {"error":f"{name} failed: {e}"}
 
 def react_loop(msg):
-    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
-                                 tools=News_tools_schema,text={"format":{"type":"json_object"}})
-    for _ in range(10):
+    collected={}
+    resp=client.responses.create(...)   # unchanged
+    for _ in range(8):
         calls=[i for i in resp.output if i.type=='function_call']
         if not calls:
-            return resp.output_text
-        tools_output=[{'type':'function_call_output',
-                       'call_id':i.call_id,
-                       'output':json.dumps(run_tool(i.name,json.loads(i.arguments)),default=str)
-                      } for i in calls]
-        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
-                                     previous_response_id=resp.id,tools=News_tools_schema,
-                                     text={"format":{"type":"json_object"}})
-    return json.dumps({"error":"News agent hit the step limit without an answer"})
+            return resp.output_text,collected
+        tools_output=[]
+        for i in calls:
+            result=run_tool(i.name,json.loads(i.arguments))
+            collected[i.name]=result
+            tools_output.append({'type':'function_call_output','call_id':i.call_id,
+                                 'output':json.dumps(result,default=str)})
+        resp=client.responses.create(...)   # unchanged
+    return json.dumps({"error":"... hit the step limit without an answer"}),collected
 
 def run(ticker):
     out=react_loop(f"Analyze the recent news and crowd mood for {ticker.upper()}.")

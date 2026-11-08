@@ -25,11 +25,14 @@ def compute_indicators(bars:list)->dict:
     gain=delta.clip(lower=0).ewm(alpha=1/14,adjust=False).mean()
     loss=(-delta.clip(upper=0)).ewm(alpha=1/14,adjust=False).mean()
     rsi=100-100/(1+gain/loss)
-    return {"price":df["c"].iloc[-1],
+    price=df["c"].iloc[-1]
+    return {"price":float(price),
             "sma_50":round(sma_50.iloc[-1],2),
             "sma_200":round(sma_200.iloc[-1],2),
-            "rsi_14":round(rsi.iloc[-1],2)}
-
+            "above_sma_50":bool(price>sma_50.iloc[-1]),
+            "above_sma_200":bool(price>sma_200.iloc[-1]),
+            "rsi_14":round(rsi.iloc[-1],2),
+            "volatility_20d":round(float(df["c"].pct_change().rolling(20).std().iloc[-1]*252**0.5),4)}
 def get_relative_strength(ticker:str,days:int=90)->dict:
     stock=get_price_bars(ticker,days)
     spy=get_price_bars("SPY",days)

@@ -55,13 +55,22 @@ def news_metrics(data: dict) -> dict:
 
 
 def macro_metrics(data: dict) -> dict:
-    snap = data.get("snapshot", data)
-    ss = data.get("sector_strength", {})
-    return {
-        **_pick(snap, ["ten_year", "ten_year_change_3m", "cpi_yoy", "unemployment",
-                       "vix", "yield_curve", "curve_inverted"]),
-        **_pick(ss, ["outperformance"]),
+    m = data.get("macro", {})
+    sector = data.get("sector") or {}
+    latest = lambda k: (m.get(k) or {}).get("latest")
+    out = {
+        "fed_funds_rate": latest("fed_funds_rate"),
+        "ten_year": latest("treasury_10y"),
+        "ten_year_change_1y": (m.get("treasury_10y") or {}).get("change_1y"),
+        "inflation_pct": m.get("inflation_pct"),
+        "unemployment": latest("unemployment_rate"),
+        "vix": latest("vix"),
+        "yield_curve": latest("yield_curve_10y_2y"),
+        "curve_inverted": m.get("yield_curve_inverted"),
+        "beta": sector.get("beta"),
+        "sector_outperformance": (sector.get("sector_vs_spy_90d") or {}).get("outperformance"),
     }
+    return {k: v for k, v in out.items() if v is not None}
 
 
 EXTRACTORS = {

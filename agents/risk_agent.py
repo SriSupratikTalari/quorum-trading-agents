@@ -5,7 +5,7 @@ from config import (MAX_POSITION_WEIGHT,MIN_CASH_WEIGHT,MAX_SECTOR_WEIGHT,
                     MIN_CONFIDENCE,HIGH_VOLATILITY,MAX_DRAWDOWN)
 from tools.trading_tools import (get_account,get_all_positions,get_clock,
                                  get_open_orders,get_portfolio_history)
-from tools.portfolio_manager_tools import compute_order_size
+from tools.portfolio_tools import compute_order_size
 
 NO_ORDER={"side":"none","shares":0}
 
@@ -94,7 +94,7 @@ def risk_check(pm_decision:dict,research:dict)->dict:
             check("max_sector",True,"sector unknown, rule skipped")
 
         # Volatility
-        vol=research.get("technical",{}).get("key_metrics",{}).get("volatility")
+        vol=research.get("technical",{}).get("key_metrics",{}).get("volatility_20d")
         if vol is not None and vol>1:
             vol/=100  # handle 55 vs 0.55
         if vol is not None and vol>HIGH_VOLATILITY:
