@@ -5,8 +5,8 @@ from tools.fundamentals_tools import fundemental_tools, Fundemental_tools_schema
 
 load_dotenv()
 client=OpenAI()
-model='gpt-4o-mini'
-MAX_DOC_TOKENS=50_000  # gpt-4o-mini holds ~128K tokens, and both filings share that space
+model='gpt-4.1-nano'
+MAX_DOC_TOKENS=150_000  # per filing. Fits most full 10-Ks; still caps unusually huge ones
 
 system_prompt="""You are the Fundamentals Agent in Quorum, a multi-agent trading system.
 Your one question: is this company a healthy business, and is it improving?
