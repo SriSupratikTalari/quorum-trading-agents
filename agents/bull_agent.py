@@ -5,7 +5,7 @@ No tools: it reads and argues. The Portfolio Manager makes the decision.
 """
 import json
 from pathlib import Path
-
+from datetime import date
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -73,7 +73,7 @@ def _clean_reports(research: dict) -> dict:
 
 def run(ticker: str, research: dict) -> dict:
     ticker = ticker.upper()
-    msg = f"Ticker: {ticker}\n\nResearch reports:\n{json.dumps(_clean_reports(research), indent=2)}"
+    msg = f"Today: {date.today().isoformat()}\nTicker: {ticker}\n\nResearch reports:\n{json.dumps(_clean_reports(research), indent=2)}"
     out = call_llm(msg)
     try:
         return {"agent": "bull", "ticker": ticker, **json.loads(out)}

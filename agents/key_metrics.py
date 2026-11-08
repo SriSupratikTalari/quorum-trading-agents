@@ -68,7 +68,7 @@ def macro_metrics(data: dict) -> dict:
         "yield_curve": latest("yield_curve_10y_2y"),
         "curve_inverted": m.get("yield_curve_inverted"),
         "beta": sector.get("beta"),
-        "sector_outperformance": (sector.get("sector_vs_spy_90d") or {}).get("outperformance"),
+        "sector_outperformance": (sector.get("sector_vs_spy_90d") or {}).get("sector_outperformance"),
     }
     return {k: v for k, v in out.items() if v is not None}
 

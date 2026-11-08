@@ -77,7 +77,7 @@ def react_loop(msg):
     return json.dumps({"error":"News agent hit the step limit without an answer"}),collected
 
 def run(ticker):
-    out,collected=react_loop(f"Analyze the recent news and crowd mood for {ticker.upper()}.")
+    out,collected=react_loop(f"Analyze the recent news and crowd mood for {ticker.upper()}. Respond in JSON.")
     try:
         report=json.loads(out)
     except json.JSONDecodeError:

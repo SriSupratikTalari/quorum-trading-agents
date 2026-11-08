@@ -73,7 +73,7 @@ def react_loop(msg):
     return json.dumps({"error":"Technical agent hit the step limit without an answer"}),collected
 
 def run(ticker):
-    out,collected=react_loop(f"Analyze the price action of {ticker.upper()}.")
+    out,collected=react_loop(f"Analyze the price action of {ticker.upper()}. Respond in JSON.")
     try:
         report=json.loads(out)
     except json.JSONDecodeError:

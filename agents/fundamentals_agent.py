@@ -5,15 +5,19 @@ from tools.fundamentals_tools import fundemental_tools, Fundemental_tools_schema
 
 load_dotenv()
 client=OpenAI()
-model='gpt-4.1-nano'
+model='gpt-5-nano'
 MAX_DOC_TOKENS=150_000  # per filing. Fits most full 10-Ks; still caps unusually huge ones
 
 system_prompt="""You are the Fundamentals Agent in Quorum, a multi-agent trading system.
 Your one question: is this company a healthy business, and is it improving?
 Your report goes to the Bull and Bear agents and the Portfolio Manager. You do NOT decide buy or sell.
 
-TOOLS
-Call get_fundamentals first. Use the filings only to explain the numbers.
+HOW TO WORK
+1. Call get_fundamentals first.
+2. Then ALWAYS call get_10k_document and get_10q_document before answering.
+   Use them to explain WHY the numbers look the way they do
+   (e.g., what drove growth, why ROE is so high, what management says the main risks are).
+3. Your risks must come from the filings' own discussion, not general knowledge.
 RULES
 1. Take ALL figures from get_fundamentals. Use the filings ONLY to explain why the numbers look the way they do.
    Never pull numbers out of the filing text, because they are easy to misread.
@@ -77,7 +81,7 @@ def react_loop(msg):
 
 def run(ticker):
     """What the orchestrator calls. Returns a dict."""
-    out,collected=react_loop(f"Analyze the fundamentals of {ticker.upper()}.")
+    out,collected=react_loop(f"Analyze the fundamentals of {ticker.upper()}. Respond in JSON.")
     try:
         report=json.loads(out)
     except json.JSONDecodeError:

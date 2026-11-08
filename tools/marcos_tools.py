@@ -57,12 +57,14 @@ def get_sector_context(ticker:str)->dict:
     info=yf.Ticker(ticker).info
     sector=info.get("sector")
     etf=SECTOR_ETFS.get(sector)
+    rs=get_relative_strength(etf) if etf else None
     return {"ticker":ticker.upper(),
             "sector":sector,
             "beta":info.get("beta"),
             "sector_etf":etf,
-            "sector_vs_spy_90d":get_relative_strength(etf) if etf else None}
-
+            "sector_vs_spy_90d":{"sector_return":rs["stock_return"],
+                                 "spy_return":rs["spy_return"],
+                                 "sector_outperformance":rs["outperformance"]} if rs else None}
 RELEASES={"cpi":10,"jobs_report":50,"gdp":53}
 
 def get_upcoming_releases()->dict:

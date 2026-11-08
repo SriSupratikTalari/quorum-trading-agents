@@ -1,0 +1,1556 @@
+{
+  "fundamentals": {
+    "ticker": "AAPL",
+    "score": 9,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "FY2026 net sales 478,834 million with net income 132,175 million; gross margin 48.8%, operating margin 33.01%, net margin 27.6% (all FY2026).",
+      "Revenue growth: total net sales grew to 478,834 million in FY2026 vs 416,161 million in FY2025 (growth implied by ratios: revenue_growth_yoy = 0.1506).",
+      "Strong cash generation and liquidity: free cash flow 136,056 million; cash and marketable securities total 136,935 million as of 2026; supports continued capital returns and financial flexibility.",
+      "Capital returns and leverage: ROE 1.1792 (117.92%), aided by sizable share repurchases (297 million shares for 85.8 billion in 2026) and a dividend program (quarterly dividend 0.27 per share) with an additional 100B buyback program announced in 2026.",
+      "Profitability and mix: Services gross margin 76.2% and total gross margin 48.8%; Services net sales 123,301 million in FY2026, contributing to a balanced margin profile and diversified revenue mix."
+    ],
+    "risks": [
+      "Tariffs and trade measures: Beginning in 2025, new tariffs on imports to the U.S. and other measures could impact costs, supply chains, and margins (10-K, Tariffs and Other Measures).",
+      "Component supply risk: The 2026 10-K highlights ongoing supply constraints for key components (advanced semiconductors, memory, storage) and reliance on single-source suppliers, which could pressure margins or limit product shipments.",
+      "Compute capacity and data-center risk: The business depends on substantial compute capacity and third-party cloud providers; constraints or rising costs for AI infrastructure could elevate a range of costs and cap growth.",
+      "Regulatory and antitrust exposure: DMA compliance in the EU and ongoing antitrust investigations (U.S. and Europe) could lead to penalties, required changes to business practices, or altered revenue opportunities (10-K and 10-Q risk disclosures).",
+      "Cybersecurity and privacy: Increasing cybersecurity risks and regulatory scrutiny around data privacy and AI-related features (risk factors in 10-K) could raise costs and affect user trust."
+    ],
+    "missing_data": [],
+    "summary": "Apple demonstrates a healthy and improving fundamental profile. The company posted FY2026 net sales of 478.8B with net income of 132.2B and a robust gross margin of 48.8%, supported by an operating margin of 33.0% and a net margin of 27.6%. Cash generation remains very strong, with free cash flow of 136.1B and total cash+marketable securities of about 136.9B, underpinning substantial capital returns (share repurchases of 85.8B in 2026 and a new program for up to 100B) plus steady dividends. ROE is reported at 117.9%, reflecting large earnings relative to a lower equity base due to aggressive buybacks, and leverage remains modest (debt-to-equity ~0.70; current ratio ~1.02). The business also benefits from a diversified revenue mix, with Services contributing a meaningful margin and ongoing revenue growth (quarterly revenue growth YoY around 16.4% in the latest quarter). However, the filings highlight notable risks: tariffs and trade measures, component supply constraints, AI infrastructure costs, regulatory/antitrust scrutiny (DMA and related actions), and cybersecurity/privacy concerns. Overall, the fundamentals point to a healthy, expanding business with strong liquidity and capital deployment, though execution remains sensitive to geopolitical, regulatory, and supply-chain dynamics.",
+    "data": {
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "annual": {
+        "revenue": {
+          "2023-09-30": 383285000000,
+          "2024-09-28": 391035000000,
+          "2025-09-27": 416161000000,
+          "2026-09-26": 478834000000
+        },
+        "gross_profit": {
+          "2023-09-30": 169148000000,
+          "2024-09-28": 180683000000,
+          "2025-09-27": 195201000000,
+          "2026-09-26": 233602000000
+        },
+        "operating_income": {
+          "2023-09-30": 114301000000,
+          "2024-09-28": 123216000000,
+          "2025-09-27": 133050000000,
+          "2026-09-26": 158063000000
+        },
+        "net_income": {
+          "2023-09-30": 96995000000,
+          "2024-09-28": 93736000000,
+          "2025-09-27": 112010000000,
+          "2026-09-26": 132175000000
+        },
+        "operating_cash_flow": {
+          "2023-09-30": 110543000000,
+          "2024-09-28": 118254000000,
+          "2025-09-27": 111482000000,
+          "2026-09-26": 145097000000
+        },
+        "capex": {
+          "2023-09-30": 10959000000,
+          "2024-09-28": 9447000000,
+          "2025-09-27": 12715000000,
+          "2026-09-26": 9041000000
+        },
+        "total_assets": {
+          "2023-09-30": 352583000000,
+          "2024-09-28": 364980000000,
+          "2025-09-27": 359241000000,
+          "2026-09-26": 404548000000
+        },
+        "current_assets": {
+          "2023-09-30": 143566000000,
+          "2024-09-28": 152987000000,
+          "2025-09-27": 147957000000,
+          "2026-09-26": 173857000000
+        },
+        "current_liabilities": {
+          "2023-09-30": 145308000000,
+          "2024-09-28": 176392000000,
+          "2025-09-27": 165631000000,
+          "2026-09-26": 169915000000
+        },
+        "total_liabilities": {
+          "2023-09-30": 290437000000,
+          "2024-09-28": 308030000000,
+          "2025-09-27": 285508000000,
+          "2026-09-26": 292455000000
+        },
+        "equity": {
+          "2023-09-30": 62146000000,
+          "2024-09-28": 56950000000,
+          "2025-09-27": 73733000000,
+          "2026-09-26": 112093000000
+        },
+        "cash": {
+          "2023-09-30": 29965000000,
+          "2024-09-28": 29943000000,
+          "2025-09-27": 35934000000,
+          "2026-09-26": 36305000000
+        },
+        "long_term_debt": {
+          "2023-09-30": 105103000000,
+          "2024-09-28": 96662000000,
+          "2025-09-27": 90678000000,
+          "2026-09-26": 78114000000
+        }
+      },
+      "quarterly": {
+        "revenue": {
+          "2024-03-30": 90753000000,
+          "2024-06-29": 85777000000,
+          "2024-12-28": 124300000000,
+          "2025-03-29": 95359000000,
+          "2025-06-28": 94036000000,
+          "2025-12-27": 143756000000,
+          "2026-03-28": 111184000000,
+          "2026-06-27": 109417000000
+        },
+        "gross_profit": {
+          "2024-03-30": 42271000000,
+          "2024-06-29": 39678000000,
+          "2024-12-28": 58275000000,
+          "2025-03-29": 44867000000,
+          "2025-06-28": 43718000000,
+          "2025-12-27": 69231000000,
+          "2026-03-28": 54781000000,
+          "2026-06-27": 54770000000
+        },
+        "operating_income": {
+          "2024-03-30": 27900000000,
+          "2024-06-29": 25352000000,
+          "2024-12-28": 42832000000,
+          "2025-03-29": 29589000000,
+          "2025-06-28": 28202000000,
+          "2025-12-27": 50852000000,
+          "2026-03-28": 35885000000,
+          "2026-06-27": 35695000000
+        },
+        "net_income": {
+          "2024-03-30": 23636000000,
+          "2024-06-29": 21448000000,
+          "2024-12-28": 36330000000,
+          "2025-03-29": 24780000000,
+          "2025-06-28": 23434000000,
+          "2025-12-27": 42097000000,
+          "2026-03-28": 29578000000,
+          "2026-06-27": 29789000000
+        },
+        "operating_cash_flow": {
+          "2018-12-29": 26690000000,
+          "2019-12-28": 30516000000,
+          "2020-12-26": 38763000000,
+          "2021-12-25": 46966000000,
+          "2022-12-31": 34005000000,
+          "2023-12-30": 39895000000,
+          "2024-12-28": 29935000000,
+          "2025-12-27": 53925000000
+        },
+        "capex": {
+          "2018-12-29": 3355000000,
+          "2019-12-28": 2107000000,
+          "2020-12-26": 3500000000,
+          "2021-12-25": 2803000000,
+          "2022-12-31": 3787000000,
+          "2023-12-30": 2392000000,
+          "2024-12-28": 2940000000,
+          "2025-12-27": 2373000000
+        },
+        "total_assets": {
+          "2024-09-28": 364980000000,
+          "2024-12-28": 344085000000,
+          "2025-03-29": 331233000000,
+          "2025-06-28": 331495000000,
+          "2025-09-27": 359241000000,
+          "2025-12-27": 379297000000,
+          "2026-03-28": 371082000000,
+          "2026-06-27": 383266000000
+        },
+        "current_assets": {
+          "2024-09-28": 152987000000,
+          "2024-12-28": 133240000000,
+          "2025-03-29": 118674000000,
+          "2025-06-28": 122491000000,
+          "2025-09-27": 147957000000,
+          "2025-12-27": 158104000000,
+          "2026-03-28": 144114000000,
+          "2026-06-27": 149818000000
+        },
+        "current_liabilities": {
+          "2024-09-28": 176392000000,
+          "2024-12-28": 144365000000,
+          "2025-03-29": 144571000000,
+          "2025-06-28": 141120000000,
+          "2025-09-27": 165631000000,
+          "2025-12-27": 162367000000,
+          "2026-03-28": 134641000000,
+          "2026-06-27": 149326000000
+        },
+        "total_liabilities": {
+          "2024-09-28": 308030000000,
+          "2024-12-28": 277327000000,
+          "2025-03-29": 264437000000,
+          "2025-06-28": 265665000000,
+          "2025-09-27": 285508000000,
+          "2025-12-27": 291107000000,
+          "2026-03-28": 264591000000,
+          "2026-06-27": 275746000000
+        },
+        "equity": {
+          "2024-09-28": 56950000000,
+          "2024-12-28": 66758000000,
+          "2025-03-29": 66796000000,
+          "2025-06-28": 65830000000,
+          "2025-09-27": 73733000000,
+          "2025-12-27": 88190000000,
+          "2026-03-28": 106491000000,
+          "2026-06-27": 107520000000
+        },
+        "cash": {
+          "2024-09-28": 29943000000,
+          "2024-12-28": 30299000000,
+          "2025-03-29": 28162000000,
+          "2025-06-28": 36269000000,
+          "2025-09-27": 35934000000,
+          "2025-12-27": 45317000000,
+          "2026-03-28": 45572000000,
+          "2026-06-27": 39544000000
+        },
+        "long_term_debt": {
+          "2024-09-28": 96700000000,
+          "2024-12-28": 94800000000,
+          "2025-03-29": 92200000000,
+          "2025-06-28": 91800000000,
+          "2025-09-27": 90700000000,
+          "2025-12-27": 88500000000,
+          "2026-03-28": 82700000000,
+          "2026-06-27": 82300000000
+        }
+      },
+      "ratios": {
+        "fiscal_year_end": "2026-09-26",
+        "gross_margin": 0.4879,
+        "operating_margin": 0.3301,
+        "net_margin": 0.276,
+        "revenue_growth_yoy": 0.1506,
+        "roe": 1.1792,
+        "debt_to_equity": 0.6969,
+        "current_ratio": 1.0232,
+        "free_cash_flow": 136056000000,
+        "latest_quarter_end": "2026-06-27",
+        "latest_quarter_net_margin": 0.2723,
+        "quarter_revenue_growth_yoy": 0.1636
+      }
+    },
+    "key_metrics": {
+      "fiscal_year_end": "2026-09-26",
+      "revenue_growth_yoy": 0.1506,
+      "quarter_revenue_growth_yoy": 0.1636,
+      "gross_margin": 0.4879,
+      "net_margin": 0.276,
+      "roe": 1.1792,
+      "debt_to_equity": 0.6969,
+      "free_cash_flow": 136056000000
+    }
+  },
+  "technical": {
+    "ticker": "AAPL",
+    "score": 8,
+    "verdict": "bullish",
+    "trend": "uptrend",
+    "confidence": "high",
+    "strengths": [
+      "Price of 342.41 is above both the 50-day SMA of 336.06 and the 200-day SMA of 298.52.",
+      "RSI of 51.43 indicates neutral momentum, suggesting there's room for growth.",
+      "Outperformance of 0.1221 compared to SPY indicates it is beating the market."
+    ],
+    "risks": [
+      "None specifically highlighted; potential for correction exists with RSI around neutral."
+    ],
+    "missing_data": [],
+    "summary": "AAPL is currently in an uptrend with the price above both the 50-day and 200-day moving averages, indicating a strong bullish trend. The RSI of 51.43 reflects neutral momentum, suggesting the stock is not overbought, providing potential for further gains. Additionally, AAPL is outperforming the market, which reinforces the bullish outlook.",
+    "data": {
+      "indicators": {
+        "price": 342.41,
+        "sma_50": 336.06,
+        "sma_200": 298.52,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 51.43,
+        "volatility_20d": 0.2612
+      },
+      "relative_strength": {
+        "stock_return": 0.1118,
+        "spy_return": -0.0103,
+        "outperformance": 0.1221
+      }
+    },
+    "key_metrics": {
+      "price": 342.41,
+      "above_sma_50": true,
+      "above_sma_200": true,
+      "rsi_14": 51.43,
+      "volatility_20d": 0.2612,
+      "outperformance": 0.1221
+    }
+  },
+  "news": {
+    "ticker": "AAPL",
+    "score": 6,
+    "sentiment": "neutral",
+    "crowd_mood": "neutral",
+    "confidence": "medium",
+    "key_events": [
+      "2026-11-02: Earnings results released confirming Apple's strong performance with EPS of $2.10 vs estimated $1.99, indicating resilience in current market conditions.",
+      "2026-11-08: Midterm election results result in renewed scrutiny for tech firms like Apple, indicating potential regulatory challenges ahead."
+    ],
+    "strengths": [
+      "Apple reported strong earnings with earnings per share of $2.10 surpassing estimates, showcasing its operational strength despite market pressures.",
+      "Analysts view recent developments, including a potential boost from data center moratoriums, as favorable for Apple's competitive standing in the hardware market."
+    ],
+    "risks": [
+      "Political scrutiny from Democrats over tech companies, including Apple, could result in regulatory challenges that may affect business operations and stock performance.",
+      "Concerns over Apple's valuation and margin pressures are being highlighted, raising questions about future profitability."
+    ],
+    "missing_data": [],
+    "summary": "Apple's recent earnings report beat expectations, showcasing the company's financial stability amid market volatility. However, concerns about political scrutiny and ongoing regulatory challenges could pose risks to its operations. The crowd sentiment around Apple appears neutral, reflecting a mix of optimism from positive earnings news but wariness regarding potential regulatory developments.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "yahoo",
+          "headline": "Dow Jones Futures Loom With Market Damaged, Big Winners Broken; Apple, Amazon, Microsoft Strong",
+          "summary": "The stock market needs repair while Sandisk and Micron seem broken. Apple, Amazon and Microsoft are holding up. Berkshire earnings fell.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-11-08T18:31:32Z",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Democrats prepare to go after Apple, Meta and Elon Musk companies",
+          "summary": "The midterm results handed Congress new investigative powers, and some of the biggest names in tech are already on the list.",
+          "publisher": "TheStreet",
+          "published_at": "2026-11-08T17:17:00Z",
+          "url": "https://www.thestreet.com/technology/democrats-prepare-to-go-after-apple-meta-and-elon-musk-companies"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Analysts Question AAPL's Valuation, Apple's Margin Pressure and More:  This Week in Appleverse",
+          "summary": "Apple earnings, valuation concerns and memory chip opportunities dominate this week\u2019s market recap, alongside Amazon, Qualcomm and 3M.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-08T13:00:08Z",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63020016/top-market-stories-amazon-apple-qualcomm-micron-3m"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "My Week With Apple\u2019s Beach-Friendly iPad Mini and Amazon\u2019s Upscale Alexa Tablet",
+          "summary": "Phones got bigger, laptops got lighter, but tablets still make sense for a lot of people\u2014especially those who love their couch.",
+          "publisher": "The Wall Street Journal",
+          "published_at": "2026-11-08T12:00:00Z",
+          "url": "https://www.wsj.com/tech/personal-tech/apple-ipad-mini-amazon-alexa-tablet-best-in-years-c5004bac?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Cellcom Israel (TASE:CEL) Stock Still Looks Reasonable After A 192% Run",
+          "summary": "Cellcom Israel has pulled back in recent weeks after a strong multi year run, which puts the spotlight squarely on whether the current share price still lines up with what its earnings can support. With investors weighing both the stock chart and the income statement, the key issue now is how the market is pricing those profits. Over the past 3 years the stock has gained 191.6%, so a lot of the past optimism around Cellcom Israel is now embedded in the valuation debate. Recent reports that...",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-11-08T09:14:36Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cellcom-israel-tase-cel-stock-091436041.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "5 Worst Dow Stocks To Buy According to Analysts",
+          "summary": "Yahoo Finance reported on November 5 that the Dow Jones Industrial Average tumbled 3.4%, or more than 1,800 points, while the S&P 500 fell 4.4% and the Nasdaq Composite sank 5.5% into correction territory. Chip stocks took the brunt of the damage, as the leading AI chipmaker fell 9% to pace Dow decliners and another [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-07T23:20:28Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-worst-dow-stocks-buy-232028142.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
+          "summary": "Sen. Shelley Moore Capito (R-W.Va.) was among the Republicans who held onto their seats in the 2026 midterm elections. Weeks before the election, Capito sold shares of three Magnificent Seven stocks. Capito Sells Magnificent Seven Stocks Capito sold four stocks...",
+          "publisher": "Benzinga",
+          "published_at": "2026-11-07T19:30:25Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/republican-senator-won-reelection-selling-193025792.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Did Apple Just Get a Boost From Democrats? Data Center Moratoriums Could Benefit the iPhone Maker",
+          "summary": "Competition for this key component in Apple devices could come down.",
+          "publisher": "Motley Fool",
+          "published_at": "2026-11-07T19:23:00Z",
+          "url": "https://www.fool.com/investing/2026/11/07/apple-get-boost-democrats-data-center-iphone/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
+          "summary": "Apple and Meta\u2019s objections mean all seven of the biggest U.S. tech companies have now asked to keep their shares off the planned OKX-ICE venue.",
+          "publisher": "decrypt",
+          "published_at": "2026-11-07T17:01:03Z",
+          "url": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Booking vs. DoorDash: Does Going Out or Staying In Make One Stock a Better Buy for 2027?",
+          "summary": "Booking's cash machine versus DoorDash's rapid share gains set up a clear trade-off for 2027, with valuation tilting the scales in an unexpected direction.",
+          "publisher": "Motley Fool",
+          "published_at": "2026-11-07T14:27:01Z",
+          "url": "https://www.fool.com/coverage/better-buy/2026/11/07/booking-vs-doordash-does-going-out-or-staying-in-make-one-stock-a-better-buy-for-2027/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Analysts Just Sounded the Alarm on These 5 Overhyped Stocks",
+          "summary": "Wall Street had a rough week, and the damage came fast. Thursday\u2019s sell-off erased $2.3 trillion in market value, pushed the Nasdaq into a correction and sent the VIX, the market\u2019s fear gauge, up 70% to 28, Yahoo Finance reported on November 6. A chip-sector index that plunged 12% on Thursday bounced 4% the next [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-07T14:19:04Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-just-sounded-alarm-5-141904403.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Eric Balchunas Calls It a \u201cFive Alarm Fire\u201d Sell-Off. Here\u2019s What Record ETF Trading Tells You",
+          "summary": "Two ETFs just shattered their own trading volume records in a single session, and one veteran analyst says the pattern is a fear signal Wall Street can't hide. Why do big traders reach for these funds first when panic hits, and what should retirees do next?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T14:17:05Z",
+          "url": "https://finnhub.io/api/news?id=9bc82061025df432a28ee434c5c7ce4f12c25214320d3804d3ec4e3174090253"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Alibaba Just Gained 12% in a Week as the Nasdaq Fell: Take Profits, or Buy More?",
+          "summary": "Key TakeawaysAlibaba stock rose 12% in the past week after Apple picked Qwen for its China AI launch. Money also rotated out of US AI hardware into cheap Chinese internet stocks like Alibaba and Tencent.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T12:28:46Z",
+          "url": "https://finnhub.io/api/news?id=17cc7d0eca172eb54387030152115e64da4a1d301d086fbf54f12b5367c889a6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "MarketBeat Week in Review \u2013 11/2 - 11/6",
+          "summary": "Market volatility persists on data center regulation concerns and rate expectations, as MarketBeat writers analyze earnings from AbbVie, Apple, Amazon, Palantir, Meta, Cameco, and other companies.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T12:00:00Z",
+          "url": "https://finnhub.io/api/news?id=8374a8eaf2e3855e96c32ee45b20424a417901caa56175b2cab23ffb8ce68d1f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Big Tech\u2019s $1 Trillion Rally Bets Regulation Won\u2019t Touch \u201cthe Profits of the Tech Companies\u201d",
+          "summary": "Key TakeawaysApple, Alphabet, Amazon, Microsoft and Meta were on pace to add nearly $1 trillion on Wednesday after Democrats won Congress. On Thursday, the four hyperscalers gave back 2% to 4%.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T10:51:17Z",
+          "url": "https://finnhub.io/api/news?id=613c2faf75b37b41f48cd58d629507239e0c54e65a89856ed3992b655163241c"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "These 4 Stocks Are Tied to the Smartphone in Your Pocket",
+          "summary": "Which of these four businesses is still earning more money from your phone?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T10:13:02Z",
+          "url": "https://finnhub.io/api/news?id=12f103648f4d7a0e3e1b9096d0f0f01dc8d1050d15119f11825275ea888e2f4e"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Your Covered Call ETF Is Secretly An AI Bet: How I'm Playing The Plunge",
+          "summary": "AI covered call ETFs face hidden risks as AI falls and rebounds. The real danger isn't the sell-off. Read here for a detailed analysis.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-07T09:15:00Z",
+          "url": "https://finnhub.io/api/news?id=61b0d206af31483b92261085081306c619082a2a074346c79149b589d43fd620"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "The S&P 500 Is Up 75% In 3 Years. Priced In Gold, It Is Down 14%. Which Is Real?",
+          "summary": "Part of our series on building a mix that lasts. Start here: is 60/40 dead.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T09:14:54Z",
+          "url": "https://finnhub.io/api/news?id=bbe4b6cd4b56bf5079738f962db58660f06c3380e41127f934f06f41b0110016"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Bonds Now Pay More Than Stocks. Is 60/40 Back?",
+          "summary": "Part of our series on building a mix that lasts. Start here: is 60/40 dead.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T09:14:49Z",
+          "url": "https://finnhub.io/api/news?id=1e8a0cacd3854a76de5a83139ad4ca2c8011e1ea346fda86cbed562718735521"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Where Will Your Portfolio Be In 2031, Not Tomorrow?",
+          "summary": "Follow the whole story: every piece in this series is on our AI storyline page.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T09:13:10Z",
+          "url": "https://finnhub.io/api/news?id=07c6ebb17ff6665543b4da20be33a1a5c9106ac5f5977d39963f23f63c7d79bb"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "AI Stock Meltdown: Why This May Not Be The Bubble Burst",
+          "summary": "Nasdaq 100 and AI stocks are plunging as semiconductors sink deeper into a bear market. Read here for a detailed analysis.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-07T08:30:00Z",
+          "url": "https://finnhub.io/api/news?id=998a82e544672e7c1cecd86bf05b7241771189ef61249f64ce289c741a3a1b1a"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Simon Property Group: Strong Execution, But Wait For A Better Entry",
+          "summary": "Simon Property earned a Hold rating after strong gains, rising FFO, and dividend growth, and see what valuation means now. Click for a SPG stock update.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-07T08:15:00Z",
+          "url": "https://finnhub.io/api/news?id=615eab4e360161422560f22826b284e731ae6e2161cd1a049d4ad20db68991c6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Mark Gurman Expects \u201cMore Price Increases\u201d on Apple Hardware Through 2027",
+          "summary": "Key TakeawaysApple guided December-quarter gross margin to 45% to 46%, and Bloomberg\u2019s Mark Gurman expects more hardware price increases across 2027. Mac revenue rose 24% in the September quarter despite June\u2019s price increases.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T07:38:39Z",
+          "url": "https://finnhub.io/api/news?id=3544d9f8baf2001cd8182d08b3e052495af47f8bc42ae2612cfcef2b14ca8ca9"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "The 1-Minute Market Report, November 7, 2026",
+          "summary": "AI and growth stocks faced heavy selling, while value and yield factors outperformed. Read why bargain hunting has surfaced in beaten-down areas.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-07T06:30:39Z",
+          "url": "https://finnhub.io/api/news?id=6e5be1f3918b72a1e310f425bad1e0a35ed4b8b46d21fb57cf37ef4bfdc5d5c5"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Lassonde Industries Inc (LSDAF) (Q3 2026) Earnings Call Highlights: Margin Pressure and ...",
+          "summary": "Lassonde Industries Inc (LSDAF) posted adjusted EPS growth of 2% to $5.94 despite a 2.3% sales decline, as U.S. production disruptions and soft consumer demand weighed on margins.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T01:14:55Z",
+          "url": "https://finnhub.io/api/news?id=fa4e3026bbed2038aed401a56924d2e6f5f0c6cea3619d0c09d0a5c11abcc084"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Uber\u2019s Robo Push",
+          "summary": "Uber plans to have tens of thousands of autonomous vehicles by 2030.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T00:19:00Z",
+          "url": "https://finnhub.io/api/news?id=4c11bf1c3efcf4c412ba9ee37d1967694e9b1d2fc60ee6978a321485fb7a2a5a"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Mega-Cap Default Risk Update",
+          "summary": "The mega-caps as a group fell sharply this week along with the rest of the market.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T23:45:00Z",
+          "url": "https://finnhub.io/api/news?id=467c82103cfd22d7a750e90e6eab176cefc4f76d98f376592e49b3eed277b57f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Tracking Ken Fisher's Fisher Asset Management Portfolio - Q3 2026 Update",
+          "summary": "See Fisher Asset Management\u00e2\u0080\u0099s latest 13F moves, top holdings, and growing bets on Nvidia, Apple, and more\u00e2\u0080\u0094explore key portfolio insights now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T22:31:05Z",
+          "url": "https://finnhub.io/api/news?id=d38b786c9c60a5556cc2414acb6a2def185b9be8df154309453939a115bd258a"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dow Jones Futures: Market Needs Repair But Sandisk, Micron Broken; Apple, Amazon, Microsoft Strong",
+          "summary": "The stock market needs repair while Sandisk and Micron seem broken. Apple, Amazon and Microsoft are holding up. Berkshire earnings loom.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T21:45:10Z",
+          "url": "https://finnhub.io/api/news?id=4ee5b6a059dd5bd95c396ca8a8e637a13a1ca1ef4f6606dee11cee58ecacdd36"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "UBS Reports Declining iPhone Wait Times",
+          "summary": "UBS analysts noted a week-over-week decrease in average wait times for Apple's latest iPhone models across most global markets.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-06T21:31:30Z",
+          "url": "https://www.moomoo.com/news/post/1003849998/apple-iphone-wait-times-ease-while-duo-availability-still-in"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "5 Latest Jim Cramer Stock Picks on Twitter and Mad Money",
+          "summary": "Markets are trembling amid the latest AI stock sell-off, which has sent shares of major AI players deep into the red. But CNBC\u2019s Jim Cramer believes the downturn is not another dot-com crash. Cramer warned that AI stocks could fall further, particularly semiconductor companies whose shares surged during the AI boom. However, he argued that [\u2026]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T21:10:11Z",
+          "url": "https://finnhub.io/api/news?id=dfbd3a28558813fc24dd47167dfdba2097db3fb605fedf6ea6b674ac7578e653"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+          "summary": "Nvidia is reportedly pouring billions into advanced chip packaging capacity as shortages threaten to constrain AI chip production",
+          "publisher": "benzinga",
+          "published_at": "2026-11-06T20:30:07Z",
+          "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Jason Calacanis Is Buying These 8 Stocks After the Midterm Selloff: 'Markets Top Tick and Set New Records'",
+          "summary": "Investor Jason Calacanis says the post-midterm tech selloff has left a floor in place, predicts political compromise will help markets set new records and is putting spare cash into eight stocks, including Tesla, SpaceX, Microsoft and Apple.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-06T20:28:48Z",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63010237/jason-calacanis-is-buying-these-8-stocks-after-the-midterm-selloff-markets-top-tick-and-set-new-records"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dan Ives: \u201c20% of the World\u201d Will Access AI Through an Apple Device",
+          "summary": "Key TakeawaysApple is worth about $615 billion more than Nvidia after Thursday\u2019s AI selloff took 9% off Nvidia\u2019s stock. Wedbush Securities analyst Dan Ives thinks about 15% of Apple\u2019s Services revenue will come from AI over the coming years, and he values that at $75 a share.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T19:26:24Z",
+          "url": "https://finnhub.io/api/news?id=ab5323f46f0fa0682a6b445c8d67ac4b840b9604fb43c66a4553795bb3ed4d8f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Tech Stocks Rebound But Nasdaq Is Still In Correction Territory",
+          "summary": "Nvidia, Micron lead tech recovery. Jobs report comes in better than expected",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T19:10:00Z",
+          "url": "https://finnhub.io/api/news?id=c7b6c75c168ed93832eef1ecf7cd5b76d8460ecd86fd5da248568a28e38ba4ba"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dividend Champion, Contender, And Challenger Highlights: Week of November 8",
+          "summary": "Get the latest dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T18:30:37Z",
+          "url": "https://finnhub.io/api/news?id=179932ced585c47b91f7c497290f9405d62b1ac2a2bf533cfb1fe4d053589441"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Qualcomm Faces Worst Day Since 2020 as Chips Crater",
+          "summary": "Qualcomm's handset miss collided with a much broader AI-chip de-rating.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T18:16:32Z",
+          "url": "https://finnhub.io/api/news?id=0f77d1b95792e9384dfc0ab93db662dee95830a1128ec2675d8f350424e296ff"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "State Pension Funds Have at Least $578 Billion Riding on Tumbling AI Stocks",
+          "summary": "A nonprofit just tallied how much teachers, firefighters, and other public retirees have riding on AI, and the next day the market flinched. Who ends up covering the gap if the bet goes wrong?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T17:34:41Z",
+          "url": "https://finnhub.io/api/news?id=62c1c847d05576e921c3cd75c5632c5fb553fd3f10f6aef85fdd7710f7a47de4"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Apple Is \u201cthe Anti-AI Large Cap Tech Trade,\u201d Says Josh Brown. Now It\u2019s Capping AI Spending",
+          "summary": "Key TakeawaysApple closed at a record on Nov. 4, worth about $5.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T17:23:13Z",
+          "url": "https://finnhub.io/api/news?id=f2ac749267eccb059f97672938e3cd68181ea001062b69d9f76d919376395db6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Apple, Meta, Musk Face New Threat From Democrats",
+          "summary": "Political relationships are becoming a potentially costly corporate liability.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T17:22:26Z",
+          "url": "https://finnhub.io/api/news?id=d25199855d8892f98dcc99f17c3ace093346b13d59fa0f3e8a3022141fe46b47"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "Apple's moat faces a concrete security test: CVE-2024-27834 was patched in May 2024, yet CISA added it to KEV in Nov 2026. The reported Lockdown Mode bypass remains unreproduced. See what the evidence supports: https://post.kapualabs.com/bdft2rhy #AAPL",
+          "author": "kapualabs.bsky.social",
+          "created_at": "2026-11-08T18:24:17.533226+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/kapualabs.bsky.social/post/3mzszu2kmim2n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Overbought or oversold? Your AI can only guess. Unless it has the skill.\n\nWithout it: \"I don't know which stocks you're watching.\" With it: NVDA RSI 99, AAPL 73, TSLA 29, plus earnings. (Sample data.)\n\ngithub.com/eli-alvarado/us-watchlist-alerts\n\n#stocks #AIagents #opensource",
+          "author": "uswatchlist.bsky.social",
+          "created_at": "2026-11-08T18:09:17.504673Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/uswatchlist.bsky.social/post/3mzsyzagygx2r"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Just in: Democrats prepare to go after Apple, Meta and Elon Musk companies.\n\nClaude, ChatGPT, Grok: they all speak CapitalSnitch now.\n$META #Apple #Meta #ElonMusk #TimCook\nhttps://capitalsnitch.com/news/is-aapl-stock-overvalued",
+          "author": "capitalsnitch.bsky.social",
+          "created_at": "2026-11-08T17:35:25.355Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/capitalsnitch.bsky.social/post/3mzsx4odtxc24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I\u2019m 60 years old and retired from JPMorgan. My monthly income is $105,000.\n\n$AAPL (Apple) \u2192 Don\u2019t buy \n$GOOG (Google) \u2192 Don\u2019t buy \n$SNDK (SanDisk) \u2192 Don\u2019t buy \n$NVDA (NVIDIA) \u2192 Buy zone: $170\u2013$200 \n$SPCX (SpaceX) \u2192 Buy zone: $128\u2013$142",
+          "author": "jaxen87.bsky.social",
+          "created_at": "2026-11-08T17:12:45.253Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/jaxen87.bsky.social/post/3mzsvu53agc2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Unusual options activity in $AAPL. Both sides are getting paid for here. Somebody expects a move, they just don't agree which way.\n\nStart a free 7-day trial\n#optionsflow #stocks",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-08T16:53:01.327051Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzsuqu36ps22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#MU and #NVDA led the week\u2019s biggest premium in semis and AI, but the tape still finished hedged, not cleanly bullish.\n\n\u2197\ufe0f Sweeps: MU $378.5M, NVDA $265.9M\n\u2198\ufe0f Put flow: INTC 57%, AAPL 58%\n\u27a1\ufe0f Momentum: INTC 2.9x, NVDA 1.5x\n\u27a1\ufe0f Breadth: #TSLA $237.9M, AVGO $49.3M, PLTR $46.8M",
+          "author": "insiderfinance.com",
+          "created_at": "2026-11-08T16:46:01.344Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderfinance.com/post/3mzsuediwp42s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Charlie Bilello \ud835\udd4f\ud83d\udd01 sv\u016fj post:\n\nLast 10 Years\u2026\nNVIDIA $NVDA: +11,159%\nBitcoin $BTC: +10,587%\n$AMD: +6,745%\nTesla $TSLA: +2,720%\nApple $AAPL: +1,269%\nMicrosoft $MSFT: +918%\nGoogle $GOOGL: +636%\nAmazon $AMZN: +588%\nMeta $META: +410%\nS&P $SPY: +313%\nGold $GLD [\u2026] \n\n[Original post on zpravobot.news]",
+          "author": "charliebilello.zpravobot.news.ap.brid.gy",
+          "created_at": "2026-11-08T16:36:37.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/charliebilello.zpravobot.news.ap.brid.gy/post/3mzstttpvyxa2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "AAPL sentiment jumped +6.0 pts to 6.8/10 across 18 articles. This is a massive clearing of the recent narrative friction, moving from a neutral floor to a high-conviction ceiling in a single cycle. One of the strongest momentum realignments in the tech dataset this week. assetfeel.com #...",
+          "author": "assetfeel.bsky.social",
+          "created_at": "2026-11-08T16:15:04.020Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/assetfeel.bsky.social/post/3mzssmyb5sz26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Great Lakes Advisors \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $13.14B \u2192 $12.69B\n\u2022 Number of Positions: 1,779 \u2192 2,011\n\u2022 Largest Holding: $AAPL (5% of portfolio)\n\u2022 Filed: Nov 6 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-08T13:48:56.271631Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzskhp77k22n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$23M in options premium went through $AAPL. Money on both sides, which usually means traders expect a move but don't agree on the direction.\n\nStart a free 7-day trial\n#optionsflow #stocks",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-08T12:49:07.996588Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzsh4qnbv426"
+        },
+        {
+          "platform": "bluesky",
+          "text": "King Luther Capital Management \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $24.42B \u2192 $24.28B\n\u2022 Number of Positions: 614 \u2192 605\n\u2022 Largest Holding: $AAPL (7% of portfolio)\n\u2022 Filed: Nov 5 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-08T12:35:52.653728Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzsgf2ngqc27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Esta semana cotizan ex-dividendo Apple (AAPL), IBM, MSCI, Starbucks (SBUX) y Visa (V).",
+          "author": "c4cus.bsky.social",
+          "created_at": "2026-11-08T11:20:49.307306Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/c4cus.bsky.social/post/3mzsc6vfrgs2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "More than $3 Trillion dollars was wiped from US stocks so far \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8 \n$AAPL, $NVDA, $MSFT, $GOOG, $AMZN, $SPCX, $TSLA, $META, $PLTR, $ORCL, $NFLX, $LLY $JNJ $WMT $XOM $CAT $AMAT $LRCX $MU, $AMD, $AVGO, $CSCO, $INTC, $GE, $JPM, $BRK.B, $V, $MA, $COST, $ABBV.",
+          "author": "lordcandle.bsky.social",
+          "created_at": "2026-11-08T10:39:19.875Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/lordcandle.bsky.social/post/3mzs7unage22f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$MSFT reported earnings today, this is their revenue breakdown compared to competitors.\n\nSee more at https://www.insiderdashboard.com/search?query=AAPL",
+          "author": "insiderdashboard.bsky.social",
+          "created_at": "2026-11-08T07:12:13.718Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderdashboard.bsky.social/post/3mzruccra4m2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL reported earnings today, this is their revenue breakdown compared to competitors.\n\nSee more at https://www.insiderdashboard.com/search?query=AAPL",
+          "author": "insiderdashboard.bsky.social",
+          "created_at": "2026-11-08T07:12:05.320Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderdashboard.bsky.social/post/3mzruc2qwtf25"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AMZN reported earnings today, this is their revenue breakdown compared to competitors.\n\nSee more at https://www.insiderdashboard.com/search?query=AAPL",
+          "author": "insiderdashboard.bsky.social",
+          "created_at": "2026-11-08T07:11:54.782Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderdashboard.bsky.social/post/3mzrubqpdtj26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$GOOGL reported earnings today, this is their revenue breakdown compared to competitors.\n\nSee more at https://www.insiderdashboard.com/search?query=AAPL",
+          "author": "insiderdashboard.bsky.social",
+          "created_at": "2026-11-08T07:11:46.339Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderdashboard.bsky.social/post/3mzrubinokj2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$NVDA reported earnings today, this is their revenue breakdown compared to competitors.\n\nSee more at https://www.insiderdashboard.com/search?query=AAPL",
+          "author": "insiderdashboard.bsky.social",
+          "created_at": "2026-11-08T07:11:39.697Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderdashboard.bsky.social/post/3mzrubch4gy2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL: Five generations are in Goetz v. Apple, 5:26-cv-08384, N.D. Cal. Plaintiffs allege support ended while hardware stayed usable. Filed Aug. 12, no claim: openclassactions.com/lawsuits/app...",
+          "author": "openclassactions.bsky.social",
+          "created_at": "2026-11-08T06:41:46.129Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/openclassactions.bsky.social/post/3mzrsltshnc24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u00c9lections de mi-mandat aux \u00c9tats-Unis : Apple et les g\u00e9ants de la tech face \u00e0 des nouveaux \u00e9lus beaucoup moins conciliants - MacGeneration www.macg.co/aapl/2026/11...",
+          "author": "stevelumia33.bsky.social",
+          "created_at": "2026-11-08T06:35:00.149Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/stevelumia33.bsky.social/post/3mzrs7qmwsc2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Apple and Nvidia hover near $4.91T in value, yet reported forward P/Es put Apple at 35\u201338x and Nvidia mostly in the teens. The comparison has caveats\u2014but it sharpens the question of what sustains Apple\u2019s premium. #AAPL https://post.kapualabs.com/4fz66uk9",
+          "author": "kapualabs.bsky.social",
+          "created_at": "2026-11-08T05:14:19.246605+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/kapualabs.bsky.social/post/3mzrnphzh2r2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Holographic diffusers around a display waveguide can create virtual infrared point sources for gaze tracking without obstructing the eye box\u2019s field of view. #Apple $AAPL patent grant #US12782735B1 #AR",
+          "author": "interestingpatents.bsky.social",
+          "created_at": "2026-11-08T02:29:26.000Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/interestingpatents.bsky.social/post/3mzreinpfbn2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Fifth Third Bancorp \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $61.67B \u2192 $61.18B\n\u2022 Number of Positions: 4,336 \u2192 4,368\n\u2022 Largest Holding: $AAPL (5% of portfolio)\n\u2022 Filed: Nov 5 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-08T01:54:53.565353Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzrckv7dkh2n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Aberdeen \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $71.22B \u2192 $72.38B\n\u2022 Number of Positions: 1,805 \u2192 1,868\n\u2022 Largest Holding: $AAPL (8% of portfolio)\n\u2022 Filed: Nov 6 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-08T01:33:53.739070Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzrbfdpoof27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u4e00\u5ea6\u899a\u3048\u3066\u3057\u307e\u3048\u3070\u7121\u610f\u8b58\u306b\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308b\u3093\u3067\u3057\u3087\u3046\u3051\u3069\u30011\u672c\u6307\u3067\u306e\u30bf\u30c3\u30d7\u3001\u30c0\u30d6\u30eb\u30bf\u30c3\u30d7\u3001\u9577\u62bc\u3057\u3001\u30c9\u30e9\u30c3\u30b0\u3001\u30b9\u30ef\u30a4\u30d7\u3001\u5f8c\u306f2\u672c\u6307\u3067\u306e\u30d4\u30f3\u30c1\u30a4\u30f3\u30fb\u30a2\u30a6\u30c8\u3068\u56de\u8ee2\u304f\u3089\u3044\u3057\u304b\u4f7f\u3048\u3066\u3044\u306a\u3044\u3067\u3059\u306d\u2026\u2026\n\n\u3067\u3082\u3053\u3046\u3057\u3066\u4e00\u89a7\u8868\u306b\u307e\u3068\u3081\u3089\u308c\u308b\u3068\u3001\u3044\u3056\u3068\u3044\u3046\u6642\u306b\u53c2\u7167\u3067\u304d\u308b\u306e\u3067\u52a9\u304b\u308a\u307e\u3059\u3002\n\nMacBook Pro PROLED XDR\u30c6\u3099\u30a3\u30b9\u30d5\u309a\u30ec\u30a4\u3068Magic Trackpad\u306e\u30bf\u30c3\u30c1\u64cd\u4f5c\u6bd4\u8f03\u307e\u3068\u3081\u3002 | AAPL Ch.\napplech2.com/archives/202...",
+          "author": "ran-nijimari.bsky.social",
+          "created_at": "2026-11-08T01:23:40.346Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ran-nijimari.bsky.social/post/3mzrat26kpc2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL: Partial refund in Canada? You can still claim the unrecovered gift card loss if scammers got the code and you were not made whole. Claim by Feb. 20, 2027: openclassactions.com/settlements/...",
+          "author": "openclassactions.bsky.social",
+          "created_at": "2026-11-08T00:15:03.535Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/openclassactions.bsky.social/post/3mzr4ye3igs2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\ude80 New ETF: Global X Magnificent Six $SIX, the Mag 7 minus Tesla. \ud83c\udf4e AAPL, MSFT, NVDA, GOOGL, AMZN, META. Six stocks, one big AI bet. \ud83d\udcb0 Fee 0.20%, actively managed. \u26a0\ufe0f Launched Nov 4 and already about 4% below its first print. Concentration cuts both ways. \ud83e\uddd8 I stay patient @GlobalXETFs @nvidia @Apple",
+          "author": "robot2trade.bsky.social",
+          "created_at": "2026-11-07T21:31:27.886Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robot2trade.bsky.social/post/3mzqttt5qnc23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Developing: Did Apple Just Get a Boost From Democrats? Data Center Moratoriums Could Benefit the iPhone Maker.\n\nReal money, real names, real filings. CapitalSnitch in your AI.\n#Apple #TimCook #MegaCapTech #StockMarket\nhttps://capitalsnitch.com/news/who-owns-the-most-aapl-stock",
+          "author": "capitalsnitch.bsky.social",
+          "created_at": "2026-11-07T21:05:05.371Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/capitalsnitch.bsky.social/post/3mzqseo4rsj2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u00c9lections de mi-mandat aux \u00c9tats-Unis : Apple et les g\u00e9ants de la tech face \u00e0 des nouveaux \u00e9lus beaucoup moins conciliants\nwww.macg.co/aapl/2026/11...",
+          "author": "thedarkpixel.bsky.social",
+          "created_at": "2026-11-07T19:18:51.539Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/thedarkpixel.bsky.social/post/3mzqmgpfnbc24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#MU was the week\u2019s cleanest fresh-position print: $17.2M unusual premium vs $433.7M total.\n\u2197\ufe0f Sweeps: MU $378.5M vs $433.7M total\n\u2198\ufe0f Put flow: MU 54%, AAPL 58%, PLTR 65%\n\u2197\ufe0f Premium cluster: #NVDA $16.0M, #AMD $11.8M",
+          "author": "insiderfinance.com",
+          "created_at": "2026-11-07T16:54:28.355Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderfinance.com/post/3mzqeejkd5n2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL updated Siri is better",
+          "author": "55nataliem.bsky.social",
+          "created_at": "2026-11-07T16:34:46.705Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/55nataliem.bsky.social/post/3mzqdbcmquk2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udcca Check out 50 key earnings from the past week, visualized here. \ud83d\udc47",
+          "author": "economyapp.extwitter.link",
+          "created_at": "2026-11-07T16:20:03.163029+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/economyapp.extwitter.link/post/3mzqcgy3v5y2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "An audit of Apple coverage found 248 sources with no trading-volume data and 188 with no price targets. Repetition isn\u2019t corroboration: much of the coverage offers headlines, not evidence. #AAPL https://post.kapualabs.com/26wn5xbn",
+          "author": "kapualabs.bsky.social",
+          "created_at": "2026-11-07T16:13:29.660540+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/kapualabs.bsky.social/post/3mzqc3araah2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udcca This Week in Visuals\n\n\ud83d\udcf1 $AAPL Apple\n\ud83d\udecd\ufe0f $SHOP Shopify\n\ud83d\udcc8 $APP AppLovin\n\ud83c\udf10 $ANET Arista\n\ud83e\uddbe $ARM Arm\n\ud83d\udcf2 $QCOM Qualcomm\n\ud83c\udfae $SONY Sony\nand more!",
+          "author": "economyapp.extwitter.link",
+          "created_at": "2026-11-07T15:33:27.951856+00:00",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/economyapp.extwitter.link/post/3mzq7toeo5t24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "```python\nimport csv\n\n# \u30c7\u30fc\u30bf\u306e\u4f8b\ndata = [\n    {\"symbol\": \"AAPL\", \"name\": \"Apple Inc.\", \"price\": 150.25, \"volume\": 1000000, \"date\": \"2023-10-01\"},\n    {\"symbol\": \"GOOGL\", \"name\": \"Alphabet Inc.\", \"price\": 120.50, \"volume\": 500000, \"date\": \"2023-10-01\"},\n    {\"symbol\": \"MSFT\", \"name\": \"Microsoft Corp.\",",
+          "author": "tadango.bsky.social",
+          "created_at": "2026-11-07T15:25:54.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tadango.bsky.social/post/3mzq7g6elfx2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Last 10 Years\u2026\nNVIDIA $NVDA: +11,159%\nBitcoin $BTC: +10,587%\n$AMD: +6,745%\nTesla $TSLA: +2,720%\nApple $AAPL: +1,269%\nMicrosoft $MSFT: +918%\nGoogle $GOOGL: +636%\nAmazon $AMZN: +588%\nMeta $META: +410%\nS&P $SPY: +313%\nGold $GLD: +199%\nUS Inflation: +39%\nUS Bonds $AGG: +16%\u2026",
+          "author": "charliebilello.zpravobot.news.ap.brid.gy",
+          "created_at": "2026-11-07T15:22:35.000Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/charliebilello.zpravobot.news.ap.brid.gy/post/3mzq7ab2ehe32"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\uc5ed\ub300\uae09\uc778 \ub4ef \uc544\ub2cc\ub4ef\ud55c \uc2e4\uc801\uacfc \ub4dc\ub514\uc5b4 \uc2dc\uc791\ub418\ub294 AI \uc804\uba74\uc804 - Weekly Apple seorenn.com/log/2026/110...\n\n\ub2e4\ub978 \uc774\uc57c\uae30\uc9c0\ub9cc, \uae00\uc5d0\uc11c \uc5b8\uae09\ub41c AAPL\uc744 \uc774\ubbf8 \ud138\uc5b4\ubc84\ub838\ub358 \uc774\uc720\ub294 '\uc544\uc9c1 \ud5d8\ud558\ub514 \ud5d8\ud55c \uc790\ub3d9\ub9e4\ub9e4\uae30\uacc4\uac00 \uba4b\ub300\ub85c \uc7a5\ud22c \uc911\uc778 \uc8fc\uc2dd\uc744 \ubaa8\ub450 \uc775\uc808\ud574 \ubc84\ub838\uae30 \ub54c\ubb38'\uc774\ub77c\ub294 \uc2ac\ud508 \uc5d0\ud53c\uc18c\ub4dc\ub97c \ub367\ubd99\uc5ec \ubcf8\ub2e4.",
+          "author": "seorenn.bsky.social",
+          "created_at": "2026-11-07T15:19:13.309Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/seorenn.bsky.social/post/3mzq727ahec2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL $AMZN $UNH Top performing options lottos, Nov 2 - 6. Highest price after each alert, not a profit. Median: +93%, 12 misses. Every alert: blueville.capital/performance/... Educational, hypothetical results.",
+          "author": "bluevillecapital.bsky.social",
+          "created_at": "2026-11-07T15:02:33.687Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bluevillecapital.bsky.social/post/3mzq64fwfys24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "This week's earnings from 77 large companies:\n\n\u2705 74 beat EPS estimates\n\u274c 2 missed\n\u2022 1 matched\n\nLargest to beat: Apple $AAPL, EPS $2.10 vs est. $1.99",
+          "author": "bullishchart.com",
+          "created_at": "2026-11-07T14:58:09.055Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bullishchart.com/post/3mzq5ul5zsb22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "applech2.com.web.brid.gy",
+          "created_at": "2026-11-07T13:43:28.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/applech2.com.web.brid.gy/post/3mzr2hchxzh42"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "applech2.com.web.brid.gy",
+          "created_at": "2026-11-07T13:00:21.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/applech2.com.web.brid.gy/post/3mzr2hfuh3n42"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Current Portfolio (Nov\u201926):\n\n$AAPL \ud83c\udf4f\n$NVDA \ud83d\udda5\ufe0f\n$NIO \ud83d\udd0b\ud83e\uddbe\ud83d\ude98\n$GOOGL \ud83d\udda5\ufe0f\ud83e\udde0\n$PLTR \ud83e\uddd0\ud83e\udde0\n$V \ud83d\udcb3\n$VEA \ud83c\udf0d\ud83c\udf0f\n$QQQI \ud83d\udcb5\ud83d\udcc6\n$IBN \ud83c\uddee\ud83c\uddf3\ud83c\udfe6\n$ISRG \ud83e\uddbe\ud83c\udfe9\n$NFLX \ud83c\udf9e\ufe0f\n$IONQ \ud83e\udeef\ud83d\udda5\ufe0f\n$ZTS \ud83d\udc36\ud83d\udc8a\n$MRVL \ud83d\udda5\ufe0f\n$ROL \ud83d\udc1c\ud83d\udca5\n$RGTI \ud83e\udeef\ud83d\udda5\ufe0f\n$QBTS \ud83e\udeef\ud83d\udda5\ufe0f\n$EWZ \ud83c\udde7\ud83c\uddf7\n$SPYM \ud83c\uddfa\ud83c\uddf8\n$XLE \ud83d\udee2\ufe0f\ud83d\udea2\n$URA \u2622\ufe0f\u26a1\ufe0f\n$VWO \ud83c\udde8\ud83c\uddf3\ud83c\uddf9\ud83c\uddfc",
+          "author": "islanderinvests.bsky.social",
+          "created_at": "2026-11-07T12:36:52.951Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/islanderinvests.bsky.social/post/3mzpvxw4cys2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Brooklyn art-trained quant: I've been watching $AAPL. Apple looks like style over substnace       -       huge bond demand masks slowing upgrade cycles, revenue mix strains margn. Fade the hype. \u2615\ud83c\udfaf. https://finance.yahoo.com/markets/stocks/articles/apple-pulls-31-billion-orders-191707911.html",
+          "author": "alphaskeptic.bsky.social",
+          "created_at": "2026-11-07T12:07:31Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/alphaskeptic.bsky.social/post/3mzpudg5ovu22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "AAPL | Apple (NASDAQ):\n\ud83d\udea8 AAPL broke above its ATH price this week but closed the week back below it. (prior ATH: 351.73, week high: 355.38, week close: 342.37)",
+          "author": "trendalertstox.bsky.social",
+          "created_at": "2026-11-07T12:00:31.198123Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trendalertstox.bsky.social/post/3mzptwvsohe2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "AAPL",
+          "author": "tadango.bsky.social",
+          "created_at": "2026-11-07T09:47:36.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tadango.bsky.social/post/3mzpmjamx5u2n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "applech2.com.web.brid.gy",
+          "created_at": "2026-11-07T09:37:36.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/applech2.com.web.brid.gy/post/3mzr2hnewqcg2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Record storico per i Mac: nell'anno fiscale 2026 Apple ne ha venduti pi\u00f9 che in qualsiasi anno precedente, parola del CEO John Ternus. Secondo il CFO Parekh, a trainare sono stati MacBook Neo e MacBook Pro, e questo nonostante i problemi di fornitura. #Mac #Apple #AAPL\n\nkiro.it/ZyNma",
+          "author": "melanews.bsky.social",
+          "created_at": "2026-11-07T09:30:20.997Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/melanews.bsky.social/post/3mzplkenig62j"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Apple CEO John Ternus Calls It the Best Company on Earth, but With AAPL Near Record Highs and\n\n#AAPL #Apple #Equities https://financier.news/apple-ceo-john-ternus-calls-it-the-best-company-on-earth-but-with-aapl-near-record-highs-and-iphone-17-demand-in-focus-is-the-stock-still-the-best-buy/",
+          "author": "financiernews.bsky.social",
+          "created_at": "2026-11-07T09:17:51.380Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/financiernews.bsky.social/post/3mzpktztphw2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83c\udfe6 Apple Pay y Google Pay se lanzan en Uzbekist\u00e1n\n\n#ApplePay #AAPL  \n\nmecambioamac.com/apple-pay-y-...",
+          "author": "mecambioamac.com",
+          "created_at": "2026-11-07T09:10:10.889Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mecambioamac.com/post/3mzpkgclhck2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL: Canvas fingerprinting allegedly still works in Safari's default mode. No claim yet: openclassactions.com/lawsuits/pri...",
+          "author": "openclassactions.bsky.social",
+          "created_at": "2026-11-07T08:22:49.289Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/openclassactions.bsky.social/post/3mzphrmmodc2m"
+        },
+        {
+          "platform": "hackernews",
+          "text": "NASA seeks next generation of astronauts to live and work on the moon",
+          "author": "devonnull",
+          "created_at": "2026-11-08T17:59:51Z",
+          "likes": 3,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50415508"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: FELF \u2013 AppImage-like single binaries without FUSE, root, or a runtime",
+          "author": "Rucadi",
+          "created_at": "2026-11-08T17:26:45Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50415219"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Get notified when new vulnerability appear to your website's dependencies",
+          "author": "betterCallHamou",
+          "created_at": "2026-11-08T17:11:20Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50415089"
+        },
+        {
+          "platform": "hackernews",
+          "text": "NASA Is Selecting Future Astronauts. Here\u2019s How to Apply.",
+          "author": "reaperducer",
+          "created_at": "2026-11-08T16:48:07Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50414840"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: Jabhook \u2013 Harnessing computer vision for martial arts training",
+          "author": "johnny5211",
+          "created_at": "2026-11-08T16:32:43Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50414691"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
+          "author": "mfiguiere",
+          "created_at": "2026-11-08T15:19:51Z",
+          "likes": 29,
+          "reposts": null,
+          "replies": 52,
+          "url": "https://news.ycombinator.com/item?id=50414021"
+        },
+        {
+          "platform": "hackernews",
+          "text": "The worl went video, professional ecosystem didn't",
+          "author": "Zeedeo_",
+          "created_at": "2026-11-08T14:19:03Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50413585"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Building Maintainable PHP Applications: Patterns and Principles",
+          "author": "davorminchorov",
+          "created_at": "2026-11-08T12:51:17Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50412828"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: CloudShare app for iOS, simple way to share to your own S3 bucket",
+          "author": "ForeverYoungNL",
+          "created_at": "2026-11-08T11:22:58Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 2,
+          "url": "https://news.ycombinator.com/item?id=50412316"
+        },
+        {
+          "platform": "hackernews",
+          "text": "AIG Mistakenly Locks and Erases iPhone and Cannot Resolve After 3 Weeks",
+          "author": "jeremyjh",
+          "created_at": "2026-11-08T02:29:00Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50409949"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Apple\u2019s grey list: Words and phrases your iPhone won\u2019t help you spell",
+          "author": "user_7832",
+          "created_at": "2026-11-07T17:06:36Z",
+          "likes": 510,
+          "reposts": null,
+          "replies": 329,
+          "url": "https://news.ycombinator.com/item?id=50406111"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Weaponizing Personalization: From Knowledge Graph to Extortion",
+          "author": "mooreds",
+          "created_at": "2026-11-07T15:01:40Z",
+          "likes": 4,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50405136"
+        },
+        {
+          "platform": "hackernews",
+          "text": "AirPods 3 head tracking on Linux, and first documentation of Apple RemoteHID",
+          "author": "theanonymousone",
+          "created_at": "2026-11-07T12:44:13Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50404075"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: First iOS personal agent that executes on device",
+          "author": "aaryankushwah",
+          "created_at": "2026-11-07T10:57:34Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50403433"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Every Mac comes with an (undocumented) family member classifier",
+          "author": "infwhispers",
+          "created_at": "2026-11-07T09:46:03Z",
+          "likes": 817,
+          "reposts": null,
+          "replies": 435,
+          "url": "https://news.ycombinator.com/item?id=50403097"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Apple to Drop the iPhone's Action Button Next Year",
+          "author": "mgh2",
+          "created_at": "2026-11-07T06:54:01Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50402276"
+        },
+        {
+          "platform": "hackernews",
+          "text": "An app aimed to solve the loneliness crisis",
+          "author": "Pahal10",
+          "created_at": "2026-11-07T02:09:58Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50400978"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: Handbrake \u2013 a free, private driving log, no trackers, no ads",
+          "author": "hcabral",
+          "created_at": "2026-11-06T23:02:58Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 2,
+          "url": "https://news.ycombinator.com/item?id=50399684"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Mac lookalikes multiply as Linux raids Apple's wardrobe",
+          "author": "rbanffy",
+          "created_at": "2026-11-06T22:31:55Z",
+          "likes": 4,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50399382"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: XOR's NFL Challenge \u2013 after nearly 40 years",
+          "author": "mikeaskew4",
+          "created_at": "2026-11-06T21:02:37Z",
+          "likes": 3,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50398489"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: Tell the Sky \u2013 message lanterns drift on winds from live weather data",
+          "author": "andycodeman",
+          "created_at": "2026-11-06T19:59:25Z",
+          "likes": 6,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50397561"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Democrats launching congressional investigations into SpaceXAI, META and Apple",
+          "author": "pretext",
+          "created_at": "2026-11-06T19:24:24Z",
+          "likes": 147,
+          "reposts": null,
+          "replies": 151,
+          "url": "https://news.ycombinator.com/item?id=50397102"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Apple Rumored to Drop the iPhone's Action Button Next Year",
+          "author": "CharlesW",
+          "created_at": "2026-11-06T18:53:54Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50396660"
+        },
+        {
+          "platform": "hackernews",
+          "text": "About the Illuminated Apple Logo on MacBook Pro with Proled XDR Display",
+          "author": "CharlesW",
+          "created_at": "2026-11-06T18:49:57Z",
+          "likes": 4,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50396597"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Apple's grey list: iPhone won't autocorrect 'male chauvinist pig'",
+          "author": "uxhacker",
+          "created_at": "2026-11-06T17:30:17Z",
+          "likes": 5,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50395448"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Only today free language learning App with AI",
+          "author": "brmmuhoil",
+          "created_at": "2026-11-06T15:29:23Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50393528"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Ask HN: How are companies hiring developers nowadays?",
+          "author": "Frazzlebilt",
+          "created_at": "2026-11-06T14:29:23Z",
+          "likes": 5,
+          "reposts": null,
+          "replies": 2,
+          "url": "https://news.ycombinator.com/item?id=50392710"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: Splitsetter \u2013 my attempt at a bill splitting app",
+          "author": "tantanel",
+          "created_at": "2026-11-06T13:45:37Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50392224"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Ask HN: Is anyone running multi/always-on agents that don't cost a fortune?",
+          "author": "abejora",
+          "created_at": "2026-11-06T12:40:14Z",
+          "likes": 6,
+          "reposts": null,
+          "replies": 5,
+          "url": "https://news.ycombinator.com/item?id=50391647"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Apple's predictive text restrictions include 'Dictator Trump' and 'Sleepy Joe'",
+          "author": "ag8",
+          "created_at": "2026-11-06T12:18:20Z",
+          "likes": 36,
+          "reposts": null,
+          "replies": 9,
+          "url": "https://news.ycombinator.com/item?id=50391486"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-11-02",
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 80,
+      "total_post_likes": 1618,
+      "major_8k_events": [
+        "Earnings results",
+        "Financial statements and exhibits"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "AAPL",
+    "score": 4,
+    "verdict": "headwind",
+    "market_regime": "risk-off",
+    "confidence": "medium",
+    "strengths": [
+      "Fed funds rate at 3.88% is stable, but high rates typically hurt tech growth."
+    ],
+    "risks": [
+      "Inflation at 3.46% suggests rates may remain high, which hurts tech performance.",
+      "Sector underperforming SPY by 7.57% over the last 90 days."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI report",
+      "2026-11-25: GDP report",
+      "2026-12-04: Jobs report"
+    ],
+    "missing_data": [],
+    "summary": "The macro environment for Apple is characterized by stable but high interest rates and a technology sector that is underperforming compared to the overall market. The upcoming inflation and GDP reports could influence market sentiment further. With a beta of 1.089, AAPL is more sensitive to market movements, indicating a tough landscape ahead as economic indicators point towards continued headwinds for tech stocks.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "AAPL",
+        "sector": "Technology",
+        "beta": 1.089,
+        "sector_etf": "XLK",
+        "sector_vs_spy_90d": {
+          "sector_return": -0.086,
+          "spy_return": -0.0103,
+          "sector_outperformance": -0.0757
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 1.089,
+      "sector_outperformance": -0.0757
+    }
+  }
+}
