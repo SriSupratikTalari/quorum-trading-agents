@@ -183,3 +183,5 @@ if __name__=="__main__":
     print(json.dumps(get_news("AAPL")["articles"][:3],indent=2))
     print(json.dumps(get_recent_8k("AAPL"),indent=2))
     print(json.dumps(get_hn_posts("Apple")[:3],indent=2))
+
+    
