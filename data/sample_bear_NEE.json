@@ -1,0 +1,39 @@
+{
+  "agent": "bear",
+  "ticker": "NEE",
+  "conviction": 8,
+  "thesis": "Regulatory risks and community opposition threaten NextEra Energy's growth and profitability, despite a strong financial foundation.",
+  "arguments": [
+    {
+      "point": "Regulatory risks from FPSC/FERC rate proceedings could negatively impact future recoveries and earnings, creating uncertainty in revenue generation.",
+      "source": "fundamentals"
+    },
+    {
+      "point": "Changes to clean energy tax credits could materially alter the economics of NEER and FPL projects, affecting future cash flows.",
+      "source": "fundamentals"
+    },
+    {
+      "point": "Community protests against the proposed Dominion Energy acquisition may influence regulatory decisions, damaging public perception and investor confidence.",
+      "source": "news"
+    },
+    {
+      "point": "The utilities sector has underperformed compared to the SPY by 2.63% over the last 90 trading days, suggesting weakening investor sentiment.",
+      "source": "macro"
+    },
+    {
+      "point": "Substantial long-term debt of around 89.6 billion and ongoing capital expenditures may increase liquidity and refinancing risks, particularly in a rising interest rate environment.",
+      "source": "fundamentals"
+    },
+    {
+      "point": "The RSI nearing overbought territory indicates a potential pullback in stock price, suggesting caution for investors.",
+      "source": "technical"
+    }
+  ],
+  "strengths_acknowledged": [
+    "The company has posted significant revenue growth to 27.4 billion and net income of 6.835 billion in 2025.",
+    "Regulated returns from FPL remain strong with an ROE of 11.7%.",
+    "NEER has expanded its renewable capacity significantly, indicating growth potential.",
+    "Recent acquisitions could enhance operational scale and capabilities."
+  ],
+  "risks": []
+}

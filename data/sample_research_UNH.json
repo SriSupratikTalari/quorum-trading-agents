@@ -1,0 +1,1243 @@
+{
+  "fundamentals": {
+    "ticker": "UNH",
+    "score": 8,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "2025 total revenues of $447.6B, up 12% year over year versus 2024",
+      "2025 operating margin of 4.24% and net margin of 2.69% (implied from 2025 results) indicating positive profitability pace",
+      "Free cash flow of $16.08B for 2025, highlighting strong cash generation",
+      "Nine months ended 9/30/2026 show consolidated operating margin of 7.0%, signaling improved profitability in the more recent period",
+      "Nine months ended 9/30/2026: cash flows from operating activities of $25.09B and net earnings of $15.87B, indicating solid cash generation alongside earnings growth"
+    ],
+    "risks": [
+      "Medicare Advantage funding pressures and risk-adjustment model changes (RADV audits) that can suppress government payments and affect margins",
+      "Regulatory environment uncertainty across CMS, state Medicaid programs and Part D, including star ratings and potential changes to funding or rebates",
+      "Data privacy and cybersecurity risk, including ongoing AI/technology developments and related regulatory scrutiny",
+      "Significant reliance on government health programs; potential retroactive or audit adjustments and program rule changes",
+      "Medical costs payable estimates (IBNR) and elevated medical cost trends, which can cause earnings volatility"
+    ],
+    "missing_data": [
+      "ROE not provided in the fundamentals ratios data feed (though the 10-K cites ROE historically), so ROE cannot be stated from get_fundamentals",
+      "Debt-to-equity ratio is not available from the fundamentals data",
+      "Gross margin is not provided in the fundamentals data",
+      "Full-year 2026 free cash flow is not provided in the fundamentals data"
+    ],
+    "summary": "UnitedHealth Group shows a healthy and improving trajectory on a growth and profitability basis. Revenue expanded meaningfully across 2022\u20132025 (447.6B in 2025, +12% vs 2024), and the 9M 2026 period displays an even higher operating margin (7.0% vs about 4.2% full-year in 2025), suggesting better unit economics and cost management. Net income has been volatile historically, but cash generation remains strong with 2025 free cash flow around 16.1B and 9M 2026 operating cash flow of about 25.1B. Balance-sheet signals are mixed: cash and liquidity are solid, but the current ratio remains below 1 (under 1.0 in both 2025 and 9/30/2026), indicating tighter near-term liquidity despite large asset bases and long-term cash generation. The company faces meaningful regulatory and governance risks tied to Medicare Advantage, risk adjustment, and government program funding, plus data-security and AI-related regulatory considerations, all of which filings emphasize as material risks driving future results. Filings also detail medical-cost reserve dynamics (IBNR) and portfolio actions that have driven earnings volatility, but management commentary in the filings indicates continued focus on cost management, pricing discipline, and strategic portfolio refinement as ways to sustain growth and profitability. Overall, fundamentals point to a healthy, improving business with meaningful upside potential and actionable risks rooted in regulatory and cost dynamics.",
+    "data": {
+      "ticker": "UNH",
+      "cik": "0000731766",
+      "annual": {
+        "revenue": {
+          "2022-12-31": 324162000000,
+          "2023-12-31": 371622000000,
+          "2024-12-31": 400278000000,
+          "2025-12-31": 447567000000
+        },
+        "gross_profit": {},
+        "operating_income": {
+          "2022-12-31": 28435000000,
+          "2023-12-31": 32358000000,
+          "2024-12-31": 32287000000,
+          "2025-12-31": 18964000000
+        },
+        "net_income": {
+          "2022-12-31": 20120000000,
+          "2023-12-31": 22381000000,
+          "2024-12-31": 14405000000,
+          "2025-12-31": 12056000000
+        },
+        "operating_cash_flow": {
+          "2022-12-31": 26206000000,
+          "2023-12-31": 29068000000,
+          "2024-12-31": 24204000000,
+          "2025-12-31": 19697000000
+        },
+        "capex": {
+          "2022-12-31": 2802000000,
+          "2023-12-31": 3386000000,
+          "2024-12-31": 3499000000,
+          "2025-12-31": 3622000000
+        },
+        "total_assets": {
+          "2022-12-31": 245705000000,
+          "2023-12-31": 273720000000,
+          "2024-12-31": 298278000000,
+          "2025-12-31": 309581000000
+        },
+        "current_assets": {
+          "2022-12-31": 69069000000,
+          "2023-12-31": 78437000000,
+          "2024-12-31": 85779000000,
+          "2025-12-31": 90582000000
+        },
+        "current_liabilities": {
+          "2022-12-31": 89237000000,
+          "2023-12-31": 99054000000,
+          "2024-12-31": 103769000000,
+          "2025-12-31": 114897000000
+        },
+        "total_liabilities": {
+          "2022-12-31": 159358000000,
+          "2023-12-31": 174801000000,
+          "2024-12-31": 195687000000,
+          "2025-12-31": 207883000000
+        },
+        "equity": {
+          "2011-12-31": 28292000000,
+          "2012-12-31": 31178000000,
+          "2013-12-31": 32149000000,
+          "2014-12-31": 32454000000
+        },
+        "cash": {
+          "2022-12-31": 23365000000,
+          "2023-12-31": 25427000000,
+          "2024-12-31": 25312000000,
+          "2025-12-31": 24365000000
+        },
+        "long_term_debt": {
+          "2022-12-31": 54513000000,
+          "2023-12-31": 58263000000,
+          "2024-12-31": 72359000000,
+          "2025-12-31": 72320000000
+        }
+      },
+      "quarterly": {
+        "revenue": {
+          "2024-06-30": 98855000000,
+          "2024-09-30": 100820000000,
+          "2025-03-31": 109575000000,
+          "2025-06-30": 111616000000,
+          "2025-09-30": 113161000000,
+          "2026-03-31": 111721000000,
+          "2026-06-30": 112032000000,
+          "2026-09-30": 112694000000
+        },
+        "gross_profit": {},
+        "operating_income": {
+          "2024-06-30": 7875000000,
+          "2024-09-30": 8708000000,
+          "2025-03-31": 9119000000,
+          "2025-06-30": 5150000000,
+          "2025-09-30": 4315000000,
+          "2026-03-31": 8990000000,
+          "2026-06-30": 7991000000,
+          "2026-09-30": 6563000000
+        },
+        "net_income": {
+          "2024-06-30": 4216000000,
+          "2024-09-30": 6055000000,
+          "2025-03-31": 6292000000,
+          "2025-06-30": 3406000000,
+          "2025-09-30": 2348000000,
+          "2026-03-31": 6280000000,
+          "2026-06-30": 5484000000,
+          "2026-09-30": 4110000000
+        },
+        "operating_cash_flow": {
+          "2019-03-31": 3234000000,
+          "2020-03-31": 2943000000,
+          "2021-03-31": 6005000000,
+          "2022-03-31": 5319000000,
+          "2023-03-31": 16327000000,
+          "2024-03-31": 1144000000,
+          "2025-03-31": 5456000000,
+          "2026-03-31": 8912000000
+        },
+        "capex": {
+          "2019-03-31": 562000000,
+          "2020-03-31": 469000000,
+          "2021-03-31": 568000000,
+          "2022-03-31": 555000000,
+          "2023-03-31": 760000000,
+          "2024-03-31": 743000000,
+          "2025-03-31": 898000000,
+          "2026-03-31": 763000000
+        },
+        "total_assets": {
+          "2024-12-31": 298278000000,
+          "2025-03-31": 309790000000,
+          "2025-06-30": 308573000000,
+          "2025-09-30": 315269000000,
+          "2025-12-31": 309581000000,
+          "2026-03-31": 312644000000,
+          "2026-06-30": 309727000000,
+          "2026-09-30": 312782000000
+        },
+        "current_assets": {
+          "2024-12-31": 85779000000,
+          "2025-03-31": 96285000000,
+          "2025-06-30": 93699000000,
+          "2025-09-30": 95067000000,
+          "2025-12-31": 90582000000,
+          "2026-03-31": 91127000000,
+          "2026-06-30": 86860000000,
+          "2026-09-30": 85595000000
+        },
+        "current_liabilities": {
+          "2024-12-31": 103769000000,
+          "2025-03-31": 113471000000,
+          "2025-06-30": 110781000000,
+          "2025-09-30": 115526000000,
+          "2025-12-31": 114897000000,
+          "2026-03-31": 114124000000,
+          "2026-06-30": 111820000000,
+          "2026-09-30": 115835000000
+        },
+        "total_liabilities": {
+          "2024-12-31": 195687000000,
+          "2025-03-31": 204621000000,
+          "2025-06-30": 203789000000,
+          "2025-09-30": 209456000000,
+          "2025-12-31": 207883000000,
+          "2026-03-31": 207325000000,
+          "2026-06-30": 203778000000,
+          "2026-09-30": 207237000000
+        },
+        "equity": {
+          "2013-09-30": 32016000000,
+          "2013-12-31": 32149000000,
+          "2014-03-31": 32549000000,
+          "2014-06-30": 32935000000,
+          "2014-09-30": 32604000000,
+          "2014-12-31": 32454000000,
+          "2015-03-31": 31878000000,
+          "2015-06-30": 33020000000
+        },
+        "cash": {
+          "2024-12-31": 25312000000,
+          "2025-03-31": 30717000000,
+          "2025-06-30": 28596000000,
+          "2025-09-30": 27210000000,
+          "2025-12-31": 24365000000,
+          "2026-03-31": 28001000000,
+          "2026-06-30": 28585000000,
+          "2026-09-30": 25845000000
+        },
+        "long_term_debt": {
+          "2024-12-31": 72359000000,
+          "2025-03-31": 71285000000,
+          "2025-06-30": 73495000000,
+          "2025-09-30": 72399000000,
+          "2025-12-31": 72320000000,
+          "2026-03-31": 71440000000,
+          "2026-06-30": 69501000000,
+          "2026-09-30": 68714000000
+        }
+      },
+      "ratios": {
+        "fiscal_year_end": "2025-12-31",
+        "gross_margin": null,
+        "operating_margin": 0.0424,
+        "net_margin": 0.0269,
+        "revenue_growth_yoy": 0.1181,
+        "roe": null,
+        "debt_to_equity": null,
+        "current_ratio": 0.7884,
+        "free_cash_flow": 16075000000,
+        "latest_quarter_end": "2026-09-30",
+        "latest_quarter_net_margin": 0.0365,
+        "quarter_revenue_growth_yoy": -0.0041
+      }
+    },
+    "key_metrics": {
+      "fiscal_year_end": "2025-12-31",
+      "revenue_growth_yoy": 0.1181,
+      "quarter_revenue_growth_yoy": -0.0041,
+      "net_margin": 0.0269,
+      "free_cash_flow": 16075000000
+    }
+  },
+  "technical": {
+    "ticker": "UNH",
+    "score": 6,
+    "verdict": "neutral",
+    "trend": "uptrend",
+    "confidence": "medium",
+    "strengths": [
+      "Price at 397.48 is above both the 50-day (390.28) and 200-day (361.48) moving averages."
+    ],
+    "risks": [
+      "RSI at 48.79 indicates neutral momentum, providing no strong bullish or bearish signal.",
+      "Stock underperformed the market by 4.84%."
+    ],
+    "missing_data": [],
+    "summary": "The current uptrend is supported by UNH's price being above both the 50-day and 200-day moving averages, indicating a strong trend. However, the RSI of 48.79 points to neutral momentum, suggesting that while the trend is positive, there is no strong buying pressure. Additionally, the stock has underperformed the market, which could signal caution going forward.",
+    "data": {
+      "indicators": {
+        "price": 397.48,
+        "sma_50": 390.28,
+        "sma_200": 361.48,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 48.79,
+        "volatility_20d": 0.3085
+      },
+      "relative_strength": {
+        "stock_return": -0.0435,
+        "spy_return": 0.0049,
+        "outperformance": -0.0484
+      }
+    },
+    "key_metrics": {
+      "price": 397.48,
+      "above_sma_50": true,
+      "above_sma_200": true,
+      "rsi_14": 48.79,
+      "volatility_20d": 0.3085,
+      "outperformance": -0.0484
+    }
+  },
+  "news": {
+    "ticker": "UNH",
+    "score": 7,
+    "sentiment": "positive",
+    "crowd_mood": "neutral",
+    "confidence": "medium",
+    "key_events": [
+      "2026-10-13: Released Q3 earnings report showing adjusted EPS of approximately $4.69, which reflects both a rise in profitability and better expense management.",
+      "2026-11-04: Increased focus on AI for operational improvements, which is expected to contribute positively to margin recovery.",
+      "2026-11-09: Reports of a bid for Surgery Partners at $28 per share, indicating a potential move towards strategic acquisitions to bolster service offerings."
+    ],
+    "strengths": [
+      "Profits are rising amidst a reduction in membership, highlighting greater pricing discipline and margin control, as noted by the earnings report (Yahoo Finance).",
+      "AI capabilities are beginning to have a positive impact on operational efficiency, with a reduction in the medical care ratio from 89.9% to 88.4% (Yahoo Finance)."
+    ],
+    "risks": [
+      "The company's decision to scale back in certain markets could affect long-term growth; Optum Health's revenue faced a decline of 10%, indicating caution in the market strategy (Yahoo Finance).",
+      "There remains uncertainty regarding regulatory changes in healthcare policy following the recent elections, which could introduce new challenges to profitability (Yahoo Finance)."
+    ],
+    "missing_data": [],
+    "summary": "UnitedHealth Group is positioned positively, with Q3 earnings reflecting a substantial increase in profits despite a decline in membership. The focus on AI and cost management is seen as a key to sustaining profitability. While crowd sentiment on social media appears to be neutral, analysts are encouraged by the latest earnings and guidance amid concerns about market volatility and regulatory changes. The company's strategic plans show promise, although executing its operational improvements will be crucial moving forward.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "alpaca",
+          "headline": "UnitedHealthcare Provider Network Updates in Florida",
+          "summary": "Lee Health announced it will terminate its participation agreement with UnitedHealthcare effective December 31, 2026, while the Orthopedic Center of Florida confirmed it will continue to accept UnitedHealthcare insurance.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T16:01:44Z",
+          "url": "https://www.einpresswire.com/article/954806597/orthopedic-center-of-florida-welcomes-unitedhealthcare-members-for-orthopedic-care-in-southwest-florida"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "UnitedHealth Is Said To Have Bid $28 Per Share For Surgery Partners",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T16:00:33Z",
+          "url": "https://www.benzinga.com/news/26/11/63044528/unitedhealth-said-have-bid-28-share-surgery-partners"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Leaner and Meaner: Are UNH's Profits Getting Bigger? Buy Now?",
+          "summary": "UnitedHealth's profits are rising despite fewer members and lower Optum Health sales, as higher margins and pricing discipline fuel a recovery amid medical-cost risks.",
+          "publisher": "Zacks",
+          "published_at": "2026-11-09T13:40:00Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/leaner-meaner-unhs-profits-getting-134000688.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Gabelli Releases Agenda for 8th Annual Healthcare Symposium",
+          "summary": "PALM BEACH, Florida, Nov. 09, 2026 (GLOBE NEWSWIRE) -- Gabelli today released the agenda for its 8th Annual Healthcare Symposium to be held this Friday, November 13 in conjunction with Columbia Business School at the Paley Center for Media in New York. The symposium will bring together leading companies and organizations from across the healthcare ecosystem, with an emphasis on industry dynamics, current trends, and business fundamentals. This symposium features three panel discussions with seni",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:00:00Z",
+          "url": "https://finnhub.io/api/news?id=2c1c0efdd4060cf92bbf7275d89e7bd8928526271b7c816d4dde9afc1c61a043"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What State Street Health Care SPDR (XLV) Sold: Eli Lilly Leads on Nov. 5",
+          "summary": "The fund sold $212.6 million of stock, cutting all 60 of its positions and buying nothing.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T11:06:30Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/state-street-health-care-spdr-110630949.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "UnitedHealth (UNH): A Dow Stock for 2027 Where the Margin Repair Is Starting to Show",
+          "summary": "We just published a list of the 10 Best Dow Stocks to Buy for 2027 and UnitedHealth Group (NYSE:UNH) ranked 8th on this list. Yahoo Finance reported on November 5 that the Dow Jones Industrial Average tumbled 3.4%, or more than 1,800 points, while the S&P 500 fell 4.4% and the Nasdaq Composite sank 5.5% [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-08T17:36:58Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-dow-stock-2027-173658226.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Democrats Win Midterms: 5 Best Healthcare and Insurance Stocks To Buy",
+          "summary": "Healthcare stocks emerged as some of the clearest beneficiaries of the Democrats\u2019 sweeping victory in the November 3 midterm elections, as investors reassessed the outlook for federal healthcare spending. With Democrats gaining control of both the House and Senate, expectations of potential changes to Medicaid funding and Affordable Care Act subsidies helped fuel a rally [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-08T15:42:04Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/democrats-win-midterms-5-best-154204119.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What Humana (HUM) Said on Its Q3 Earnings Call",
+          "summary": "Humana (NYSE:HUM) raised its full-year 2026 adjusted earnings outlook and said early Medicare Advantage enrollment trends point to membership growth in 2027, as executives described progress toward a longer-term margin recovery. The health insurer now expects adjusted earnings of at least $9.50 per",
+          "publisher": "MarketBeat",
+          "published_at": "2026-11-08T01:14:14Z",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-what-humana-hum-said-on-its-q3-earnings-call-2026-11-07/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What Did CVS Health's Quarter Change For Its Stock?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Trefis",
+          "published_at": "2026-11-07T10:09:08Z",
+          "url": "https://www.trefis.com/stock/cvs/articles/623635/what-did-cvs-healths-quarter-change-for-its-stock/2026-11-07"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Tracking Ken Fisher's Fisher Asset Management Portfolio - Q3 2026 Update",
+          "summary": "See Fisher Asset Management\u00e2\u0080\u0099s latest 13F moves, top holdings, and growing bets on Nvidia, Apple, and more\u00e2\u0080\u0094explore key portfolio insights now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T22:31:05Z",
+          "url": "https://finnhub.io/api/news?id=d38b786c9c60a5556cc2414acb6a2def185b9be8df154309453939a115bd258a"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What UnitedHealth Group Stock's Institutional Buying Means For Shareholders",
+          "summary": "UnitedHealth Group's board has approved a quarterly cash dividend of US$2.32 per share, payable on December 15, 2026, to shareholders of record as of December 7, 2026. Recent Q3 results highlighted adjusted EPS of about US$4.69 and raised full year 2026 guidance to at least US$20.50. Institutional investors, including major ETFs like DIA and XLV, have been adding to UnitedHealth Group positions over several days. This activity has coincided with management's focus on AI driven cost controls,...",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-11-06T18:16:29Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-stocks-institutional-buying-181629205.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "\u201cWe Need to Break Up Big Medicine\u201d: Warren Targets UnitedHealth as Democrats Win Congress",
+          "summary": "Key TakeawaysSen. Elizabeth Warren attacked UnitedHealth\u2019s Amedisys deal on Nov.",
+          "publisher": "TIKR",
+          "published_at": "2026-11-06T17:37:18Z",
+          "url": "https://www.tikr.com/blog/we-need-to-break-up-big-medicine-warren-targets-unitedhealth-as-democrats-win-congress?ref=yahoofinance&tlnk=yf-261106-v57844cp"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "HUM Q3 Earnings Beat Estimates on Strong Insurance Performance",
+          "summary": "Humana's Q3 2026 loss is narrower than expected as Medicare membership and premiums grow, prompting a guidance hike despite rising benefit costs and expenses.",
+          "publisher": "Zacks",
+          "published_at": "2026-11-06T17:27:00Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/hum-q3-earnings-beat-estimates-172700216.html"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Growth Lead Sectors In Friday Trading As Defensives Trail",
+          "summary": "Seven sectors are higher and four are lower in Friday\u2019s regular session, with growth sectors holding the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-06T16:00:51Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62989618/growth-lead-sectors-in-friday-trading-as-defensives-trail"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "HUM vs UNH: valuation and profitability compared",
+          "summary": "Investing.com -- Unitedhealth Group (UNH) offers the stronger valuation and income profile, while Humana Inc (HUM) offers faster recent growth but much thinner profitability.",
+          "publisher": "Investing.com",
+          "published_at": "2026-11-06T15:53:50Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hum-vs-unh-valuation-profitability-155350642.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "CVS and UnitedHealth lost ground on Medicare ratings. Who gained?",
+          "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T14:39:20Z",
+          "url": "https://finnhub.io/api/news?id=bb3f325352e2c7188fd1a6b67f5985fc6f63ed7e0383def2c8c67cf8dd53663f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Wall Street Analysts See UnitedHealth (UNH) as a Buy: Should You Invest?",
+          "summary": "The average brokerage recommendation (ABR) for UnitedHealth (UNH) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T13:30:01Z",
+          "url": "https://finnhub.io/api/news?id=03aa52b8b18f18d00d3407975b4c1b8111f1f36eb388e90882876a6fbb3b51ee"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "The Zacks Analyst Blog Highlights Archer-Daniels-Midland, Freeport-McMoRan, UnitedHealth, Casey's General Stores and Crane",
+          "summary": "Democratic control of Congress could shift investor interest toward cyclical stocks, putting Archer-Daniels-Midland, Freeport-McMoRan and three other picks in focus.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T13:23:00Z",
+          "url": "https://finnhub.io/api/news?id=b6293c9bbe9781841868c3562b853256551656239b91d4e9a170a7fa7f4acdb4"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "State Street Health Care SPDR (XLV) Adds Eli Lilly and J&J on Nov. 4",
+          "summary": "The $50.93 billion fund bought $284.5 million of stock, lifting all 60 positions and selling nothing.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:05:33Z",
+          "url": "https://finnhub.io/api/news?id=9116e23a41b404dc7708ca7fa4f22176b1cd57c96fb69dd3ac0bef930ac84d71"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "ETFs Are Buying UnitedHealth (UNH) on Nov. 4",
+          "summary": "ETFs bought $56.4 million of UnitedHealth stock on Nov. 4.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:01:32Z",
+          "url": "https://finnhub.io/api/news?id=366b075ca7890d156165fe79c4308c5edfe1e8f864d0974737d3ecf8d3da1b3b"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Did The Market Read Molina Healthcare Stock Right?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T23:50:13Z",
+          "url": "https://finnhub.io/api/news?id=7e10d39f2ceca16ae9234dfceca40f94184d7b3eaaa5924835ad08a3954b2872"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dow Jones Top Decliners: NVIDIA and Cisco Post Steepest Losses in Today's Session",
+          "summary": "NVIDIA and Cisco led Dow Jones components lower in today's top-movers session, with NVIDIA down 7.9% and Cisco down 6.36%.",
+          "publisher": "ChartMill",
+          "published_at": "2026-11-05T20:11:07Z",
+          "url": "https://finnhub.io/api/news?id=64f655ac143a4694ef88b55b1e7fc07dbc4568eb115d25e2db6c91062ad5a2cf"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "3 Health Care Stocks With Whale Alerts In Today\u2019s Session",
+          "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+          "publisher": "benzinga",
+          "published_at": "2026-11-05T17:35:08Z",
+          "url": "https://www.benzinga.com/markets/options/26/11/62937861/3-health-care-stocks-whale-alerts-today-s-session"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Cigna Q3 Earnings Top Estimates on Cigna Healthcare Strength",
+          "summary": "CI beats Q3 earnings estimates as Healthcare strength and favorable drug mix fuel revenue growth, prompting management to raise its 2026 EPS outlook.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T16:47:00Z",
+          "url": "https://finnhub.io/api/news?id=75917d4e64033a6a6bc2d5ef7c0020fa7a3efdd5b7f593b04e16f1b4a343fa84"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Utilization and Policy Concerns Weigh on UnitedHealth Group Incorporated (UNH)",
+          "summary": "Baron Capital, an investment management company, released its Q3 2026 investor letter for the \u201cBaron Health Care Fund\u201d. The letter can be downloaded here. During the quarter ended September 30, 2026, Baron Health Care Fund\u00ae advanced 4.02%, underperforming the Russell 3000 Health Care Index\u2019s 6.19% gain. Since its inception, the Fund\u2019s annualized growth is 10.80%, [\u2026]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T16:35:52Z",
+          "url": "https://finnhub.io/api/news?id=2303ba7ae1281fcc58c1ad79d2c5f3b5f69e3149540999d6700f8d71fdab8d2c"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Has The Story Under Centene Stock Run Out?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T14:45:32Z",
+          "url": "https://finnhub.io/api/news?id=094b3f86f89af33db197ac00b944b280c5c65032856b0693aeadf9562b376916"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Can Higher Premiums Help Humana Beat Q3 Earnings Estimates?",
+          "summary": "HUM's Q3 premiums are expected to rise 26%, boosting its chances of an earnings beat even as higher operating costs and a worsening benefits expense ratio loom.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T14:45:00Z",
+          "url": "https://finnhub.io/api/news?id=5b37e82f9050015e3850b549a8271bee221e5aa2a220268b8f0a73f2fed6331f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Democratic Sweep May Turn the Tide in Favor of Cyclical Stocks: 5 Picks",
+          "summary": "A potential Democrat-led Congress could shift investor focus from AI stocks to cyclical sectors, putting ADM, FCX, UNH, CASY and CR in the spotlight.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T13:29:00Z",
+          "url": "https://finnhub.io/api/news?id=8081f197ce46517e3dbde445f5654f4f4238ab71cbff58d1a8c44a72574ab5b9"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "UnitedHealth Group Incorporated (UNH) is Attracting Investor Attention: Here is What You Should Know",
+          "summary": "Zacks.com users have recently been watching UnitedHealth (UNH) quite a bit. Thus, it is worth knowing the facts that could determine the stock's prospects.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T13:00:03Z",
+          "url": "https://finnhub.io/api/news?id=20e609155e5ceec962a587aad2eda8c4c4f5ac8704afc39f090b5b11b975e67f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "3 ETFs to Ride Dow's 1,500-Point Surge as Democrats Take Over Congress",
+          "summary": "The Dow surged 1,569 points after Democrats took control of Congress. Discover 3 Dow ETFs positioned to capitalize on the political shift.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T12:56:00Z",
+          "url": "https://finnhub.io/api/news?id=a04b4eec37344297260fbe43eeebff86fa32211223f22c977c2db1c5dc600d13"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Democrats Sweep Midterms: What It Means For Pharma And Biotech Holdings (Stocks To Watch)",
+          "summary": "Blue Wave election results could reshape healthcare policy. Click to discover stocks that need to be watched in the Big Pharma and biotech sectors.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-05T12:09:43Z",
+          "url": "https://finnhub.io/api/news?id=c1da7a8476779e29657306debfffc135f72492072e93a751ca557769982577ed"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "What Needs To Be True To Buy Elevance Health Stock?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T12:06:34Z",
+          "url": "https://finnhub.io/api/news?id=25550e94d490018c56fe67dad3ecd4eb69a50bfd4ac4e3395c6e376dd4d44004"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "What State Street Health Care SPDR (XLV) Bought: Eli Lilly Leads on Nov. 3",
+          "summary": "The fund added $330.3 million in net purchases, lifting all 60 of its positions with no sells.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T11:05:02Z",
+          "url": "https://finnhub.io/api/news?id=7cf080d8d5dc3fca085e7c020aced7251fcc5e53da3bbd01bcc055caa745e6b6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Has UnitedHealth Stock Become A Different Bet?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T10:35:49Z",
+          "url": "https://finnhub.io/api/news?id=fc7b4918b2d011a84e3f3e9fddd21f44e3b2ccc18e770da3fb992ce1af592eea"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "UnitedHealth (UNH) Q3 Earnings Lift Confidence In Margin Recovery",
+          "summary": "UnitedHealth Group just released its Q3 2026 results, and the initial reaction from traders was calm confidence. The stock rose about 1.2% in regular trading to around $409, a measured move rather than a frenzy. The headline figure that set the tone was adjusted earnings per share of roughly $4.69 on revenue a little above $113b. The main question for investors is whether this quarter signals a genuine easing in medical cost pressure or simply a brief pause in a longer period of margin...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T03:17:02Z",
+          "url": "https://finnhub.io/api/news?id=fbb126cbb5c593d80a52d2005221bef21e12bd267b6b1e5e7653a343de1554d9"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "UnitedHealth Stock And Medicare Advantage Insurers In Focus After Midterm Gridlock",
+          "summary": "Democrats\u2019 midterm gains have cooled talk of sweeping policy change and pushed investors toward areas where government programs quietly control the revenue tap. Medicaid and ACA-focused insurers suddenly look far more interesting as gridlock expectations firm up and healthcare reform risk feels less urgent. This article walks through three stocks tied to that policy story, explaining how each may be affected as the political dust settles. The insurers highlighted below are only a small sample...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T23:21:05Z",
+          "url": "https://finnhub.io/api/news?id=29eece2445feec90d6b4d66b91f69b9988c4a8ad59b461098b4ccb96473edc3b"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "UnitedHealth Group Board Authorizes Quarterly Dividend",
+          "summary": "UnitedHealth Group's board of directors has authorized a cash dividend of $2.32 per share for its common stock.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-04T19:01:50Z",
+          "url": "https://www.moomoo.com/hans/news/post/1003499410/press-release-unitedhealth-group-board-authorizes-payment-of-quarterly-dividend"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "UnitedHealth Stock Climbs: What's Going On?",
+          "summary": "UnitedHealth Group Inc. (NYSE: UNH) shares are rising Wednesday as health care stocks gain and the company declares a dividend.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-04T17:53:16Z",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62878893/unitedhealth-stock-climbs-whats-going-on"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "CVS Tumbles 12% on Plan to Split Into Two Companies Despite Earnings Beat; Elevance Health Rises 4%, Cigna Climbs 3%",
+          "summary": "CVS just reported a strong quarter and raised its outlook, then watched its stock crater anyway after revealing a plan to dismantle the integrated empire it spent two decades and billions of dollars building.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T16:54:01Z",
+          "url": "https://finnhub.io/api/news?id=52f5bc1325b047239cb6b008a7a1f2849b60eefac0f81e2ead372a85805dea7e"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "CVS Health Sinks 12% on Historic Breakup Plan: \u201cOne Great Company and Making It Two\u201d",
+          "summary": "[IMAGE CREDIT: none on its last post; please fill in this image\u2019s Image Credit field] Key TakeawaysCVS Health shares fell 12% today after it said it will split into two public companies by the first half of 2028. The drop came despite a third-quarter beat and a first 2027 outlook of at least $8.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T15:31:32Z",
+          "url": "https://finnhub.io/api/news?id=37dd04af8d5066a214104a2b23da470e2ffa2871916b44173e7fbed48cfd6de8"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "Unusual options activity in $UNH, mostly calls. Price has been quiet, which makes the call money stand out more.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#optionsflow #stocks #optionstrading #fintwit",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T18:11:02.104475Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzvjlbmkjq2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "This is like a battlefield, hell, it IS a battlefield. When an aggressor seizes some land, and then says, \u201cLet\u2019s establish the line here and call a truce. How \u2018bout we just forget what we did. Don\u2019t be retributive\u201d. Unh-uh. You push the line back to where it was, and you keep going.",
+          "author": "mrmcleod.bsky.social",
+          "created_at": "2026-11-09T18:06:10.032Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mrmcleod.bsky.social/post/3mzvjcku3g22l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "UNH IT now forces you to use AI to submit a ticket. The VERY FIRST piece of information the AI gave was incorrect. Not a good start (I asked how to submit a ticket without using AI... which just sent me back to the AI)",
+          "author": "edward-reynolds.bsky.social",
+          "created_at": "2026-11-09T16:58:51.180Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/edward-reynolds.bsky.social/post/3mzvfk742zs2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\"Unh...\" Sheila E desperately tried to force her body to move, to get up. A foot stomped down on her. \"Call him,\" a cold voice hissed. \"Hunh...?\" \"Call Fugo. Call him here. Scream, and beg him to come save you.\" \"Unhhhh...\"",
+          "author": "phfquotes.bsky.social",
+          "created_at": "2026-11-09T05:03:14.83888100Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/phfquotes.bsky.social/post/3mzu5kqyy272h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "(content warning: implied addiction)\nHonor\u00e9 Becquerel (OC) concept stuff\n\n#originalcharacter #artstyletest #ocart #ocs",
+          "author": "nicleotidez.bsky.social",
+          "created_at": "2026-11-09T03:19:51.606Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/nicleotidez.bsky.social/post/3mztxrpxin22q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "UnitedHealth Incorporated ($UNH) Draws $2.4M in Unusual Call Activity. Here's What Else the Smart Money Is Doing.\n\nFree 7-day trial\n#optionsflow #stocks #optionstrading #fintwit",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T02:27:01.674524Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mztutax5im23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "That is fuckin SAVAGE. The in-person voters were the cherry on top. UNH",
+          "author": "mdouglaswray.bsky.social",
+          "created_at": "2026-11-09T01:34:48.716Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mdouglaswray.bsky.social/post/3mztrvv2er22v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "12. Real-world polling and endorsements show the exact same split:\n\nEvery national progressive group and leader (Sanders, Warren, Our Revolution, Indivisible, MPA, UAW) backed Platner. And UNH polling (Platner 64%, Mills 26%) found \"most socialists and majorities of progressives\" backed Platner.",
+          "author": "mike10010100.com",
+          "created_at": "2026-11-09T00:56:16.835Z",
+          "likes": 60,
+          "reposts": 8,
+          "replies": 1,
+          "url": "https://bsky.app/profile/mike10010100.com/post/3mztpqyfihp2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "People seem to be getting real mad for being called out as liars. But like, when the data says something, and your response is, \u201cnuh unh, no it doesn\u2019t\u201d, then you are a liar. \n\nI understand you don\u2019t think that\u2019s what you\u2019re doing, but you are.\n\nThe refusal to accept inconvenient truths is shameful.",
+          "author": "ghazelleberner.bsky.social",
+          "created_at": "2026-11-09T00:26:22.996Z",
+          "likes": 119,
+          "reposts": 20,
+          "replies": 1,
+          "url": "https://bsky.app/profile/ghazelleberner.bsky.social/post/3mzto3jjtis2x"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#BPHM8689 B-Sides 2\n\n1 MAIN SOURCE! www.youtube.com/watch?v=unh-...\n2 JUNE MONTANA! www.youtube.com/watch?v=2S_r...\n3 AR KANE! www.youtube.com/watch?v=rwgQ...\n4 MUHAL RICHARD ABRAMS ORCHESTRA! www.youtube.com/watch?v=GU2R...\n\nVote! docs.google.com/forms/d/e/1F...",
+          "author": "peoples-pop-polls.bsky.social",
+          "created_at": "2026-11-08T23:09:27.872Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 2,
+          "url": "https://bsky.app/profile/peoples-pop-polls.bsky.social/post/3mztjry7cks26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u305c\uff52\uff44\uff10\uff11\nwww.youtube.com/watch?v=-unH...\n\u3093\uff1f",
+          "author": "ettodesune.bsky.social",
+          "created_at": "2026-11-08T23:06:48.803Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ettodesune.bsky.social/post/3mztjnaivqk24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Am I going to have to root for Utah? Unh.",
+          "author": "warriorrabbit.bsky.social",
+          "created_at": "2026-11-08T22:16:09.211Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 3,
+          "url": "https://bsky.app/profile/warriorrabbit.bsky.social/post/3mztgsnpw6k2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Super Mario Brothers Super Show - Season 1 Episode 13 - Robo Koopa\nFrame 212/2952\nCaption: \u266a Unh! \u266a\u266a\n\nTimestamp: 00:02:27.6",
+          "author": "marioframes.bsky.social",
+          "created_at": "2026-11-08T21:35:39.094081+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/marioframes.bsky.social/post/3mzteka7v5523"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Super Mario Brothers Super Show - Season 1 Episode 13 - Robo Koopa\nFrame 211/2952\nCaption: \u266a Unh! \u266a\u266a\n\nTimestamp: 00:02:27.2",
+          "author": "marioframes.bsky.social",
+          "created_at": "2026-11-08T21:29:38.191204+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/marioframes.bsky.social/post/3mzte7hzoz32r"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Super Mario Brothers Super Show - Season 1 Episode 13 - Robo Koopa\nFrame 210/2952\nCaption: \u266a Unh! \u266a\u266a\n\nTimestamp: 00:02:26.8",
+          "author": "marioframes.bsky.social",
+          "created_at": "2026-11-08T21:23:37.370096+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/marioframes.bsky.social/post/3mztdupweos2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "As a UNH alum ( go wildcats) it feels like praising the Yankees, but I will have to give it to umass on this one.",
+          "author": "teamquimby.bsky.social",
+          "created_at": "2026-11-08T18:49:54.435Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/teamquimby.bsky.social/post/3mzt3bu7pyk2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Democrats\u2019 midterm win could help health insurers UnitedHealth (UNH) and Centene (CNC). But policy is only part of the story. A quick thread",
+          "author": "usmikirduit.bsky.social",
+          "created_at": "2026-11-08T13:50:38.126Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/usmikirduit.bsky.social/post/3mzskkpqpws22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Belial: Uh-unh-uh. You'll never find me. No matter how many worlds you collapse. \nBeelzebub: You worm!",
+          "author": "hourlybelial.bsky.social",
+          "created_at": "2026-11-08T13:45:28.15504000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/hourlybelial.bsky.social/post/3mzskbl4fws2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.nhpr.org/nh-news/2026...",
+          "author": "csmall451.bsky.social",
+          "created_at": "2026-11-08T05:41:10.738Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/csmall451.bsky.social/post/3mzrp7it63s27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "PART ONE - LEFTOVER CANDY\n\ncw: weight gain\n\n#fatnovemfur #fatfur #weightgain #furry #furryart #nsfw",
+          "author": "theindy6900.bsky.social",
+          "created_at": "2026-11-07T23:17:28.174Z",
+          "likes": 6,
+          "reposts": 2,
+          "replies": 0,
+          "url": "https://bsky.app/profile/theindy6900.bsky.social/post/3mzqzresn5s2x"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Who plays off their OBS? Definitely not me... \ud83d\ude2c New short on the channel edited by @kurisutofaaart.bsky.social !\n\n\ud83d\udc9c Shantae streams are coming back soon, so sub if you wanna catch them: www.youtube.com/shorts/r-unH...\n\n#vtuberclips #retrogames #Vtubers",
+          "author": "natsu-kashii-vt.bsky.social",
+          "created_at": "2026-11-07T21:08:25.398Z",
+          "likes": 19,
+          "reposts": 7,
+          "replies": 2,
+          "url": "https://bsky.app/profile/natsu-kashii-vt.bsky.social/post/3mzqskmpgsc2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Or maybe Providence/UNH because that game got nuts with four goals in five minutes or so",
+          "author": "nicolehaase.bsky.social",
+          "created_at": "2026-11-07T20:55:23.195Z",
+          "likes": 3,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/nicolehaase.bsky.social/post/3mzqrtcqiok2n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "UNH had a creepy white guy posting as a WOC. Not nearly as repulsive as the previous UNH Law Deans or the current one but part of a pattern and practice of racism and nastiness.",
+          "author": "annbartow.bsky.social",
+          "created_at": "2026-11-07T17:30:35.658Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/annbartow.bsky.social/post/3mzqgf4gwls26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "and from UNH, where I attended a bunch of summer classes in high school: uh, Londo Mollari I guess",
+          "author": "saramaburwani.bsky.social",
+          "created_at": "2026-11-07T16:26:53.003Z",
+          "likes": 5,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/saramaburwani.bsky.social/post/3mzqct6uibs25"
+        },
+        {
+          "platform": "bluesky",
+          "text": "a screwed up season--injuries, coaching. . . and roster. 4 qbs to start and Howie has to import a Dallas practice-squad guy to start in week 8. Joe throwing long to Hollywood would be entertaining\n\nI'm now a \"sell\" guy. Make Carter available. but neither Ojomo nor Nolan. nunh unh",
+          "author": "ruckus.bsky.social",
+          "created_at": "2026-11-07T15:36:35.365Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ruckus.bsky.social/post/3mzq7zazm3c2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.samsung-news.com/articles/UNH...",
+          "author": "hangtight.bsky.social",
+          "created_at": "2026-11-07T15:08:27.592Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/hangtight.bsky.social/post/3mzq6gxgqe22i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AAPL $AMZN $UNH Top performing options lottos, Nov 2 - 6. Highest price after each alert, not a profit. Median: +93%, 12 misses. Every alert: blueville.capital/performance/... Educational, hypothetical results.",
+          "author": "bluevillecapital.bsky.social",
+          "created_at": "2026-11-07T15:02:33.687Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bluevillecapital.bsky.social/post/3mzq64fwfys24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Yes, this is, of course, an entirely rational reason to hate an entire institution.  Nobody in their right mind would ever disagree.  \n\nI also hate Trinity College, because that one guy on the crew team gave me a dirty look after our UNH JV eight smoked his boat.",
+          "author": "jdolbow.bsky.social",
+          "created_at": "2026-11-07T14:57:00.157Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/jdolbow.bsky.social/post/3mzq5shtv4c2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Depends. If your covered calls are out 5 delta, it\u2019s like 1 in 20 times it might expire in the money; and probably not by a lot! So the debit spread should push the break even out far enough to still be net profitable at expiration. But UNH double tapped me in 2 weeks (80 pt gain). Rolled for months",
+          "author": "finris-trading.bsky.social",
+          "created_at": "2026-11-07T08:01:20.390Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/finris-trading.bsky.social/post/3mzpgl7gotc27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Offensive Woes Continue for River Hawks in 3-0 Home Loss to\u00a0UNH\n\nOn Friday night, the UMass Lowell River Hawks returned home to the Tsongas Center to host the University of New Hampshire Wildcats, looking to turn around a 1-4-0 record on home ice. Sitting at 2-6-0, it marks just the fourth time in\u2026",
+          "author": "ngscsports.bsky.social",
+          "created_at": "2026-11-07T06:49:59Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ngscsports.bsky.social/post/3mzpclndvoz2r"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.samsung-news.com/articles/UNH...\nThis bigoted clown shouldn't be allowed to be a cashier in a local 7/11, yet alone COS! Trump will try to burn it all to the ground before he's eradicated like the ratfuck he is!",
+          "author": "huskerfan21.bsky.social",
+          "created_at": "2026-11-07T02:15:07.107Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/huskerfan21.bsky.social/post/3mzota4ijkk27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.threads.com/share/_i-UNH...",
+          "author": "rabuku.bsky.social",
+          "created_at": "2026-11-07T00:49:36.929Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/rabuku.bsky.social/post/3mzooh7xoc22f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "This creep has all the looks of an evil monster steaight out of the Nazi SS regime! \nwww.samsung-news.com/articles/UNH...",
+          "author": "larryfree.bsky.social",
+          "created_at": "2026-11-07T00:48:28.072Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/larryfree.bsky.social/post/3mzoof6cf3c26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.samsung-news.com/articles/UNH...",
+          "author": "queensicez.bsky.social",
+          "created_at": "2026-11-07T00:37:24.619Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/queensicez.bsky.social/post/3mzonrfldsk2k"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.samsung-news.com/articles/UNH...",
+          "author": "juleesomething.bsky.social",
+          "created_at": "2026-11-07T00:30:31.091Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/juleesomething.bsky.social/post/3mzonf37its2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udea8 BREAKING: HUM reported a net margin of 0.9% as of June 30, 2026. The company generated $129.66 billion in revenue in 2025. HUM posted 18.3% revenue growth as of June 30, 2026.\n\nhttps://finance.yahoo.com/markets/stocks/articles/hum-vs-unh-valuation-profitability-155350642.html",
+          "author": "mgmarkets.bsky.social",
+          "created_at": "2026-11-07T00:25:01.416Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mgmarkets.bsky.social/post/3mzon3au5zb2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "New Physics of Alfv\u00e9n Waves: Parker Solar Probe and Agentic, Wish-Driven Research\nDr. Zesen Huang (UCLA)\nUNH Space Science Seminars\nyoutu.be/n6dpoQzBBV0?...",
+          "author": "ordofibonacci.bsky.social",
+          "created_at": "2026-11-07T00:11:48.677Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ordofibonacci.bsky.social/post/3mzomdms4h22r"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I spent so much time drawing last month I neglected Liv and Brie so I gotta make up for lost time.",
+          "author": "yotomoe.bsky.social",
+          "created_at": "2026-11-06T22:52:59.602Z",
+          "likes": 811,
+          "reposts": 183,
+          "replies": 9,
+          "url": "https://bsky.app/profile/yotomoe.bsky.social/post/3mzohwoshwk2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Iowa is changing goalkeepers and going with UNH transfer Abby Johnson.",
+          "author": "huesmannkyle.bsky.social",
+          "created_at": "2026-11-06T21:28:04.009Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/huesmannkyle.bsky.social/post/3mzod6tb2422u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Yall don\u2019t remember Usher was giving everybody herpes? & got the nerve to be feeding these women cherries, like unh unh \n\nTHENNNNN he was talmbout Diddy has been misrepresented and blahblahblah. Unh unh he a weirdo, \u201cSuperstar\u201d ain that good of a song",
+          "author": "chebuttah.bsky.social",
+          "created_at": "2026-11-06T19:33:40.605Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/chebuttah.bsky.social/post/3mzo4sbsm4c2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Oooh. I heard Costco is offering mediicare supplement G !!!!\nIf so, F-you United health care. \nUNH ceo makes 66 million a year.",
+          "author": "datagoodies.bsky.social",
+          "created_at": "2026-11-06T18:35:39.416Z",
+          "likes": 4,
+          "reposts": 2,
+          "replies": 1,
+          "url": "https://bsky.app/profile/datagoodies.bsky.social/post/3mznzkjv4is2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I haven\u2019t seen exit polling on it but the last unh poll showed 74% among 18-34 and 34% in the 65+ group. So unless millennials suddenly turn NIMBY\u2026 \ud83e\udee0",
+          "author": "berkie1.bsky.social",
+          "created_at": "2026-11-06T14:03:56.731Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/berkie1.bsky.social/post/3mznkeogpn22t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "U.S.-funded UNH researchers begin studying a Fusarium disease threatening cold-hardy grapevines #Fusarium #Grapevines #VineyardHealth #WineScience #Agriculture",
+          "author": "vineturglobal.bsky.social",
+          "created_at": "2026-11-06T13:30:02Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/vineturglobal.bsky.social/post/3mznii2svq42r"
+        },
+        {
+          "platform": "bluesky",
+          "text": "[weeeeeee unhhhhhh weee-eeeee unhhhunhhh unh unh unh unh]",
+          "author": "bowlerhatscience.org",
+          "created_at": "2026-11-06T13:22:27.927Z",
+          "likes": 3,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bowlerhatscience.org/post/3mzni2iwezk2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Gods it's so hot watching you cum. Unh fuck I want to feel that in me~! \ud83d\ude29\ud83d\udc9c\ud83d\udca6\ud83d\udca6",
+          "author": "tiberiumausten.bsky.social",
+          "created_at": "2026-11-06T08:49:33.129Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tiberiumausten.bsky.social/post/3mzmysip7e224"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Nope never nah nun-unh !",
+          "author": "trakblue.bsky.social",
+          "created_at": "2026-11-06T04:45:06.603Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trakblue.bsky.social/post/3mzml5fmezs25"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Fall in New Hampshire and at UNH Law is pretty much perfect.",
+          "author": "mccannsportslaw.bsky.social",
+          "created_at": "2026-11-06T00:55:01.938Z",
+          "likes": 8,
+          "reposts": 1,
+          "replies": 2,
+          "url": "https://bsky.app/profile/mccannsportslaw.bsky.social/post/3mzm6byiznk2m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "i can hear what floor you're fucking me on before you're even in the- unh",
+          "author": "eeveecanidae.bsky.social",
+          "created_at": "2026-11-06T00:15:13.759Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/eeveecanidae.bsky.social/post/3mzm42svxtk2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "NUH UNH!",
+          "author": "saga.iam.bi",
+          "created_at": "2026-11-06T00:09:40.954Z",
+          "likes": 3,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/saga.iam.bi/post/3mzm3qvjkxc2m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "OK; did anyone else my age hold up a Bugles chip and make the Star Trek \"dun-unh\" music; or was that just me?\n\nBugles Finger Claws, now; everyone did that at some point",
+          "author": "katmandu.bsky.social",
+          "created_at": "2026-11-05T23:46:14.969Z",
+          "likes": 11,
+          "reposts": 1,
+          "replies": 1,
+          "url": "https://bsky.app/profile/katmandu.bsky.social/post/3mzm2gyohmf2k"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-10-13",
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000255/unh-20261013.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 50,
+      "total_post_likes": 1067,
+      "major_8k_events": [
+        "Earnings results",
+        "Financial statements and exhibits"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "UNH",
+    "score": 7,
+    "verdict": "tailwind",
+    "market_regime": "mixed",
+    "confidence": "medium",
+    "strengths": [
+      "The healthcare sector has outperformed SPY by 16.34% over the last 90 trading days."
+    ],
+    "risks": [
+      "The VIX is at 28.18, indicating market fear, which could lead to volatility."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI report",
+      "2026-11-25: GDP report",
+      "2026-12-04: Jobs report"
+    ],
+    "missing_data": [],
+    "summary": "The healthcare sector is currently experiencing a tailwind, outperforming the broader market significantly. While the overall market sentiment is mixed, with a rise in the VIX indicating some fear, UNH's lower beta suggests it may not be as heavily impacted by market fluctuations. Furthermore, the Fed Funds Rate is stable, which can aid in maintaining sector performance.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "UNH",
+        "sector": "Healthcare",
+        "beta": 0.52,
+        "sector_etf": "XLV",
+        "sector_vs_spy_90d": {
+          "sector_return": 0.1683,
+          "spy_return": 0.0049,
+          "sector_outperformance": 0.1634
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 0.52,
+      "sector_outperformance": 0.1634
+    }
+  }
+}

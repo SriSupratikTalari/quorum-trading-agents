@@ -1,0 +1,35 @@
+{
+  "agent": "bull",
+  "ticker": "LLY",
+  "conviction": 8,
+  "thesis": "Eli Lilly's robust revenue growth and strong fundamental metrics, combined with positive technical momentum, make it a compelling buy.",
+  "arguments": [
+    {
+      "point": "Annual revenue rose to $65,179 million in 2025, a 44.7% increase from 2024, driven by higher volumes and product mix, particularly from Mounjaro and Zepbound (fundamentals).",
+      "source": "fundamentals"
+    },
+    {
+      "point": "LLY is in a strong uptrend with the current price of $1411.17 above both the 50-day average of $1219.35 and the 200-day average of $1099.7, indicating strong momentum (technical).",
+      "source": "technical"
+    },
+    {
+      "point": "Jefferies raised its price target for Eli Lilly to $1,700, the highest on Wall Street, due to underestimated international GLP-1 opportunities (news).",
+      "source": "news"
+    },
+    {
+      "point": "The healthcare sector has outperformed SPY by 16.33% over the last 90 days, providing a favorable macro backdrop for LLY (macro).",
+      "source": "macro"
+    }
+  ],
+  "weaknesses_acknowledged": [
+    "82% of revenue is concentrated in a few products, increasing vulnerability to competitive and regulatory changes (fundamentals).",
+    "The RSI of 67.84 suggests potential overbought conditions, which may lead to a short-term pullback (technical).",
+    "Recent FDA mandates for new safety warnings on GLP-1 drugs highlight regulatory risks (news).",
+    "High leverage driven by acquisitions could pose risks if growth slows or macro conditions worsen (fundamentals)."
+  ],
+  "catalysts": [
+    "2026-11-10: CPI",
+    "2026-11-25: GDP",
+    "2026-12-04: Jobs Report"
+  ]
+}

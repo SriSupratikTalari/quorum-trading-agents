@@ -1,0 +1,1315 @@
+{
+  "fundamentals": {
+    "ticker": "PG",
+    "score": 8,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "Net sales rose to $87.0B in fiscal 2026, up 3% year over year, with organic sales up 1% and notable strength in Beauty and Fabric & Home Care; this shows balanced top-line growth across segments.",
+      "Operating cash flow was $19.6B in 2026, a 10% year-over-year increase, underpinning strong cash generation capacity.",
+      "Adjusted free cash flow of $15.8B in 2026, up 8% vs. 2025, with 100% adjusted free cash flow productivity (free cash flow as a % of net earnings excluding certain items), signaling efficient cash conversion and capacity for dividends, buybacks, and investments.",
+      "Net earnings attributable to P&G reached about $16.0B in 2026, with GAAP net earnings of $16.1B and a diluted EPS of $6.62, reflecting solid profitability and earnings per share growth despite margin pressure in some areas.",
+      "The company has a long, track-record dividend history (136 years of dividends, 70 consecutive years of increases), highlighting durable shareholder value distribution.",
+      "Net debt posture remains supportable with substantial liquidity and undrawn credit facilities (current $8.0B undrawn facility) and a robust financing framework, complemented by a strong operating cash generation profile.",
+      "Thorne acquisition announced/closed post-quarter (as of Oct 1, 2026) for about $3.9B broadens the Personal Health Care portfolio, potentially expanding growth opportunities in that segment."
+    ],
+    "risks": [
+      "Significant exposure to international markets: operations outside the U.S. generate more than half of net sales, exposing results to foreign exchange, geopolitical, and tariff risks.",
+      "Foreign currency fluctuations and tariffs can impact the U.S. dollar value of sales, earnings, and cash flows, especially given the broad international footprint and net sales impact from currency movements.",
+      "Commodity and input-cost volatility (energy, resins, pulp, etc.) and inflation can compress margins unless offset by pricing, productivity and cost-reduction efforts.",
+      "Reliance on large customers and channel concentration: Walmart accounts for about 16% of net sales in 2024-2026, with top ten customers representing ~43% of net sales, creating revenue concentration risk if trade terms or shelf space shift.",
+      "Supply chain and cyber risk: disruptions to manufacturing or IT/OT systems, cyber incidents, or third-party failures could impact operations and cash flows (risk management disclosures emphasize these threats).",
+      "Regulatory and tax environment: ongoing regulatory changes, including global tax frameworks (e.g., Pillar Two discussions) and trade policies, can affect tax rates, transfer pricing and compliance costs.",
+      "Goodwill and indefinite-lived intangible assets impairment risk remains present (Gillette brand) given sensitivity to long-term cash-flow forecasts and macroeconomic shifts; impairment risk is discussed in the filings.",
+      "Geopolitical and macroeconomic tensions (e.g., Middle East, Russia-Ukraine) can yield unpredictable demand, pricing, currency and supply-chain dynamics."
+    ],
+    "missing_data": [
+      "ROE (return on equity) figure is null in the provided fundamentals output.",
+      "Debt-to-equity ratio is null in the provided fundamentals output.",
+      "Gross margin ratio is listed as null in the fundamentals data (although the 10-K notes gross margin ~50.2% for 2026 in the filing)."
+    ],
+    "summary": "PG shows healthy, multi-year top- and bottom-line growth with strong cash generation. Revenue rose from about $82.0B (2023) to $87.0B (2026), while net income climbed from roughly $14.6B (2023/24) to $16.1B (2026). Operating margin sits in the low- to mid-20% range, with net margin around 18-19%. Free cash flow remains robust at about $15.8B in 2026, and cash generation is supported by a high-quality cash flow profile (operating cash flow of $19.6B and $8.9B+ cash outside the U.S. noted in filings). The balance sheet shows substantial assets, a sizable but manageable debt load, and large shareholder-friendly actions (12+ years of consistent dividends; substantial buyback activity funded by debt and cash flows). The quarterly results to 9/30/2026 show continued net sales growth (~4% YoY) and solid profitability, with cash flow generation healthy, though margins can contract due to commodity costs, product investments and mix. The filings emphasize ongoing cost productivity, restructuring to improve cost structure and portfolio optimization, and strategic acquisitions (e.g., Thorne) to bolster growth. Overall, the business appears healthy and improving in cash generation and profitability discipline, supported by a strong brand portfolio and disciplined capital allocation, though it faces ongoing risks from currency, commodity costs, regulatory changes, and geopolitical uncertainty.",
+    "data": {
+      "ticker": "PG",
+      "cik": "0000080424",
+      "annual": {
+        "revenue": {
+          "2023-06-30": 82006000000,
+          "2024-06-30": 84039000000,
+          "2025-06-30": 84284000000,
+          "2026-06-30": 87032000000
+        },
+        "gross_profit": {},
+        "operating_income": {
+          "2023-06-30": 18134000000,
+          "2024-06-30": 18545000000,
+          "2025-06-30": 20451000000,
+          "2026-06-30": 19748000000
+        },
+        "net_income": {
+          "2023-06-30": 14653000000,
+          "2024-06-30": 14879000000,
+          "2025-06-30": 15974000000,
+          "2026-06-30": 16046000000
+        },
+        "operating_cash_flow": {
+          "2023-06-30": 16848000000,
+          "2024-06-30": 19846000000,
+          "2025-06-30": 17817000000,
+          "2026-06-30": 19556000000
+        },
+        "capex": {
+          "2023-06-30": 3062000000,
+          "2024-06-30": 3322000000,
+          "2025-06-30": 3773000000,
+          "2026-06-30": 4409000000
+        },
+        "total_assets": {
+          "2023-06-30": 120829000000,
+          "2024-06-30": 122370000000,
+          "2025-06-30": 125231000000,
+          "2026-06-30": 126521000000
+        },
+        "current_assets": {
+          "2023-06-30": 22648000000,
+          "2024-06-30": 24709000000,
+          "2025-06-30": 25392000000,
+          "2026-06-30": 26208000000
+        },
+        "current_liabilities": {
+          "2023-06-30": 35756000000,
+          "2024-06-30": 33627000000,
+          "2025-06-30": 36058000000,
+          "2026-06-30": 38694000000
+        },
+        "total_liabilities": {
+          "2023-06-30": 73764000000,
+          "2024-06-30": 71811000000,
+          "2025-06-30": 72946000000,
+          "2026-06-30": 72210000000
+        },
+        "equity": {},
+        "cash": {
+          "2016-06-30": 8098000000,
+          "2017-06-30": 5569000000,
+          "2018-06-30": 2569000000,
+          "2019-06-30": 4239000000
+        },
+        "long_term_debt": {
+          "2023-06-30": 24378000000,
+          "2024-06-30": 25269000000,
+          "2025-06-30": 24995000000,
+          "2026-06-30": 22842000000
+        }
+      },
+      "quarterly": {
+        "revenue": {
+          "2024-03-31": 20195000000,
+          "2024-09-30": 21737000000,
+          "2024-12-31": 21882000000,
+          "2025-03-31": 19776000000,
+          "2025-09-30": 22386000000,
+          "2025-12-31": 22208000000,
+          "2026-03-31": 21235000000,
+          "2026-09-30": 23276000000
+        },
+        "gross_profit": {},
+        "operating_income": {
+          "2024-03-31": 4460000000,
+          "2024-09-30": 5797000000,
+          "2024-12-31": 5741000000,
+          "2025-03-31": 4558000000,
+          "2025-09-30": 5856000000,
+          "2025-12-31": 5366000000,
+          "2026-03-31": 4576000000,
+          "2026-09-30": 5937000000
+        },
+        "net_income": {
+          "2024-03-31": 3754000000,
+          "2024-09-30": 3959000000,
+          "2024-12-31": 4630000000,
+          "2025-03-31": 3769000000,
+          "2025-09-30": 4750000000,
+          "2025-12-31": 4319000000,
+          "2026-03-31": 3932000000,
+          "2026-09-30": 4731000000
+        },
+        "operating_cash_flow": {
+          "2019-09-30": 4169000000,
+          "2020-09-30": 4739000000,
+          "2021-09-30": 4643000000,
+          "2022-09-30": 4070000000,
+          "2023-09-30": 4904000000,
+          "2024-09-30": 4302000000,
+          "2025-09-30": 5408000000,
+          "2026-09-30": 5767000000
+        },
+        "capex": {
+          "2019-09-30": 1079000000,
+          "2020-09-30": 850000000,
+          "2021-09-30": 1091000000,
+          "2022-09-30": 890000000,
+          "2023-09-30": 925000000,
+          "2024-09-30": 993000000,
+          "2025-09-30": 1200000000,
+          "2026-09-30": 1366000000
+        },
+        "total_assets": {
+          "2024-12-31": 122639000000,
+          "2025-03-31": 122984000000,
+          "2025-06-30": 125231000000,
+          "2025-09-30": 127599000000,
+          "2025-12-31": 127286000000,
+          "2026-03-31": 128378000000,
+          "2026-06-30": 126521000000,
+          "2026-09-30": 133132000000
+        },
+        "current_assets": {
+          "2024-12-31": 25642000000,
+          "2025-03-31": 24435000000,
+          "2025-06-30": 25392000000,
+          "2025-09-30": 27118000000,
+          "2025-12-31": 26588000000,
+          "2026-03-31": 27987000000,
+          "2026-06-30": 26208000000,
+          "2026-09-30": 32508000000
+        },
+        "current_liabilities": {
+          "2024-12-31": 33797000000,
+          "2025-03-31": 34248000000,
+          "2025-06-30": 36058000000,
+          "2025-09-30": 37995000000,
+          "2025-12-31": 36699000000,
+          "2026-03-31": 38235000000,
+          "2026-06-30": 38694000000,
+          "2026-09-30": 44996000000
+        },
+        "total_liabilities": {
+          "2024-12-31": 71195000000,
+          "2025-03-31": 70439000000,
+          "2025-06-30": 72946000000,
+          "2025-09-30": 74048000000,
+          "2025-12-31": 73969000000,
+          "2026-03-31": 73647000000,
+          "2026-06-30": 72210000000,
+          "2026-09-30": 77795000000
+        },
+        "equity": {},
+        "cash": {
+          "2017-12-31": 7432000000,
+          "2018-03-31": 5326000000,
+          "2018-06-30": 2569000000,
+          "2018-09-30": 2545000000,
+          "2018-12-31": 3696000000,
+          "2019-03-31": 2738000000,
+          "2019-06-30": 4239000000,
+          "2019-09-30": 9304000000
+        },
+        "long_term_debt": {
+          "2024-12-31": 25263000000,
+          "2025-03-31": 24252000000,
+          "2025-06-30": 24995000000,
+          "2025-09-30": 24315000000,
+          "2025-12-31": 25577000000,
+          "2026-03-31": 23852000000,
+          "2026-06-30": 22842000000,
+          "2026-09-30": 21897000000
+        }
+      },
+      "ratios": {
+        "fiscal_year_end": "2026-06-30",
+        "gross_margin": null,
+        "operating_margin": 0.2269,
+        "net_margin": 0.1844,
+        "revenue_growth_yoy": 0.0326,
+        "roe": null,
+        "debt_to_equity": null,
+        "current_ratio": 0.6773,
+        "free_cash_flow": 15147000000,
+        "latest_quarter_end": "2026-09-30",
+        "latest_quarter_net_margin": 0.2033,
+        "quarter_revenue_growth_yoy": 0.0398
+      }
+    },
+    "key_metrics": {
+      "fiscal_year_end": "2026-06-30",
+      "revenue_growth_yoy": 0.0326,
+      "quarter_revenue_growth_yoy": 0.0398,
+      "net_margin": 0.1844,
+      "free_cash_flow": 15147000000
+    }
+  },
+  "technical": {
+    "ticker": "PG",
+    "score": 8,
+    "verdict": "bullish",
+    "trend": "uptrend",
+    "confidence": "high",
+    "strengths": [
+      "Price at 168.14 is above both the 50-day (151.75) and 200-day (147.53) moving averages, indicating a strong uptrend.",
+      "RSI at 68.21 suggests bullish momentum, though it's nearing the overbought territory.",
+      "Outperforming the market, with a stock return of 0.1419 compared to SPY's 0.0042."
+    ],
+    "risks": [
+      "RSI nearing 70 indicates potential for a pullback as it approaches overbought conditions."
+    ],
+    "missing_data": [],
+    "summary": "PG shows a strong bullish trend with its price above both the 50-day and 200-day moving averages. The RSI at 68.21 reflects good momentum, though it is close to overbought territory, suggesting some caution for possible pullbacks. Additionally, PG has significantly outperformed the market, indicating robust relative strength.",
+    "data": {
+      "indicators": {
+        "price": 168.14,
+        "sma_50": 151.75,
+        "sma_200": 147.53,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 68.21,
+        "volatility_20d": 0.2894
+      },
+      "relative_strength": {
+        "stock_return": 0.1419,
+        "spy_return": 0.0042,
+        "outperformance": 0.1377
+      }
+    },
+    "key_metrics": {
+      "price": 168.14,
+      "above_sma_50": true,
+      "above_sma_200": true,
+      "rsi_14": 68.21,
+      "volatility_20d": 0.2894,
+      "outperformance": 0.1377
+    }
+  },
+  "news": {
+    "ticker": "PG",
+    "score": 6,
+    "sentiment": "neutral",
+    "crowd_mood": "neutral",
+    "confidence": "medium",
+    "key_events": [
+      "2026-11-03: Filed 8-K regarding financial statements, indicating active management of reporting.",
+      "2026-11-02: Filed additional 8-K, reflecting ongoing strategic updates.",
+      "2026-11-05: CFO sold shares worth $5.5 million, which may indicate insider sentiment towards stock value."
+    ],
+    "strengths": [
+      "P&G's Beauty division reported 5% organic sales growth in Q1 FY27, driven by popular brands, suggesting robust consumer demand. (Source: Yahoo)"
+    ],
+    "risks": [
+      "The National Advertising Division ruled in favor of Unilever against P&G's challenges regarding Dove claims, potentially affecting brand reputation. (Source: Fiscal.ai)"
+    ],
+    "missing_data": [],
+    "summary": "P&G has seen mixed news recently, including a positive report on its Beauty division's growth, but faced a setback when a regulatory body ruled in favor of Unilever concerning advertising claims. The crowd sentiment appears neutral, with some commentary on insider trading indicating cautious optimism or concern. Overall, the company's efforts to maintain growth amidst regulatory challenges highlight ongoing strategic management.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "alpaca",
+          "headline": "National Advertising Division Rules on P&G Challenge to Unilever's Dove Claims",
+          "summary": "The National Advertising Division (NAD) of BBB National Programs determined that Unilever United States, Inc. provided sufficient support for specific moisturizing claims regarding its Dove Deep Moisture Body Wash following a challenge by The Procter & Gamble Company.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T16:01:40Z",
+          "url": "https://www.globenewswire.com/news-release/2026/11/09/3398626/0/en/national-advertising-division-found-unilever-s-dove-deep-moisture-body-wash-claims-supported.html"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+          "summary": "All 11 sectors are higher in Monday\u2019s regular session, with growth sectors holding two of the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T16:00:24Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63044502/11-of-11-sectors-rise-monday-as-growth-leads"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Is Procter & Gamble's Beauty Momentum Enough to Lift Growth?",
+          "summary": "PG's Beauty business posts 5% organic sales growth in Q1 FY27, fueled by Pantene and SK-II. Can this momentum boost overall growth?",
+          "publisher": "Zacks",
+          "published_at": "2026-11-09T15:33:00Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/procter-gambles-beauty-momentum-enough-153300699.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "National Advertising Division Found Unilever\u2019s Dove Deep Moisture Body Wash Claims Supported",
+          "summary": "In a challenge brought by The Procter & Gamble Company, BBB National Programs\u2019 National Advertising Division determined that Unilever United States, Inc. supported the challenged express and implied claims that Dove Deep Moisture Body Wash moisturizes skin for 24 hours, nourishes skin, and provides \u201cDeep Moisture.\u201dNew York, NY, Nov. 09, 2026 (GLOBE NEWSWIRE) -- In a challenge brought by The Procter & Gamble Company, BBB National Programs\u2019 National Advertising Division determined that Unilever Un",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:00:00Z",
+          "url": "https://finnhub.io/api/news?id=ef0fcb9529ff5174d3209e6cf9ad22018f7650614d120c74f9b8ad43216ba8dc"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "After the Democratic Midterm Sweep: 4 Dividend Stocks Built for Gridlock",
+          "summary": "When Congress locks up, some dividends barely notice. Four blue chips span power, soap, medicine and banking, and one of them already survived a payout collapse that income investors should not forget before trusting it.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-09T14:27:09Z",
+          "url": "https://247wallst.com/investing/2026/11/09/after-the-democratic-midterm-sweep-4-dividend-stocks-built-for-gridlock/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Benjamin Graham Had a 20-Year Rule for Retirement Income. It Just Won the AI Sell-Off",
+          "summary": "Benjamin Graham's rule for the defensive investor was uninterrupted dividends for at least 20 years. In the month since the S&P 500's record, five holdings that pass it rose 8.8% while the Nasdaq-100 fund fell 13.6%. Here is what that did to a retired couple with $3 million living on $99,265 a year of dividends, and three moves for the week.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-09T14:17:00Z",
+          "url": "https://247wallst.com/investing/2026/11/09/benjamin-graham-had-a-20-year-rule-for-retirement-income-it-just-won-the-ai-sell-off/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "3 Legacy Dividend Stocks That Never Go Out of Style",
+          "summary": "Coke, Tide and Kleenex have sat in American homes for generations, and the companies behind them keep raising their payouts. But one of these three Dividend Kings carries a debt load that could test its streak.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-09T13:18:50Z",
+          "url": "https://247wallst.com/investing/2026/11/09/3-legacy-dividend-stocks-that-never-go-out-of-style/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Here is What to Know Beyond Why Procter & Gamble Company (The) (PG) is a Trending Stock",
+          "summary": "P&G (PG) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
+          "publisher": "Zacks",
+          "published_at": "2026-11-09T13:00:04Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-procter-gamble-130004940.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "3 Top Dividend Stocks to Buy in November for a Lifetime of Passive Income",
+          "summary": "These three companies have built advantages that keep the cash flowing through good markets and bad.",
+          "publisher": "Motley Fool",
+          "published_at": "2026-11-09T11:45:00Z",
+          "url": "https://www.fool.com/investing/2026/11/09/3-top-dividend-stocks-buy-november-lifetime-income/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Take the Zacks Approach to Beat the Markets: Ulta Beauty, Accenture, HCA in Focus",
+          "summary": "Zacks highlights how its research strategies have delivered strong returns, with ACN, HCA and ULTA among the standout performers.",
+          "publisher": "Zacks",
+          "published_at": "2026-11-09T11:03:00Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-approach-beat-markets-ulta-110300678.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Procter & Gamble's Dividend Has Survived 26 Recessions. Here's What $10,000 Now Earns in Yearly Dividend Income.",
+          "summary": "P&G has paid a dividend through 26 recessions and raised it for 70 straight years. Here's what $10,000 earns today, and why the streak looks safe.",
+          "publisher": "Motley Fool",
+          "published_at": "2026-11-08T23:50:00Z",
+          "url": "https://www.fool.com/investing/2026/11/08/procter-gambles-dividend-has-survived-26-recession/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Volume, Not Price, Drove the Surprise at Procter & Gamble (PG)",
+          "summary": "Our latest list of the 10 Worst Dow Stocks To Buy is live, and Procter & Gamble (NYSE:PG) comes in at 8th on this list. Yahoo Finance reported on November 5 that the Dow Jones Industrial Average tumbled 3.4%, or more than 1,800 points, while the S&P 500 fell 4.4% and the Nasdaq Composite sank [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-08T17:33:29Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/volume-not-price-drove-surprise-173329362.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "This Dividend King Has Raised Its Payout Through Every Recession Since the 1950s. I'm Buying Before the End of the Year.",
+          "summary": "Procter & Gamble's dividend increase is one of the longest among U.S. companies and hasn't been interrupted by 10 recessions.",
+          "publisher": "Motley Fool",
+          "published_at": "2026-11-08T16:05:00Z",
+          "url": "https://www.fool.com/investing/2026/11/08/this-dividend-king-has-raised-its-payout-through/"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "What If You Add Gold And Cash To A Dividend Portfolio?",
+          "summary": "Part of our series on building a mix that lasts. Start here: is 60/40 dead.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T09:14:42Z",
+          "url": "https://finnhub.io/api/news?id=fa8b155b5856f03e564c73c30d5f7e498809329d4db2539642e8b255422f69dc"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Are Dividends The New Bonds?",
+          "summary": "Part of our series on building a mix that lasts. Start here: is 60/40 dead.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T09:14:37Z",
+          "url": "https://finnhub.io/api/news?id=6ec23ff2dbd237185016548aacc146b3d68b1c6c519f4f04b5b226bd6da94c73"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Is Your Retirement Portfolio Built For 2008 Or For 2022?",
+          "summary": "Part of our series on building a mix that lasts. Start here: is 60/40 dead.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T09:13:03Z",
+          "url": "https://finnhub.io/api/news?id=6ce12813797dccb5c6020230dac0cc076e1318b672026ece504275b506b38df0"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "What Does Procter & Gamble (PG) Mean By Raising $4 Billion In Debt?",
+          "summary": "Procter & Gamble (NYSE: PG) has issued US$4b of senior notes in a new long term debt financing deal. The multi tranche offering spreads maturities across several future dates, adding staggered repayment obligations to the balance sheet. Management has indicated the funds are intended to help address operating costs and support future investment plans. This US$4b senior notes issuance is important, but investors should weigh it alongside other financial signals and risks. Take a look at 2...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T04:24:57Z",
+          "url": "https://finnhub.io/api/news?id=e71e1379125ca604b5c4f1aa5b4ab2f625d4fc1eb4f57353331d3ec1a753d758"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Here's How Many Shares of Procter & Gamble You'd Need for $1,000 in Yearly Dividends",
+          "summary": "Even if generating $1,000 in dividend payouts from Procter & Gamble isn't in an investor's budget, it's still a stock worthy of investment consideration.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T20:35:00Z",
+          "url": "https://finnhub.io/api/news?id=6a54994a5c77cd701aa7dfe08cdf896a0108957da9f4c1313b636f0069ec4fe5"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dividend Champion, Contender, And Challenger Highlights: Week of November 8",
+          "summary": "Get the latest dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T18:30:37Z",
+          "url": "https://finnhub.io/api/news?id=179932ced585c47b91f7c497290f9405d62b1ac2a2bf533cfb1fe4d053589441"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "The Average 1-Year CD Pays Just 1.76%. These Dividend Stocks Could Pay More",
+          "summary": "A guaranteed bank rate sounds safe until you weigh what it can't do. Six blue-chip payers offer income that can grow, but a board can cut it at any meeting, and the tax bill may decide which side comes out ahead.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T18:17:53Z",
+          "url": "https://finnhub.io/api/news?id=c5be0092a088ebc8426b6b0f02ace9bcbe272dd5bf1a36f58c2c8b82e845a7d0"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "4 Dividend Raisers With Balance Sheets Strong Enough to Keep Raising Through Any Downturn",
+          "summary": "When profits dip, lenders get paid first and the dividend is usually what gets cut. Four household names have raised their payouts year after year, and one of them holds a credit rating almost no other U.S. company can match.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T14:17:48Z",
+          "url": "https://finnhub.io/api/news?id=f020726ecb0ac02c1f2126080ae50f10415c792d59aaa61aecb4b5439715f276"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Coca-Cola vs P&G: Staples Rotation Crowns a Clear Income Winner",
+          "summary": "Tech is bleeding while soda and detergent makers rally, and Jim Cramer wants to camp out in staples \"for a bit.\" Two dividend legends have very different runs behind them, and only one suits someone living off portfolio income.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T13:48:20Z",
+          "url": "https://finnhub.io/api/news?id=5cc51aaf2d25f332c6ef2fa88829686c558b0fadf24643c98433d568a041bd10"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Rate Hikes Could Be Coming: History Likes These 4 Consumer Staples Stocks",
+          "summary": "The Fed ended its pause, and traders now price in another hike by December. Three past tightening cycles reveal which household-name staples stocks protected portfolios, and one of them beat the market every single time.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T13:37:52Z",
+          "url": "https://finnhub.io/api/news?id=e86673e45f5f7834c6bc873a20a0225a55a076dccf96a63bba590ac1203cf540"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows",
+          "summary": "Nvidia&#39;s forward P/E fell to 15.2x, below Kimberly-Clark&#39;s 15.5x. The AI chipmaker now trades cheaper than 22 of 33 consumer staples stocks.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-05T19:36:27Z",
+          "url": "https://www.benzinga.com/markets/equities/26/11/62944321/nvidia-stock-cheaper-than-toilet-paper-company-kimberly-clark-forward-pe"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Procter & Gamble vs. Colgate-Palmolive: Which Dividend Stock Is Safer?",
+          "summary": "Both consumer giants beat earnings, yet their margins are moving in opposite directions as oil prices climb and a cautious U.S. shopper holds back. One dividend carries a thin balance sheet buffer, and retirees need to know which one.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T18:47:53Z",
+          "url": "https://finnhub.io/api/news?id=dfa0b63660d6b4288ff8623931acd8454a88102c8fc1399d7b724dce559714ca"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "The Procter & Gamble Company Announces Investor Day 2026",
+          "summary": "P&G will host its 2026 Investor Day on November 19, 2026, featuring a webcast presentation by the company's executive leadership team.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-05T16:01:39Z",
+          "url": "https://www.businesswire.com/newsroom/industry/retail/online-retail"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+          "summary": "Four sectors are higher and seven are lower in Thursday\u2019s regular session, with defensive sectors holding two of the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-05T16:00:23Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62931040/defensives-lead-sectors-thursday-as-growth-sectors-trail"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "General Mills Just Gained 15% in a Month: Take Profits, or Buy More?",
+          "summary": "Key TakeawaysGeneral Mills is up 15% in the past month, lifted by Procter & Gamble\u2019s and Kraft Heinz\u2019s quarterly reports while tech stocks sold off. General Mills had no news of its own behind the move, and Campbell\u2019s ran even further.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T15:24:44Z",
+          "url": "https://finnhub.io/api/news?id=7dd3ef32449da50dc2fea9d6d7ca110d8637cdecf7bfa3e2ff7c6f03fc6cfe0f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "3 Dependable Dividend Stocks for a $250,000 Passive Income Strategy",
+          "summary": "One of these dividend payers slashed its quarterly check in 2022, and another has a stock that has gone nowhere in five years. Why would a retiree still trust them with a third of a $250,000 income plan?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T14:43:28Z",
+          "url": "https://finnhub.io/api/news?id=bce9dbcb07568ff002b6a8e57fb5ca52a55a9a8f0b4f5d736474f9cb3d1bd0b5"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Procter & Gamble Chief Financial Officer Sells Shares Worth Over $5.5 Million",
+          "summary": "Procter & Gamble CFO Andre Schulten sold 33,624 shares of company stock for approximately $5.5 million.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-05T14:31:37Z",
+          "url": "https://www.tradingview.com/news/tradingview:10c5d5c7e3187:0-procter-gamble-chief-financial-officer-sold-shares-worth-over-5-5m/"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Coca-Cola Is Up 39% This Year. How Much of That Is Earnings and How Much Is Multiple?",
+          "summary": "Key TakeawaysCoca-Cola stock is up 39% this year, and the midterm rally sent it, Procter & Gamble and Colgate-Palmolive toward 52-week highs. Roughly three-quarters of Coca-Cola\u2019s gain came from investors paying a higher multiple, and only about a quarter from higher earnings estimates.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T12:39:14Z",
+          "url": "https://finnhub.io/api/news?id=1cd8e59ddad2f650b688497b8d866946669ea8b2797b30ff186fe566000c6d2d"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "P&G to Webcast Presentation From P&G Investor Day 2026, November 19",
+          "summary": "CINCINNATI, November 05, 2026--The Procter & Gamble Company (NYSE:PG) will webcast the presentation from the P&G Investor Day 2026 in Cincinnati, Ohio on Thursday, November 19, 2026, beginning at 2:00 p.m. ET (Eastern Time). Chairman of the Board, President and Chief Executive Officer, Shailesh Jejurikar; Chief Financial Officer, Andre Schulten; and the broader executive leadership team will discuss P&G\u2019s strategy and the long-term transformation underway to deliver balanced growth and value cre",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T12:00:00Z",
+          "url": "https://finnhub.io/api/news?id=74273872a0bdeadec7550b8598665a27e1fa558a36a20d1e395dc0deaa982d67"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "BEDY: This High-Yielding ETF Is Well Positioned Following The Midterms",
+          "summary": "Explore BNY Mellon Enhanced Dividend and Income ETF for 6.6% yield, monthly income, and diversification beyond tech.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-05T11:07:51Z",
+          "url": "https://finnhub.io/api/news?id=169f2632bc7315a6282081143a0413558a226751f42ae4aa6ce4c1d9c60ede1c"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Is Wall Street Bullish or Bearish on Procter & Gamble Stock?",
+          "summary": "Procter & Gamble has outpaced the broader market over the past year, and analysts remain moderately bullish about the stock\u2019s prospects.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T10:33:02Z",
+          "url": "https://finnhub.io/api/news?id=2e1abb85e680526d6f97e0c0fb5d8f3f806f0e34e3835b924ac49183a14084cf"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Here\u2019s Why Dividend Kings Coca-Cola, Procter & Gamble, and Colgate-Palmolive Are Hitting 52-Week Highs Following Midterm Election Results",
+          "summary": "Investors are piling into dependable dividend stocks following the midterm elections. But after their latest rallies, are these three Dividend Kings still worth buying?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T20:35:02Z",
+          "url": "https://finnhub.io/api/news?id=4214f121d9edadb298e76208e80c46b4d84e41a0252f2a5f14c31204ee00f427"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Walmart's Dec. 11 Dividend Isn't the Real Reason to Own the Stock",
+          "summary": "Walmart won't offer much in terms of income, but its ability to boost dividend payouts for 53 consecutive years shows the strength of its business model.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T16:50:00Z",
+          "url": "https://finnhub.io/api/news?id=1cce6d6b314b61aaf9445d37e2cce9bbdb4761d89f25ee07ffd01d4746d0e198"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Analyst Initiates Coverage on Procter & Gamble with Hold Rating",
+          "summary": "An analyst has initiated coverage on The Procter & Gamble Company with a 'Hold' rating and a price target of $170.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-04T16:01:47Z",
+          "url": "https://www.moomoo.com/hans/news/post/1003479257/bernstein-initiates-procter-gamble-pgus-with-hold-rating-announces-target"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+          "summary": "Eight of 11 sectors are higher in Wednesday\u2019s regular session, with growth sectors holding two of the top three positions and Consumer Staples completing the leading group. Energy sits well clear of the rest, separated from the next-weakest sector by a margin several times wider than any other gap in the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-04T16:00:34Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62872179/8-of-11-sectors-rise-wednesday-as-growth-leads"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Roth IRA vs. Taxable Account: How Much of $13,467 in Dividends Would You Keep?",
+          "summary": "A $500,000 portfolio of six blue-chip dividend growers kicks off thousands in annual income, but where you hold those shares determines how much of that income you actually get to keep.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T15:47:49Z",
+          "url": "https://finnhub.io/api/news?id=849ffa00b143f9d5610d453f889e4be19a66a4d4a48eabc29d08539872f9e811"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Inflation Is Running Above 3%. These 3 Dividend Stocks Have the Pricing Power to Keep Up.",
+          "summary": "When inflation eats into your dividend's buying power, pricing power becomes the one trait separating stocks that keep up from those that quietly fall behind. Three consumer giants are charging more and still selling more, and the gap between them matters more than most investors realize.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T15:17:41Z",
+          "url": "https://finnhub.io/api/news?id=12bf31d59d47116e203558e8bef60c7d61b0b107f80b34d5b52c5c90c89af066"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "me trying to write adorable PG fluff",
+          "author": "robocryptid.bsky.social",
+          "created_at": "2026-11-09T18:42:35.554Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robocryptid.bsky.social/post/3mzvldp4x7s2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Waterdrop Whole House Water Filter System, with Carbon Filter and Sediment Filter, 5-Stage Filtration, Highly Reduce Lead, Chlorine, Odor and Taste, 2-Stage 5 Micron WD-WHF21-PG, 1\" Inlet/Outlet #WholeHouseWaterFilter #TasteImprovement #5StageFiltration #WaterFilter",
+          "author": "brayman4k.bsky.social",
+          "created_at": "2026-11-09T18:41:17.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/brayman4k.bsky.social/post/3mzvlbjg5lb2m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Midnight Menagerie has updated on Plot Warren!\n\nplotwarren.com/w/bwillettco...",
+          "author": "bwillettcomics.bsky.social",
+          "created_at": "2026-11-09T18:37:44.318Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bwillettcomics.bsky.social/post/3mzvl2zf34c2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I was first exposed to Lord of the Rings when I was very young (the book-on-tape version), I saw the Jackson movies when I was a tween & teen. \"Wildwood\"-the-movie is rated PG-13 in the US, same rating as the Jackson movies.",
+          "author": "justinfalcone.com",
+          "created_at": "2026-11-09T18:32:34.076Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/justinfalcone.com/post/3mzvkrrjafs2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Take a Load Off - pg 6",
+          "author": "oblivias.bsky.social",
+          "created_at": "2026-11-09T18:31:52.891Z",
+          "likes": 109,
+          "reposts": 22,
+          "replies": 9,
+          "url": "https://bsky.app/profile/oblivias.bsky.social/post/3mzvkqkbevs2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Q: Do you roleplay? If so, what are your limits when roleplaying with someone else(like, what are you not ok with them doing)? \n\nA: I do roleplay, though its hard to find the time for it, and generally I have to know you. Generally no intercourse or bathroom kinks, PG-13 cheesecakey nonsense.",
+          "author": "caudlewag.bsky.social",
+          "created_at": "2026-11-09T18:26:14.243Z",
+          "likes": 10,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/caudlewag.bsky.social/post/3mzvkghbqoc2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "... Ik wacht op je college over Lebensborn, PG ...",
+          "author": "dirkdejager73.bsky.social",
+          "created_at": "2026-11-09T18:25:40.408Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/dirkdejager73.bsky.social/post/3mzvkfgz3qs2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "WIP of TDA Chap 2 PG 8. Wanting to do a lil experiment with the visuals and wanted to have a bit of an effect towards the end. Plus the dialog of the clock and all that. Tell me WDYT!\n\n#wip #hazbinhotel #hazbinhoteloc #helluvaboss #helluvabossoc #indiewebcomics #fanfiction #comics #twicedeadangel",
+          "author": "blaed007.bsky.social",
+          "created_at": "2026-11-09T18:21:29.024Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/blaed007.bsky.social/post/3mzvk5xblhs2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I was so excited about this movie when seeing the trailer until I saw that it is rated PG.",
+          "author": "bluenfee.bsky.social",
+          "created_at": "2026-11-09T18:13:23.356Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bluenfee.bsky.social/post/3mzvjpi44ec2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "We are....very lucky MoCo and PG don't have any uncalled races left given how many ballots they still have left to count (There WAS that one School Board race in MoCo but Omar Lazo's pulled ahead just enough not to leave any real suspense as to whether or not Brenda Diaz can catch up to him)",
+          "author": "skatingtomato.bsky.social",
+          "created_at": "2026-11-09T18:11:02.472Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/skatingtomato.bsky.social/post/3mzvjlbqmes2s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The gals get clocked by genre-savvy old ladies in today's Champion Chapter 3 Pg 16!\nThe comic: champion.thecomicseries.com | patreon.com/alegrafigeroid #comic #webcomic #illustration",
+          "author": "alfiggy.bsky.social",
+          "created_at": "2026-11-09T18:10:57.466Z",
+          "likes": 0,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/alfiggy.bsky.social/post/3mzvjl4xtpc2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "NAZA99 \u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c \u0e40\u0e27\u0e47\u0e1a\u0e17\u0e35\u0e48\u0e14\u0e35\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e13 \u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49 \ud83d\udd25 \n\n\u2705\u0e1e\u0e34\u0e01\u0e31\u0e14\u0e41\u0e08\u0e01 : ashernaza.lnkbio.site \n\u2705\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19 : @naza99999 ( \u0e21\u0e35 @ )\n\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07\u0e01\u0e32\u0e23\u0e40\u0e07\u0e34\u0e19\u0e0a\u0e31\u0e27\u0e23\u0e4c 100 % \ud83c\udf89\n\u0e1d\u0e32\u0e01 - \u0e16\u0e2d\u0e19 \u0e23\u0e30\u0e1a\u0e1a Auto \u0e23\u0e2d\u0e07\u0e23\u0e31\u0e1a \u0e18\u0e19\u0e32\u0e04\u0e32\u0e23 + \u0e27\u0e2d\u0e40\u0e25\u0e17\ud83d\udcb8\n#\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07 #\u0e2a\u0e25\u0e47\u0e2d\u0e15 #\u0e2a\u0e25\u0e47\u0e2d\u0e15pg #naza99io #naza99click",
+          "author": "phrwratnthewaratn.bsky.social",
+          "created_at": "2026-11-09T18:06:41.563Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/phrwratnthewaratn.bsky.social/post/3mzvjdiwef22i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "NAZA99 \u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c \u0e40\u0e27\u0e47\u0e1a\u0e17\u0e35\u0e48\u0e14\u0e35\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e13 \u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49 \ud83d\udd25 \n\n\u2705\u0e1e\u0e34\u0e01\u0e31\u0e14\u0e41\u0e08\u0e01 : ashernaza.lnkbio.site \n\u2705\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19 : @naza99999 ( \u0e21\u0e35 @ )\n\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07\u0e01\u0e32\u0e23\u0e40\u0e07\u0e34\u0e19\u0e0a\u0e31\u0e27\u0e23\u0e4c 100 % \ud83c\udf89\n\u0e1d\u0e32\u0e01 - \u0e16\u0e2d\u0e19 \u0e23\u0e30\u0e1a\u0e1a Auto \u0e23\u0e2d\u0e07\u0e23\u0e31\u0e1a \u0e18\u0e19\u0e32\u0e04\u0e32\u0e23 + \u0e27\u0e2d\u0e40\u0e25\u0e17\ud83d\udcb8\n#\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07 #\u0e2a\u0e25\u0e47\u0e2d\u0e15 #\u0e2a\u0e25\u0e47\u0e2d\u0e15pg #naza99io #naza99click",
+          "author": "thyadathrrmnity.bsky.social",
+          "created_at": "2026-11-09T18:04:05.516Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/thyadathrrmnity.bsky.social/post/3mzvj6u45r22p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I just remembered my grandfather picked me up and for some reason had to pretend I saw something PG, and I made up plot developments but don\u2019t remember that",
+          "author": "josephaisenberg13.bsky.social",
+          "created_at": "2026-11-09T18:01:19.635Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/josephaisenberg13.bsky.social/post/3mzvizvvtmk2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "! Luka Doncic PG LAL - Off Injury Report - Monday at ATL",
+          "author": "bbmalerts.bsky.social",
+          "created_at": "2026-11-09T18:00:35.0777835Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bbmalerts.bsky.social/post/3mzviylkpjb2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "NAZA99 \u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c \u0e40\u0e27\u0e47\u0e1a\u0e17\u0e35\u0e48\u0e14\u0e35\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e13 \u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49 \ud83d\udd25 \n\n\u2705\u0e1e\u0e34\u0e01\u0e31\u0e14\u0e41\u0e08\u0e01 : ashernaza.lnkbio.site \n\u2705\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19 : @naza99999 ( \u0e21\u0e35 @ )\n\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07\u0e01\u0e32\u0e23\u0e40\u0e07\u0e34\u0e19\u0e0a\u0e31\u0e27\u0e23\u0e4c 100 % \ud83c\udf89\n\u0e1d\u0e32\u0e01 - \u0e16\u0e2d\u0e19 \u0e23\u0e30\u0e1a\u0e1a Auto \u0e23\u0e2d\u0e07\u0e23\u0e31\u0e1a \u0e18\u0e19\u0e32\u0e04\u0e32\u0e23 + \u0e27\u0e2d\u0e40\u0e25\u0e17\ud83d\udcb8\n#\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07 #\u0e2a\u0e25\u0e47\u0e2d\u0e15 #\u0e2a\u0e25\u0e47\u0e2d\u0e15pg #naza99io #naza99click",
+          "author": "espresso12345.bsky.social",
+          "created_at": "2026-11-09T17:59:42.334Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/espresso12345.bsky.social/post/3mzviwz4j2s2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "NAZA99 \u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c \u0e40\u0e27\u0e47\u0e1a\u0e17\u0e35\u0e48\u0e14\u0e35\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e13 \u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49 \ud83d\udd25 \n\n\u2705\u0e1e\u0e34\u0e01\u0e31\u0e14\u0e41\u0e08\u0e01 : ashernaza.lnkbio.site \n\u2705\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19 : @naza99999 ( \u0e21\u0e35 @ )\n\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07\u0e01\u0e32\u0e23\u0e40\u0e07\u0e34\u0e19\u0e0a\u0e31\u0e27\u0e23\u0e4c 100 % \ud83c\udf89\n\u0e1d\u0e32\u0e01 - \u0e16\u0e2d\u0e19 \u0e23\u0e30\u0e1a\u0e1a Auto \u0e23\u0e2d\u0e07\u0e23\u0e31\u0e1a \u0e18\u0e19\u0e32\u0e04\u0e32\u0e23 + \u0e27\u0e2d\u0e40\u0e25\u0e17\ud83d\udcb8\n#\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07 #\u0e2a\u0e25\u0e47\u0e2d\u0e15 #\u0e2a\u0e25\u0e47\u0e2d\u0e15pg #naza99io #naza99click",
+          "author": "mocha0810.bsky.social",
+          "created_at": "2026-11-09T17:58:08.703Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mocha0810.bsky.social/post/3mzviu7t5jc27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "NAZA99 \u0e04\u0e32\u0e2a\u0e34\u0e42\u0e19\u0e2d\u0e2d\u0e19\u0e44\u0e25\u0e19\u0e4c \u0e40\u0e27\u0e47\u0e1a\u0e17\u0e35\u0e48\u0e14\u0e35\u0e17\u0e35\u0e48\u0e2a\u0e38\u0e14 \u0e13 \u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49 \ud83d\udd25 \n\n\u2705\u0e1e\u0e34\u0e01\u0e31\u0e14\u0e41\u0e08\u0e01 : ashernaza.lnkbio.site \n\u2705\u0e15\u0e34\u0e14\u0e15\u0e48\u0e2d\u0e41\u0e2d\u0e14\u0e21\u0e34\u0e19 : @naza99999 ( \u0e21\u0e35 @ )\n\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07\u0e01\u0e32\u0e23\u0e40\u0e07\u0e34\u0e19\u0e0a\u0e31\u0e27\u0e23\u0e4c 100 % \ud83c\udf89\n\u0e1d\u0e32\u0e01 - \u0e16\u0e2d\u0e19 \u0e23\u0e30\u0e1a\u0e1a Auto \u0e23\u0e2d\u0e07\u0e23\u0e31\u0e1a \u0e18\u0e19\u0e32\u0e04\u0e32\u0e23 + \u0e27\u0e2d\u0e40\u0e25\u0e17\ud83d\udcb8\n#\u0e2a\u0e25\u0e47\u0e2d\u0e15\u0e40\u0e27\u0e47\u0e1a\u0e15\u0e23\u0e07 #\u0e2a\u0e25\u0e47\u0e2d\u0e15 #\u0e2a\u0e25\u0e47\u0e2d\u0e15pg #naza99io #naza99click",
+          "author": "wrakrbawngam.bsky.social",
+          "created_at": "2026-11-09T17:57:36.915Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/wrakrbawngam.bsky.social/post/3mzvitbiyls2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "DOANL 2 Pg 25\n\nMr. Cotter\u2019s giving the new parole officer a special tour and showing him how he\u2019s keeping our favorite farm worker out of trouble. Wonder what the daddy dobbie will think of his best work attire! \ud83d\ude08 hot scene by @zourik.bsky.social",
+          "author": "aprowess.bsky.social",
+          "created_at": "2026-11-09T17:52:21.840Z",
+          "likes": 6,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/aprowess.bsky.social/post/3mzvijuzt2c2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The Dandy Robot's updated! One page today. Ruby thinking how glad that she's an only child. \n\n\ud83c\udf42 | #webcomics | #spiderforest | \ud83c\udf42\n\n\u2b50 READ HERE (for latest page): dandyrobotcomic.com \n\ud83e\udd16 BEGINNERS, START HERE: dandyrobotcomic.com?pg=1#showComic\n\ud83c\udf20 BACK-UP SITE: thedandyrobot.the-comic.org",
+          "author": "goodshipskypirate.bsky.social",
+          "created_at": "2026-11-09T17:42:55.346Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/goodshipskypirate.bsky.social/post/3mzvhyyrods2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Brand NEW Sporelings page (pg 23) for my Nebula peeps and TWO page drafts for my Supernovas just went up! \ud83c\udf1f",
+          "author": "morsyr.bsky.social",
+          "created_at": "2026-11-09T17:40:42.521Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/morsyr.bsky.social/post/3mzvhv244i22j"
+        },
+        {
+          "platform": "bluesky",
+          "text": "PG, \ud83d\ude4f\ud83e\udd1e",
+          "author": "haran-mcnally.bsky.social",
+          "created_at": "2026-11-09T17:27:12.637Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/haran-mcnally.bsky.social/post/3mzvh4vqh4c2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Tennis Shoes.\" Rated PG.\nThe remainder of the night passes uneventfully, if fitfully because while the room's main lights are off, the furschlugginer night light isn't, and it's driving me up a wall. Finally, at around a quarter after six, the study comes to a close and I can head home. 10/",
+          "author": "doodlesthegreat.bsky.social",
+          "created_at": "2026-11-09T17:19:10.484Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/doodlesthegreat.bsky.social/post/3mzvgojwbls2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "OUT OF TIME $559.50 needed for once wild & free mustangs & $1551 for 2 BLM burros #donate No amount to small If we get the 4 saved & get sponsors we will try & save 2 pg mares  #wildhorses #animallovers www.paypal.com/donate?hoste... account.venmo.com/u/SWMSC \nbuy.stripe.com/4gw7tI8sYdUJ...",
+          "author": "swmsc.bsky.social",
+          "created_at": "2026-11-09T16:53:27.895Z",
+          "likes": 1,
+          "reposts": 4,
+          "replies": 1,
+          "url": "https://bsky.app/profile/swmsc.bsky.social/post/3mzvfaks7ys2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "blueresearch.bsky.social",
+          "created_at": "2026-11-09T11:45:01-05:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/blueresearch.bsky.social/post/3mzvf4rm3hg2j"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#PrinceGeorge: 2000 block PG PULP MILL RD\n\nOut since Nov 9, 9:03 a.m. with < 5 customers out.\n\nCrew status: No crew assigned \n\nCause: Wind storm\n\nFor more information, see the outage details: https://www.bchydro.com/power-outages/app/outage-map.html#outage=2862308",
+          "author": "bcoutagerepeater.bsky.social",
+          "created_at": "2026-11-09T16:41:39.168631+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bcoutagerepeater.bsky.social/post/3mzvelgw5gy2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Laika Studios returns with its most ambitious endeavor yet, a PG-13 fantasy epic that showcases what stop-motion animation is capable of. #Wildwood #TwinCitiesGeeks twincitiesgeek.com/2026/11/wild...",
+          "author": "twincitiesgeek.com",
+          "created_at": "2026-11-09T16:35:15.105Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/twincitiesgeek.com/post/3mzve7zk6u42l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Celtics flip the script and dominate the Bucks! Huge nights Tatum, PG, and the bigs, Derrick White doing Derrick White things, and Joe Mazzulla out here hugging everyone. Philly's up next. \ud83c\udf40\n\nNew Locked On Celtics: https://linktr.ee/lockedonceltics",
+          "author": "johnkaralis.com",
+          "created_at": "2026-11-09T16:34:15.378Z",
+          "likes": 6,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/johnkaralis.com/post/3mzve67pkks27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I think Mike was right that if this came out when we were kids, it would have been PG. It is violent, but ok for a seven year old who loves the Hobbit and Redwall and hated Indiana Jones",
+          "author": "littlefreaklibrary.bsky.social",
+          "created_at": "2026-11-09T16:33:37.023Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/littlefreaklibrary.bsky.social/post/3mzve533o3k24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "It is rated PG-13 for good reason (violence, dark themes, a swear, intense moments) but I think it is a strong contender for a Best Picture nomination. I can't stop thinking about it.",
+          "author": "karenho.bsky.social",
+          "created_at": "2026-11-09T16:31:09.023Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/karenho.bsky.social/post/3mzvdynx2tk2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "SEVO GTS PG 8107 Electric Grill with Lid and Base Frame, Electric Standing Grill, in 10 Minutes up to 500 C, Balcony Grill with OLED Display, for Indoor and Outdoor Use, 3,000 W, Stainless #steak #balconygrill #indooroutdoor #grill #cooking",
+          "author": "brayman4k.bsky.social",
+          "created_at": "2026-11-09T16:26:53.000Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/brayman4k.bsky.social/post/3mzvdr6qz6x2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Nope it\u2019s Brett Gelman\u2026but admittedly he looks like a tall bearded PG",
+          "author": "sarahhans.bsky.social",
+          "created_at": "2026-11-09T16:26:12.730Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/sarahhans.bsky.social/post/3mzvdptex6k22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Comic: Blasting Bod-Ongos Pg.9\n\nThey say you are what you eat, and this Bodongo is sure starting to look like a bomb!\n\nSee the next sketched page a month earlier on Patreon with the $5 Tier! www.patreon.com/Narkoto",
+          "author": "the-narutoshi.bsky.social",
+          "created_at": "2026-11-09T16:24:06.405Z",
+          "likes": 140,
+          "reposts": 23,
+          "replies": 4,
+          "url": "https://bsky.app/profile/the-narutoshi.bsky.social/post/3mzvdm2vvu22m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udd34 $PG \u2014 Schulten Andre, Chief Financial Officer\nSOLD: 30,677 shares @ $169.00\nTotal: $5.2M\nFiled Nov 4, 2026 \u00b7 7:00pm ET\n\ud83d\udcc8 History & trend \u2192 https://www.formdelta.com/ticker/PG\n\n#InsiderTrading #PG #StockMarket",
+          "author": "formdelta.bsky.social",
+          "created_at": "2026-11-09T16:19:00.927926618Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/formdelta.bsky.social/post/3mzvdcxz4ph2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Comic: SplashOut Pg.11\n\nHurry!\nCan't forget the belly sticker!\n\nThis is a collaborative comic between me and Bod!\nIt is posted bi-weekly~\n\nSee 4 pages ahead on Patreon with the $5 Tier! www.patreon.com/Narkoto",
+          "author": "the-narutoshi.bsky.social",
+          "created_at": "2026-11-09T16:16:12.179Z",
+          "likes": 80,
+          "reposts": 13,
+          "replies": 0,
+          "url": "https://bsky.app/profile/the-narutoshi.bsky.social/post/3mzvd5wnpis2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The 10 mg/week put me around 1020 pg/ml I think.",
+          "author": "sippycuppsycho.northsky.social",
+          "created_at": "2026-11-09T16:08:56.006Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/sippycuppsycho.northsky.social/post/3mzvcqwomgc26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Gray Davis was my governor until my PG&E bills were suddenly unaffordable and then he was recalled and the next thing I know Arnold Schwarzenegger was signing my diploma.",
+          "author": "jessecouk.bsky.social",
+          "created_at": "2026-11-09T16:05:12.063Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/jessecouk.bsky.social/post/3mzvckb4lx22q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udea8 $PG\nSchulten Andre (Chief Financial Officer) sold 30,677 shares at an average price of $169.0000 per common share. (Date: 2026-11-05)",
+          "author": "quant-hub.bsky.social",
+          "created_at": "2026-11-09T16:02:30.484880+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-hub.bsky.social/post/3mzvcfi6mqr2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udea8 $PG\nSantos de Azevedo Juliana Monteiro (CEO - Grooming) sold 5,370 shares at an average price of $169.0000 per common share. (Date: 2026-11-05)",
+          "author": "quant-hub.bsky.social",
+          "created_at": "2026-11-09T16:01:22.491289+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-hub.bsky.social/post/3mzvcdhehn32u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The Spanish want Gibraltar decolonized and returned under the terms of the Treaty of Utrecht. But there is a problem with this...\nTreaty of Utrecht Return Clause:(1 pg)\nwww.academia.edu/37913231/Gib...",
+          "author": "britbob1.bsky.social",
+          "created_at": "2026-11-09T15:54:56.783Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/britbob1.bsky.social/post/3mzvbxwdkpk2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "A Single 15-Minute Spike Sets a Fleet Depot\u2019s Overage Fee\n\nhttps://www.byteseu.com/2509314/\n\nOne quarter-hour over the subscribed kilowatts sets a depot\u2019s monthly overage charge, which puts dispatch timing on the electric bill. At a truck depot on Pacific Gas and Electric\u2019s (PG&E) commercial \u2026",
+          "author": "byteseu.bsky.social",
+          "created_at": "2026-11-09T15:52:24+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/byteseu.bsky.social/post/3mzvbti62tm2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Call for Papers for the 19th edition of Pons Aelius, the postgraduate journal for the School of History, Classics, and Archaeology at Newcastle University. a supportive environment for PG and ECRs to gain experience of the publishing process and receive feedback from like-minded peers.",
+          "author": "sshmedicine.bsky.social",
+          "created_at": "2026-11-09T15:48:11.266Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/sshmedicine.bsky.social/post/3mzvbltm7xs2k"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The link goes to the wrong page.  It should go to pg 180 instead of 18.\nwww.empoweredcomic.com/comic/volume...",
+          "author": "crelam.bsky.social",
+          "created_at": "2026-11-09T15:40:45.266Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/crelam.bsky.social/post/3mzvb6kbjy22k"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#Share OUT OF TIME $667 needed for once wild & free mustangs & $1551 for 2 BLM burros #donate No amount to small If we get the 4 saved & get sponsors we will try & save 2 pg mares paypal.com/donate?hoste... account.venmo.com/u/SWMSC buy.stripe.com/4gw7tI8sYdUJ...  #wildhorses #animallovers",
+          "author": "swmsc.bsky.social",
+          "created_at": "2026-11-09T15:38:04.832Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/swmsc.bsky.social/post/3mzvazrbcc22t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Film: After the Sunset (2004) [PG-13]\nStudio: New Line Cinema\nCharacter: Max Burdett\nActor: Pierce Brosnan\nDirector: Brett Ratner\nScreenwriters: Paul Zbyszewski and Craig Rosenberg\nTimestamp: 0:18:05\n\ncinematicfbombs.com/2023/04/13/2...",
+          "author": "cinematicfbombs.com",
+          "created_at": "2026-11-09T15:31:03.048Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/cinematicfbombs.com/post/3mzvan6zyty2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Covenant of the Sacrifice has updated on ComicFury! Nebka tries to lighten the mood with a joke. It doesn't go over well. #monsterfucker \ud83d\udd1e\n\ncovenant-of-the-sacrifice.thecomicseries.com/comics/107/",
+          "author": "quintialmondi.bsky.social",
+          "created_at": "2026-11-09T15:24:33.526Z",
+          "likes": 6,
+          "reposts": 2,
+          "replies": 1,
+          "url": "https://bsky.app/profile/quintialmondi.bsky.social/post/3mzvablkd6k2j"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Exciting news for our community as PG&E pledges nearly $4 million over the next two years to support local initiatives tied to Diablo Canyon! \n\nLearn more here\n\n#CA #CitizenPortal #EnergyPolicy #CommunityFunding",
+          "author": "citizenptnewsca.bsky.social",
+          "created_at": "2026-11-09T15:21:52.849Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/citizenptnewsca.bsky.social/post/3mzva4sjvns2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "3\u5e74\u751f\u304c\u3069\u306e\u304f\u3089\u3044\u5c45\u308b\u304b\u306b\u3082\u3088\u308b\u3051\u3069\u3001\ud83d\udc0d\u306f\u5272\u3068\u51fa\u756a\u591a\u3081\u306a\u63a7\u3048\u304b\u76f8\u624b\u6b21\u7b2c\u3067\u306f\u30b9\u30bf\u30e1\u30f3\u5165\u308a\u3057\u3066\u305d\u3046\u3000\u30dd\u30b8\u30b7\u30e7\u30f3\u306fPG\u304bSF\u304b\u306a\u3041\u3000\u3042\u3068\u7d76\u5bfe\u30de\u30fc\u30af\u3057\u3064\u3053\u3044\u3067\u6709\u540d",
+          "author": "amrnoyo.bsky.social",
+          "created_at": "2026-11-09T15:21:11.453Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/amrnoyo.bsky.social/post/3mzva3kwjyz2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Well, I finally got out of bed. \n\nBee-amazing, pg, no help\n\nStrands #981\n\u201cIdle chatter\u201d\n\ud83d\udfe1\ud83d\udd35\ud83d\udd35\ud83d\udd35\n\ud83d\udd35\ud83d\udd35\n\nWordle 1,969 6/6\n\n\u2b1b\u2b1b\u2b1b\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\u2b1b\ud83d\udfe8\u2b1b\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1b\u2b1b\n\u2b1b\ud83d\udfe9\u2b1b\ud83d\udfe9\ud83d\udfe8\n\u2b1b\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\ude44\n\nMini-1:08\nMidi-3:11\n\nConnections\nPuzzle #1247\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfea\ud83d\udfea\ud83d\udfea\ud83d\udfea\n\ud83d\udfe6\ud83d\udfe6\ud83d\udfe6\ud83d\udfe6\n\nMake it thru today onto a good week. \n\nI\u2019ll be back tomorrow\ud83e\udd1e. I hope U R 2.",
+          "author": "lakeloonatic.bsky.social",
+          "created_at": "2026-11-09T15:10:44.075Z",
+          "likes": 22,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/lakeloonatic.bsky.social/post/3mzv7iujhhk2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "When you think seriously about what someone should or shouldn\u2019t be watching, you quickly realise that violence and even nudity come in levels.\n\nNaruto is PG cos of the blood but like DBZ it is fundamentally a kids\u2019 show for children.\n\nHigurashi meanwhile is shocking & creepy even without the gore.",
+          "author": "fishladyabs.bsky.social",
+          "created_at": "2026-11-09T15:08:12.104Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/fishladyabs.bsky.social/post/3mzv7edlle22d"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-11-03",
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Other events",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026069608/pg-20261103.htm"
+        },
+        {
+          "filing_date": "2026-11-02",
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Other events",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026068909/pg-20261102.htm"
+        },
+        {
+          "filing_date": "2026-10-30",
+          "items": [
+            "8.01",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Other events",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026068591/pg-20261030.htm"
+        },
+        {
+          "filing_date": "2026-10-22",
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Investor disclosure (Reg FD)",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000252/pg-20261022.htm"
+        },
+        {
+          "filing_date": "2026-10-22",
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000250/pg-20261022.htm"
+        },
+        {
+          "filing_date": "2026-10-16",
+          "items": [
+            "5.07"
+          ],
+          "item_meanings": [
+            "Shareholder vote results"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000245/pg-20261016.htm"
+        },
+        {
+          "filing_date": "2026-10-13",
+          "items": [
+            "7.01",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Investor disclosure (Reg FD)",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000214/pg-20261013.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 50,
+      "total_post_likes": 396,
+      "major_8k_events": [
+        "Other events",
+        "Financial statements and exhibits",
+        "Other events",
+        "Financial statements and exhibits",
+        "Other events",
+        "Financial statements and exhibits",
+        "Investor disclosure (Reg FD)",
+        "Financial statements and exhibits",
+        "Earnings results",
+        "Financial statements and exhibits",
+        "Shareholder vote results",
+        "Investor disclosure (Reg FD)",
+        "Financial statements and exhibits"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "PG",
+    "score": 8,
+    "verdict": "tailwind",
+    "market_regime": "risk-off",
+    "confidence": "medium",
+    "strengths": [
+      "Sector outperformance against SPY by 8.43% over the last 90 days, indicating strong demand.",
+      "Beta of 0.361 suggests that PG is less volatile than the market, providing stability."
+    ],
+    "risks": [
+      "VIX at 28.18 indicates a level of fear in the market, which could affect consumer spending.",
+      "SMA 50 below current price indicates short-term weakness despite being above the 200-day average."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI report",
+      "2026-11-25: GDP report",
+      "2026-12-04: Jobs report"
+    ],
+    "missing_data": [],
+    "summary": "The macro environment shows a stable backdrop for Procter & Gamble, with a lower beta indicating less risk in uncertain times. The Consumer Defensive sector has significantly outperformed the broader market, providing a supportive outlook. While the VIX reflects some fear, the overall stability and demand for consumer staples like PG suggest a favorable position amid inflationary pressures.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "PG",
+        "sector": "Consumer Defensive",
+        "beta": 0.361,
+        "sector_etf": "XLP",
+        "sector_vs_spy_90d": {
+          "sector_return": 0.0885,
+          "spy_return": 0.0042,
+          "sector_outperformance": 0.0843
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 0.361,
+      "sector_outperformance": 0.0843
+    }
+  }
+}

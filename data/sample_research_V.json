@@ -1,0 +1,1224 @@
+{
+  "fundamentals": {
+    "ticker": "V",
+    "score": 9,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "Fiscal 2026 net revenue of 45,903,000,000, up 15% year over year (2025: 40,000,000,000).",
+      "Fiscal 2026 net income of 23,504,000,000, up 17% year over year (2025: 20,058,000,000).",
+      "Operating margin of 0.6124 and net margin of 0.512 indicate highly profitable operations at scale.",
+      "Operating cash flow of 23,728,000,000 in fiscal 2026 supports strong cash generation (OCF has grown alongside revenue).",
+      "Balance sheet shows substantial liquidity with cash and equivalents of 12.94B and total assets of 94.36B; debt levels are manageable within a diversified liquidity base (long-term debt ~19.36B; total debt ~22.07B).",
+      "Value-Added Services (VAS) growth remained robust, with VAS revenue up 31% in fiscal 2026 and nine-month VAS growth of ~33% for 2026 year-to-date, driven by Issuing Solutions, Advisory and Other Services, and cross-selling opportunities.",
+      "Strategic acquisitions completed in 2026 (Prisma and Newpay for 1.5B) expanding issuer processing and real-time payments capabilities, supported by accompanying disclosures on integration and expected synergies.",
+      "Active capital allocation: sizable share repurchases (~20.5B in fiscal 2026) and dividends (~5.1B in fiscal 2026 with a higher quarterly dividend enacted), plus remaining authorization for further buybacks."
+    ],
+    "risks": [
+      "Litigation exposure remains substantial: U.S. Interchange MDL and related settlements, with a 9/30/2026 U.S. litigation escrow balance of 628M and a nine-month addition of 1.1B toward MDL provisions, illustrating ongoing liquidity commitments and potential future cash outlays.",
+      "VE territory litigation exposure continues to be managed via the Europe retrospective responsibility plan, with VE territory losses and related as-converted recoveries (e.g., VE losses balance and convertibility adjustments) subject to periodic adjustments and market movements.",
+      "Regulatory risk remains material: ongoing global regulation of interchange reimbursement rates, routing restrictions, cross-border rules, privacy and AI, and potential local data localization requirements could compress margins or constrain growth in certain markets.",
+      "Concentration risk exists: one client accounted for about 11% of net revenue in fiscal 2026, raising client concentration concerns if large clients reevaluate partnerships.",
+      "Tax and regulatory uncertainty persists: significant unrecognized tax benefits and evolving global tax rules (including global minimum tax considerations) could impact reported results and cash tax outlays.",
+      "Cybersecurity and AI risk: increasing use of AI and evolving cybersecurity regulation could impose additional compliance costs and risk of data-related incidents, potentially affecting trust and spend on value-added services."
+    ],
+    "missing_data": [
+      "gross_margin",
+      "roe",
+      "debt_to_equity",
+      "free_cash_flow"
+    ],
+    "summary": "Visa (V) demonstrates a healthy and improving fundamentals profile. The company posted 2026 net revenue of 45.903B and net income of 23.504B, with operating and net margins of 61.24% and 51.2% respectively, signaling high profitability at scale. Substantial cash generation is evident from an operating cash flow of 23.728B and a robust balance sheet (cash ~12.94B; total assets ~94.36B; total debt ~22.07B; equity ~36.11B). Growth is broad-based, with nine-month revenue growth around 15% and value-added services growth of about 31% in 2026, underpinned by cross-border and non-card payment momentum. The company completed Prisma and Newpay acquisitions in 2026, expanding issuer processing and real-time payments capabilities, which should support longer-term growth. However, risk factors from the filings include ongoing Interchange MDL and VE territory litigation, regulatory risk around interchange and cross-border rules, client concentration risk (one large client contributing ~11% of revenue), tax uncertainties, and cybersecurity/AI regulatory exposures. Overall, the business appears healthy and improving, with strong profitability, solid cash generation, and strategic scale benefits, though management must navigate meaningful regulatory, legal, and concentration-related risks going forward.",
+    "data": {
+      "ticker": "V",
+      "cik": "0001403161",
+      "annual": {
+        "revenue": {
+          "2023-09-30": 32653000000,
+          "2024-09-30": 35926000000,
+          "2025-09-30": 40000000000,
+          "2026-09-30": 45903000000
+        },
+        "gross_profit": {},
+        "operating_income": {
+          "2023-09-30": 21000000000,
+          "2024-09-30": 23595000000,
+          "2025-09-30": 23994000000,
+          "2026-09-30": 28110000000
+        },
+        "net_income": {
+          "2023-09-30": 17273000000,
+          "2024-09-30": 19743000000,
+          "2025-09-30": 20058000000,
+          "2026-09-30": 23504000000
+        },
+        "operating_cash_flow": {
+          "2023-09-30": 20755000000,
+          "2024-09-30": 19950000000,
+          "2025-09-30": 23059000000,
+          "2026-09-30": 23728000000
+        },
+        "capex": {},
+        "total_assets": {
+          "2023-09-30": 90499000000,
+          "2024-09-30": 94511000000,
+          "2025-09-30": 99627000000,
+          "2026-09-30": 94360000000
+        },
+        "current_assets": {
+          "2023-09-30": 33532000000,
+          "2024-09-30": 34033000000,
+          "2025-09-30": 37766000000,
+          "2026-09-30": 30486000000
+        },
+        "current_liabilities": {
+          "2023-09-30": 23098000000,
+          "2024-09-30": 26517000000,
+          "2025-09-30": 35048000000,
+          "2026-09-30": 31588000000
+        },
+        "total_liabilities": {
+          "2023-09-30": 51766000000,
+          "2024-09-30": 55374000000,
+          "2025-09-30": 61718000000,
+          "2026-09-30": 58249000000
+        },
+        "equity": {
+          "2008-09-30": 21141000000,
+          "2009-09-30": 23189000000,
+          "2010-09-30": 25011000000,
+          "2011-09-30": 26437000000
+        },
+        "cash": {
+          "2023-09-30": 16286000000,
+          "2024-09-30": 11975000000,
+          "2025-09-30": 17164000000,
+          "2026-09-30": 12938000000
+        },
+        "long_term_debt": {
+          "2023-09-30": 20463000000,
+          "2024-09-30": 20836000000,
+          "2025-09-30": 19602000000,
+          "2026-09-30": 19355000000
+        }
+      },
+      "quarterly": {
+        "revenue": {
+          "2024-03-31": 8775000000,
+          "2024-06-30": 8900000000,
+          "2024-12-31": 9510000000,
+          "2025-03-31": 9594000000,
+          "2025-06-30": 10172000000,
+          "2025-12-31": 10901000000,
+          "2026-03-31": 11230000000,
+          "2026-06-30": 11633000000
+        },
+        "gross_profit": {},
+        "operating_income": {
+          "2024-03-31": 5354000000,
+          "2024-06-30": 5938000000,
+          "2024-12-31": 6234000000,
+          "2025-03-31": 5435000000,
+          "2025-06-30": 6177000000,
+          "2025-12-31": 6737000000,
+          "2026-03-31": 7234000000,
+          "2026-06-30": 6877000000
+        },
+        "net_income": {
+          "2024-03-31": 4663000000,
+          "2024-06-30": 4872000000,
+          "2024-12-31": 5119000000,
+          "2025-03-31": 4577000000,
+          "2025-06-30": 5272000000,
+          "2025-12-31": 5853000000,
+          "2026-03-31": 6021000000,
+          "2026-06-30": 5628000000
+        },
+        "operating_cash_flow": {
+          "2018-12-31": 3294000000,
+          "2019-12-31": 3875000000,
+          "2020-12-31": 3513000000,
+          "2021-12-31": 4232000000,
+          "2022-12-31": 4171000000,
+          "2023-12-31": 3614000000,
+          "2024-12-31": 5396000000,
+          "2025-12-31": 6780000000
+        },
+        "capex": {},
+        "total_assets": {
+          "2024-09-30": 94511000000,
+          "2024-12-31": 91888000000,
+          "2025-03-31": 92853000000,
+          "2025-06-30": 100024000000,
+          "2025-09-30": 99627000000,
+          "2025-12-31": 96814000000,
+          "2026-03-31": 95049000000,
+          "2026-06-30": 94590000000
+        },
+        "current_assets": {
+          "2024-09-30": 34033000000,
+          "2024-12-31": 32622000000,
+          "2025-03-31": 32934000000,
+          "2025-06-30": 38398000000,
+          "2025-09-30": 37766000000,
+          "2025-12-31": 34997000000,
+          "2026-03-31": 31625000000,
+          "2026-06-30": 31002000000
+        },
+        "current_liabilities": {
+          "2024-09-30": 26517000000,
+          "2024-12-31": 29091000000,
+          "2025-03-31": 30381000000,
+          "2025-06-30": 34427000000,
+          "2025-09-30": 35048000000,
+          "2025-12-31": 31491000000,
+          "2026-03-31": 29076000000,
+          "2026-06-30": 31467000000
+        },
+        "total_liabilities": {
+          "2024-09-30": 55374000000,
+          "2024-12-31": 53592000000,
+          "2025-03-31": 54823000000,
+          "2025-06-30": 61360000000,
+          "2025-09-30": 61718000000,
+          "2025-12-31": 58037000000,
+          "2026-03-31": 59388000000,
+          "2026-06-30": 59412000000
+        },
+        "equity": {
+          "2009-09-30": 23189000000,
+          "2009-12-31": 23472000000,
+          "2010-03-31": 23983000000,
+          "2010-06-30": 24676000000,
+          "2010-09-30": 25011000000,
+          "2010-12-31": 25541000000,
+          "2011-03-31": 26151000000,
+          "2011-06-30": 26050000000
+        },
+        "cash": {
+          "2024-09-30": 11975000000,
+          "2024-12-31": 12367000000,
+          "2025-03-31": 11734000000,
+          "2025-06-30": 17092000000,
+          "2025-09-30": 17164000000,
+          "2025-12-31": 14756000000,
+          "2026-03-31": 12404000000,
+          "2026-06-30": 12359000000
+        },
+        "long_term_debt": {
+          "2024-09-30": 20836000000,
+          "2024-12-31": 16680000000,
+          "2025-03-31": 16814000000,
+          "2025-06-30": 19590000000,
+          "2025-09-30": 19602000000,
+          "2025-12-31": 19588000000,
+          "2026-03-31": 22417000000,
+          "2026-06-30": 20862000000
+        }
+      },
+      "ratios": {
+        "fiscal_year_end": "2026-09-30",
+        "gross_margin": null,
+        "operating_margin": 0.6124,
+        "net_margin": 0.512,
+        "revenue_growth_yoy": 0.1476,
+        "roe": null,
+        "debt_to_equity": null,
+        "current_ratio": 0.9651,
+        "free_cash_flow": null,
+        "latest_quarter_end": "2026-06-30",
+        "latest_quarter_net_margin": 0.4838,
+        "quarter_revenue_growth_yoy": 0.1436
+      }
+    },
+    "key_metrics": {
+      "fiscal_year_end": "2026-09-30",
+      "revenue_growth_yoy": 0.1476,
+      "quarter_revenue_growth_yoy": 0.1436,
+      "net_margin": 0.512
+    }
+  },
+  "technical": {
+    "ticker": "V",
+    "score": 8,
+    "verdict": "bullish",
+    "trend": "uptrend",
+    "confidence": "high",
+    "strengths": [
+      "Price at 424.8 is above both 50-day (386.73) and 200-day (344.49) moving averages.",
+      "RSI at 64.29 indicates healthy momentum, not overbought yet.",
+      "Outperforming SPY with a return of 0.1911 versus 0.0042."
+    ],
+    "risks": [],
+    "missing_data": [],
+    "summary": "The current price of V shows a strong uptrend, as it is above both the 50-day and 200-day moving averages. The RSI of 64.29 indicates that it still has some room for upward momentum without being overbought. Additionally, V is significantly outperforming the market (SPY), which further supports a bullish outlook.",
+    "data": {
+      "indicators": {
+        "price": 424.8,
+        "sma_50": 386.73,
+        "sma_200": 344.49,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 64.29,
+        "volatility_20d": 0.2682
+      },
+      "relative_strength": {
+        "stock_return": 0.1911,
+        "spy_return": 0.0042,
+        "outperformance": 0.1869
+      }
+    },
+    "key_metrics": {
+      "price": 424.8,
+      "above_sma_50": true,
+      "above_sma_200": true,
+      "rsi_14": 64.29,
+      "volatility_20d": 0.2682,
+      "outperformance": 0.1869
+    }
+  },
+  "news": {
+    "ticker": "V",
+    "score": 8,
+    "sentiment": "positive",
+    "crowd_mood": "neutral",
+    "confidence": "high",
+    "key_events": [
+      "2026-10-27: Visa's Q4 earnings report indicated robust revenues of $12.1 billion, with a significant net profit margin over 50%. This suggests strong profitability for the company.",
+      "2026-11-06: Visa raised its quarterly dividend by 16%, demonstrating confidence in its cash flow and financial stability.",
+      "2026-11-06: Visa established six global capability hubs in Singapore, aimed at enhancing its technology in AI and cybersecurity, which positions Visa well for future growth."
+    ],
+    "strengths": [
+      "Visa is seeing over 20% growth in services, showcasing strong business momentum. (Source: MarketBeat)"
+    ],
+    "risks": [
+      "Recent reports indicate that ETFs have sold about $202.7 million worth of Visa stock, suggesting mixed investor sentiment. (Source: GuruFocus)"
+    ],
+    "missing_data": [],
+    "summary": "Recently, Visa has reported strong Q4 earnings with significant revenues and a raised dividend, indicating financial health and organizational confidence. However, there has been notable selling pressure from ETFs, indicating that market sentiment remains mixed. Overall, the positive financial indicators suggest a favorable outlook for Visa, although caution is warranted due to the selling activities from ETFs.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "yahoo",
+          "headline": "Visa Sees 20%\u2011Plus Services Growth as U.S. Payment Volumes Gain Momentum",
+          "summary": "Visa (NYSE:V) said its key business drivers remained stable and strong throughout October, while its value-added services business is expected to continue growing at a double-digit pace in fiscal 2027. Chief Financial Officer Chris Suh told Citi analyst Bryan Keane that the rest of October matched",
+          "publisher": "MarketBeat",
+          "published_at": "2026-11-09T16:15:14Z",
+          "url": "https://www.marketbeat.com/instant-alerts/event-visa-sees-20plus-services-growth-as-us-payment-volumes-gain-momentum-2026-11-09/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Global Payments Expands Adaptive Authentication Platform",
+          "summary": "ATLANTA, November 09, 2026--Global Payments today announced the expansion of its Adaptive Authentication platform with the addition of Visa Intelligent Data Exchange (IDX) API.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:30:00Z",
+          "url": "https://finnhub.io/api/news?id=4bcbe58ac33a150828ae3448c6229694a1de778b432f9e822941144821fccd46"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Byzfunder to Participate Alongside Leading Fintech Executives and Investors at Exclusive 2026 KBW Fintech Ecosystem Conference",
+          "summary": "Byzfunder, a leading technology-driven provider of small business financing, today announced its participation in the 2026 KBW Fintech Ecosystem Conference, taking place November 10\u201312 at Convene 30 Hudson Yards in New York City.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:07:00Z",
+          "url": "https://finnhub.io/api/news?id=9bc822ccdc36bf2a5519bc8e8dbbe8dc42f083805f92b649b14d5d67f7005b3c"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Latest News In Digital Payment - Malaysian Fintech Surge Driven By Digital Innovation",
+          "summary": "The Malaysian fintech market is witnessing robust growth driven by the proliferation of digital payments and neobanking, supported by strong smartphone adoption and extensive internet connectivity. With digital initiatives comprising a significant portion of government strategies, the expansion of cashless incentives and digital banking licensing are nurturing a favorable environment for fintech innovation. As digital payments dominate the fintech sector's market share, e-commerce growth and...",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-11-09T12:37:45Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/latest-news-digital-payment-malaysian-123745323.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Visa Inc. (V) Presents at Citi's 15th Annual FinTech Conference Transcript",
+          "summary": "Visa Inc. (V) Citi's 15th Annual FinTech Conference November 9, 2026 9:00 AM ESTCompany ParticipantsChristopher Suh - Chief Financial OfficerConference Call...",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-09T12:20:59Z",
+          "url": "https://finnhub.io/api/news?id=d3f0746865bc38e03b61b50d6afc3ed7b8ee1bc05d859e64b76640208331ae5c"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What State Street Fin Select Sector SPDR (XLF) Sold: Berkshire Leads on Thursday",
+          "summary": "The fund sold $737.7 million of stock on Thursday, trimming all 76 of its positions and adding nothing new.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T11:05:08Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110508454.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What SPDR Dow Jones Industrial Avg ETF (DIA) Sold: Goldman Leads on Nov. 5",
+          "summary": "The fund sold $1.08 billion of stock on Thursday, cutting all 30 positions and buying nothing.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T11:04:45Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-dow-jones-industrial-avg-110445805.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "ETFs Are Net Sellers of Visa (V) on Nov. 5",
+          "summary": "ETFs sold $202.7 million of Visa (V) on Thursday, with 18 sellers against 41 buyers.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T11:02:39Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-visa-v-110239420.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Are Wall Street Analysts Predicting Visa Stock Will Climb or Sink?",
+          "summary": "Over the past year, Visa has outperformed the broader market, and analysts remain highly optimistic about the stock's prospects.",
+          "publisher": "Barchart",
+          "published_at": "2026-11-09T10:42:36Z",
+          "url": "https://www.barchart.com/story/news/8730740/are-wall-street-analysts-predicting-visa-stock-will-climb-or-sink"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Visa (V): A 15% Revenue Gain at Scale, With 7% Average Analyst Upside",
+          "summary": "We recently covered the 10 Worst Dow Stocks To Buy in a new list, and Visa (NYSE:V) ranks 10th on this list. Yahoo Finance reported on November 5 that the Dow Jones Industrial Average tumbled 3.4%, or more than 1,800 points, while the S&P 500 fell 4.4% and the Nasdaq Composite sank 5.5% into correction [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-08T17:32:01Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-15-revenue-gain-173201141.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Wall Street Week Ahead",
+          "summary": "Preview the week ahead: October CPI, Fed speakers, AI IPO buzz, and key earnings.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-08T06:13:56Z",
+          "url": "https://finnhub.io/api/news?id=8ed77bcc6a5c0ce2a441198e80d91e1deef8ae0f8344e7149e21e0234b479b6d"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Ackman Calls Mastercard \u201cOne of the Greatest Businesses in the World.\u201d The Stock Is Up 33% in Six Months",
+          "summary": "Key TakeawaysMastercard closed at $653, about 4% below its 52-week high, after a 33% climb since early May. Third-quarter net revenue rose 14% to $9.",
+          "publisher": "TIKR",
+          "published_at": "2026-11-07T14:04:36Z",
+          "url": "https://www.tikr.com/blog/ackman-calls-mastercard-one-of-the-greatest-businesses-in-the-world-the-stock-is-up-33-in-six-months?ref=yahoofinance&tlnk=yf-261107-34hjhh6j"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "5 Relatively Secure And Cheap Dividend Stocks, Yields Up To 8% (November 2026)",
+          "summary": "This is part of our monthly series where we highlight five large-cap, relatively safe, dividend-paying companies offering significant discounts to their historical norms. Read it here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-07T08:05:00Z",
+          "url": "https://finnhub.io/api/news?id=2d7933e41c48901112f5efbd44f69b3100156c2961e77bc20e1d8a52ce4c781e"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Mark Zandi Says Strong Jobs Report Gives Fed \u2018Latitude To Raise Rates\u2019 as He Sees \u2018Very High Probability\u2019 of December Hike",
+          "summary": "Moody\u2019s Mark Zandi says strong October jobs data gives Fed room to hike rates.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-07T07:30:00Z",
+          "url": "https://www.benzinga.com/markets/macro-economic-events/26/11/63017434/mark-zandi-says-strong-jobs-report-gives-fed-latitude-to-raise-rates-as-he-sees-very-high-probability-of-december-hike"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "5 Best Stocks To Buy According to Billionaire Armitage",
+          "summary": "John Armitage has managed money since the early 1980s, and the record behind his firm is the reason investors keep an eye on his filings. He started Egerton Capital in London in 1994 with William Bollinger, after a career at Morgan Grenfell that began in 1981. There he ran a unit trust for six years [\u2026]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-11-07T04:12:08Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-stocks-buy-according-041208670.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Tencent Music (TME) Stock Looks Fairly Valued After Payments Partnership News",
+          "summary": "Tencent Music Entertainment Group has seen a sharp share price reset over the past year, which puts a spotlight on whether the current US$9.56 level is properly supported by the cash the business can generate. With sentiment swinging and fresh corporate developments in the background, the question now is how the stock price lines up against its intrinsic value based on those cash flows. The share price is down 53.9% over the past year, so the market has already repriced Tencent Music...",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-11-07T03:20:52Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tencent-music-tme-stock-looks-032052893.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Visa (V) Q4 Earnings Justified Strong Growth But Left Valuation Questions",
+          "summary": "Visa came into this Q4 2026 report priced for excellence. The stock has climbed about 13.6% over the past month and barely moved on the day of the release, up only 0.01%. This suggests expectations were already rich. Yet the headline print was powerful for a mature payments network, as quarterly revenue reached US$12.1b and basic earnings per share hit US$3.25. That mix of a flat immediate reaction and strong reported profitability, with a net profit margin above 50%, highlights where the...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T01:13:21Z",
+          "url": "https://finnhub.io/api/news?id=5fc189dac24c9ea70c66c7583db8b378d6f52ee27b31315e9301912569841640"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Mastercard Hit a Record as Visa Raised Its Dividend 16%. Here\u2019s Where Mastercard\u2019s Cash Goes",
+          "summary": "Key TakeawaysVisa raised its quarterly dividend 16% to $0. 78 a share, a 0.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T19:16:30Z",
+          "url": "https://finnhub.io/api/news?id=bd39b82c466f9ef686c3184426639bb2a99101ff7290e3eb9db3e92539eec0e2"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Visa Just Raised Its Dividend 16%. Free Cash Flow Shows Whether the Buybacks Can Keep Pace",
+          "summary": "Key TakeawaysVisa raised its quarterly dividend 16% to $0. 78 a share, but after a 30% gain over the past year the stock yields just 0.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T19:13:24Z",
+          "url": "https://finnhub.io/api/news?id=d4ec05206b9bed9bd02e122056cd36e8ec39c8b9c0f8168abbec393cbb3d9e85"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dividend Champion, Contender, And Challenger Highlights: Week of November 8",
+          "summary": "Get the latest dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T18:30:37Z",
+          "url": "https://finnhub.io/api/news?id=179932ced585c47b91f7c497290f9405d62b1ac2a2bf533cfb1fe4d053589441"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Late Payments Steal Affirm\u2019s Earnings Spotlight. Wall Street Sees More Run to Run.",
+          "summary": "Some Wall Street analysts say the credit anxieties have been overblown.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T18:30:00Z",
+          "url": "https://finnhub.io/api/news?id=b9f59acd7317a19135e40f323b02717584f2b624bf304bc0086b8ae4dd9d2999"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Why Is Visa (V) Building AI Shopping Standards And Six Singapore Hubs?",
+          "summary": "Visa (NYSE:V) launched its Agentic Commerce Benchmark, a new framework to evaluate AI powered shopping experiences. The benchmark focuses on measuring AI shopping agents for consistency, reliability, and trust in transaction processes. Visa created six global capability hubs in Singapore that target advanced payments, cybersecurity, quantum computing, and digital money infrastructure. The Agentic Commerce Benchmark and new Singapore hubs matter, but investors should weigh them alongside...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T18:13:00Z",
+          "url": "https://finnhub.io/api/news?id=b537e79f7628631047307331a248b07dbe21483123e468ad65d7f66ab9ed2812"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Is PayPal Stock Ready For A Year Of Higher Spending?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T17:25:37Z",
+          "url": "https://finnhub.io/api/news?id=5b13d93d719a549106b626c58c373bde68a44db43084627366c494d5061eb265"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Visa Establishes Global Capability Hubs in Singapore",
+          "summary": "Visa has announced the creation of six new global capability hubs at its Singapore Solution Center to advance technology in AI, cybersecurity, and payments.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-06T16:01:40Z",
+          "url": "https://glenbrook.com/payments_news/visa-establishes-global-capability-hubs-in-singapore-to-build-the-future-of-global-commerce/"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Affirm Q1 Earnings Beat Estimates on Strong GMV and Card Growth",
+          "summary": "AFRM beats Q1 fiscal 2027 earnings estimates as GMV surges 34% and cardholders more than double, while rising credit loss provisions weigh on gains.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T15:42:00Z",
+          "url": "https://finnhub.io/api/news?id=4db31661cdb291a072ed41bf42be55edfcb0382482813694914a2e324d8dff1e"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "55 Laurentian Bank branches to close by end of day, halting services",
+          "summary": "National Bank said Laurentian Bank products and services will be migrated to National Bank over the weekend",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T15:04:11Z",
+          "url": "https://finnhub.io/api/news?id=2dd4d919089d31ee5fe2fb51e4cc569033fcd7fc78c8c363330f101e83c794d9"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Top 20 S&P 500 Ranked By PEG Ratio After Massive Tech Route",
+          "summary": "Learn how the PEG ratio compares Apple, Microsoft, Nvidia and other mega-cap stocks to reveal growth-adjusted value.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T14:52:58Z",
+          "url": "https://finnhub.io/api/news?id=f896b8d63598a82fe40a4aab1f177a637fa12b0a556b1f8a8a135c768708d9e8"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Expensify, Inc. Q3 2026 Earnings Call Summary",
+          "summary": "Moby summary of Expensify, Inc.'s Q3 2026 earnings call",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T13:30:00Z",
+          "url": "https://finnhub.io/api/news?id=aec7add83165a84ffe68cf7892143448ddbbde5be4dc8ea96c24f59914b4d2cd"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Truist Raises Visa Price Target to $470",
+          "summary": "Truist has increased its price target for Visa shares while maintaining a 'buy' rating.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-06T13:01:35Z",
+          "url": "https://www.tradingview.com/news/gelonghui:43ffee1efacdf:0/"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Top Funds Feast On Shell, Microsoft, Palantir And 24 More Stocks",
+          "summary": "The best mutual funds place massive bets on Microsoft, Palantir and Apple. But that's just the start. See the full list here.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T13:00:49Z",
+          "url": "https://finnhub.io/api/news?id=f4b8547d5e0bc6abdc467fdbd8f2d1df97dea7e66b7ec30891cd553a40b9b4ac"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Mastercard's 19% Services Growth Steals the Q3 Show: Buy or Hold MA?",
+          "summary": "MA's Q3 services revenues jump 19% and adjusted EPS rises 21.2%, but rising incentives and a premium valuation raise questions about buying shares now.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T12:28:00Z",
+          "url": "https://finnhub.io/api/news?id=3c17501c89b14c0541c0ad15b5ce0fa979a50ef527e394f103bd2f47f243c889"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Visa Has Grown Earnings per Share by 17% a Year for a Decade. Can the Stock Keep Compounding?",
+          "summary": "Analysts expect the company to continue its streak of double-digit net income growth over the next three fiscal years.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:50:00Z",
+          "url": "https://finnhub.io/api/news?id=3f34f09bd3c4d283bb14601fda3bb41fddd1954dc77f7f1f7de4dacd0427c38d"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Nasdaq\u2019s 5.5% Wipeout And AI's Next Reality Check\u2014IRS' New Tax Brackets",
+          "summary": "AI stocks unravel as Cloudflare, Airbnb and the IRS deliver a very different set of numbers.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-06T11:38:52Z",
+          "url": "https://www.benzinga.com/opinion/26/11/62970305/nasdaq-wipeout-ai-next-reality-check-irs-new-tax-brackets"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Financial Select Sector SPDR (XLF) Buys $70.9 Million More Berkshire on Nov. 4",
+          "summary": "The fund added $547.3 million across all 76 holdings, led by a $70.9 million increase in Berkshire Hathaway.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:04:56Z",
+          "url": "https://finnhub.io/api/news?id=f2c7765f9d7a9d509f07ca1948a338cc61f148dfecf1c7122816a8ee792885de"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dow Jones Industrial Average ETF (DIA) Buys $96.4 Million More Goldman on Nov. 4",
+          "summary": "The fund added $932.2 million across all 30 of its positions, with no sales, on a day it held $45.93 billion in assets.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:04:37Z",
+          "url": "https://finnhub.io/api/news?id=285a2f91534bc78ea80308c3cd87a055158b3ce62d798662d31dbc1846b54f96"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Options Exercise: Rajat Taneja At Visa Realizes $10.68M",
+          "summary": "A substantial insider activity was disclosed on November 5, as Taneja, President at Visa (NYSE:V), reported the exercise of a large block of company stock options.\nWhat Happened: A Form 4 filing with the U.S. Securities",
+          "publisher": "Benzinga",
+          "published_at": "2026-11-06T11:01:53Z",
+          "url": "https://finnhub.io/api/news?id=662dd450a6ea24ff2fbaf4359e76b6e19c62eeab0820a59a8344fb1f276e37e8"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "48 ETFs Add to Visa (V) Holdings on Nov. 4",
+          "summary": "ETFs bought $65.2 million of Visa stock on Wednesday, with 48 buyers against 16 sellers.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:01:26Z",
+          "url": "https://finnhub.io/api/news?id=09ab7b807f8ba0b2e2c490cb6ee9bd9fb10f0bc0dfcef00671ac5ad78e1b8c48"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "November Buy: 6 IDEAL S&P 500 'Safer' Dividend Dogs",
+          "summary": "Read here for six safer high-yield S&P 500 dividend stocks with strong free cash flow and buy signals; see top projected gains and act now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T10:00:00Z",
+          "url": "https://finnhub.io/api/news?id=cd5280782e88bd36c8a2b3e80634759ea321aba0512712c145c12490097fa652"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "8%+ Yields Without The Sleepless Nights: My Top 2 Picks",
+          "summary": "Read about 2 stable 8%+ yield income picks for retirees seeking reliable monthly cash flow, lower risk, and peace of mind. Access the full analysis here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T09:15:00Z",
+          "url": "https://finnhub.io/api/news?id=39822867d32a8196dea01d415e07dae03f9ade890ceb6e3d7bf7435dcf969e28"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Visa sets up six hubs in Singapore for AI and \u2018next-generation payments\u2019",
+          "summary": "The six hubs will operate across three areas: AI and commerce, next-generation payments, and trust, security, and resilience.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T05:48:42Z",
+          "url": "https://finnhub.io/api/news?id=0b138c9fe3a8164f5b1d37e7a0b1fe48e62bdc2ef7ee7840625e7cc1a8fedac9"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "Es ist bitter, dass so ein Lied nach 44 Jahren noch immer so aktuell ist. \n\nwww.youtube.com/watch?v=YD9f...",
+          "author": "juliandra.bsky.social",
+          "created_at": "2026-11-09T18:46:51.326Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/juliandra.bsky.social/post/3mzvlld2gmc2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "AHHHH, I was really on a roll today! \ud83e\udd7a\u2728\nGot 2 new pages completely finished, and the line art for a third one is almost done ;v;",
+          "author": "nadi-chan.bsky.social",
+          "created_at": "2026-11-09T18:46:49.487Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/nadi-chan.bsky.social/post/3mzvllbceo22l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=0-dg...",
+          "author": "robin-grimmond3.bsky.social",
+          "created_at": "2026-11-09T18:46:48.659Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robin-grimmond3.bsky.social/post/3mzvllaj24k23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "youtube.com/watch?v=Mqfw...",
+          "author": "ninashaken.bsky.social",
+          "created_at": "2026-11-09T18:46:47.249Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ninashaken.bsky.social/post/3mzvll7625c2r"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Dagens aproposl\u00e5t: VAFFEL\nI sj\u00f8lvaste Trondheim. \nwww.youtube.com/watch?v=NXjB...",
+          "author": "gladwold.bsky.social",
+          "created_at": "2026-11-09T18:46:39.503Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gladwold.bsky.social/post/3mzvlkxrmpk2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "[Milit\u00e4r & Geschichte Clips]\n\nL\u00fcgen und Korruption k\u00f6nnten Russland erheblich Kampfkraft kosten. Ein Verlust von 30 Prozent wird als plausibel eingesch\u00e4tzt, ist aber keine gesicherte Zahl.\n\nQuelle: https://www.youtube.com/watch?v=7J0AJn6I1T8",
+          "author": "inclutus.bsky.social",
+          "created_at": "2026-11-09T18:46:38.535Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/inclutus.bsky.social/post/3mzvlkwv7gw2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "It\u2019s a joyous Monday \n\nwww.facebook.com/share/v/14zU...",
+          "author": "jlapple.bsky.social",
+          "created_at": "2026-11-09T18:46:38.190Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/jlapple.bsky.social/post/3mzvlkwjmgs2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=euJ2...",
+          "author": "goodhart1989.bsky.social",
+          "created_at": "2026-11-09T18:46:37.698Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/goodhart1989.bsky.social/post/3mzvlkw2jzc27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "youtube.com/watch?v=zdzh...",
+          "author": "indie30.bsky.social",
+          "created_at": "2026-11-09T18:46:33.969Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/indie30.bsky.social/post/3mzvlksirfc2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Can MHT help BRCA carriers manage surgical menopause? In this PWHR webinar, Dr. Joanne Kotsopoulos presents research on MHT safety. \n\nWith discussant Dr. Kelly Metcalfe and Q&A moderator Dr. Rulan Parekh. \n\nWatch: www.youtube.com/watch?v=3PsU...\n \n#Menopause #HormoneTherapy #BreastCancerResearch",
+          "author": "pwhrcanada.bsky.social",
+          "created_at": "2026-11-09T18:46:33.899Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/pwhrcanada.bsky.social/post/3mzvlksgoyc23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "youtube.com/watch?v=B8hL... \nI thought this is appropriate for the Trump administration \ud83d\udcaa\ud83c\udffc",
+          "author": "renbar1.bsky.social",
+          "created_at": "2026-11-09T18:46:32.685Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/renbar1.bsky.social/post/3mzvlkrbmhk2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "This one has no lyrics on the app so imma just share the link cause you should go listen to it\nmusic.youtube.com/watch?v=K9l7...",
+          "author": "shionstear.bsky.social",
+          "created_at": "2026-11-09T18:46:27.797Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/shionstear.bsky.social/post/3mzvlkmmg2c2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Torrenters are building epic media collections | The Vergecast\n\nhttps://www.youtube.com/watch?v=afoJu8f9GMA",
+          "author": "stefan.gardenstate.social.ap.brid.gy",
+          "created_at": "2026-11-09T18:46:25.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/stefan.gardenstate.social.ap.brid.gy/post/3mzvlknu2cle2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=0-dg...",
+          "author": "robin-grimmond3.bsky.social",
+          "created_at": "2026-11-09T18:46:24.106Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robin-grimmond3.bsky.social/post/3mzvlkj3qlc23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=metm...",
+          "author": "la-ureen.bsky.social",
+          "created_at": "2026-11-09T18:46:21.262Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/la-ureen.bsky.social/post/3mzvlkgexac2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "8FT LED Shop Light Fixture, White 10 Pack T8 Integrated Tube Lights, 72W 9500LM 6500K High Output Clear Cover, V Shape 270 Degree Lighting for Garage Warehouse, Upgraded Lights Plug and Play #EnergySaving #IntegratedTubeLights #Warehouse #HighOutput #LED",
+          "author": "brayman4k.bsky.social",
+          "created_at": "2026-11-09T18:46:19.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/brayman4k.bsky.social/post/3mzvlkjpv6i2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "On termine l'event P3 sur P5X ! Des 21h dur Twitch !\n\nwww.twitch.tv/astoone\n\n#Persona #Gacha #Megaten #Twitch",
+          "author": "astoone.bsky.social",
+          "created_at": "2026-11-09T18:46:16.678Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/astoone.bsky.social/post/3mzvlkbz7kk2n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "reminds me of the Enter the Void intro (flashing lights/epilepsy alert) www.youtube.com/watch?v=wNtx...",
+          "author": "greenrat.bsky.social",
+          "created_at": "2026-11-09T18:46:13.717Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/greenrat.bsky.social/post/3mzvlk76p322k"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Hmmm, close to 5k\nMaybe I'll do a raffle once I hit it here :v",
+          "author": "felisrandomis.bsky.social",
+          "created_at": "2026-11-09T18:46:02.951Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/felisrandomis.bsky.social/post/3mzvljuw6es23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "My two cents op Radio 1 vandaag over de regeringscrisis - de curatele van uitvoerende macht door de partijvoorzitters gaat weer een stapje verder #Arizona #Particratie\n\n@vd-researchgroup.bsky.social \nwww.vrt.be/vrtmax/luist...",
+          "author": "silkegoubin.bsky.social",
+          "created_at": "2026-11-09T18:45:55.908Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/silkegoubin.bsky.social/post/3mzvljo7ah22h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "[Fundraiser Stream] For Auraanima\n\nA belly. Simple. Delightful. <3\n\nV Join the discord and get commissions! V\n\u2606 www.patreon.com/Lillymoo",
+          "author": "lillymooart.bsky.social",
+          "created_at": "2026-11-09T18:45:54.145Z",
+          "likes": 3,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/lillymooart.bsky.social/post/3mzvljmjgrc2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=0-dg...",
+          "author": "robin-grimmond3.bsky.social",
+          "created_at": "2026-11-09T18:45:54.564Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robin-grimmond3.bsky.social/post/3mzvljmw7x223"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#MlevelSongs #MusicChallenge #MusicSky #NovemberNo Day 9\n\n\"Oh That's Good No That's Bad,\" Sam the Sham & the Pharaohs\n\nwww.youtube.com/watch?v=uggM...",
+          "author": "mlevel.bsky.social",
+          "created_at": "2026-11-09T18:45:53.179Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mlevel.bsky.social/post/3mzvljllwgk2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "youtube.com/watch?v=aI3c...\n\nMeidasTouch host Ben Meiselas reports on Fox\u2019s collapse on live TV getting even worse as Donald Trump continues to make a fool of himself. Meiselas breaks down the latest on-air meltdowns as Fox struggles to defend the mounting chaos engulfing the Trump administration.",
+          "author": "tovahr.bsky.social",
+          "created_at": "2026-11-09T18:45:51.710Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tovahr.bsky.social/post/3mzvljk74tk2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Check out Not Just Another V-O Workout, 4-7P PST.\nBudget can\u2019t handle classes/coaching right now?\nMy V-O workout group will keep your skills sharp.\nNov. 10th is filled, but Nov. 24th has a few seats left.\nAttend: $30 / Audit: $15.\nshop.cashmancommercials.com",
+          "author": "v-oguy.bsky.social",
+          "created_at": "2026-11-09T18:45:45.747Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/v-oguy.bsky.social/post/3mzvljej5ls23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.facebook.com/share/v/1Hwy...",
+          "author": "teejay2too.bsky.social",
+          "created_at": "2026-11-09T18:45:43.172Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/teejay2too.bsky.social/post/3mzvljc2lwc23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Fall Out Boy: ACES. Directed by Brendan Walter. [Atlantic] https://www.youtube.com/watch?v=YNtgQdfvhag",
+          "author": "newmusicvideos.bsky.social",
+          "created_at": "2026-11-09T18:45:43Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/newmusicvideos.bsky.social/post/3mzvljdjnmb2x"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=QvvZ...",
+          "author": "spyop42.bsky.social",
+          "created_at": "2026-11-09T18:45:42.057Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/spyop42.bsky.social/post/3mzvljayk3c2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "[\ub3c4\ub4dc\ub77c\uae30]:\uc778\uac04\uc808\ubcbd_\ub514\uc2a4\ud1a0\ud53c\uc544\nsuno.com/s/pT7UNVC2Gd...\n-\n#Amapiano #AfroHouse #ElectronicMusic #TechHouse #SouthKoreaEconomy\n-\n700\uc5b5_\uc5b4\ub514\ub2e4_\uc37c\ub098\nwww.facebook.com/share/p/1FxK...\n-\n\ucc9c\ub9c9\uadf9\uc7a5_\ub9c9\uc7a5_\uc2dc\uc98c_vol_2\nwww.facebook.com/share/v/1Dv5...\nwww.facebook.com/share/p/19jv...\nwww.ekn.kr/web/view.php...",
+          "author": "deepbluedeep2026.bsky.social",
+          "created_at": "2026-11-09T18:45:41.011Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/deepbluedeep2026.bsky.social/post/3mzvlj7z6ha2b"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=0-dg...",
+          "author": "robin-grimmond3.bsky.social",
+          "created_at": "2026-11-09T18:45:40.827Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robin-grimmond3.bsky.social/post/3mzvlj7sxwk23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "m.youtube.com/watch?v=0Yin...",
+          "author": "inflames78.bsky.social",
+          "created_at": "2026-11-09T18:45:37.459Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/inflames78.bsky.social/post/3mzvlj4mbsc2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=zTER...",
+          "author": "w193h2nneo3b2jwjrg.bsky.social",
+          "created_at": "2026-11-09T18:45:37.438Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/w193h2nneo3b2jwjrg.bsky.social/post/3mzvlj4lkec2k"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Going on over a week of my silly little writing challenge and v happy people seem to be enjoying it as much as I am",
+          "author": "travelers-gambit.bsky.social",
+          "created_at": "2026-11-09T18:45:31.214Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/travelers-gambit.bsky.social/post/3mzvliwnu2c25"
+        },
+        {
+          "platform": "bluesky",
+          "text": "@aivd.bsky.social Deeper and deeper until your fucking insane. youtu.be/UVuS4U22DJo?...",
+          "author": "spyop42.bsky.social",
+          "created_at": "2026-11-09T18:45:28.383Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/spyop42.bsky.social/post/3mzvlitxaks2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Sorry, \"Fernando\", and Junior says \"talks funny\" not \"talks weird\"\n\nBut here: www.youtube.com/watch?v=dBPY...",
+          "author": "fizbin.bsky.social",
+          "created_at": "2026-11-09T18:45:26.266Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/fizbin.bsky.social/post/3mzvlirwm7c2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "www.youtube.com/watch?v=0-dg...",
+          "author": "robin-grimmond3.bsky.social",
+          "created_at": "2026-11-09T18:45:24.779Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robin-grimmond3.bsky.social/post/3mzvliqjazs23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "lembro at\u00e9 hoje de quando essa saiu, minha vida mudou para sempre\n\nwww.youtube.com/watch?v=CM4C...",
+          "author": "neopetshopboy.bsky.social",
+          "created_at": "2026-11-09T18:45:22.178Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/neopetshopboy.bsky.social/post/3mzvlinzuyk2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "It isn\u2019t on CanLII yet, just the Tribunal\u2019s decisions page: www.bchrt.bc.ca/law-library/...",
+          "author": "kirstenscrimshaw.bsky.social",
+          "created_at": "2026-11-09T18:45:18.815Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/kirstenscrimshaw.bsky.social/post/3mzvlikt7tk2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "An ex pt & I like how the pod addressed what ails the Avs. However it\u2019s time for the local media 2 look in the mirror & think abt what their job is. Listening to the Bednar post gm presser sounded like state run media asking Qs. Don\u2019t need Brooksie v Tortorella but my goodness a little pushback plz",
+          "author": "dangco.bsky.social",
+          "created_at": "2026-11-09T18:45:18.877Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/dangco.bsky.social/post/3mzvlikvd7s2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Morgan Garrett: Stories. Directed by David Luna. [Julia's War] https://www.youtube.com/watch?v=-dDsCP3HZHo",
+          "author": "newmusicvideos.bsky.social",
+          "created_at": "2026-11-09T18:45:17Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/newmusicvideos.bsky.social/post/3mzvlikgvlr2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Yusef Lateef - Eastern Sounds: https://www.youtube.com/watch?v=YMTHsK3MlzA",
+          "author": "coffeekid.mastodon.social.ap.brid.gy",
+          "created_at": "2026-11-09T18:45:08.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/coffeekid.mastodon.social.ap.brid.gy/post/3mzvlicq7iig2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "[1984] The Adventures of Sherlock Holmes - \"The Blue Carbuncle\" - When the Countess of Morcar's priceless blue carbuncle is stolen, a reformed thief is charged with the crime. Starring Jeremy Brett and David Burke.\n\nhttps://www.youtube.com/watch?v=t3pp3XQjF1c",
+          "author": "oldbritishtelly.co.uk",
+          "created_at": "2026-11-09T18:45:08.639Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/oldbritishtelly.co.uk/post/3mzvlict5p22t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "=)\n\nwww.youtube.com/watch?v=Yem_...",
+          "author": "br-avissimo.bsky.social",
+          "created_at": "2026-11-09T18:45:07.264Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/br-avissimo.bsky.social/post/3mzvli7spks2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "New filing: \"Washington v. Trump (Elections Integrity EO)\"\nDoc #146: 1 - Order AND ~Util - Set/Reset Motion Noting Date\n\nDownload PDF | View Full Case\n\n#CL69845185",
+          "author": "trumplitigation.bots.law",
+          "created_at": "2026-11-09T18:45:06.285224+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trumplitigation.bots.law/post/3mzvli735q62e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Whoa, somehow i missed that KYSG made a tool-assisted #combovid for the Sega Genesis version of Teenage Mutant Ninja Turtles: Tournament Fighters and i don't really understand anything in it! Lots of janky looking infinites and meaty setups with wonky corner pushback. youtube.com/watch?v=K0ok...",
+          "author": "majdotdev.bsky.social",
+          "created_at": "2026-11-09T18:45:03.701Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/majdotdev.bsky.social/post/3mzvli4g7v224"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Nishimura Nina And Nina Nishimura - Xvsr-875 Intense Intercourse: Real, Passionate Sex With Unprotected Intercourse, Driven Purely By Instinct https://video.adultics.net/watch.php?type=vjav&v=989695",
+          "author": "sad3h28d3qw.bsky.social",
+          "created_at": "2026-11-10T03:45:03+09:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/sad3h28d3qw.bsky.social/post/3mzvli6ne2e24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "New filing: \"Washington v. Trump (Elections Integrity EO)\"\nDoc #146: 1 - Order AND ~Util - Set/Reset Motion Noting Date\n\nDownload PDF | View Full Case\n\n#CL69845185",
+          "author": "bigcases.bots.law",
+          "created_at": "2026-11-09T18:45:03.096258+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bigcases.bots.law/post/3mzvli3yb3x2s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "It's OK folks\n\n\ud83e\udd21Trump\ud83e\udd21 says we can all get along together now\n\n\ud83e\udd23\ud83e\udd23\ud83e\udd23\n\n\ud83e\udd28\n\nwww.youtube.com/watch?v=Lbae...",
+          "author": "apo11o.bsky.social",
+          "created_at": "2026-11-09T18:45:01.880Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/apo11o.bsky.social/post/3mzvli2ofqs2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "HORA DE DAR UM TRATO NO SEU FILHO\n\nKIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX\n\nPor apenas R$80,67 Pix\nou R$ 94,92 em 3x sem juros\nlink.amazon/B0ieGrYPy",
+          "author": "caramelopromo.bsky.social",
+          "created_at": "2026-11-09T18:45:01.726Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/caramelopromo.bsky.social/post/3mzvli2jqdk2m"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-10-27",
+          "items": [
+            "2.02",
+            "8.01",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Other events",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/v-20261027.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 49,
+      "total_post_likes": 5,
+      "major_8k_events": [
+        "Earnings results",
+        "Other events",
+        "Financial statements and exhibits"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "V",
+    "score": 7,
+    "verdict": "tailwind",
+    "market_regime": "mixed",
+    "confidence": "high",
+    "strengths": [
+      "The Financial Services sector has outperformed SPY by 3.49% over the past 90 days, indicating strong sector performance.",
+      "V's beta of 0.786 suggests it is less volatile than the market, making it more stable in uncertain conditions."
+    ],
+    "risks": [
+      "The VIX at 28.18 indicates a level of market fear, which could lead to increased volatility.",
+      "The unemployment rate is rising at 4.1%, suggesting potential weakening in consumer spending."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI report",
+      "2026-11-25: GDP report",
+      "2026-12-04: Jobs report"
+    ],
+    "missing_data": [],
+    "summary": "The macro environment for Visa (V) shows a mixed picture. While the Financial Services sector is outperforming the broader market, the presence of market fear, indicated by a relatively high VIX, along with rising unemployment, introduces risks. However, V's lower beta provides some stability, positioning it favorably amid economic uncertainty.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "V",
+        "sector": "Financial Services",
+        "beta": 0.786,
+        "sector_etf": "XLF",
+        "sector_vs_spy_90d": {
+          "sector_return": 0.0398,
+          "spy_return": 0.0049,
+          "sector_outperformance": 0.0349
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 0.786,
+      "sector_outperformance": 0.0349
+    }
+  }
+}

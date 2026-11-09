@@ -1,0 +1,1380 @@
+{
+  "fundamentals": {
+    "ticker": "AMZN",
+    "score": 9,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "Revenue grew from about 513.98B in 2022 to 716.92B in 2025, a ~39% increase across the period, with annual growth around 11-12% (2023\u20132025).",
+      "Net income turned positive in 2023 and rose to 77.67B in 2025, showing sustained profitability improvement.",
+      "Operating margin in 2025 was 11.16% and net margin 10.83%, with ROE at 18.89%, indicating solid profitability and shareholder return potential.",
+      "Operating cash flow rose from 46.75B (2022) to 139.51B (2025), signaling strong cash generation to fund growth and investments.",
+      "Liquidity and leverage metrics are favorable: debt-to-equity 0.1675 and current ratio 1.0508; position supported by substantial cash and marketable securities.",
+      "Recent quarterly performance shows continued momentum: latest quarter revenue growth YoY 12.09% and latest quarterly net margin 10.24% (quarter ended 2026-09-30)."
+    ],
+    "risks": [
+      "Intense competition across multiple segments and ongoing geographic expansion raise pressure on growth and margins (risk factors in the filings).",
+      "Regulatory and legal risks are meaningful, including ongoing antitrust, privacy, and consumer protection investigations across jurisdictions (risk factors).",
+      "Tax contingencies and potential assessments pose uncertainty to cash taxes and results (risk factors).",
+      "FX exposure from international operations and intercompany balances adds volatility to reported results (FX risk disclosures).",
+      "Cybersecurity, data protection, and potential operating disruptions (including supply chain and fulfillment) present ongoing risk (risk factors)."
+    ],
+    "missing_data": [
+      "free_cash_flow (not provided in fundamentals data)",
+      "gross_margin (reported as null in ratios)"
+    ],
+    "summary": "Amazon demonstrates a robust, improving growth trajectory and strong profitability over the four-year window. Revenue expanded from about $514B in 2022 to $717B in 2025, with net income climbing from a prior loss to $77.7B, supported by solid operating and net margins (11.16% and 10.83%, respectively) and ROE near 19%. The balance sheet shows modest leverage (debt-to-equity ~0.17) and ample liquidity (current ratio ~1.05). Operating cash flow surged to about $139.5B in 2025, signaling healthy cash generation, though free cash flow data isn\u2019t available in the fundamentals feed (and is typically affected by high capital expenditure in technology infrastructure and fulfillment capacity). The latest quarterly metrics reinforce momentum (quarterly revenue growth ~12% YoY; quarterly net margin ~10.24%). The filings outline meaningful risks, including competition, regulatory and tax uncertainties, FX exposure, and cybersecurity/litigation risks. Overall, the business appears healthy and improving operationally and financially, with strong cash generation but continued attention needed to external risks and capital intensity.",
+    "data": {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "annual": {
+        "revenue": {
+          "2022-12-31": 513983000000,
+          "2023-12-31": 574785000000,
+          "2024-12-31": 637959000000,
+          "2025-12-31": 716924000000
+        },
+        "gross_profit": {
+          "2007-12-31": 3353000000,
+          "2008-12-31": 4270000000,
+          "2009-12-31": 5531000000
+        },
+        "operating_income": {
+          "2022-12-31": 12248000000,
+          "2023-12-31": 36852000000,
+          "2024-12-31": 68593000000,
+          "2025-12-31": 79975000000
+        },
+        "net_income": {
+          "2022-12-31": -2722000000,
+          "2023-12-31": 30425000000,
+          "2024-12-31": 59248000000,
+          "2025-12-31": 77670000000
+        },
+        "operating_cash_flow": {
+          "2022-12-31": 46752000000,
+          "2023-12-31": 84946000000,
+          "2024-12-31": 115877000000,
+          "2025-12-31": 139514000000
+        },
+        "capex": {
+          "2013-12-31": 3444000000,
+          "2014-12-31": 4893000000,
+          "2015-12-31": 4589000000,
+          "2016-12-31": 6737000000
+        },
+        "total_assets": {
+          "2022-12-31": 462675000000,
+          "2023-12-31": 527854000000,
+          "2024-12-31": 624894000000,
+          "2025-12-31": 818042000000
+        },
+        "current_assets": {
+          "2022-12-31": 146791000000,
+          "2023-12-31": 172351000000,
+          "2024-12-31": 190867000000,
+          "2025-12-31": 229083000000
+        },
+        "current_liabilities": {
+          "2022-12-31": 155393000000,
+          "2023-12-31": 164917000000,
+          "2024-12-31": 179431000000,
+          "2025-12-31": 218005000000
+        },
+        "total_liabilities": {},
+        "equity": {
+          "2022-12-31": 146043000000,
+          "2023-12-31": 201875000000,
+          "2024-12-31": 285970000000,
+          "2025-12-31": 411065000000
+        },
+        "cash": {
+          "2022-12-31": 53888000000,
+          "2023-12-31": 73387000000,
+          "2024-12-31": 78779000000,
+          "2025-12-31": 86810000000
+        },
+        "long_term_debt": {
+          "2022-12-31": 70542000000,
+          "2023-12-31": 67182000000,
+          "2024-12-31": 58000000000,
+          "2025-12-31": 68836000000
+        }
+      },
+      "quarterly": {
+        "revenue": {
+          "2024-06-30": 147977000000,
+          "2024-09-30": 158877000000,
+          "2025-03-31": 155667000000,
+          "2025-06-30": 167702000000,
+          "2025-09-30": 180169000000,
+          "2026-03-31": 181519000000,
+          "2026-06-30": 200606000000,
+          "2026-09-30": 201944000000
+        },
+        "gross_profit": {
+          "2008-06-30": 967000000,
+          "2008-09-30": 999000000,
+          "2009-06-30": 1133000000,
+          "2009-09-30": 1273000000
+        },
+        "operating_income": {
+          "2024-06-30": 14672000000,
+          "2024-09-30": 17411000000,
+          "2025-03-31": 18405000000,
+          "2025-06-30": 19171000000,
+          "2025-09-30": 17422000000,
+          "2026-03-31": 23852000000,
+          "2026-06-30": 27461000000,
+          "2026-09-30": 28076000000
+        },
+        "net_income": {
+          "2024-06-30": 13485000000,
+          "2024-09-30": 15328000000,
+          "2025-03-31": 17127000000,
+          "2025-06-30": 18164000000,
+          "2025-09-30": 21187000000,
+          "2026-03-31": 30255000000,
+          "2026-06-30": 62647000000,
+          "2026-09-30": 20685000000
+        },
+        "operating_cash_flow": {
+          "2024-06-30": 25281000000,
+          "2024-09-30": 25971000000,
+          "2025-03-31": 17015000000,
+          "2025-06-30": 32515000000,
+          "2025-09-30": 35525000000,
+          "2026-03-31": 26032000000,
+          "2026-06-30": 45387000000,
+          "2026-09-30": 42422000000
+        },
+        "capex": {
+          "2014-09-30": 1378000000,
+          "2015-03-31": 871000000,
+          "2015-06-30": 1213000000,
+          "2015-09-30": 1195000000,
+          "2016-03-31": 1179000000,
+          "2016-06-30": 1711000000,
+          "2016-09-30": 1841000000,
+          "2017-03-31": 1861000000
+        },
+        "total_assets": {
+          "2024-12-31": 624894000000,
+          "2025-03-31": 643256000000,
+          "2025-06-30": 682170000000,
+          "2025-09-30": 727921000000,
+          "2025-12-31": 818042000000,
+          "2026-03-31": 916630000000,
+          "2026-06-30": 1095689000000,
+          "2026-09-30": 1243390000000
+        },
+        "current_assets": {
+          "2024-12-31": 190867000000,
+          "2025-03-31": 184645000000,
+          "2025-06-30": 191420000000,
+          "2025-09-30": 196866000000,
+          "2025-12-31": 229083000000,
+          "2026-03-31": 255155000000,
+          "2026-06-30": 249264000000,
+          "2026-09-30": 255100000000
+        },
+        "current_liabilities": {
+          "2024-12-31": 179431000000,
+          "2025-03-31": 176171000000,
+          "2025-06-30": 186921000000,
+          "2025-09-30": 195196000000,
+          "2025-12-31": 218005000000,
+          "2026-03-31": 216756000000,
+          "2026-06-30": 241274000000,
+          "2026-09-30": 257982000000
+        },
+        "total_liabilities": {},
+        "equity": {
+          "2024-12-31": 285970000000,
+          "2025-03-31": 305867000000,
+          "2025-06-30": 333775000000,
+          "2025-09-30": 369631000000,
+          "2025-12-31": 411065000000,
+          "2026-03-31": 441914000000,
+          "2026-06-30": 551620000000,
+          "2026-09-30": 613601000000
+        },
+        "cash": {
+          "2024-12-31": 78779000000,
+          "2025-03-31": 66207000000,
+          "2025-06-30": 57741000000,
+          "2025-09-30": 66922000000,
+          "2025-12-31": 86810000000,
+          "2026-03-31": 101816000000,
+          "2026-06-30": 78213000000,
+          "2026-09-30": 55783000000
+        },
+        "long_term_debt": {
+          "2024-12-31": 58000000000,
+          "2025-03-31": 58750000000,
+          "2025-06-30": 56082000000,
+          "2025-09-30": 55097000000,
+          "2025-12-31": 68836000000,
+          "2026-03-31": 122632000000,
+          "2026-06-30": 132995000000,
+          "2026-09-30": 180887000000
+        }
+      },
+      "ratios": {
+        "fiscal_year_end": "2025-12-31",
+        "gross_margin": null,
+        "operating_margin": 0.1116,
+        "net_margin": 0.1083,
+        "revenue_growth_yoy": 0.1238,
+        "roe": 0.1889,
+        "debt_to_equity": 0.1675,
+        "current_ratio": 1.0508,
+        "free_cash_flow": null,
+        "latest_quarter_end": "2026-09-30",
+        "latest_quarter_net_margin": 0.1024,
+        "quarter_revenue_growth_yoy": 0.1209
+      }
+    },
+    "key_metrics": {
+      "fiscal_year_end": "2025-12-31",
+      "revenue_growth_yoy": 0.1238,
+      "quarter_revenue_growth_yoy": 0.1209,
+      "net_margin": 0.1083,
+      "roe": 0.1889,
+      "debt_to_equity": 0.1675
+    }
+  },
+  "technical": {
+    "ticker": "AMZN",
+    "score": 8,
+    "verdict": "bullish",
+    "trend": "uptrend",
+    "confidence": "high",
+    "strengths": [
+      "Price is at 267.89, above both 50-day (254.0) and 200-day (244.08) moving averages, indicating a strong uptrend.",
+      "RSI at 59.73 suggests healthy momentum and not overbought.",
+      "Outperforming SPY by 9.31%, indicating positive relative strength."
+    ],
+    "risks": [],
+    "missing_data": [],
+    "summary": "AMZN is currently in an uptrend as the price is above both the 50-day and 200-day moving averages. The RSI at 59.73 reflects healthy momentum without being overbought, while the stock has significantly outperformed the market (SPY). Overall, the signals are strong and indicate continued bullish activity.",
+    "data": {
+      "indicators": {
+        "price": 267.89,
+        "sma_50": 254.0,
+        "sma_200": 244.08,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 59.73,
+        "volatility_20d": 0.4289
+      },
+      "relative_strength": {
+        "stock_return": 0.0972,
+        "spy_return": 0.0041,
+        "outperformance": 0.0931
+      }
+    },
+    "key_metrics": {
+      "price": 267.89,
+      "above_sma_50": true,
+      "above_sma_200": true,
+      "rsi_14": 59.73,
+      "volatility_20d": 0.4289,
+      "outperformance": 0.0931
+    }
+  },
+  "news": {
+    "ticker": "AMZN",
+    "score": 8,
+    "sentiment": "positive",
+    "crowd_mood": "positive",
+    "confidence": "high",
+    "key_events": [
+      "2026-10-29: Earnings results showed significant growth in AWS, with a 39% revenue surge in Q3, highlighting Amazon's strong position in cloud services.",
+      "2026-11-09: JPMorgan adds Amazon to its focus list, predicting AWS growth over the next few years, resulting in a stock increase of 4.05%.",
+      "2026-11-09: Amazon announces its Leo project to launch 40 satellites, showcasing its expansion into new technologies."
+    ],
+    "strengths": [
+      "AWS revenue grew by 39%, indicating strong demand for cloud services (source: Yahoo).",
+      "JPMorgan's endorsement reflects confidence in Amazon's future earnings potential (source: Yahoo).",
+      "The Leo satellite launch demonstrates Amazon's commitment to expanding its technological capabilities (source: Benzinga)."
+    ],
+    "risks": [
+      "Increased competition in the cloud sector could challenge Amazon's market share (source: Yahoo).",
+      "The overall market fluctuations and AI investment uncertainties may impact stock performance (source: Bluesky)."
+    ],
+    "missing_data": [],
+    "summary": "Recent news surrounding Amazon indicates a positive outlook, particularly following strong Q3 earnings from AWS and endorsements from major financial institutions like JPMorgan. The company's plans for satellite launches and advancements in cloud technology further solidify its market position. The crowd mood on social media reflects this optimism, though some concerns about competition and market conditions persist. Overall, Amazon appears to be strategically well-positioned for future growth.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "yahoo",
+          "headline": "Airtable plugin making $270K per year",
+          "summary": "Wow... this airtable plugin makes over $270K per year",
+          "publisher": "Starter Story",
+          "published_at": "2026-11-09T18:32:12Z",
+          "url": "https://starterstory.videonest.co/videos/1787548/airtable-plugin-making-270k-per-year-9gzzVN4ZCR"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Constellation Energy Stocks Jump 6.94% After Q3 Beat and Raised Guidance",
+          "summary": "Adjusted EPS of $5.06 topped last year's $3.04 as Google and Amazon nuclear power deals deepen its data-center pipeline.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T18:18:50Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-stocks-jump-6-181850302.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Stock Market Today: Dow Pops, Finance Play Hits Buy Zone; Details Emerge On Jensen Huang Probe (Live Coverage)",
+          "summary": "The Dow Jones index rallies 500 points Monday as oil prices drop. Nvidia stock dives on the probe into CEO Jensen Huang.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-11-09T18:09:52Z",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/?src=A00220&yptr=yahoo"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Amazon Stocks Rise 4.05% as JPMorgan Adds It to Focus List on AWS",
+          "summary": "JPMorgan's note points to AWS growth of 40%-plus in 2027 and 2028, backed by a $578 billion backlog.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T18:03:49Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-rise-4-05-180349063.html"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Amazon Leo To Launch 40 Satellites On Its First Vulcan Mission",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T17:49:50Z",
+          "url": "https://www.benzinga.com/news/26/11/63054464/amazon-leo-launch-40-satellites-its-first-vulcan-mission"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Amazon Is \u201cthe Cheapest It\u2019s Been\u201d in Years. Its P/E Fell From 34 to 21",
+          "summary": "Key TakeawaysAmazon\u2019s P/E has fallen from 34 to 21 over the past year, and its forward P/E of 25x sits near a five-year low. AWS grew 39% last quarter, and analysts expect normalized EPS to nearly double by 2028.",
+          "publisher": "TIKR",
+          "published_at": "2026-11-09T17:32:27Z",
+          "url": "https://www.tikr.com/blog/amazon-is-the-cheapest-its-been-in-years-its-p-e-fell-from-34-to-21?ref=yahoofinance&tlnk=yf-261109-6xhr2h2h"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "AI Stock Rout Called 'Unwarranted.' Why Wall Street Sees Post-Midterms Edge For Cloud Giants.",
+          "summary": "Wall Street analysts are picking winners and losers from post-midterms fallout.",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-11-09T17:25:08Z",
+          "url": "https://www.investors.com/news/technology/ai-stocks-midterms-ai-data-center-amazon-stock/?src=A00220&yptr=yahoo"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
+          "summary": "\n\n\n\nJensen Probe\n\n\n\nPlease click here for an enlarged chart of NVIDIA Corp (NASDAQ:NVDA).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture, not an individual stock.\u00a0 The chart of NVDA stock is being used",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T17:20:00Z",
+          "url": "https://www.benzinga.com/opinion/26/11/63051990/nvidia-stock-is-the-huang-controversy-a-long-term-risk"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Your credit card can act like a Black Friday discount on every purchase \u2014 here's how",
+          "summary": "Rewards credit cards make the most sense for Black Friday and holiday shopping because the rewards you earn act like a discount on every purchase you make.",
+          "publisher": "Yahoo Personal Finance",
+          "published_at": "2026-11-09T17:13:39Z",
+          "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-credit-cards-for-black-friday-shopping-171339344.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Prediction: Synopsys Could Be a Bigger AI Winner Than Investors Expect",
+          "summary": "Synopsys just posted a record quarter, yet its shares have gone nowhere all year. Between AI chip design, a $10 billion debt load, and export-control worries, one question decides whether the market has this stock badly wrong.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-09T17:03:22Z",
+          "url": "https://247wallst.com/investing/2026/11/09/prediction-synopsys-could-be-a-bigger-ai-winner-than-investors-expect/"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "What's Going On With Amazon Stock Monday?",
+          "summary": "Amazon stock gained nearly 4% as investors favored hyperscalers with established data-center infrastructure amid AI buildout concerns.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T17:02:21Z",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63050593/whats-going-on-with-amazon-stock-monday-5"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Andy Jassy Just Announced Fantastic News for Amazon Stock Investors",
+          "summary": "Don\u2019t get distracted by the recent volatility.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:59:02Z",
+          "url": "https://finnhub.io/api/news?id=d8e326cfed2687717f9f91ab0d41a9bc22bb91aa1e2bcd113e3428fe129b8eff"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Trade Desk\u2019s \u2018Lost Year\u2019 Won\u2019t Be Rescued by Earnings, Say Analysts",
+          "summary": "Trade Desk reports third-quarter earnings after the stock market closes Monday. The stock has had a brutal year.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:50:00Z",
+          "url": "https://finnhub.io/api/news?id=d6516e7b4fb5601fa80cb143c5f07c1cd3ef11859a28c96df44d4ccbe7d59017"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Wall Street's Four Main Benchmarks Start the Week Higher as Inflation Data Nears",
+          "summary": "Equity Insider News Commentary - All four of the main U.S. stock benchmarks were trading higher in the first half hour of Monday's session. As of 9:57 a.m. ET, the S&P 500 was up 125.70 points, or 1.70%, at 7,502.56, the Nasdaq Composite was up 539.15 points, or 2.19%, at 25,118.58, the Dow Jones Industrial Average was up 727.61 points, or 1.42%, at 52,013.34, and the small cap Russell 2000 was up 53.59 points, or 1.95%, at 2,807.70. The broad start comes one day before the Bureau of Labor Stati",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:46:00Z",
+          "url": "https://finnhub.io/api/news?id=04a583bc7e67c2407294418605902c44e694a3e62d1fd651d86bb33b604d13e8"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Bill Ackman Says Jensen Huang \u2018Has Done a Lot of Good for the World\u2019: Hopes Damage From Affair Is \u2018Minimal\u2019",
+          "summary": "Bill Ackman comes to the defense of Jensen Huang. Here&#39;s what he said.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T16:45:09Z",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63049256/bill-ackman-says-jensen-huang-has-done-a-lot-of-good-for-the-world-hopes-damage-from-affair-is-minimal"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Feedvisor Expands Agentic Commerce Platform to Target Growing Amazon Business Demand",
+          "summary": "It\u2019s available immediately to brands who want to manage both their B2B and their D2C operations from a single platform.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:19:17Z",
+          "url": "https://finnhub.io/api/news?id=1a5ab21972e6f761cfbc739bc863862daa919f666d057f700a2fa794af80cbc1"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "The Rest of the Magnificent 7 Are Leaving Nvidia in the Dust",
+          "summary": "Wall Street may be selling Nvidia stock in the wake of the Jensen Huang affair, but investors are keeping their money in the Magnificent Seven.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:14:40Z",
+          "url": "https://finnhub.io/api/news?id=093b5a1be3300c2ba259c559623b5a84141cdcb27ee2eeba5462e042d6a87ef8"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "AI stocks have 2 major headwinds driving recent volatility",
+          "summary": "There appear to be two drivers of the recent painful AI stock rout. The first one is more obvious than the other.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:03:46Z",
+          "url": "https://finnhub.io/api/news?id=aa3b19b4a3ed033b4760a96d8a4e1b6d8cee9502be900a86cd5cdd4b36cb4d97"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Deerfield Management Announces Collaboration with AWS for Healthcare AI Development",
+          "summary": "Investment firm Deerfield Management has entered into a collaboration with Amazon Web Services (AWS) to accelerate the scaling of AI-native healthcare and life sciences companies.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T16:01:37Z",
+          "url": "https://www.prnewswire.com/news-releases/deerfield-management-announces-collaboration-with-aws-to-accelerate-ai-driven-healthcare-innovation-and-care-delivery-302931285.html"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+          "summary": "All 11 sectors are higher in Monday\u2019s regular session, with growth sectors holding two of the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T16:00:24Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63044502/11-of-11-sectors-rise-monday-as-growth-leads"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Instacart points to Walmart and Amazon as reasons its merger with DoorDash should be approved",
+          "summary": "\u201cThose two giants are just going to continue to chip away at grocers across the U.S., and it\u2019s actually going to reduce competition further,\u201d Instacart\u2019s chief commercial officer said in an interview.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:00:00Z",
+          "url": "https://finnhub.io/api/news?id=0ef48729c6317133dfd3b5934424e3e2b8f66988c5fbf99524b91c4b2f31d701"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Meta Soars 5% as JPMorgan Picks It Over Alphabet for Its Analyst Focus List",
+          "summary": "Key TakeawaysMeta jumped 5% today after JPMorgan swapped it in for Alphabet on its Analyst Focus List, with a $940 price target. JPMorgan\u2019s case is Meta\u2019s AI-driven ad growth, which added roughly twice Google Search\u2019s new dollars last quarter.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:56:21Z",
+          "url": "https://finnhub.io/api/news?id=df567c0631384f06132b3c72c2190e7fdb1c888752cacc7c28d3db703fdc2b26"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Amazon Generated $202 Billion in Quarterly Sales. Most of Its Operating Profit Came From Just 1 Business.",
+          "summary": "Understanding where Amazon earns its money makes its enormous investment plans easier to evaluate.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:50:00Z",
+          "url": "https://finnhub.io/api/news?id=0a3a4e7ff26a1ff1ba529627278cef1644c980b13161058cb0542196b2343486"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "I\u2019m Betting That The Post-Midterm Flight to Quality Will Kick Microsoft Into Gear",
+          "summary": "Wall Street's fear gauge just posted one of its biggest jumps in decades, and investors are hunting for safe harbors. One tech giant has a backlog, margins, and a spending problem that could decide whether it earns that role.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:45:38Z",
+          "url": "https://finnhub.io/api/news?id=bd1c2744836fe2c4cdfa3697770b1398974b1492a946abb03c29796161bdabd1"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Amazon debuts text-to-shop AI agent feature",
+          "summary": "Select U.S. customers can now text Alexa for Shopping, with the company planning to debut the functionality more broadly in the coming weeks.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:42:00Z",
+          "url": "https://finnhub.io/api/news?id=6a0b28b955a31763af05169996f94a5d91a5141a912d2eb75c7ce3c4903735d7"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "META, AMZN Stocks Jump As JPMorgan Picks Pair Over Alphabet \u2014 Sees Stronger AI Returns, Cloud Growth",
+          "summary": "The firm expects Meta\u2019s Family of Apps advertising revenue to overtake Google Search revenue from the fourth quarter, driven by AI-powered improvements in ad targeting.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:39:20Z",
+          "url": "https://finnhub.io/api/news?id=268e0716a88192dc4783a428a770a74568e9b5d74b8d85cfebe1b313e5bbe5fa"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck",
+          "summary": "Tech rallied as Nvidia shares dropped on Monday.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:22:08Z",
+          "url": "https://finnhub.io/api/news?id=a780ebc35314d28d2b4692f9599775c47bd8c4e016be4e4208e5ccfb56d93675"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "One nugget overlooked during the AI sell-off: token costs",
+          "summary": "Yahoo Finance Executive Editor Brian Sozzi calls out one nugget overlooked during last week's market sell-off: corporate pushback on AI spending, with Apple (AAPL) and Amazon (AMZN) scaling back internal token use. ",
+          "publisher": "Yahoo Finance Video",
+          "published_at": "2026-11-09T15:16:11Z",
+          "url": "https://finance.yahoo.com/video/one-nugget-overlooked-during-the-ai-sell-off-token-costs-151611529.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Jensen Huang under the microscope, next moves for investors in the AI trade",
+          "summary": "Yahoo Finance Executive Editor Brian Sozzi digs deep into all of the biggest headlines driving markets. Nvidia (NVDA) stock is under fire over CEO Jensen Huang's acknowledged affair with Alice Wong, who is suspected of being a spy for Chinese intelligence. Niles Investment Management Founder and Portfolio Manager Dan Niles sits down for a 1-on-1 with Sozzi to examine the implications of the affair for the company.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:04:34Z",
+          "url": "https://finnhub.io/api/news?id=2ebab813f3a9aedf2de422eed80d60fd9f413c261e18b80a8b3dda15e43f4f79"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Toptal AI Launches, Delivers Frontier-grade AI With Open-weight Models and Full Data Ownership",
+          "summary": "Toptal, recently ranked the #1 Most Reliable Professional Services Company in America by Newsweek, today announced the launch of Toptal AI, a new full-stack AI services company. Toptal AI develops, evaluates, and deploys frontier-grade AI using a combination of open-weight and proprietary models while allowing organizations to retain full ownership and control over their AI systems and data. Launching with more than 200 PhDs in AI-related fields, 100 forward-deployed engineers, and 15 new produc",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T15:00:00Z",
+          "url": "https://finnhub.io/api/news?id=482ebccec065efba3162d15ad7633f19100c8c38efe6d25f974d5eb828cd6935"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Meta and Amazon Rise 5% as JPMorgan Names Them Top Internet Picks; Alphabet Gains 3% Despite Losing Its Spot",
+          "summary": "JPMorgan just reshuffled its favorite internet stocks, and one household name got cut yet still rallied. Find out which rival Meta displaced, why analysts say its ad engine is outrunning Google Search, and what could still derail the rotation.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:48:19Z",
+          "url": "https://finnhub.io/api/news?id=f405d7ea27e7349ca7aa475c149b1a7eb4120bb376bebbe0d0629bf507a36560"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Amazon AWS Revenues Up 39% in Q3 as Cloud Rivals Gain Pace: Hold Stock?",
+          "summary": "AMZN's AWS revenues surge 39% in Q3, fueled by AI demand, but rising cloud competition, steep valuation and heavy capex pose challenges for investors.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:44:00Z",
+          "url": "https://finnhub.io/api/news?id=162fe828f96f9f0b6d8c6712d613b613201bf5a533ce7377456bc9b346c4f054"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Amazon Web Services Commits $600,000 Annual Technology Credits to PenFed Foundation",
+          "summary": "Amazon Web Services (AWS) has pledged up to $600,000 per year in technology credits to support veteran and military spouse-led startups through the PenFed Foundation\u2019s Veteran Entrepreneur Program.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T14:32:20Z",
+          "url": "https://www.prnewswire.com/news-releases/aws-announces-600-000-in-cloud-credits-to-the-penfed-foundation-for-military-heroes-veteran-entrepreneur-program-302932893.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Global Drone Logistics Market Report 2026 | Capitalize on 36.3% CAGR Through 2030 as Amazon, UPS, Zipline and Wing Scale AI-Powered BVLOS Delivery Networks",
+          "summary": "Profiles Amazon, UPS, Zipline, DroneUp and Wing Aviation, covering AI-enabled flight, last-mile delivery, safety and scalable drone logistics strategies.Dublin, Nov. 09, 2026 (GLOBE NEWSWIRE) -- \"Drone Logistics Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. The global drone logistics market is experiencing exponential growth as businesses invest in faster delivery systems, autonomous logistics networks and advanced aerial transportation infrastructure. The marke",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:29:00Z",
+          "url": "https://finnhub.io/api/news?id=935104202781aef3c6a23a91c95ec84f5ff67cd8f5096b6c0330972e316abb95"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Deerfield Management Announces Collaboration With AWS To Accelerate Ai-Driven Healthcare Innovation, Care Delivery",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T14:25:49Z",
+          "url": "https://www.benzinga.com/news/26/11/63032745/deerfield-management-announces-collaboration-aws-accelerate-ai-driven-healthcare-innovation-care-del"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "MercadoLibre's Growth Strategy Puts Profit Margins to the Test",
+          "summary": "MercadoLibre's revenues surge 45% in Q3 2026, but shipping costs and expansion spending squeeze margins despite improving logistics efficiency in Brazil.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:16:00Z",
+          "url": "https://finnhub.io/api/news?id=33c935d767bd128272aacd37898cf44667ab45e86f312f6b99411218610960d2"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "SiriusXM stock slips as Anjali Sud named new CEO",
+          "summary": "Investing.com -- Sirius XM Holdings Inc (NASDAQ:SIRI) shares ticked down 1% in premarket trading Monday following the announcement that Anjali Sud will become the company's next Chief Executive Officer.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:06:25Z",
+          "url": "https://finnhub.io/api/news?id=ef7a874a0db30e2551f01a2c8f27422e33e2a93d9239fba825e60ea06e009984"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "JPMorgan drops Alphabet from focus list, adds Meta on AI advertising gains",
+          "summary": "Investing.com -- JPMorgan has removed Alphabet from its Analyst Focus List and added Meta Platforms, betting that AI-driven advertising gains and emerging monetization opportunities make Meta the more attractive internet stock.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:59:01Z",
+          "url": "https://finnhub.io/api/news?id=63d077d5aec622c62dfc46bb7bbce5f71a4e08466e92a9550f8a8c04cadeb367"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Stock Market Today: Dow Rallies As Oil Prices Slide; Nvidia Stock Dives On CEO Huang Probe (Live Coverage)",
+          "summary": "The Dow Jones index rallies 500 points Monday as oil prices drop. Nvidia stock dives on the probe into CEO Jensen Huang.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:53:00Z",
+          "url": "https://finnhub.io/api/news?id=9ed519a9581c0b645208639091ac07e8066a724f30fe3e5d74827003446af2c6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "A $5.4 Billion Fund Bought These 3 Stocks",
+          "summary": "Key TakeawaysPalestra Capital Management, a firm that manages $5. 44 billion, bought Amazon (AMZN:NASDAQ), Lam Research (LRCX:NASDAQ) and Advanced Micro Devices (AMD:NASDAQ) in the Q2, according to its 13F for the quarter ended June 30.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:51:03Z",
+          "url": "https://finnhub.io/api/news?id=713799fa390358205ef9b1bc294e70662b8124dd3ef632e2d2dedacd90729c40"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 AI Agent Upgrade: #AMZN is now a BUY \ud83d\udcc8\nUpgraded from HOLD\nReason: Bullish alignment: RSI 52, MACD positive, price above Ichimoku cloud, OBV bullish; fundamentals strong; no sell signals triggered.\n\nPortfolio: https://www.etoro.com/people/holdinginfinity #algotrading #StockMarket #AlgorithmicTra...",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T18:37:10.190001+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzvkzyvyg62t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udea8 #BreakoutAlert from INSIDERFINANCE.COM Technical Analysis System \ud83d\udea8\n\n\ud83d\ude80 #AMZN\n\ud83d\udcb0 Buy Signal @ 268.26\n\ud83d\udcc8 1 Hour Chart\n\ud83d\udcaa 80 #TradeSignal strength\n\u2705 16 indicators\n\ud83c\udfaf Stop loss + profit levels\ud83d\udc47\n\n#StockMarket #DayTrading #SwingTrading #FinTwit #TechnicalAnalysis",
+          "author": "insiderfinance.com",
+          "created_at": "2026-11-09T18:31:25.242Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderfinance.com/post/3mzvkppv4tm2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Update: Jim Cramer said buy 2 top companies and avoid 1 on October 29th\n\n\u2022 $GOOGL \u201cdon\u2019t want to buy\u201d +2% since\n\u2022 $MSFT \u201cbuy right here\u201d +2% since\n\u2022 $AMZN \u201cBuy Buy Buy\u201d +10% since",
+          "author": "autopilot.extwitter.link",
+          "created_at": "2026-11-09T18:29:35.482364+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/autopilot.extwitter.link/post/3mzvkmhbnfd2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "1 Micron 2.5\" x 10\" Whole House CTO Carbon Water Filter Cartridge Replacement for Under Sink Water Filter System, Dupont WFPFC8002, WFPFC9001, FXWTC, SCWH-5, WHEF-WHWC, WHCF-WHWC, AMZN-SCWH-5, 4Pack#waterfilter#carbonfilter#CTOfilter#watersystem#replacementcartridge",
+          "author": "ronaldcrespo.bsky.social",
+          "created_at": "2026-11-09T18:25:14.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ronaldcrespo.bsky.social/post/3mzvkeog2ot2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "EU Proposes Sweeping Rules Targeting Manipulative Tech Design \nlibrary.thecapitolforum.com/docs/9z2x9xa...\n\n$AAPL $AMZN $GOOG $GOOGL $META $MSFT",
+          "author": "capitolforum.bsky.social",
+          "created_at": "2026-11-09T18:08:49.931Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/capitolforum.bsky.social/post/3mzvjhddtr22i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "* AMAZON LEO TO LAUNCH 40 SATELLITES ON FIRST VULCAN MISSION\n\n$AMZN",
+          "author": "carlquintanilla.bsky.social",
+          "created_at": "2026-11-09T18:05:17.624Z",
+          "likes": 69,
+          "reposts": 10,
+          "replies": 13,
+          "url": "https://bsky.app/profile/carlquintanilla.bsky.social/post/3mzvjayurok27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Watery iced coffee is a letdown. The Tastyle's over ice setting keeps the brew rich instead of watery.\n\nIt has 3 brew styles, though it only makes one cup at a time.\n\nHow do you make iced coffee at home?\n\nTastyle Coffee Maker\n\nAmzn link (affiliate): https://geni.us/cNUGa",
+          "author": "thereviewrewind.bsky.social",
+          "created_at": "2026-11-09T18:01:40.869636060Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/thereviewrewind.bsky.social/post/3mzvj2kosxt27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 #AMZN Stance:\nReason: AMZN showing resilience above key averages. AI demand continues to fuel AWS, but competition is heating up. Watching for continued momentum or a potential consolidation phase. #AMZN #TechStocks #AI #DayTrading #Stocks #algotrading",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T17:59:38.310042+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzviwvdrao2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udea8 Dark Pool Alert: $AMZN\n\n\u2022 Quantity: 650,000 shares\n\n\u2022 Price: $269.17\n\n\u2022 Total: $174.96M\n\nLarge institutional order detected away from public markets.\n\nTrack more: stocknear.com/unusual-order-flow",
+          "author": "stocknear.bsky.social",
+          "created_at": "2026-11-09T17:55:49.420978+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/stocknear.bsky.social/post/3mzviq2zjbt22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AMZN: Since Dec. 2025, Ring alerts can name visitors, not just flag motion. Sigwalt alleges that came from face prints taken without consent. No claim: openclassactions.com/lawsuits/ama...",
+          "author": "openclassactions.bsky.social",
+          "created_at": "2026-11-09T17:55:07.394Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/openclassactions.bsky.social/post/3mzviosvxyk2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Pese a una ca\u00edda del 6,4% en $NVDA, el sector de IA mostr\u00f3 resiliencia con subas en $AVGO (+6,1%), $AMZN (+5,7%), $SPCX (+4,2%), $GOOGL (+3,7%), $META (+5,1%), $AMD (+6,4%) y $ASML (+5,1%).",
+          "author": "c4cus.bsky.social",
+          "created_at": "2026-11-09T17:50:56.276457Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/c4cus.bsky.social/post/3mzvihfjces26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Now live! A Court of Thorns and Roses Funko POPs!\ud83c\udf39\ud83d\udde1\ufe0f Are available at EE and Amazon ..\n\n   EE ~ fnkpp.com/EEACOTAR\n   Amzn ~ fnkpp.com/AmACOTAR\n   FS ~ fnkpp.com/FSACOTAR\n   T ~ fnkpp.com/TACOTAR\n\n#Ad #FunkoPOPNews #ACOTAR #ACourtOfThornsAndRoses #SarahJMaas #BookTok #Books",
+          "author": "funkonews.bsky.social",
+          "created_at": "2026-11-09T17:47:51.516Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/funkonews.bsky.social/post/3mzvibta4ss2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Anyway fun fact snap does cover grocery store sushi. And while WF is expensive as hell (and amzn owned) they do actually have good sushi (for a grocery store). Fat fucking nigiri, at least at my store, the chefs don\u2019t skimp.",
+          "author": "elidibus.amaurot.social",
+          "created_at": "2026-11-09T17:40:06.158Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elidibus.amaurot.social/post/3mzvhtxgfqc24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Meta and Amazon rose about 5% after JPMorgan named them top internet picks; Alphabet gained about 3% on two new TPUs aimed at Nvidia. Owners of capacity and own silicon are being paid.\n\n$META $AMZN $GOOGL $NVDA\n\nhttps://canopyatlas.substack.com/p/market-sweep-stocks-rebound-as-nvidia",
+          "author": "canopyatlas.bsky.social",
+          "created_at": "2026-11-09T17:23:53.190Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/canopyatlas.bsky.social/post/3mzvgwyshhv2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 AI Agent Upgrade: #AMZN is now a BUY \ud83d\udcc8\nUpgraded from HOLD\nReason: Bullish technicals (RSI 52, MACD positive, price above Ichimoku cloud) with strong OBV accumulation and upbeat news sentiment. #QuantTrading #Finance #Trading",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T17:22:29.415459+00:00",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzvguhpase2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "oh boy, what a savings",
+          "author": "positronicwoman.bsky.social",
+          "created_at": "2026-11-09T17:13:50.204Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/positronicwoman.bsky.social/post/3mzvgeyicyk2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "rlsbb.ru.web.brid.gy",
+          "created_at": "2026-11-09T16:51:19.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/rlsbb.ru.web.brid.gy/post/3mzvhodmtm3d2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 #AMZN Stance:\nReason: AMZN holding above the cloud with AWS up 39%. Ignoring the AI rout noise\u2014cloud growth is a reroute, not a rerun. +2.7% P&L, no structural...\n\nPortfolio: https://www.etoro.com/people/holdinginfinity #Trading #AIInvesting #FinSky",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T16:45:41.223045+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzvesnsfhp27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Dark pool check on $AMZN: what traded off the exchanges in the latest session.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#darkpool #stocks #stockmarket",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T16:31:01.803686Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzvdyh5b4n2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "rlsbb.ru.web.brid.gy",
+          "created_at": "2026-11-09T16:15:11.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/rlsbb.ru.web.brid.gy/post/3mzvhmdbk5k52"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "rlsbb.ru.web.brid.gy",
+          "created_at": "2026-11-09T16:09:58.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/rlsbb.ru.web.brid.gy/post/3mzvhn4gljrm2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 #AMZN Stance:\nReason: AMZN's AWS surge is impressive, but the market's getting a bit frothy. Watching for that dynamic overbought signal \u2013 might be time to lock in some gains before the next cloud cycle. #AMZN #Trading #Investing #Finance #algotrading",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T16:09:32.921810+00:00",
+          "likes": 2,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzvcrzx6wi2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "'Pretty Dire': EU Social Media Restrictions Raise Compliance Concerns Among Smaller, Privacy-Focused Developers \nlibrary.thecapitolforum.com/docs/9z2q0m3...\n\n$AAPL $AMZN $GOOG $GOOGL $META $MSFT",
+          "author": "capitolforum.bsky.social",
+          "created_at": "2026-11-09T15:48:53.497Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/capitolforum.bsky.social/post/3mzvbn3uy7c2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AMZN testing key resistance at $273.64, a level previously challenged on Nov 05. Strong premarket 'gap up' sentiment is fueling this push. Watching for a decisive breakout or a rejection. Price action here is critical. #AMZN #Resistance\n\n#BankingWithBilly #bwb-feed-1548276937011494942",
+          "author": "bankingwithbilly.bsky.social",
+          "created_at": "2026-11-09T15:35:10.233Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bankingwithbilly.bsky.social/post/3mzvauksp622k"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 #AMZN Stance:\nReason: AMZN's AWS surge is a powerful tailwind, but the market's digesting recent gains. Watching for a clear signal to either press the advanta...\n\nPortfolio: https://www.etoro.com/people/holdinginfinity #Stocks #FinSky #Finance",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T15:31:26.292308+00:00",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzvanvaqsl2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udea8 TRADE ALERT \u2014 $AMZN\n\n\ud83d\udc8e 267.5 PUT | 11/09 Expiry\n\ud83d\udcb0 Entry: $0.42\n\nManage risk carefully, respect your stop loss, and secure profits along the way.\n\nNot Financial Advice. \u2618\ufe0f",
+          "author": "hendersondaytrader.bsky.social",
+          "created_at": "2026-11-09T15:17:08.610Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/hendersondaytrader.bsky.social/post/3mzv7udahxs2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "AMZN | Amazon (NASDAQ):\n\ud83d\udd3c AMZN is UP today by 5.05% (259.30 -> current 272.39)",
+          "author": "trendalertstox.bsky.social",
+          "created_at": "2026-11-09T15:06:46.504653Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trendalertstox.bsky.social/post/3mzv7bseeb72g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83e\udd16 AI Agent Upgrade: #AMZN is now a BUY \ud83d\udcc8\nUpgraded from HOLD\nReason: Technicals bullish: RSI 54 (<62), MACD positive, price above Ichimoku cloud, OBV accumulation, Bollinger breakout; fundamentals strong (16.9% margin, 12% YoY revenue growth); recent news highlights AWS growth and clou... #Finance...",
+          "author": "quant-horse.bsky.social",
+          "created_at": "2026-11-09T14:53:51.567702+00:00",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quant-horse.bsky.social/post/3mzv6koyapy2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "One red giant in a green sea. NVDA -5.47% at the open while AMD +8%, AVGO +6%, META +5%, AMZN +5% and TSLA +5% rip. The market is bouncing \u2014 the Huang story is an NVDA story, not a market story. Breadth is back today.\n[NOT FINANCIAL ADVICE, DYOR!]\nfrom Humble Trader | Gemini Trading",
+          "author": "robot2trade.bsky.social",
+          "created_at": "2026-11-09T14:52:44.941Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robot2trade.bsky.social/post/3mzv6ipevo22m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "What is $NVDA pain is literally EVERYONE ELSES GAIN! $AMD $TSM $AMZN $MSFT $LRCX $ASML",
+          "author": "tivoboy.bsky.social",
+          "created_at": "2026-11-09T14:52:33.698Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tivoboy.bsky.social/post/3mzv6ienr722f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Getting a strong bounce on $btc $goog $amzn\nAdded $nvda $gram $uni\n\nQuoted from James G (@Jamyies): 4 yr old trend line on bitcoin:native Not financial advice. My trades",
+          "author": "jamescgofficial.bsky.social",
+          "created_at": "2026-11-09T14:49:49.512Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/jamescgofficial.bsky.social/post/3mzv6di3dfr26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26aa $AMZN \u2014 $985k CALL PRINT\nStrike: $255 | Expiry: Sep. 17\nSpot: $269.23 | 5.3% ITM\nVolume: 200 | OI: 769\nExecution: 47% at ask\nTradeLeaks read: This is 5.3% ITM with 44 weeks to expiry. Observed print; aggressor and opening/closing not on the tape.\n\n#BankingWithBilly #bwb-feed-1548376414258987239",
+          "author": "bankingwithbilly.bsky.social",
+          "created_at": "2026-11-09T14:42:40.101Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bankingwithbilly.bsky.social/post/3mzv5woql3x2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$NVDA -6.4%\n\nBut AI unphased:\n$AVGO +6.1% \n$AMZN +5.7%\n$SPCX +4.2%\n$GOOGL +3.7%\n$META +5.1%\n$AMD +6.4%\n$ASML +5.1%",
+          "author": "mikezaccardi.bsky.social",
+          "created_at": "2026-11-09T14:41:33.000Z",
+          "likes": 6,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/mikezaccardi.bsky.social/post/3mzv5uqqb3b2w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$amzn +20% after buying the fear on earnings\nWill it be the same for the $nvda I bought today?\n\nQuoted from James G (@Jamyies): This is why I\u2019ve been saying 80% cash Shopping time \ud83d\udecd\ufe0f $GOOG $nvda $amzn",
+          "author": "jamescgofficial.bsky.social",
+          "created_at": "2026-11-09T14:36:11.492Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/jamescgofficial.bsky.social/post/3mzv5l3xepr2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The fastest way to build wealth by 2028:\n\n$AMD (AMD) - Don\u2019t buy\n$TSLA (Tesla) - Don\u2019t buy\n$AVGO (Broadcom) - Strong buy at $294\n$NVDA (Nvidia) - Strong buy at $187\n$NBIS (Nebius) - Strong buy at $129\n$SPCX (SpaceX) - Buy at $134\n$AMZN (Amazon) - Buy at $259\n\nIf this helps you, like + follow + share",
+          "author": "mikeinvestingr.bsky.social",
+          "created_at": "2026-11-09T14:30:32.637Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mikeinvestingr.bsky.social/post/3mzv5ays4mc2m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$GOOGL strength. Over pdh 8d, 290.40-291\n$AMZN JPM good comments, strength\n$MSFT as well, watch 542.30\n\n$ORCL holding off Friday bad news\n\n$TSLA $AAPL sideways\n$SPCX 136.50 8d\n$RKLB $ASTS er tonight\n\nOil $USO pulling - watch travel names: like $CCL $UAL $DAL for traders\n\nSmall data at 10",
+          "author": "julianthelemur.bsky.social",
+          "created_at": "2026-11-09T14:22:22.115Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/julianthelemur.bsky.social/post/3mzv4sezw6s2s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$ANT $AMZN $GOOGL $MSFT $895 billion out the door, $13.8 billion coming in. That's a 65:1 ratio, folks \u2014 the plaster elephant is back, it's a neocloud, and the rats have already signed take-or-pay leases.",
+          "author": "sabstuck.com",
+          "created_at": "2026-11-09T14:19:09Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/sabstuck.com/post/3mzv4mnhnrx2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$GOOGL (Alphabet) - Strong buy at $285\n$NVD  (Nvidia) - Strong buy at $187\n$NBIS (Nebius) - Strong buy at $129\n$SPCX (SpaceX) - Buy at $134\n$AMZN (Amazon) - Buy at $259\nIf this helps you, like + follow + share.\n(NFA \u2014 DYOR)",
+          "author": "bsbsyk.bsky.social",
+          "created_at": "2026-11-09T14:00:21.908Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/bsbsyk.bsky.social/post/3mzv3kzxxuk2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#morninglistening to LvBeethoven's middle string quartets w/the #MelosQuartett. Once an important cycle, now a cipher and underrated. The earliest to include op.14, I think. Nice touch. Melcher, Voss x 2 & Buck.\n\nAmzn: amzn.to/4fwqi6Q\n\n#ClassicalMusicCollection",
+          "author": "classicalcritic.bsky.social",
+          "created_at": "2026-11-09T12:31:57.726Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/classicalcritic.bsky.social/post/3mzuwmxij5k2p"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Unusual options activity in $AMZN.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#optionsflow #stocks #optionstrading #stockmarket",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T12:29:02.337431Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzuwhqgxyb2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "AMZN sentiment dropped -3.0 points to 1.5/10 across 17 recent articles. The narrative velocity is shifting toward a neutral floor, losing the positive bias it held earlier in the cycle. The reporting indicates a notable increase in editorial friction for the retail giant. assetfeel.com ...",
+          "author": "assetfeel.bsky.social",
+          "created_at": "2026-11-09T12:15:04.605Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/assetfeel.bsky.social/post/3mzuvorekyn27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$NVDA Melius Research sees AI demand holding firm despite political headwinds.\n\n- $AMD and $AVGO could gain share from disruptions, though Melius says it's too early to call\n- $GOOGL and $AMZN get further validation of their custom chip strategies",
+          "author": "yuuiko7.bsky.social",
+          "created_at": "2026-11-09T11:32:29.291Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/yuuiko7.bsky.social/post/3mzutcmecj22z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\ude80 Dr\u017e\u00edte akcie Amazon nebo \u010dek\u00e1te na korekci?\n\nV Elite skupin\u011b akcie $AMZN m\u00e1me, ale jen jednu pozici. Trh n\u00e1m v\u00edc mo\u017enost\u00ed dokoupit nedal.\n\nKr\u00e1sn\u011b na grafu je\u0161t\u011b sv\u00edt\u00ed oblast cenov\u00e9ho v\u00fdb\u011b\u017eku okolo 210 USD, kde bych r\u00e1d p\u0159ikoupil. Tak uvid\u00edme, zda n\u00e1m trh d\u00e1 p\u0159\u00edle\u017eitost.",
+          "author": "klass-trader.zpravobot.news.ap.brid.gy",
+          "created_at": "2026-11-09T09:24:42.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/klass-trader.zpravobot.news.ap.brid.gy/post/3mzum6f4ofrf2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Wakey wakey~! Minna~ $AMZN is getting love \ud83d\udc96 Sentiment score is way up Sugoi~!",
+          "author": "fincy.bsky.social",
+          "created_at": "2026-11-09T08:27:18.267234+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/fincy.bsky.social/post/3mzuixicpzq2j"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Unusual options activity in $AMZN. Both sides are getting paid for here.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#optionsflow #stocks #optionstrading #stockmarket",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T08:27:17.032528Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzuixgxan426"
+        },
+        {
+          "platform": "bluesky",
+          "text": "",
+          "author": "rlsbb.ru.web.brid.gy",
+          "created_at": "2026-11-09T08:12:06.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/rlsbb.ru.web.brid.gy/post/3mzumjxlkzg72"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$AMZN reported earnings today, this is their revenue breakdown compared to competitors.\n\nSee more at https://www.insiderdashboard.com/search?query=AAPL",
+          "author": "insiderdashboard.bsky.social",
+          "created_at": "2026-11-09T07:53:42.940Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderdashboard.bsky.social/post/3mzuh3gawi62o"
+        },
+        {
+          "platform": "hackernews",
+          "text": "AWS Nitro Sandboxes: Hardware-Enforced Workload Isolation on Amazon EKS",
+          "author": "dropbox_miner",
+          "created_at": "2026-11-09T17:48:27Z",
+          "likes": 8,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50428872"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: A visualization map of the funding of public companies",
+          "author": "feearent",
+          "created_at": "2026-11-09T17:00:42Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50428274"
+        },
+        {
+          "platform": "hackernews",
+          "text": "AWS Nitro Sandboxes on Amazon EKS, ECS and EC2",
+          "author": "dropbox_miner",
+          "created_at": "2026-11-09T16:55:26Z",
+          "likes": 21,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50428199"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Sandboxing on Amazon EKS with isolated and confidential pods",
+          "author": "dropbox_miner",
+          "created_at": "2026-11-09T16:49:09Z",
+          "likes": 5,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50428101"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Build a repeatable PHP-to-Java migration engine with Kiro",
+          "author": "fksubs",
+          "created_at": "2026-11-09T03:15:04Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50420596"
+        },
+        {
+          "platform": "hackernews",
+          "text": "DoorDash Shareholders Aren't Convinced the Company Can Take on Amazon",
+          "author": "ryan_j_naughton",
+          "created_at": "2026-11-08T14:07:16Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50413501"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Addressing protocol security gaps in multi-tenant Kubernetes",
+          "author": "acossta",
+          "created_at": "2026-11-08T03:25:39Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50410172"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Amazon ECR Public Service Quotas \u2013 Amazon ECR Public",
+          "author": "abdelhousni",
+          "created_at": "2026-11-08T00:15:07Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50409328"
+        },
+        {
+          "platform": "hackernews",
+          "text": "IRA Velinsky \u2013 Commodore's Industrial Designer",
+          "author": "erickhill",
+          "created_at": "2026-11-07T22:45:39Z",
+          "likes": 39,
+          "reposts": null,
+          "replies": 3,
+          "url": "https://news.ycombinator.com/item?id=50408750"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Project will harness technology to track Amazon biodiversity in real time",
+          "author": "gmays",
+          "created_at": "2026-11-07T19:40:42Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50407383"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Ask HN: Is anyone running multi/always-on agents that don't cost a fortune?",
+          "author": "abejora",
+          "created_at": "2026-11-06T12:40:14Z",
+          "likes": 6,
+          "reposts": null,
+          "replies": 5,
+          "url": "https://news.ycombinator.com/item?id=50391647"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Amazon tells engineers to stop 'tokenmaxxing' to look productive",
+          "author": "speckx",
+          "created_at": "2026-11-05T12:55:33Z",
+          "likes": 23,
+          "reposts": null,
+          "replies": 14,
+          "url": "https://news.ycombinator.com/item?id=50378538"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Amazon Kiro proves properties of its own harness in Lean",
+          "author": "wenc",
+          "created_at": "2026-11-04T14:06:25Z",
+          "likes": 3,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50365702"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: Unblock Dot/Grok Bot/Instinct with Amazon, etc.",
+          "author": "independentbits",
+          "created_at": "2026-11-03T16:24:06Z",
+          "likes": 3,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50354016"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Show HN: A Chrome extension to spot red flags Amazon isn't showing",
+          "author": "arthurisoffline",
+          "created_at": "2026-11-03T14:00:44Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 1,
+          "url": "https://news.ycombinator.com/item?id=50352087"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Open Counter: book a small business by talking \u2013 Amazon Developer Hackathon",
+          "author": "Nzimande_00",
+          "created_at": "2026-11-03T12:48:12Z",
+          "likes": 2,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50351377"
+        },
+        {
+          "platform": "hackernews",
+          "text": "Ideas That Refused to Die",
+          "author": "pbnsoft",
+          "created_at": "2026-11-03T08:32:16Z",
+          "likes": 1,
+          "reposts": null,
+          "replies": 0,
+          "url": "https://news.ycombinator.com/item?id=50349502"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-10-29",
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 64,
+      "total_post_likes": 205,
+      "major_8k_events": [
+        "Earnings results",
+        "Financial statements and exhibits"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "AMZN",
+    "score": 5,
+    "verdict": "neutral",
+    "market_regime": "mixed",
+    "confidence": "medium",
+    "strengths": [
+      "The consumer cyclical sector has outperformed SPY by 2.62% over the last 90 days.",
+      "AMZN has a beta of 1.503, indicating higher returns in an up market."
+    ],
+    "risks": [
+      "The VIX is at 28.18, indicating elevated market fear.",
+      "Current unemployment is at 4.1%, suggesting some economic softness."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI Report",
+      "2026-11-25: GDP Report",
+      "2026-12-04: Jobs Report"
+    ],
+    "missing_data": [],
+    "summary": "The macro environment presents a mixed picture for Amazon (AMZN). Despite the consumer cyclical sector's strong performance relative to the broader market, elevated market fear and a slight uptick in unemployment raise concerns about consumer spending and overall economic health. Upcoming economic reports may further inform the outlook.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "AMZN",
+        "sector": "Consumer Cyclical",
+        "beta": 1.503,
+        "sector_etf": "XLY",
+        "sector_vs_spy_90d": {
+          "sector_return": 0.0303,
+          "spy_return": 0.0041,
+          "sector_outperformance": 0.0262
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 1.503,
+      "sector_outperformance": 0.0262
+    }
+  }
+}

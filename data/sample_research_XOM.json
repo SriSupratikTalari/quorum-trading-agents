@@ -1,0 +1,1104 @@
+{
+  "fundamentals": {
+    "ticker": "XOM",
+    "score": 9,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "Nine months ended Sept 30, 2026: net income attributable to ExxonMobil 34,121 million, up from 22,343 million in 2025.",
+      "Nine months ended Sept 30, 2026: revenues and other income 314,319 million, up from 249,930 million in 2025.",
+      "Operating cash flow from continuing operations for the nine months ended Sept 30, 2026: 57,910 million.",
+      "Total assets 470,917 million and ExxonMobil share of equity 265,789 million at Sept 30, 2026; total equity 272,520 million; liabilities 198,397 million.",
+      "End-of-quarter debt metrics: debt-to-capital 11.2% (Sept 30, 2026) and net debt to capital 7.5% (Sept 30, 2026).",
+      "Earnings per share (GAAP) for the nine months ended Sept 30, 2026: 8.18; quarterly 3.72 for the quarter ended Sept 30, 2026.",
+      "Shareholder returns: dividends to shareholders 12.9 billion and stock repurchases 15.1 billion in the first nine months of 2026.",
+      "Cash capex (non-GAAP) for the nine months ended Sept 30, 2026: 19.98 billion, with total cash from operating activities of 57.91 billion, indicating robust cash generation relative to investment.",
+      "Divestments garnered proceeds of approximately 1.5 billion in the nine months of 2026 (3Q26 note in MD&A notes prior-year activity); overall divestment activity ongoing.",
+      "Segment performance across Upstream, Energy Products, Chemical, and Specialty Products contributed to stronger year-to-date earnings (Upstream 20,752; Energy Products 11,372; Chemical 1,976; Specialty 2,892 for the nine months)."
+    ],
+    "risks": [
+      "Litigation and contingencies: climate-change related legal proceedings continue; filings discuss the potential for remote material adverse effects, though management notes these are unlikely to be material overall.",
+      "External disruptions and volume risk: MD&A notes Middle East disruptions and other external factors reduced volumes in 3Q26 and affected nine-month volumes (e.g., oil-equivalent production declined vs prior year).",
+      "Derivative and timing effects: estimated timing effects from mark-to-market adjustments and derivative settlements can impact quarterly results and may unwind in future periods.",
+      "Regulatory and tax environment: taxes and other duties were significant in the period (nine months taxes total ~31.3B), with effective tax rate around 27% versus prior periods; policy/regulatory changes could affect future earnings.",
+      "Geopolitical and market risk: global supply/demand dynamics, refining capacity, and regional policy changes can alter margins and volumes; the company notes ongoing exposure to such macro factors."
+    ],
+    "missing_data": [
+      "10-K document not available from the provided tool (error: 'get_10k_document found no filing').",
+      "Get_fundamentals returned empty annual figures and many ratios; profitability/munding metrics (gross margin, ROE, current ratio, debt-to-equity) are not provided as ratios in the tool output."
+    ],
+    "summary": "ExxonMobil shows healthy, improving fundamentals through 9M2026: revenue and net income have risen meaningfully versus 2025 (9M revenue 314.3B vs 249.9B; net income 34.1B vs 22.3B), and cash generation remains robust (operating cash flow 57.9B against ~20B in capex non-GAAP). The balance sheet remains strong with total assets near 471B and equity around 273B; debt metrics improved (debt-to-capital 11.2%, net debt-to-capital 7.5%). Dividends and buybacks continued, underscoring strong shareholder returns. However, volumes were affected by external disruptions (e.g., Middle East and other operational interruptions) and there are ongoing litigation and regulatory risks discussed in the filings. While the filings point to an improving and solid operating profile, the absence of a 10-K filing in this session limits broader risk framing from that annual context. Overall, the company appears healthy and on an improving trajectory, driven by advantaged volumes, refining margins, and disciplined capital allocation, with manageable but real risks from geopolitical, regulatory, and litigation factors.",
+    "data": {
+      "ticker": "XOM",
+      "cik": "0002115436",
+      "annual": {
+        "revenue": {},
+        "gross_profit": {},
+        "operating_income": {},
+        "net_income": {},
+        "operating_cash_flow": {},
+        "capex": {},
+        "total_assets": {},
+        "current_assets": {},
+        "current_liabilities": {},
+        "total_liabilities": {},
+        "equity": {},
+        "cash": {},
+        "long_term_debt": {}
+      },
+      "quarterly": {
+        "revenue": {
+          "2025-06-30": 81506000000,
+          "2025-09-30": 85294000000,
+          "2026-06-30": 116017000000,
+          "2026-09-30": 113164000000
+        },
+        "gross_profit": {},
+        "operating_income": {},
+        "net_income": {
+          "2025-06-30": 7082000000,
+          "2025-09-30": 7548000000,
+          "2026-06-30": 14525000000,
+          "2026-09-30": 15413000000
+        },
+        "operating_cash_flow": {},
+        "capex": {},
+        "total_assets": {
+          "2025-12-31": 448980000000,
+          "2026-06-30": 464482000000,
+          "2026-09-30": 470917000000
+        },
+        "current_assets": {
+          "2025-12-31": 83382000000,
+          "2026-06-30": 100793000000,
+          "2026-09-30": 107625000000
+        },
+        "current_liabilities": {
+          "2025-12-31": 72330000000,
+          "2026-06-30": 88830000000,
+          "2026-09-30": 90209000000
+        },
+        "total_liabilities": {
+          "2025-12-31": 182354000000,
+          "2026-06-30": 198371000000,
+          "2026-09-30": 198397000000
+        },
+        "equity": {
+          "2025-12-31": 259386000000,
+          "2026-06-30": 259380000000,
+          "2026-09-30": 265789000000
+        },
+        "cash": {
+          "2025-12-31": 10681000000,
+          "2026-06-30": 10588000000,
+          "2026-09-30": 12153000000
+        },
+        "long_term_debt": {}
+      },
+      "ratios": {}
+    },
+    "key_metrics": {}
+  },
+  "technical": {
+    "ticker": "XOM",
+    "score": 5,
+    "verdict": "neutral",
+    "trend": "downtrend",
+    "confidence": "medium",
+    "strengths": [
+      "Price is above the 200-day SMA (154.62), indicating a long-term uptrend."
+    ],
+    "risks": [
+      "Price is below the 50-day SMA (168.98), indicating a short-term downtrend.",
+      "RSI at 37.68 suggests it is in the neutral to oversold territory."
+    ],
+    "missing_data": [],
+    "summary": "The current trend for XOM is downwards since the price is below the 50-day SMA, despite being above the 200-day SMA, indicating a longer-term bullish stance. The RSI at 37.68 shows potential for a rebound, but currently reflects a neutral momentum. Additionally, XOM significantly outperformed the market (SPY) in return over the last 90 days, which could be a positive signal against the backdrop of the mixed trend.",
+    "data": {
+      "indicators": {
+        "price": 164.28,
+        "sma_50": 168.98,
+        "sma_200": 154.62,
+        "above_sma_50": false,
+        "above_sma_200": true,
+        "rsi_14": 37.68,
+        "volatility_20d": 0.3212
+      },
+      "relative_strength": {
+        "stock_return": 0.2118,
+        "spy_return": 0.005,
+        "outperformance": 0.2067
+      }
+    },
+    "key_metrics": {
+      "price": 164.28,
+      "above_sma_50": false,
+      "above_sma_200": true,
+      "rsi_14": 37.68,
+      "volatility_20d": 0.3212,
+      "outperformance": 0.2067
+    }
+  },
+  "news": {
+    "ticker": "XOM",
+    "score": 4,
+    "sentiment": "negative",
+    "crowd_mood": "negative",
+    "confidence": "medium",
+    "key_events": [
+      "2026-10-30: Q3 earnings disclosed, showing mixed results and leading to cautious outlook from analysts.",
+      "2026-11-09: Paused work on Texas hydrogen facility, raising concerns about the company's low carbon ambitions and project viability."
+    ],
+    "strengths": [
+      "ExxonMobil has strong earnings potential indicated by their quarterly performance, despite some negative market sentiment."
+    ],
+    "risks": [
+      "The pause on the Texas hydrogen facility indicates potential shifts in strategy, which may affect investor confidence.",
+      "There's a downward trend noted in the stock, with recent posts highlighting concerns over further declines."
+    ],
+    "missing_data": [],
+    "summary": "ExxonMobil is facing significant challenges, including a paused project in Texas that raises questions about its hydrogen ambitions. Recent earnings reports reflected mixed results, which have influenced crowd sentiment negatively. Moreover, the market mood appears pessimistic, with posts indicating concerns about stock performance. Overall, this could indicate difficulties for ExxonMobil amid shifting energy strategies.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "yahoo",
+          "headline": "$400,000 in Dividend Stocks: How a Roth IRA Could Save You $3,780 a Year",
+          "summary": "The highest-yielding stock in this six-stock dividend portfolio is not the one costing you the most at tax time. Find out which holding triggers the biggest bill, and why where you park it matters more than what it pays.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-09T18:17:41Z",
+          "url": "https://247wallst.com/investing/2026/11/09/400000-in-dividend-stocks-how-a-roth-ira-could-save-you-3780-a-year/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "ExxonMobil (XOM) Pauses Work On Its Texas Hydrogen Facility",
+          "summary": "ExxonMobil Holdings (NYSE:XOM) has paused work on its planned Texas hydrogen facility, signaling a rethink of the project timetable. The move comes as U.S. hydrogen hub plans face slower progress tied to weak offtake demand and uncertain federal funding support. The Texas pause adds fresh questions around ExxonMobil's low carbon ambitions and the pace at which its hydrogen portfolio may develop. The pause at ExxonMobil's Texas hydrogen project only captures part of what is changing in its...",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-11-09T18:09:12Z",
+          "url": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-pauses-texas-hydrogen-180912852.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Ondo tops $4B and tokenizes Anthropic as tZERO eyes $350M SPAC",
+          "summary": "Tokenization is moving to the center of Wall Street. On this episode of CoinDesk\u2019s Public Keys from the New York Stock Exchange, Jennifer Sanasie is joined by Ondo Finance Global Head of Institutional Matthieu de Vergnes who explains how Ondo became No. 1 on RWA.xyz with more than $4 billion in real-world assets. Plus, he provides a look at how Ondo plans to give global investors access to Anthropic stock on IPO day. Next, Securitize Chief Operating Officer Billy Miller breaks down the firm\u2019s expansion to 25 tokenized U.S. stocks on Solana, including Disney, ExxonMobil and GameStop, and tZERO CEO Alan Konevsky unpacks the firm\u2019s plan to go public through a $350 million SPAC deal.",
+          "publisher": "CoinDesk",
+          "published_at": "2026-11-09T17:49:09Z",
+          "url": "http://videos.coindesk.com/previews/kiQXqc97"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Seven OPEC+ Producers Keep December Output Unchanged While Crude Opens Lower",
+          "summary": "Crude oil futures were lower on Monday morning. As of 9:47 a.m. ET, the December NYMEX West Texas Intermediate contract was at $87.43 a barrel, down $3.40 or 3.74% from Friday's settlement of $90.83, while the January ICE Brent contract was at $93.96, down $4.36 or 4.43% from its $98.32 settlement. Third-quarter results from large producers, refiners and liquefied natural gas exporters were released over the past two weeks. Active Companies from around the markets with current developments this",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:15:00Z",
+          "url": "https://finnhub.io/api/news?id=c34103684845d936d59a3f01b8a42a45c00384cdaba695ab2290cd7cd5d754c2"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What Mattered Most In Chevron's Latest Quarter?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Trefis",
+          "published_at": "2026-11-09T12:46:05Z",
+          "url": "https://www.trefis.com/stock/cvx/articles/623636/what-mattered-most-in-chevrons-latest-quarter/2026-11-09"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "GTA Owner Take-Two, ExxonMobil, Clorox And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
+          "summary": "CNBC final trades: Belski picked Take-Two, Simpson Amazon, Lebenthal ExxonMobil and Harrington Clorox, citing upcoming or strong earnings.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T12:35:31Z",
+          "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63028131/take-two-exxonmobil-clorox-cnbc-final-trades"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "5 Stock Picks Last Week From Wall Street's Most Accurate Analysts",
+          "summary": "U.S. stocks ended mixed; Nasdaq rose 1% after losses. Benzinga highlights top analyst picks from five highly accurate Wall Street analysts.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T11:25:06Z",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63025218/5-stock-picks-last-week-from-wall-streets-most-accurate-analysts-42"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What iShares Global Energy ETF (IXC) Sold: Exxon Mobil Leads on Nov. 5",
+          "summary": "The fund sold $168.8 million of stock on Thursday, with no buys, cutting 26 positions and adding none.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T11:06:43Z",
+          "url": "https://finance.yahoo.com/energy/articles/ishares-global-energy-etf-ixc-110643860.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "HEQ: Focus On Value Could Be Good For This Fund Right Now",
+          "summary": "Explore HEQ\u00e2\u0080\u0099s 8.85% yield, value-stock focus, and 9.31% NAV discount to see if this diversified income fund fits your portfolio now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-09T10:19:32Z",
+          "url": "https://finnhub.io/api/news?id=4e47b1f4c792cdac3ded3e9f302d29bdb99877996b9946bf83395cc735877394"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "ExxonMobil Is Better Positioned Than XLE Post-Election",
+          "summary": "",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-09T05:43:46Z",
+          "url": "https://finnhub.io/api/news?id=70c8360bb8b25b6b9c7a654486c12db8dee341cb12441215ffe198f94147e1b8"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What Targa Resources (TRGP) Said on Its Q3 Earnings Call",
+          "summary": "Targa Resources (NYSE:TRGP) expects 2026 adjusted earnings before interest, taxes, depreciation and amortization to reach at least $6 billion, as record Permian Basin volumes and a long-term agreement with ExxonMobil support plans for further infrastructure expansion. Chief Executive Officer Matt M",
+          "publisher": "MarketBeat",
+          "published_at": "2026-11-08T17:14:29Z",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-what-targa-resources-trgp-said-on-its-q3-earnings-call-2026-11-08/?utm_source=yahoofinance&utm_medium=yahoofinance"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Top Wall Street analysts like these 3 dividend stocks for consistent income",
+          "summary": "Three dividend-paying stocks that are highlighted by Wall Street\u2019s top pros, as tracked by TipRanks.",
+          "publisher": "CNBC",
+          "published_at": "2026-11-08T06:47:24Z",
+          "url": "https://finnhub.io/api/news?id=cb272b66616961d114cfae5687ebb8a710c2cd9138da9e9974dbc5a0c590d836"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "ExxonMobil Awards Five-Year Contract to Dietsmann in Angola",
+          "summary": "ExxonMobil has awarded a five-year operations and maintenance contract to Dietsmann for its energy activities in Angola.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-08T02:01:43Z",
+          "url": "https://panafricanvisions.com/2026/11/dietsmann-ceo-cesare-canevese-bullish-on-africa-as-new-contracts-fuel-expansion/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "ExxonMobil Is Up 38% in 2026 and Chevron Is Up 39%: Take Profits, or Hold On?",
+          "summary": "Key TakeawaysExxonMobil is up 38% in 2026, and Chevron has done even better, as the war with Iran pushed oil above $100 and sent refining margins soaring. ExxonMobil\u2019s third-quarter adjusted earnings reached $17.",
+          "publisher": "TIKR",
+          "published_at": "2026-11-07T23:45:59Z",
+          "url": "https://www.tikr.com/blog/exxonmobil-is-up-38-in-2026-and-chevron-is-up-39-take-profits-or-hold-on?ref=yahoofinance&tlnk=yf-261108-4f8f2hpw"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Tracking Ken Fisher's Fisher Asset Management Portfolio - Q3 2026 Update",
+          "summary": "See Fisher Asset Management\u00e2\u0080\u0099s latest 13F moves, top holdings, and growing bets on Nvidia, Apple, and more\u00e2\u0080\u0094explore key portfolio insights now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T22:31:05Z",
+          "url": "https://finnhub.io/api/news?id=d38b786c9c60a5556cc2414acb6a2def185b9be8df154309453939a115bd258a"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Exxon (XOM) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "summary": "The headline numbers for Exxon (XOM) give insight into how the company performed in the quarter ended September 2026, but it may be worthwhile to compare some of its key metrics to Wall Street estimates and the year-ago actuals.",
+          "publisher": "Zacks",
+          "published_at": "2026-11-06T22:00:02Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exxon-xom-reports-q3-earnings-220002638.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Exxon or Altria: I Can Only Pick One Dividend Stock for the Next 10 Years. Here\u2019s Mine",
+          "summary": "Key TakeawaysExxonMobil raised its quarterly dividend 4% to $1. 07 a share on Oct.",
+          "publisher": "TIKR",
+          "published_at": "2026-11-06T21:54:04Z",
+          "url": "https://www.tikr.com/blog/exxon-or-altria-i-can-only-pick-one-dividend-stock-for-the-next-10-years-heres-mine?ref=yahoofinancedividend&tlnk=yf-261108-qr7w48r8"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Exxon or Pfizer: The One Dividend Stock I\u2019d Hold for the Next 10 Years",
+          "summary": "Key TakeawaysExxonMobil raised its quarterly dividend 4% to $1. 07 a share on Oct.",
+          "publisher": "TIKR",
+          "published_at": "2026-11-06T21:52:33Z",
+          "url": "https://www.tikr.com/blog/exxon-or-pfizer-the-one-dividend-stock-id-hold-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261107-284jmj94"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Dividend Champion, Contender, And Challenger Highlights: Week of November 8",
+          "summary": "Get the latest dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T18:30:37Z",
+          "url": "https://finnhub.io/api/news?id=179932ced585c47b91f7c497290f9405d62b1ac2a2bf533cfb1fe4d053589441"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "CNBC Halftime Report Final Trades: Amazon, Clorox, ExxonMobil, Take-Two Interactive Software",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-06T18:01:35Z",
+          "url": "https://www.benzinga.com/quote/CLX"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "A $5.9 Billion Fund Is Betting Big on ExxonMobil",
+          "summary": "Key TakeawaysAmerican Assets Investment Management manages $5. 87 billion.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T15:13:43Z",
+          "url": "https://finnhub.io/api/news?id=42219014676af2a9d5a66ddf34f74cc8853042055c7321c52d51066573393a9a"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Top 20 S&P 500 Ranked By PEG Ratio After Massive Tech Route",
+          "summary": "Learn how the PEG ratio compares Apple, Microsoft, Nvidia and other mega-cap stocks to reveal growth-adjusted value.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T14:52:58Z",
+          "url": "https://finnhub.io/api/news?id=f896b8d63598a82fe40a4aab1f177a637fa12b0a556b1f8a8a135c768708d9e8"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Will Suncor's Refining Strength Continue to Drive Cash Flow?",
+          "summary": "SU's robust downstream performance, integrated operations and growing cash generation reinforce its prospects for sustained profitability.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T14:45:00Z",
+          "url": "https://finnhub.io/api/news?id=dfc261ac4fbde2b7a63f50c288b07e057ca914805dd1d143596878ade2185c54"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Reported Earlier, Kazakhstan Says Oil Exports To Germany Won't Resume By End Of 2026",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-06T14:20:46Z",
+          "url": "https://www.benzinga.com/news/26/11/62976885/reported-earlier-kazakhstan-says-oil-exports-germany-won-t-resume-end-2026"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "State Street Energy SPDR (XLE) Sells $75.9 Million of Exxon on Nov. 4",
+          "summary": "The fund sold $312.6 million of stock and bought nothing on Wednesday, cutting all 21 of its positions.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:05:25Z",
+          "url": "https://finnhub.io/api/news?id=6913c95d307c49ebfeea07be218bb74ed4691fffb2f46bb15f548eb7f5d8f56a"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "ETFs Are Net Sellers of ExxonMobil (XOM) on Nov. 4",
+          "summary": "ETFs sold $116.6 million of ExxonMobil stock on Wednesday, Nov. 4.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-06T11:02:27Z",
+          "url": "https://finnhub.io/api/news?id=baec2b5d436f96b633b21b6b24a8b092b92c4fb382836af774f223139ef27cd6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Stock Picks From Seeking Alpha's October 2026 New Analysts",
+          "summary": "",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-06T08:00:00Z",
+          "url": "https://finnhub.io/api/news?id=0536342b8d6ca6465e69017a87b005e9944ec65b66747fbbae1ea0bac7178a3d"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Targa Resources Corp. Q3 2026 Earnings Call Summary",
+          "summary": "Moby summary of Targa Resources Corp.'s Q3 2026 earnings call",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T23:02:35Z",
+          "url": "https://finnhub.io/api/news?id=af1f326f7b4a330980ce900a10422578e6bd191a9e85bc043c992f97ea666626"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Is ExxonMobil Holdings (XOM) Rethinking Its Portfolio With An Infineum Exit?",
+          "summary": "ExxonMobil Holdings (NYSE:XOM) and Shell are reported to be exploring a sale of their joint venture Infineum International Limited. Advisors are said to be actively engaged on the potential transaction, which is reported to carry a multi billion dollar valuation. The possible Infineum divestment highlights only one piece of ExxonMobil's wider portfolio and risk profile. Our analysis turns up 1 major warning sign for ExxonMobil Holdings as well. For a wider view on income opportunities...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T22:14:52Z",
+          "url": "https://finnhub.io/api/news?id=01f05883851f69717db09c05b4725d863aa65ec428baa0d152ad1d5499069c16"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Oil, Uranium, or Renewables? 3 Energy Plays for a Changing Market",
+          "summary": "Amid shifting Iran war dynamics, Permian Resources, NexGen Energy, and the iShares Global Clean Energy ETF offer distinct plays on oil, uranium, and renewables for investors.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T17:45:00Z",
+          "url": "https://finnhub.io/api/news?id=e60a8894f51b57f17349c5ec5e3984f954ac3ebaa996c242183bddc72dd9ac22"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+          "summary": "Four sectors are higher and seven are lower in Thursday\u2019s regular session, with defensive sectors holding two of the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-05T16:00:23Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/62931040/defensives-lead-sectors-thursday-as-growth-sectors-trail"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Can Chevron's Record Natural Gas Output Strengthen Its LNG Position?",
+          "summary": "CVX's record natural gas production tops 9 Bcf/d in Q3 2026, driven by strong operations in Australia and the Eastern Mediterranean despite disruptions.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T15:15:00Z",
+          "url": "https://finnhub.io/api/news?id=8d3c06dd91944a1a65b264302e0bec005bae57a8c8b2d5d091e01100e4c3af30"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Stocks To Consider Ahead Of The Upcoming October 2026 CPI Report",
+          "summary": "Federal Reserve held rates at 3.75%-4.00% amid elevated inflation and resilient domestic spending, with a 25 bps hike next month. Read full analysis here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-05T15:12:08Z",
+          "url": "https://finnhub.io/api/news?id=7cecaf6d998be2918108737a2b0222bad8bb2ce0b1dfa897e3770803638886ca"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "ExxonMobil Alaska Production Inc. Signs 15-Year Gas Sale Agreement",
+          "summary": "ExxonMobil Alaska Production Inc. and STAK Energy Corporation have entered into a 15-year agreement to supply natural gas to a new power plant on Alaska's North Slope.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-05T14:31:27Z",
+          "url": "https://www.prnewswire.com/news-releases/stak-energy-signs-long-term-agreement-to-bring-north-slope-natural-gas-to-market-302930119.html"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Liz Ann Sonders Says \u201cRotation Is the New Momentum Trade.\u201d Here\u2019s Where Money Could Move Next",
+          "summary": "The AI trade is still running, but Wall Street's sharpest strategist says the real action has moved elsewhere. One industrial darling just dropped nearly 30% in a month, proving that the next safe harbor may not be safe at all.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T14:19:49Z",
+          "url": "https://finnhub.io/api/news?id=9287d4c1f521385da8a5bcd801d904af738d46a3283183f56756c75fd844f53f"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "STAK Energy Inks 15-Year Gas Sale Agreement With ExxonMobil Alaska Production To Provide Gas To New Power Plant In North State's North Slope",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-05T13:39:21Z",
+          "url": "https://www.benzinga.com/news/26/11/62917427/stak-energy-inks-15-year-gas-sale-agreement-exxonmobil-alaska-production-provide-gas-new-power-plant"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Targa Resources Corp. Reports Third Quarter 2026 Financial Results  and Announces Expectation for a 20% Increase to its 2027 Common Dividend",
+          "summary": "HOUSTON, Nov. 05, 2026 (GLOBE NEWSWIRE) -- Targa Resources Corp. (NYSE: TRGP) (\u201cTRGP,\u201d the \u201cCompany\u201d or \u201cTarga\u201d) today reported third quarter 2026 results. Third quarter 2026 net income attributable to Targa Resources Corp. was $658 million compared to $478 million for the third quarter of 2025. The Company reported adjusted earnings before interest, income taxes, depreciation and amortization, and other non-cash items (\u201cadjusted EBITDA\u201d)(1) of $1,504 million for the third quarter of 2026 compar",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T11:00:00Z",
+          "url": "https://finnhub.io/api/news?id=ef95e3323c2da7cf09a645ae10f0981a605d6ec77402794a9c677caa4ae9356c"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Is Exxon Mobil Stock Still Worth Owning After Its Quarter?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T10:36:43Z",
+          "url": "https://finnhub.io/api/news?id=9e0d14baabd0beba9d53b54bd7b72803172009ad595b82595c8bae8be9b59994"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "XOM Stock Is Up 43% In 2026: Wall Street Is Split On The Oil Major Following Q3 Results",
+          "summary": "XOM stock has gained more than 43% this year, putting it on track for its best year since 2022.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-05T04:23:10Z",
+          "url": "https://finnhub.io/api/news?id=f4c24238f790e083ef4105a4b3944f218055262cf4b68b4ec6034cd7f984c481"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Joe Terranova Says \u201cInflation Lost\u201d on Election Night. What That Means for Energy Stocks",
+          "summary": "One CNBC trader says the fever has broken in energy and oil won't see $100 again. A rival panelist warns of a black swan that could flip the trade overnight, and income investors holding Exxon and Chevron have the most to lose.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-04T22:07:08Z",
+          "url": "https://finnhub.io/api/news?id=3eaa0996e5c3e31185d7fea8275278c9b26cc99a671ab44d68694eba43dfdece"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "XOM | ExxonMobil (NYSE):\n\u26a1 Downtrend: 4H SWING CROSS DOWN: XOM (EMA 20 crossed below EMA 50 - 4H)",
+          "author": "trendalertstox.bsky.social",
+          "created_at": "2026-11-09T16:32:33.437953Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trendalertstox.bsky.social/post/3mzve36sl4426"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\"Xom mood and boredom have both been removed\"\n\uff01\uff1f",
+          "author": "warst.bsky.social",
+          "created_at": "2026-11-09T14:21:44.914Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/warst.bsky.social/post/3mzv4rbjb5c2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Tudo a dist\u00e2ncia destr\u00f3i o tecido urbano. Cada padaria, com pra\u00e7a, cada cal\u00e7ada xom mesinhas, cada loja de rua e at\u00e9 shopping, substituido por galp\u00f5es no meio do nada, dark kitchens, e um ex\u00e9rcito de precarizados entregando",
+          "author": "lililembra.bsky.social",
+          "created_at": "2026-11-09T12:07:46.362Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/lililembra.bsky.social/post/3mzuvbpeejc2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "V\u0103n kh\u1ea5n c\u00fang x\u00f3m \u0111\u1ea7u n\u0103m l\u00e0 g\u00ec, \u0111\u1ecdc sao cho \u0111\u00fang l\u1ec5 ngh\u0129a? \u0110\u1ed3 C\u00fang T\u00e2m Linh chia s\u1ebb m\u1eabu v\u0103n kh\u1ea5n v\u00e0 l\u01b0u \u00fd khi c\u00fang x\u00f3m \u0111\u1ea7u n\u0103m \u0111\u1ec3 chu\u1ea9n b\u1ecb chu \u0111\u00e1o. docungtamlinh.com.vn/van-khan-cun... #DoCungTamLinh #VanKhan #CungXomDauNam",
+          "author": "docungtamlinh.bsky.social",
+          "created_at": "2026-11-09T04:14:27.274Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/docungtamlinh.bsky.social/post/3mzu2tdurck2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Dark pool check on $XOM: what traded off the exchanges in the latest session. Price barely moved (+0.3%), which is what you'd expect if somebody big is building or unwinding a position quietly.\n\nFree 7-day trial\n#darkpool #stocks #trading",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T01:21:08.787873Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mztr5hd2on2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Viper Energy (VNOM) Raises Dividend 5.7% Yield, Exxon Mobil (XOM) Q3 Profit Up\n\nViper Energy (VNOM), a subsidiary of Diamondback, reported strong third-quarter earnings driven by \u2026\n\nhttps://newsstocks.live/news/viper-energy-vnom-raises-dividend-57-yield-exxon-mobil-xom-q3-profit-up #Finance #Markets",
+          "author": "newsstocks.bsky.social",
+          "created_at": "2026-11-08T12:03:11.609Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/newsstocks.bsky.social/post/3mzseklutik24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "More than $3 Trillion dollars was wiped from US stocks so far \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8 \n$AAPL, $NVDA, $MSFT, $GOOG, $AMZN, $SPCX, $TSLA, $META, $PLTR, $ORCL, $NFLX, $LLY $JNJ $WMT $XOM $CAT $AMAT $LRCX $MU, $AMD, $AVGO, $CSCO, $INTC, $GE, $JPM, $BRK.B, $V, $MA, $COST, $ABBV.",
+          "author": "lordcandle.bsky.social",
+          "created_at": "2026-11-08T10:39:19.875Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/lordcandle.bsky.social/post/3mzs7unage22f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-08T09:43:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzs4rehvlz27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-08T07:40:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzrvvgb7k324"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-08T05:37:49.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzroziprcw2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-08T03:35:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzri7dkamr2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-08T01:31:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzrbblxl2a2f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T23:28:52.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzr2frtgxh24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "That's bad for XOM stock holders, but not bad for every other person in the economy.",
+          "author": "iamdarkink.bsky.social",
+          "created_at": "2026-11-07T22:58:05.949Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/iamdarkink.bsky.social/post/3mzqyoqfw522j"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Recent Dividend Increases - Updated 11/06/26 $BDX $ATO $EMR $XOM $ROP @dividendblower.bsky.social \nwww.dividendpower.org/dividend-inc...",
+          "author": "dividendpower.bsky.social",
+          "created_at": "2026-11-07T21:41:07.231Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/dividendpower.bsky.social/post/3mzquf3nwbc27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T21:26:49.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzqtlk4flp24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I've been watching $XOM. ExxonMobil runs deepwater Guyana turbidite reservoirs with low decline, plus high-utilisation refineries and lean subsea infrastructure. https://kalkinemedia.com/us/stocks/oil-gas/xom-nysexom-record-refining-runs-and-guyana-milestone-drive-stronger-third-quarter-cash",
+          "author": "energybaron.bsky.social",
+          "created_at": "2026-11-07T21:02:59Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/energybaron.bsky.social/post/3mzqsaw2ylj2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T17:11:32.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzqfd2katt2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T15:08:50.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzq6hnbimo24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T12:59:50.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzpxaxxcxu27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "SHEL.L sentiment jumped +3.0 pts to 7.5/10 across 16 articles, while XOM dropped -1.5 pts to -1.5/10. We are seeing a clear divergence in energy narratives; Shell is moving into a high-conviction zone while Exxon is sliding back into a period of editorial drag. assetfeel.com #markets",
+          "author": "assetfeel.bsky.social",
+          "created_at": "2026-11-07T12:15:06.773Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/assetfeel.bsky.social/post/3mzpuqyjbhu2s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "CMLXOM 4.20 is out: https://doi.org/10.5281/zenodo.24033598 https://github.com/BlueObelisk/cmlxom/releases/tag/cmlxom-4.20\n\nUpdate with upgraded dependencies to Euclid 2.20, JodaTime 2.15.1, and Log4j 2.26.1.\n\nCMLXOM is a Java library for processing CML, implementing the XML object model (XOM) [\u2026]",
+          "author": "blueobelisk.fosstodon.org.ap.brid.gy",
+          "created_at": "2026-11-07T12:10:13.000Z",
+          "likes": 0,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/blueobelisk.fosstodon.org.ap.brid.gy/post/3mzpuicnngxi2"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T10:55:50.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzpqdakzjz26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "XOM | ExxonMobil (NYSE):\n\ud83d\udd3d\ud83d\udcc9 XOM is DOWN this week by 11.42% (prev. week: 187.25 -> this week close: 165.87)",
+          "author": "trendalertstox.bsky.social",
+          "created_at": "2026-11-07T09:56:36.360236Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trendalertstox.bsky.social/post/3mzpmzdl3cj2a"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T08:48:50.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzpja5kaep2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T06:45:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzpce5rrzr2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T04:42:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzp3ia2gam2b"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T02:39:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzoumbelzl2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-07T00:35:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzonok6xqr26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Os que querem mordomia podem contratar um diarista 1 vez por semana para botar o lixo para fora. Sem ratear xom oa demais. Pay per use.",
+          "author": "lililembra.bsky.social",
+          "created_at": "2026-11-07T00:24:30.338Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/lililembra.bsky.social/post/3mzon2d66yk2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -11.42%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-06T22:30:49.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzogp2mfz527"
+        },
+        {
+          "platform": "bluesky",
+          "text": "ProVise Management \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $1.5B (241 stocks)\n\u2022 New Position: $XOM ($27M)\n\u2022 Biggest Add: SPDR Index SHS FDS (+13% shares)\n\u2022 Sold Out: Invesco Exch Traded FD TR II\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-06T22:30:09.266091Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzognujh5224"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Wall Street sim opened LONG XOM @ $165.9 (0.787 sh, oversold CCI -185). Mean-reversion on Nasdaq-100 large-caps: buy oversold, sell on the snap back to the mean. Paper money, not advice.\nhttps://palugadahub.com/wallstreet",
+          "author": "ryandaaldo.bsky.social",
+          "created_at": "2026-11-06T20:51:56.475Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/ryandaaldo.bsky.social/post/3mzob6aa3tq2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "13Fs show what funds hold \u2014 different signal than insider buying (execs with their own money). Also your bullet list has XOM as both a new position and sold out, worth double-checking. What's XOM's Form 4 activity look like lately?",
+          "author": "amberallocates.substack.com",
+          "created_at": "2026-11-06T18:00:28.212030+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/amberallocates.substack.com/post/3mznxlmzto72x"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Marble Harbor Investment Counsel \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $1.0B (192 stocks)\n\u2022 New Position: $XOM ($19M)\n\u2022 Biggest Add: $EFR (+162% shares)\n\u2022 Sold Out: $XOM\n\u2022 Filed: Nov 6 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-06T17:13:05.121165Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 1,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mznuwvoaac2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Barr E S \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $1.7B (115 stocks)\n\u2022 New Position: $XOM ($4M)\n\u2022 Biggest Add: $BRO (+28% shares)\n\u2022 Sold Out: $XOM\n\u2022 Filed: Nov 6 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-06T17:12:06.269080Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mznuv5kzwz2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "ExxonMobil runs Guyana deepwater reservoirs; refinery scale lifts $XOM. https://kalkinemedia.com/us/stocks/oil-gas/xom-nysexom-record-refining-runs-and-guyana-milestone-drive-stronger-third-quarter-cash",
+          "author": "energybaron.bsky.social",
+          "created_at": "2026-11-06T17:06:24Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/energybaron.bsky.social/post/3mznukxber526"
+        },
+        {
+          "platform": "bluesky",
+          "text": "V\u0103n kh\u1ea5n c\u00fang t\u1ea5t ni\u00ean x\u00f3m \u2014 \u0110\u1ed3 C\u00fang T\u00e2m Linh chia s\u1ebb b\u00e0i v\u0103n kh\u1ea5n \u0111\u1ea7y \u0111\u1ee7, gi\u00fap b\u1ea1n chu\u1ea9n b\u1ecb l\u1ec5 c\u00fang t\u1ea5t ni\u00ean chu \u0111\u00e1o v\u00e0 trang tr\u1ecdng. docungtamlinh.com.vn/van-khan-cun... #DoCungTamLinh #VanKhanCungTatNien #CungTatNien",
+          "author": "docungtamlinh.bsky.social",
+          "created_at": "2026-11-06T13:38:23.056Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/docungtamlinh.bsky.social/post/3mzniwxsn622w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "US market: Winter (Weak) | Adv 15% | Avg -3.08%\nTop: $XOM -2.4% $DVN -2.8% $APA -2.3%\nT+3 accuracy tracked in public, updated daily.\nhttps://ms-factor.aicreditsapi.com/track-record?utm_source=bluesky&utm_medium=organic&utm_campaign=daily-signal\n#USStocks #QuantTrading",
+          "author": "wyl743405571.bsky.social",
+          "created_at": "2026-11-06T12:25:03.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/wyl743405571.bsky.social/post/3mznetun65b24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -9.82%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-06T07:45:50.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzmval7cay2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -9.82%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-06T05:40:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzmoayyn3i2y"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -9.82%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-06T03:37:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzmhf35hlc2n"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -9.82%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-06T01:34:48.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzmaj4ttdl25"
+        },
+        {
+          "platform": "bluesky",
+          "text": "eu me fissuro facil xom simulacro assim",
+          "author": "luecure.bsky.social",
+          "created_at": "2026-11-06T00:51:41.863Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/luecure.bsky.social/post/3mzm63znn4s27"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Our model's read on $XOM today: intraday $164.19-$168.05, close target $165.95 (+0.1%). Five-day target $165.82. Not investment advice.",
+          "author": "hadestock.bsky.social",
+          "created_at": "2026-11-06T00:30:22.388498Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/hadestock.bsky.social/post/3mzm4vw4u4v22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u26a1 MINTQON \u00b7 STOCK PULSE\nXOM -9.82%\nSignal 100/100 \u00b7 MOMENTUM DOWN\nXOM is making an outsized session move.\nhttps://mintqon.com/stocks/",
+          "author": "mintqon.bsky.social",
+          "created_at": "2026-11-05T23:01:16.000Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/mintqon.bsky.social/post/3mzlxwlmwdj2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I\u2019m absolutely begging for this inflatable toy \ud83e\udd75\ud83d\udca6\n\nI just know my pussy would feel so good absolutely stuffed, feeling it growing inside me as I\u2019m forced to take it as it inflates \ud83e\udd24\n\nI\u2019d film it for you if you tip me and help me reach my goal so I can buy it \ud83e\udd75\ud83d\udd25\n\nwww.juliettoys.com/products/xom...",
+          "author": "transmascpup.bsky.social",
+          "created_at": "2026-11-05T22:24:52.962Z",
+          "likes": 8,
+          "reposts": 1,
+          "replies": 1,
+          "url": "https://bsky.app/profile/transmascpup.bsky.social/post/3mzlvvitljs26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#XOM $XOM\n\nSupport breakout. Buyer zone breakout. Resistance level formed. Downtrend.\n\nhttps://tr3n.do/stocks/xom?utm_source=bluesky",
+          "author": "tr3ndo.bsky.social",
+          "created_at": "2026-11-05T21:56:44.2595799+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tr3ndo.bsky.social/post/3mzlraqaw6zgk"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$IEUR-1 $BMNU-1 $COHR-1 $XOM-1 $AIR-1 $XLY-1 $IJR-1 $KMB-1 $AIQ-1 $PCOR-1 $ACI-1 $CELH-1 $DNUT-1 $BOIL-1 $SPCH-1 $FLEX-1 $WELL-1 $INO-1 $BABA-1 $BAI-1 $FIGS-1 $GIS-1 $AEP-1 $NVDL-1 $FRSH-1 $GLW-1 $XLE-1 $CCJ-1 $WMT-1 $RS-1 $XERS-1 $AMAT-1 $GEHC-1 $MCHP-1 $FIS-1",
+          "author": "vandel883.bsky.social",
+          "created_at": "2026-11-05T21:47:02.603Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/vandel883.bsky.social/post/3mzltrtngck2e"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Vaughan David Investments Llc/IL \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $5.0B (241 stocks)\n\u2022 New Position: $XOM ($66M)\n\u2022 Biggest Add: $CEG (+28% shares)\n\u2022 Sold Out: $XOM\n\u2022 Filed: Nov 5 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-05T19:33:25.123420Z",
+          "likes": 0,
+          "reposts": 1,
+          "replies": 1,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzlmcw6yft2w"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-10-30",
+          "items": [
+            "2.02",
+            "7.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Investor disclosure (Reg FD)"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000018/xom-20261030.htm"
+        },
+        {
+          "filing_date": "2026-10-16",
+          "items": [
+            "7.01"
+          ],
+          "item_meanings": [
+            "Investor disclosure (Reg FD)"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/xom-20261016.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 50,
+      "total_post_likes": 18,
+      "major_8k_events": [
+        "Earnings results",
+        "Investor disclosure (Reg FD)",
+        "Investor disclosure (Reg FD)"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "XOM",
+    "score": 8,
+    "verdict": "tailwind",
+    "market_regime": "risk-on",
+    "confidence": "medium",
+    "strengths": [
+      "Sector outperformance: Energy sector has outperformed SPY by 16.43% over the last 90 trading days.",
+      "Low beta of 0.141: XOM is less volatile and thus may provide a stable return even amid market fluctuations."
+    ],
+    "risks": [
+      "VIX at 28.18 indicates heightened market fear, which can lead to volatility in stock prices.",
+      "Unemployment rate at 4.1% suggests a slight increase in economic pressure, potentially affecting demand."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI report",
+      "2026-11-25: GDP report",
+      "2026-12-04: Jobs report"
+    ],
+    "missing_data": [],
+    "summary": "The macro environment is generally favorable for XOM and the energy sector. With the energy sector outperforming SPY significantly, coupled with a low beta indicating less exposure to market volatility, XOM is positioned well. However, the rising VIX reflects market fears, and the unemployment rate could signal potential consumer demand challenges. Overall, the outlook remains positive amidst these dynamics.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "XOM",
+        "sector": "Energy",
+        "beta": 0.141,
+        "sector_etf": "XLE",
+        "sector_vs_spy_90d": {
+          "sector_return": 0.1693,
+          "spy_return": 0.005,
+          "sector_outperformance": 0.1643
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 0.141,
+      "sector_outperformance": 0.1643
+    }
+  }
+}

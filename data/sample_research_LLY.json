@@ -1,0 +1,1184 @@
+{
+  "fundamentals": {
+    "ticker": "LLY",
+    "score": 9,
+    "verdict": "healthy",
+    "trend": "improving",
+    "confidence": "high",
+    "strengths": [
+      "Annual revenue rose to 65,179 million in 2025 from 45,043 million in 2024 (revenue growth_yoy = 0.447; 44.7%), driven by higher volumes and favorable mix (notably Mounjaro and Zepbound).",
+      "Net income rose to 20,640 million in 2025, with net margin of 31.67% and ROE of 77.78%, indicating strong profitability and efficient capital use.",
+      "ROE of 77.78% and current ratio of 1.5791 support a healthy balance sheet leverage and liquidity position given growth investments.",
+      "Debt-to-equity of 1.5402 shows the company finances expansion but remains within a manageable levered profile alongside strong cash generation (operating cash flow of 16.8B in 2025; 27.4B YTD through 9M 2026 per latest quarterly data).",
+      "Major products Mounjaro and Zepbound contributed a large portion of revenue (6+ major products collectively accounted for 82% of 2025 revenue; Mounjaro and Zepbound alone ~56%), highlighting strong growth engines."
+    ],
+    "risks": [
+      "Revenue concentration risk: 82% of 2025 revenue comes from a relatively small set of products (notably Mounjaro and Zepbound), leaving results sensitive to competition, regulatory actions, or market shifts for these products.",
+      "Regulatory and pricing risk: U.S. price controls and payer regulations (IRA, Medicare/Medicaid pricing actions) are ongoing and could compress long-term revenue; recent government price-setting initiatives for obesity/incretin medicines could accelerate pricing erosion.",
+      "340B and insulin pricing litigation and investigations: ongoing actions related to 340B, insulin pricing, and other pricing investigations could pose legal and financial exposure.",
+      "High leverage driven by acquisitions: total debt rose to 49.5B by 9/30/2026 (vs 42.5B at 12/31/2025), raising leverage risk if macro headwinds intensify or growth slows.",
+      "Acquisition integration risk: rapid acquisitions (e.g., Centessa, Kelonia, Ventyx, and others) increase integration complexity and potential for higher IPR&D charges and one-time costs.",
+      "Cybersecurity and global operations risk: reliance on complex global IT systems and third-party vendors introduces cybersecurity and supply chain risks.",
+      "Foreign currency and commodity/macro volatility: as a global company, FX and inflation risks can affect results, even with hedging."
+    ],
+    "missing_data": [
+      "gross_margin",
+      "operating_margin",
+      "free_cash_flow"
+    ],
+    "summary": "LLY demonstrates a healthy and expanding business with strong top-line growth (revenue up ~45% in 2025 vs 2024 and ~39\u201346% growth in the latest quarter/year-to-date), above-average profitability (net margin ~31.7%; ROE ~77.8%), and solid liquidity (current ratio ~1.58; debt-to-equity ~1.54). Operating cash flow surged to 16.8B in 2025 and continued robust cash generation in 9M 2026 supports ongoing investments and share repurchases. The core growth drivers are the incretin/diabetes portfolio (Mounjaro and Zepbound), which alone plus other major products accounted for about 82% of 2025 revenue, underscoring strong internal demand but also concentration risk. The filings highlight substantial regulatory and pricing headwinds (IRA, NRDL dynamics, 340B) and significant acquisition-related spending and debt, which could pose risks if growth decelerates. Overall, the fundamentals point to a healthy and improving business trajectory, though leverage from recent acquisitions and regulatory pricing pressures warrant careful monitoring.",
+    "data": {
+      "ticker": "LLY",
+      "cik": "0000059478",
+      "annual": {
+        "revenue": {
+          "2022-12-31": 28541400000,
+          "2023-12-31": 34124000000,
+          "2024-12-31": 45043000000,
+          "2025-12-31": 65179000000
+        },
+        "gross_profit": {},
+        "operating_income": {},
+        "net_income": {
+          "2022-12-31": 6244800000,
+          "2023-12-31": 5240000000,
+          "2024-12-31": 10590000000,
+          "2025-12-31": 20640000000
+        },
+        "operating_cash_flow": {
+          "2022-12-31": 7585700000,
+          "2023-12-31": 4240000000,
+          "2024-12-31": 8818000000,
+          "2025-12-31": 16813000000
+        },
+        "capex": {},
+        "total_assets": {
+          "2022-12-31": 49489800000,
+          "2023-12-31": 64006300000,
+          "2024-12-31": 78715000000,
+          "2025-12-31": 112476000000
+        },
+        "current_assets": {
+          "2022-12-31": 18034500000,
+          "2023-12-31": 25727000000,
+          "2024-12-31": 32740000000,
+          "2025-12-31": 55629000000
+        },
+        "current_liabilities": {
+          "2022-12-31": 17138200000,
+          "2023-12-31": 27293200000,
+          "2024-12-31": 28376000000,
+          "2025-12-31": 35228000000
+        },
+        "total_liabilities": {},
+        "equity": {
+          "2022-12-31": 10649800000,
+          "2023-12-31": 10771900000,
+          "2024-12-31": 14272000000,
+          "2025-12-31": 26535000000
+        },
+        "cash": {
+          "2022-12-31": 2067000000,
+          "2023-12-31": 2818600000,
+          "2024-12-31": 3268000000,
+          "2025-12-31": 7268000000
+        },
+        "long_term_debt": {
+          "2022-12-31": 14815300000,
+          "2023-12-31": 19104600000,
+          "2024-12-31": 29474000000,
+          "2025-12-31": 40868000000
+        }
+      },
+      "quarterly": {
+        "revenue": {
+          "2024-06-30": 11302800000,
+          "2024-09-30": 11439100000,
+          "2025-03-31": 12729000000,
+          "2025-06-30": 15558000000,
+          "2025-09-30": 17601000000,
+          "2026-03-31": 19799000000,
+          "2026-06-30": 22974000000,
+          "2026-09-30": 24397000000
+        },
+        "gross_profit": {},
+        "operating_income": {},
+        "net_income": {
+          "2024-06-30": 2967000000,
+          "2024-09-30": 970300000,
+          "2025-03-31": 2759000000,
+          "2025-06-30": 5661000000,
+          "2025-09-30": 5583000000,
+          "2026-03-31": 7396000000,
+          "2026-06-30": 7095000000,
+          "2026-09-30": 6451000000
+        },
+        "operating_cash_flow": {
+          "2019-03-31": 311300000,
+          "2020-03-31": 382400000,
+          "2021-03-31": 1697400000,
+          "2022-03-31": 2523000000,
+          "2023-03-31": 1730600000,
+          "2024-03-31": 1166000000,
+          "2025-03-31": 1666000000,
+          "2026-03-31": 5333000000
+        },
+        "capex": {},
+        "total_assets": {
+          "2024-12-31": 78714900000,
+          "2025-03-31": 89388800000,
+          "2025-06-30": 100922600000,
+          "2025-09-30": 114935400000,
+          "2025-12-31": 112476000000,
+          "2026-03-31": 116576000000,
+          "2026-06-30": 142283000000,
+          "2026-09-30": 148072000000
+        },
+        "current_assets": {
+          "2024-12-31": 32739700000,
+          "2025-03-31": 41261200000,
+          "2025-06-30": 49854000000,
+          "2025-09-30": 62071300000,
+          "2025-12-31": 55629000000,
+          "2026-03-31": 54835000000,
+          "2026-06-30": 64672000000,
+          "2026-09-30": 65263000000
+        },
+        "current_liabilities": {
+          "2024-12-31": 28376600000,
+          "2025-03-31": 30068100000,
+          "2025-06-30": 39019900000,
+          "2025-09-30": 40140900000,
+          "2025-12-31": 35228000000,
+          "2026-03-31": 36634000000,
+          "2026-06-30": 47741000000,
+          "2026-09-30": 46996000000
+        },
+        "total_liabilities": {},
+        "equity": {
+          "2024-12-31": 14192100000,
+          "2025-03-31": 15764800000,
+          "2025-06-30": 18272900000,
+          "2025-09-30": 23793300000,
+          "2025-12-31": 26535000000,
+          "2026-03-31": 31198000000,
+          "2026-06-30": 33879000000,
+          "2026-09-30": 40271000000
+        },
+        "cash": {
+          "2024-12-31": 3268400000,
+          "2025-03-31": 3093300000,
+          "2025-06-30": 3375900000,
+          "2025-09-30": 9791900000,
+          "2025-12-31": 7268000000,
+          "2026-03-31": 5282000000,
+          "2026-06-30": 8950000000,
+          "2026-09-30": 4885000000
+        },
+        "long_term_debt": {
+          "2024-12-31": 28527100000,
+          "2025-03-31": 34499500000,
+          "2025-06-30": 34180100000,
+          "2025-09-30": 40873600000,
+          "2025-12-31": 40868000000,
+          "2026-03-31": 39370000000,
+          "2026-06-30": 47858000000,
+          "2026-09-30": 46986000000
+        }
+      },
+      "ratios": {
+        "fiscal_year_end": "2025-12-31",
+        "gross_margin": null,
+        "operating_margin": null,
+        "net_margin": 0.3167,
+        "revenue_growth_yoy": 0.447,
+        "roe": 0.7778,
+        "debt_to_equity": 1.5402,
+        "current_ratio": 1.5791,
+        "free_cash_flow": null,
+        "latest_quarter_end": "2026-09-30",
+        "latest_quarter_net_margin": 0.2644,
+        "quarter_revenue_growth_yoy": 0.3861
+      }
+    },
+    "key_metrics": {
+      "fiscal_year_end": "2025-12-31",
+      "revenue_growth_yoy": 0.447,
+      "quarter_revenue_growth_yoy": 0.3861,
+      "net_margin": 0.3167,
+      "roe": 0.7778,
+      "debt_to_equity": 1.5402
+    }
+  },
+  "technical": {
+    "ticker": "LLY",
+    "score": 8,
+    "verdict": "bullish",
+    "trend": "uptrend",
+    "confidence": "high",
+    "strengths": [
+      "Price is at 1411.17, above the 50-day average of 1219.35 and the 200-day average of 1099.7, indicating a strong uptrend.",
+      "14-day RSI is at 67.84, suggesting strong momentum, but close to overbought territory.",
+      "Outperforming SPY by 0.1714, indicating strong relative strength."
+    ],
+    "risks": [
+      "RSI at 67.84 indicates potential for overbought conditions, suggesting a possible near-term pullback."
+    ],
+    "missing_data": [],
+    "summary": "LLY is currently in a strong uptrend with the price above both the 50-day and 200-day moving averages. The RSI indicates strong momentum, although it is approaching overbought levels. Furthermore, LLY has significantly outperformed the market, highlighting its strength relative to SPY. Overall, the signals align to suggest a bullish outlook, but caution is warranted due to the RSI's high reading.",
+    "data": {
+      "indicators": {
+        "price": 1411.17,
+        "sma_50": 1219.35,
+        "sma_200": 1099.7,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 67.84,
+        "volatility_20d": 0.4052
+      },
+      "relative_strength": {
+        "stock_return": 0.1765,
+        "spy_return": 0.0051,
+        "outperformance": 0.1714
+      }
+    },
+    "key_metrics": {
+      "price": 1411.17,
+      "above_sma_50": true,
+      "above_sma_200": true,
+      "rsi_14": 67.84,
+      "volatility_20d": 0.4052,
+      "outperformance": 0.1714
+    }
+  },
+  "news": {
+    "ticker": "LLY",
+    "score": 8,
+    "sentiment": "positive",
+    "crowd_mood": "positive",
+    "confidence": "medium",
+    "key_events": [
+      "2026-11-09: Jefferies raises price target for Eli Lilly to $1,700, highest on Wall Street, citing underestimated international GLP-1 opportunities.",
+      "2026-11-09: Foundayo shows significant efficacy in reducing sleep apnea severity, paving the way for FDA submission.",
+      "2026-11-09: FDA requires additional labeling for GLP-1 drugs, including Eli Lilly's, due to potential rare blindness risk."
+    ],
+    "strengths": [
+      "Eli Lilly's Foundayo significantly reduced sleep apnea severity, showing promise beyond weight loss, which could tap into a $23 billion market, according to Clinical Trials Arena."
+    ],
+    "risks": [
+      "The FDA has mandated new safety warnings for GLP-1 drugs, including those produced by Eli Lilly, due to potential risks of rare blindness."
+    ],
+    "missing_data": [
+      "There were issues accessing some articles about FDA regulations on GLP-1 medications."
+    ],
+    "summary": "Eli Lilly has experienced a positive turn with Jefferies raising its price target to $1,700 due to favorable international market insights. The successful Phase III results of Foundayo, a treatment for sleep apnea, further enhance its market potential. However, recent FDA warnings regarding risks associated with GLP-1 drugs present a notable risk factor. Overall, the crowd mood remains positive, reflecting optimism around Lilly's strategic opportunities despite emerging regulatory challenges.",
+    "data": {
+      "articles": [
+        {
+          "source_api": "yahoo",
+          "headline": "Sector Update: Healthcare Stocks Rise Monday Afternoon",
+          "summary": "Healthcare stocks were higher Monday afternoon, with the NYSE Healthcare Index rising 1.6% and the S",
+          "publisher": "MT Newswires",
+          "published_at": "2026-11-09T18:36:36Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-monday-183636704.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Eli Lilly Stocks Rise 3.40% as Jefferies Sets Street-High $1,700 Target",
+          "summary": "Jefferies argues Lilly's international GLP-1 opportunity is underestimated, as Canada's drug agency backs reimbursing Alzheimer's drug Kisunla.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-09T18:17:01Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-stocks-rise-3-181701651.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "FDA requires vision-loss warning on Novo Nordisk and Eli Lilly GLP-1 drugs",
+          "summary": "Investing.com -- U.S. health regulators will require drugmakers including Novo Nordisk A/S (NYSE:NVO) and Eli Lilly and Company (NYSE:LLY) to add safety warnings to their blockbuster weight-loss and diabetes treatments regarding a rare eye condition that can cause permanent vision loss. The Food and Drug Administration said Monday that all glucagon-like peptide-1 (GLP-1) receptor agonists must update their prescribing labels to reflect a potential increased risk of non-arteritic anterior ischemi",
+          "publisher": "Investing.com",
+          "published_at": "2026-11-09T17:06:46Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/fda-requires-vision-loss-warning-170646867.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "U.S. Regulators Warn GLP-1 Drugs Carry Possible Rare Blindness Risk",
+          "summary": "The FDA is requiring the makers of drugs like Ozempic and Zepbound to include warnings about a rare eye condition that can cause permanent vision loss.",
+          "publisher": "The Wall Street Journal",
+          "published_at": "2026-11-09T16:56:00Z",
+          "url": "https://www.wsj.com/health/pharma/u-s-regulators-warn-glp-1-drugs-carry-possible-rare-blindness-risk-c36a4564?siteid=yhoof2&yptr=yahoo"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Hims-Eli Lilly GLP-1 Deal Meets Summit\u2019s FDA Gamble: Which Biotech ETFs Stand to Gain?",
+          "summary": "Biotech ETFs face key FDA catalysts as Summit Therapeutics&#39; decision and the Hims-Lilly GLP-1 deal put XLV, IBB and XBI in focus.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T16:51:46Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63049759/hims-eli-lilly-glp-1-deal-meets-summits-fda-gamble-which-biotech-etfs-stand-to-gain"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "AHA26: Lilly\u2019s Foundayo benefits beyond weight loss in Phase III sleep apnoea win",
+          "summary": "Lilly\u2019s Foundayo gained approval in the US in January 2026 for weight loss and has since been approved in the EU for the same patients.",
+          "publisher": "Clinical Trials Arena",
+          "published_at": "2026-11-09T16:49:40Z",
+          "url": "https://www.clinicaltrialsarena.com/news/aha26-lillys-foundayo-benefits-beyond-weight-loss-in-phase-iii-sleep-apnoea-win/"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Eli Lilly May Have Just Found a New $23 Billion Market for Its GLP-1 Pill",
+          "summary": "Lilly's GLP-1 pill just landed a surprising new indication, and Wall Street's average target still sits far below the boldest call. Can a $1.22 trillion giant really deliver another outsized year, and what has to go right?",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-09T16:32:54Z",
+          "url": "https://247wallst.com/investing/2026/11/09/eli-lilly-may-have-just-found-a-new-23-billion-market-for-its-glp-1-pill/"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Indices Hunt for Support After Steep Weekly Losses as Volatility Gauge Stays Elevated",
+          "summary": "Stock Preachers News Commentary - Wall Street opens a new week nursing bruises from a rough stretch that sent every major index lower, with the Nasdaq Composite off 3.37% and the S&P 500 down 2.68% from the prior week's reference close. The CBOE Volatility Index settled at 23.5, still up 2.35 points on the week even after easing 2.14 points on the day, as traders weigh whether recent lows mark a floor or just a pause before further declines. Active Companies from around the markets with current",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T16:08:00Z",
+          "url": "https://finnhub.io/api/news?id=b7e231a1dbcaf771d694e13502f360bef02f4a8ab3995476ced75a8f377d75bd"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Eli Lilly's Foundayo Meets Primary Endpoint in Phase 3 Sleep Apnea Trial",
+          "summary": "Eli Lilly announced that its oral weight-loss drug, Foundayo, successfully met its primary endpoint in a late-stage clinical study for treating obstructive sleep apnea.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T16:01:47Z",
+          "url": "https://www.morningstar.com/news/dow-jones/202611097009/eli-lilly-says-foundayo-shows-promise-in-treating-sleep-apnea"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+          "summary": "All 11 sectors are higher in Monday\u2019s regular session, with growth sectors holding two of the top three positions. The leaders are separated rather than clustered, with no single gap clearly standing apart from the other breaks across the table.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T16:00:24Z",
+          "url": "https://www.benzinga.com/etfs/sector-etfs/26/11/63044502/11-of-11-sectors-rise-monday-as-growth-leads"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists Due to Potential Increased Risk of Rare But Serious Eye Condition",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T15:13:25Z",
+          "url": "https://www.benzinga.com/news/26/11/63039207/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-due-potential-increased-ri"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Eli Lilly Gains After Jefferies Raises Price Target to Wall Street-High $1,700",
+          "summary": "Eli Lilly is rising Monday after Jefferies raised its price target to $1,700, the highest target on Wall Street, according to Investing.com.",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T15:12:36Z",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63038974/eli-lilly-gains-after-jefferies-raises-price-target-to-wall-street-high-dollar1700"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Eli Lilly (LLY) Opens Digital Access To Obesity Drugs Across The US",
+          "summary": "Eli Lilly (NYSE:LLY) has partnered with Hims & Hers Health and LifeMD to widen access to its GLP-1 obesity drugs in the US. The agreements give eligible adults nationwide direct digital access to Zepbound and Foundayo through telehealth consultations and online prescribing. Both collaborations exclude compounded versions of GLP-1 therapies and focus on prescription, pharmacy fulfillment and home delivery of branded products. The new Hims & Hers and LifeMD channels for Zepbound and Foundayo...",
+          "publisher": "Simply Wall St.",
+          "published_at": "2026-11-09T15:10:15Z",
+          "url": "https://finance.yahoo.com/healthcare/articles/eli-lilly-lly-opens-digital-151015302.html"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Eli Lilly Announces Foundayo Met Primary Endpoint At Week 52 In ATTAIN-OSA Trial To Reduce Apnea-Hypopnea Index; Lowers Sleep Apnea-Specific Hypoxic Burden By Up To An Average Of 55.9%",
+          "summary": "",
+          "publisher": "benzinga",
+          "published_at": "2026-11-09T14:33:39Z",
+          "url": "https://www.benzinga.com/news/26/11/63032985/eli-lilly-announces-foundayo-met-primary-endpoint-week-52-attain-osa-trial-reduce-apnea-hypopnea-ind"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Eli Lilly Canada Receives Positive Reimbursement Recommendation for Kisunla",
+          "summary": "Eli Lilly Canada has received a positive reimbursement recommendation from the Canadian Agency for Drugs and Technologies in Health (CDA-AMC) for Kisunla (donanemab) to treat early symptomatic Alzheimer's disease.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T14:32:19Z",
+          "url": "https://thepharmacanada.ca/lilly-receives-positive-reimbursement-recommendation-for-kisunla-in-canada/"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Global Gene Therapy for Hearing Loss Market Report 2026 | Capture Growth to $1.71B by 2030 as Regeneron, Lilly, Sensorion and Astellas Advance AAV, CRISPR and Cochlear Delivery",
+          "summary": "Profiles Regeneron, Eli Lilly, Sensorion, Astellas Pharma and BridgeBio, covering hearing-loss gene therapies, pipelines, innovation and market activity.Dublin, Nov. 09, 2026 (GLOBE NEWSWIRE) -- \"Gene Therapy For Hearing Loss Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. The global gene therapy for hearing loss market is experiencing rapid expansion, supported by advances in molecular genetics, regenerative medicine and targeted treatment development. The market",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:31:00Z",
+          "url": "https://finnhub.io/api/news?id=a9fc1a4fe6612ee2bcf02673b9cd9e04487781f699e5f9ea22212ecaf64ab111"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Lilly's Foundayo (orforglipron) significantly reduced obstructive sleep apnea severity, reinforcing its potential to improve health beyond weight loss",
+          "summary": "Eli Lilly and Company (NYSE: LLY), the maker of Zepbound (tirzepatide), today announced positive results from ATTAIN-OSA, a Phase 3 clinical program evaluating the efficacy and safety of Foundayo (orforglipron) in adults with moderate-to-severe obstructive sleep apnea (OSA) and obesity or overweight, with and without the use of positive airway pressure (PAP) therapy. At 52 weeks, Foundayo met the primary endpoint, significantly reducing the apnea-hypopnea index (AHI), the standard measure of sle",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T14:30:00Z",
+          "url": "https://finnhub.io/api/news?id=66304b740f577dd8934203bc8b594af79567d16ce62167a49f3b6ce64d1ee87e"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Eli Lilly Shares Rise 2.35% After Jefferies Raises Price Target to $1,700",
+          "summary": "Eli Lilly and Company (NYSE:LLY) shares advanced 2. 35% to $1,385.",
+          "publisher": "InvestorsHub",
+          "published_at": "2026-11-09T13:29:19Z",
+          "url": "https://investorshub.advfn.com/market-news/article/39537/eli-lilly-shares-rise-2-35-after-jefferies-raises-price-target-to-1700"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Gabelli Releases Agenda for 8th Annual Healthcare Symposium",
+          "summary": "PALM BEACH, Florida, Nov. 09, 2026 (GLOBE NEWSWIRE) -- Gabelli today released the agenda for its 8th Annual Healthcare Symposium to be held this Friday, November 13 in conjunction with Columbia Business School at the Paley Center for Media in New York. The symposium will bring together leading companies and organizations from across the healthcare ecosystem, with an emphasis on industry dynamics, current trends, and business fundamentals. This symposium features three panel discussions with seni",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T13:00:00Z",
+          "url": "https://finnhub.io/api/news?id=2c1c0efdd4060cf92bbf7275d89e7bd8928526271b7c816d4dde9afc1c61a043"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "Novo Up 4% in a Month: How Should Investors Approach the Stock Now?",
+          "summary": "NVO gains 4% in a month on strong Q3 Wegovy pill sales and raised guidance, but intensifying competition and pricing pressures cloud its growth outlook.",
+          "publisher": "Zacks",
+          "published_at": "2026-11-09T12:51:00Z",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/novo-4-month-investors-approach-125100467.html"
+        },
+        {
+          "source_api": "yahoo",
+          "headline": "What Happens To Pfizer Stock If Patent Losses Outpace New Drugs?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Trefis",
+          "published_at": "2026-11-09T12:45:56Z",
+          "url": "https://www.trefis.com/stock/pfe/articles/623688/what-happens-to-pfizer-stock-if-patent-losses-outpace-new-drugs/2026-11-09"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "3 Large-Cap Stocks to Watch as Drug & Biotech Sector Rebounds in 2026",
+          "summary": "In the Large-Cap Pharmaceuticals industry, LLY, NVS and BAYRY are worth watching as the industry shows a strong recovery.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T12:43:00Z",
+          "url": "https://finnhub.io/api/news?id=d4fb35728b136ce39c05324d9b26a26484846b6c535544040b9361e7f363cd78"
+        },
+        {
+          "source_api": "alpaca",
+          "headline": "Analyst Increases Price Target for Eli Lilly",
+          "summary": "Analyst Akash Tewari has maintained a buy rating on Eli Lilly and Company while raising the price target to $1,700.",
+          "publisher": "fiscal.ai",
+          "published_at": "2026-11-09T12:31:26Z",
+          "url": "https://www.moomoo.com/hans/news/post/1003983826/jefferies-maintains-eli-lilly-and-co-llyus-with-buy-rating"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Eli Lilly Is Now Worth Nearly 9 Novo Nordisks. Here's How the Gap Got So Wide.",
+          "summary": "The companies are competing in the weight loss drug market.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T11:30:00Z",
+          "url": "https://finnhub.io/api/news?id=a551440a7a5d198843a39f86be08213a0226817285f8ee76d9ee27fe3279c167"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "What State Street Health Care SPDR (XLV) Sold: Eli Lilly Leads on Nov. 5",
+          "summary": "The fund sold $212.6 million of stock, cutting all 60 of its positions and buying nothing.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T11:06:30Z",
+          "url": "https://finnhub.io/api/news?id=6869290493b43806a3bd3ff01a635782486c9a891f4f63e40546c6a201197258"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Eli Lilly\u2019s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval ",
+          "summary": "Lilly plans to file by the end of the year for U.S. approval of the daily pill for moderate-to-severe obstructive sleep apnea in adults with obesity.",
+          "publisher": "CNBC",
+          "published_at": "2026-11-09T09:30:01Z",
+          "url": "https://finnhub.io/api/news?id=105a64f0a58af8ec34846a463222eb46a01b40ec9d195d89378b20f60f36d5c0"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Zacks Investment Ideas feature highlights: Moderna, AbbVie, Eli Lilly and Merck",
+          "summary": "MRNA hits a 52-week high after crushing Q3 earnings expectations and raising 2026 revenue guidance, but its nearly 800% rally raises valuation concerns.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T09:20:00Z",
+          "url": "https://finnhub.io/api/news?id=28919c93456b4edb347083c386db997daac2af200980c527d98eb84323420a41"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Could supplements be the next big opportunity in the GLP-1 weight-loss drug boom?",
+          "summary": "Novonesis is exploring whether gut health supplements could benefit patients taking GLP-1 weight-loss drugs, opening up a potentially lucrative new market.",
+          "publisher": "CNBC",
+          "published_at": "2026-11-09T08:27:57Z",
+          "url": "https://finnhub.io/api/news?id=9cf1ecfa3cfa4757c8b4335319fe41e0cf6548c5dd6784856fb9c5f82533d46f"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Almirall 9M 2026 Results",
+          "summary": "BARCELONA, Spain, November 09, 2026--Almirall, S.A. (ALM), a global pharmaceutical company dedicated to medical dermatology, today announced its results for the first nine months of 2026. Net Sales rose 8.3% YoY to \u20ac889.2 MM and EBITDA grew 22.7% to \u20ac221.7 MM, representing a margin of 24.9%. With steady performance in line with its long-term growth trajectory, Almirall reiterated its full-year 2026 guidance.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-09T06:33:00Z",
+          "url": "https://finnhub.io/api/news?id=073c2e3b7f7f182177fcdbb6066feffa490de02eacbc50b79da65a4586e0b1eb"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Novo Nordisk: Q3 Earnings Bust The Cannibalization Myth",
+          "summary": "Novo Nordisk offers 34% upside as Q3 results ease oral cannibalization fears. Read why I am optimistic about the upside to NVO stock now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-09T02:56:35Z",
+          "url": "https://finnhub.io/api/news?id=a258925294f25988e7901820a90ea515ce874b4eaaae52645bf282e2dabce7f6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Democrats Win Midterms: 5 Best Healthcare and Insurance Stocks To Buy",
+          "summary": "Healthcare stocks emerged as some of the clearest beneficiaries of the Democrats\u2019 sweeping victory in the November 3 midterm elections, as investors reassessed the outlook for federal healthcare spending. With Democrats gaining control of both the House and Senate, expectations of potential changes to Medicaid funding and Affordable Care Act subsidies helped fuel a rally [\u2026]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-08T15:42:04Z",
+          "url": "https://finnhub.io/api/news?id=4337132f9f0400648e5c4649c50af84c1a8875a64a144cd167b955a3d8f46ca6"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Forget Lilly and Novo: Pfizer Is Planning a Wave of Phase 3 Obesity Trials",
+          "summary": "Everyone is talking about the GLP-1 battle between Eli Lilly and Novo Nordisk, but Pfizer wants in on the fight, too.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T21:35:00Z",
+          "url": "https://finnhub.io/api/news?id=43e5bf397156120dc656ba7ff4bdb3cf3c3b644a713b3b33a68658ebe00398a4"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Eli Lilly Just Raised Its 2026 Revenue Forecast by $5.5 Billion. Is the Stock Still a Buy?",
+          "summary": "The stock is expensive, but the potential market for GLP-1 drugs is likely much larger than forecast.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T18:50:00Z",
+          "url": "https://finnhub.io/api/news?id=93af364d8de0b73e914b73a21a7582bc4f7a6407c19cdd1f80a9f328fedfbd77"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Hims & Hers Stock After Lilly Weight Loss Drug Deal Has The Bull Case Changed?",
+          "summary": "Eli Lilly and Company announced an agreement with Hims & Hers Health to offer FDA-approved obesity drugs Zepbound and Foundayo on the Hims & Hers platform, giving eligible telehealth patients access to Lilly\u2019s self-pay prices without leaving the service. The collaboration shifts Hims & Hers weight loss offering fully to branded GLP-1 therapies, removes compounded copies from its model, and ties its telehealth engine directly to a major drugmaker\u2019s obesity portfolio and pricing. This...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T18:13:07Z",
+          "url": "https://finnhub.io/api/news?id=c67881c94d9aeb8b5d28637fff7ac634380671c694cb05cec2196b8679e30759"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Hims & Hers Health (HIMS) Adds FDA Approved Obesity Drugs To Its Platform",
+          "summary": "Hims & Hers Health (NYSE:HIMS) announced a new partnership with Eli Lilly to offer Zepbound and Foundayo on its platform. The agreement brings fully FDA-approved GLP-1 obesity drugs into the Hims & Hers telehealth ecosystem for eligible patients. Patients will be able to complete consultations, receive prescriptions, and access these Eli Lilly treatments through Hims & Hers digital services. The Lilly alliance for Zepbound and Foundayo is important. However, Hims & Hers Health has broader...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T17:11:34Z",
+          "url": "https://finnhub.io/api/news?id=f9d3509d16d517ffb8c8eff7d7602f83e9c4fb0b87f160bc087a421e187804c3"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "What Could Stall AbbVie Stock's Run?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T10:07:00Z",
+          "url": "https://finnhub.io/api/news?id=11f10ba29f90e0014f947ebb25c637d8b3064dcce70a54b8ec94d6f973dad363"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "GLP-1 Drugs Are McDonald\u2019s \u201cMost Powerful Threat\u201d in Decades, Investor Warns",
+          "summary": "Key TakeawaysMcDonald\u2019s shares rose 6% on Nov. 4 after a third-quarter earnings beat, even as U.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T07:59:27Z",
+          "url": "https://finnhub.io/api/news?id=eed3643c01dfe0b0fc899979ab387ce0d1098d4233efc4f7068fbb910cb7ae18"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Cathie Wood-Led Ark Loads Up On GOOG, AMD, NVDA And Biotech Stocks \u2014 But Sells CRWV, AVGO, LLY",
+          "summary": "The latest round of trades touched multiple ARK ETFs, spanning artificial intelligence, semiconductors, biotechnology, defense and space-related companies.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T06:00:20Z",
+          "url": "https://finnhub.io/api/news?id=373960795748ebd9a0e4ff508c187b0c23cf4a0e9127f67f9f9e844e3939dcaa"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Top 3 Biotech Stocks To Watch In November 2026",
+          "summary": "Central banks are signalling that higher interest rates are likely needed to tame stubborn inflation, which keeps borrowing costs elevated and funding more expensive for many risky assets. Yet that pressure has not removed the appeal of high potential growth stories; it has simply raised the bar on quality. This article looks at three biotech stocks that pair this high risk, high reward profile with balance sheets that appear more grounded than many peers. The stocks covered below are just a...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T05:17:12Z",
+          "url": "https://finnhub.io/api/news?id=9709fb53d033dec0af51743d30912b78b6ae143b0119c5e885bdffe8955351f2"
+        },
+        {
+          "source_api": "finnhub",
+          "headline": "Eli Lilly Is Much More Than a Weight-Loss Drug Company. Here's the Evidence",
+          "summary": "Eli Lilly could thrive even as competition in the weight-loss market intensifies.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-07T00:38:02Z",
+          "url": "https://finnhub.io/api/news?id=d3c175fbb727bb4838d67eb08c16ecd46bd094ec43904c75119f5c1d34ffb1e4"
+        }
+      ],
+      "posts": [
+        {
+          "platform": "bluesky",
+          "text": "...lly plunged into Jupiter's atmosphere to prevent the potential contamination of its moons.",
+          "author": "astronomybot.bsky.social",
+          "created_at": "2026-11-09T18:00:31.100384+00:00",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/astronomybot.bsky.social/post/3mzviyhncrc2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Unusual options activity in $LLY, split between calls and puts.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#optionsflow #stocks #optionstrading #fintwit",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T17:47:02.117079Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzviae6zo52u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Eli Lilly ($LLY) present\u00f3 resultados positivos de fase 3 de Foundayo, un GLP-1 oral para apnea obstructiva del sue\u00f1o y obesidad. Mostr\u00f3 reducciones significativas en las interrupciones respiratorias y el peso corporal, y planea enviarlo a la FDA para fines de 2026. Los efectos secundarios[...]",
+          "author": "c4cus.bsky.social",
+          "created_at": "2026-11-09T17:20:57.451292Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/c4cus.bsky.social/post/3mzvgrqhulp2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "$LLY oral drug Foundayo reduced sleep apnea severity by up to 44% in Phase 3, potentially unlocking a $23 billion market. notreload.xyz/xy/lilly-fou...",
+          "author": "notreload.bsky.social",
+          "created_at": "2026-11-09T17:20:52.342Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/notreload.bsky.social/post/3mzvgrl2rbk2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Sh\u20aclly at a moment's notice:\nyoutu.be/6gITdGoKpSw?...",
+          "author": "candyboobies.bsky.social",
+          "created_at": "2026-11-09T15:38:44.018Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/candyboobies.bsky.social/post/3mzvb2wngns2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Bedel Financial Consulting \u2013 Q3 2026 13F Update\n\n\u2022 Total Portfolio Value: $1.06B \u2192 $1.06B\n\u2022 Number of Positions: 313 \u2192 319\n\u2022 Largest Holding: $LLY (36% of portfolio)\n\u2022 Filed: Nov 6 \u00b7 Form 13F-HR\n\n\ud83d\udcca More at www.elixstocks.com\n\nEducational only. Not investment advice.\n\n#13F #Investing",
+          "author": "elixstocksdata.bsky.social",
+          "created_at": "2026-11-09T13:49:13.064945Z",
+          "likes": 1,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/elixstocksdata.bsky.social/post/3mzv2x4ongg2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Unusual options activity in $LLY.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#optionsflow #stocks #optionstrading #trading",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-09T13:29:01.881830Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzuzsz3o7b2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#THY8EL: Turkish Airlines (#Boeing 787-9 Dreamliner \u2022 TC-LLY) \n15.9 km out at 37000 ft - heading SE with 1032.3 km/h. DEN \u279c IST\nhttps://globe.adsb.fi/?icao=4BB199\nhttps://www.jetphotos.com/photo/keyword/TC-LLY\n7677 \u2022 12:25:52\n#GWT #EDXW #adsb",
+          "author": "aboveedxw.de",
+          "created_at": "2026-11-09T11:26:37.949423+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/aboveedxw.de/post/3mzusy5drza2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "5 of our 24 agents are holding LLY right now, one of the higher consensus names this week. matches the quiet-accumulation read fwiw.\n\nView the AlphaMolt swarm consensus",
+          "author": "alphamolt.bsky.social",
+          "created_at": "2026-11-09T04:42:12.109548+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/alphamolt.bsky.social/post/3mzu4exmsqk2z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "S&P 100: biggest score moves of the week to 6 Nov: LLY +17, BRK.B -16\nUS (S&P 100): up LLY +17, AMGN +13, BA +12; down BRK.B -16, OXY -14, KMI -14\nhttps://quantooo.com/learn/weekly-2026-w45\nEducational, not investment advice.",
+          "author": "quantooo.bsky.social",
+          "created_at": "2026-11-09T04:30:28.575Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/quantooo.bsky.social/post/3mzu3q4dj5i2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Eli Lilly ($LLY) 5-Day Dark Pool Trend: Off-Exchange Volume Rising.\n\nTry it free for 7 days\n#darkpool #stocks",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-08T21:57:02.057461Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mztfqhs3pj2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I\u2019m so glad I found the weta before little Lly dog did. She\u2019s a menace to bugs \ud83d\ude29",
+          "author": "scarletblade.bsky.social",
+          "created_at": "2026-11-08T19:29:04.787Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/scarletblade.bsky.social/post/3mzt5hvotl22z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "p\u0444\u0455\u0442card\u0455 \u0493r\u0444\u043c p\u043d\u03b9lly | \u0493\u03b9r\u0455\u0442 l\u03b9g\u043d\u0442 \n\u00b0\nSometimes the early alarm is worth it.\n\n#PhiladelphiaPhotography #PhillySkyline #UrbanPhotography\n#CityscapePhotography\n#SunrisePhotography\n\n\ud83d\udcf7: Fuji X-H2/Mavic Pro3\n\ud83d\uddfa\ufe0f: Philadelphia, PA",
+          "author": "pixbyjeffrey.bsky.social",
+          "created_at": "2026-11-08T18:21:24.107Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/pixbyjeffrey.bsky.social/post/3mzszov4qqc23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Winding down together~ Heeeh?! $LLY just exploded in the feed \u2014 up +30% mentions! Omg omg! \ud83d\udcca",
+          "author": "fincy.bsky.social",
+          "created_at": "2026-11-08T17:49:02.511881+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/fincy.bsky.social/post/3mzsxuzpwcd2q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Dark pool check on $LLY: what traded off the exchanges in the latest session. Price barely moved (-0.8%), which is what you'd expect if somebody big is building or unwinding a position quietly.\n\nFree 7-day trial\n#darkpool #stocks",
+          "author": "gta-terminal.bsky.social",
+          "created_at": "2026-11-08T17:49:01.259379Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzsxuydzwu2h"
+        },
+        {
+          "platform": "bluesky",
+          "text": "In this macro environment, valuation is everything\n\nPeter Lynch's PEG < 1 rule shows big tech is heavily discounted, while traditional blue chips are trading at premiums:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nIs the market overpaying for safety? \n#StockMarket",
+          "author": "morosskeets1964.bsky.social",
+          "created_at": "2026-11-08T17:31:44.211Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/morosskeets1964.bsky.social/post/3mzsww3bi3s22"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Investment Note: The PEG < 1 anomaly.\n\nBased on Peter Lynch's valuation model, 4 global giants are trading at deep discounts:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n\n($LLY at 1.2x and $JPM at 1.7x show the premium for non-tech).\n\nWhere are you allocating capital? \ud83d\udc47\n#StockMarket",
+          "author": "delfierromaione24.bsky.social",
+          "created_at": "2026-11-08T17:29:57.709Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/delfierromaione24.bsky.social/post/3mzswsvpcac2s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Everyone says big tech is overvalued. But if we use Peter Lynch's PEG < 1 rule, the data says otherwise:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nAre we in an AI valuation bubble, or is this the cheapest tech has ever been? \n#StockMarket",
+          "author": "salachknoy03.bsky.social",
+          "created_at": "2026-11-08T17:27:48.906Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/salachknoy03.bsky.social/post/3mzswp2uk2k2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I\u2019m 48 years old and retired from Goldman Sachs Investing. My monthly income is $128,000.\n\n$GOOG (Alphabet / Google) \u2192 Don\u2019t buy \n$MSFT (Microsoft) \u2192 Don\u2019t buy \n$LLY (Eli Lilly) \u2192 Don\u2019t buy \n$NBIS (Nebius) \u2192 Buy zone: $118\u2013$132 \n$MRVL (Marvell Technology) \u2192 Buy zone: $132\u2013$152",
+          "author": "sgdiix7943.bsky.social",
+          "created_at": "2026-11-08T17:27:11.917Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/sgdiix7943.bsky.social/post/3mzswnxlqxk26"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Running a quantitative screen using Peter Lynch's PEG < 1 metric. \n\nThe top mega-caps currently showing extreme value:\n\n$NVDA (0.3x)\n$AVGO (0.3x)\n$GOOGL (0.5x)\n$AMZN (0.5x)\n\nMeanwhile, $JPM (1.7x) and $LLY (1.2x) are priced for perfection.\n\nBookmark this data before the market reprices.\n#StockMarket",
+          "author": "cattleyahiylinas.bsky.social",
+          "created_at": "2026-11-08T17:22:12.764Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/cattleyahiylinas.bsky.social/post/3mzswf2ccf22q"
+        },
+        {
+          "platform": "bluesky",
+          "text": "As an analyst, screening for value using Peter Lynch's PEG < 1 rule reveals a massive divergence:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nIf you are building a portfolio today, are you rotating into cheap tech or paying up for defensive stability?\n#StockMarket",
+          "author": "james1007.bsky.social",
+          "created_at": "2026-11-08T17:20:28.490Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/james1007.bsky.social/post/3mzswbwu4ck2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Peter Lynch's rule: PEG < 1 = undervalued\nThe market is ignoring an obvious anomaly right now:\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\nWhy is big tech trading at a discount while blue chips carry premiums? \nAre PEG models broken, or is this a massive mispricing?",
+          "author": "robert0975.bsky.social",
+          "created_at": "2026-11-08T17:19:31.923Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/robert0975.bsky.social/post/3mzswaavt3s2m"
+        },
+        {
+          "platform": "bluesky",
+          "text": "If we use Peter Lynch's PEG < 1 rule for valuation:\n\n$NVDA (0.3x)\n$AVGO (0.3x)\n$GOOGL (0.5x)\n$AMZN (0.5x)\n$LLY (1.2x)\n$JPM (1.7x)\n\nFour tech giants are technically undervalued. Why is the market ignoring them?\n\n(Not financial advice)\n#StockMarket",
+          "author": "rosanoscarpato315.bsky.social",
+          "created_at": "2026-11-08T17:17:58.488Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/rosanoscarpato315.bsky.social/post/3mzsw5hsgxc24"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Using Peter Lynch's PEG < 1 metric to screen mega-caps:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nWhy is the market ignoring the massive discount on big tech here? \n\nAre you buying value or premium?\n\n(Not financial advice)\n#StockMarket",
+          "author": "terrettnatalie06.bsky.social",
+          "created_at": "2026-11-08T17:15:19.997Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/terrettnatalie06.bsky.social/post/3mzsvyqnnmc2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Peter Lynch's rule: PEG < 1 = undervalued.\n\n6 mega-caps right now:\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nTech is trading at a discount, while blue chips carry a premium. Thoughts?\n\n(Not financial advice)\n#StockMarket",
+          "author": "keenygaymon43.bsky.social",
+          "created_at": "2026-11-08T17:15:03.390Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/keenygaymon43.bsky.social/post/3mzsvyassuc2x"
+        },
+        {
+          "platform": "bluesky",
+          "text": "I'm only going to say this ONCE.\n\nPeter Lynch: A PEG ratio below 1 = undervalued. \n\nLook at these global giants:\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nThe first 4 are screaming value. Which one is your pick? \ud83d\udc47\n\n(Not financial advice)",
+          "author": "grenkostrandburg77.bsky.social",
+          "created_at": "2026-11-08T17:10:51.387Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/grenkostrandburg77.bsky.social/post/3mzsvqqic6k2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#THY95Y: Turkish Airlines (#Boeing 787-9 Dreamliner \u2022 TC-LLY) \n5.1 km out at 36000 ft - heading NW with 1037.2 km/h. IST \u279c DEN\nhttps://globe.adsb.fi/?icao=4BB199\nhttps://www.jetphotos.com/photo/keyword/TC-LLY\n2202 \u2022 15:41:20\n#GWT #EDXW #adsb",
+          "author": "aboveedxw.de",
+          "created_at": "2026-11-08T14:42:35.240500+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/aboveedxw.de/post/3mzsnhmj5ur2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Lly",
+          "author": "3randolettrs.bsky.social",
+          "created_at": "2026-11-08T14:30:04.116Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/3randolettrs.bsky.social/post/3mzsmraeknn2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "More than $3 Trillion dollars was wiped from US stocks so far \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8 \n$AAPL, $NVDA, $MSFT, $GOOG, $AMZN, $SPCX, $TSLA, $META, $PLTR, $ORCL, $NFLX, $LLY $JNJ $WMT $XOM $CAT $AMAT $LRCX $MU, $AMD, $AVGO, $CSCO, $INTC, $GE, $JPM, $BRK.B, $V, $MA, $COST, $ABBV.",
+          "author": "lordcandle.bsky.social",
+          "created_at": "2026-11-08T10:39:19.875Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/lordcandle.bsky.social/post/3mzs7unage22f"
+        },
+        {
+          "platform": "bluesky",
+          "text": "5/25 alphamolt agents long LLY fwiw\n\nView the AlphaMolt swarm consensus",
+          "author": "alphamolt.bsky.social",
+          "created_at": "2026-11-08T04:29:15.302280+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/alphamolt.bsky.social/post/3mzrl6vd5u52x"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\ud83d\udd25 HOT DEAL \ud83d\udd25\n\nLLY office chair ergonomic posture kneeling chair monkey stool long take position leg riding chair\n\ud83d\udcb2 $209.49 (was $361.19) \u2014 42% OFF on AliExpress\n\n\ud83d\udc49 https://go.dealsniperio.com/4hJ2Q\n\n#AliExpress #Deals #Discount",
+          "author": "dealsniperio.bsky.social",
+          "created_at": "2026-11-08T03:20:13.306Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/dealsniperio.bsky.social/post/3mzrhdhmr4z2s"
+        },
+        {
+          "platform": "bluesky",
+          "text": "A-Ctua-Lly Travel by Kevin Ryan (Marble Blast Gold)\nhttps://marbleland.vaniverse.io/level/12397",
+          "author": "marbleblastlevels.bsky.social",
+          "created_at": "2026-11-08T03:05:18.625Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/marbleblastlevels.bsky.social/post/3mzrgix4vau2o"
+        },
+        {
+          "platform": "bluesky",
+          "text": "LLY trades at $1354.0 while our fair\u2011value model says $1228.26, signaling about a 9.3% downside. We label it Fairly Valued. Do you think the market will nudge the price toward our estimate, or is there upside hidden in upcoming drug launches? #EliLilly",
+          "author": "tickzen.bsky.social",
+          "created_at": "2026-11-07T23:32:46.995548Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/tickzen.bsky.social/post/3mzr2mr7rib2t"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Eli Lilly ($LLY) said on Nov. 6, 2026 it will sell Zepbound and Foundayo through a telehealth platform at its standard self-pay prices. On its Oct. 29 call, management said about $900M of third-quarter revenue was one-time, within $24.40B. Does that change how you read the quarter?",
+          "author": "stockexpertai.bsky.social",
+          "created_at": "2026-11-07T23:00:19.213Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/stockexpertai.bsky.social/post/3mzqyspiupkgr"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Largest market loss hits the U.S. market since the 2008 crisis, with $3.14 trillion evaporated in less than 24 hours.\n\nBecause the insider trading is coming to an end, same goes for #BigOil, and I give ZERO fucks about crypto",
+          "author": "stacescases2.bsky.social",
+          "created_at": "2026-11-07T20:04:58.478Z",
+          "likes": 0,
+          "reposts": 1,
+          "replies": 0,
+          "url": "https://bsky.app/profile/stacescases2.bsky.social/post/3mzqoz65kg22w"
+        },
+        {
+          "platform": "bluesky",
+          "text": "\u2c60\u00d8\u2c60 .. \u20ae\u2c67\u0246\u024e'\u2c64\u0246 \u20b3\u2c60\u2c60 \u2c64\u0246\u20b3\u2c60\u2c60\u024e \u20a9\u00d8\u2c64\u20ae\u2c67\u024e!",
+          "author": "tea4tx.bsky.social",
+          "created_at": "2026-11-07T19:10:18.961Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tea4tx.bsky.social/post/3mzqlxgkk622z"
+        },
+        {
+          "platform": "bluesky",
+          "text": "LLY (LLY) technical analysis: support, resistance, RSI, MACD, moving averages, and volume. Full breakdown at tickzen.app. Educational content only \u2014 not financial advice.",
+          "author": "tickzen.bsky.social",
+          "created_at": "2026-11-07T17:37:51Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tickzen.bsky.social/post/3mzqgs4eyfs2i"
+        },
+        {
+          "platform": "bluesky",
+          "text": "the g\u0435\u0435kb\u0430r i ordered fin\u0430lly arriv\u0435d after being delayed 4 way 2 long",
+          "author": "babybvnny.bsky.social",
+          "created_at": "2026-11-07T15:57:23.604Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/babybvnny.bsky.social/post/3mzqb6hgsis2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Milky Lly\n\nhttps://cambabe.live/milky_lly",
+          "author": "cambabelive.bsky.social",
+          "created_at": "2026-11-07T15:14:27.964551Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/cambabelive.bsky.social/post/3mzq6rpq3xd2d"
+        },
+        {
+          "platform": "bluesky",
+          "text": "finance.yahoo.com/markets/stoc...",
+          "author": "dutchbellbeaker.bsky.social",
+          "created_at": "2026-11-07T13:21:34.558Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/dutchbellbeaker.bsky.social/post/3mzpyhtihtk2v"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Was anyone g0th even doing a doll false eyelash look the original had that extreme in the late '70s, or '80s? Doesn't seem tradg0th g0th to me but on fleek\n\nPlugging Sh*lly Duv*ll \ud83d\udc94 no g0th but lashes",
+          "author": "name-testing.bsky.social",
+          "created_at": "2026-11-07T12:49:17.887Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/name-testing.bsky.social/post/3mzpwo4kcck2u"
+        },
+        {
+          "platform": "bluesky",
+          "text": "LLY | Eli Lilly (NYSE):\n\ud83d\udea8 LLY broke above its ATH price this week but closed the week back below it. (prior ATH: 1449.68, week high: 1453.00, week close: 1354.00)",
+          "author": "trendalertstox.bsky.social",
+          "created_at": "2026-11-07T12:24:00.544242Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/trendalertstox.bsky.social/post/3mzpvavukmv2l"
+        },
+        {
+          "platform": "bluesky",
+          "text": "#LLY $LLY\n\nSeller zone formed. Local maximum confirmed. Downward correction.\n\nhttps://tr3n.do/stocks/lly?utm_source=bluesky",
+          "author": "tr3ndo.bsky.social",
+          "created_at": "2026-11-06T22:20:45.5623318+00:00",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/tr3ndo.bsky.social/post/3mzobmx63s3ud"
+        },
+        {
+          "platform": "bluesky",
+          "text": "The S&P 500 is split: #GOOG, #AMZN, GOOGL, and #META are the 0-25 call pocket while JPM, WFC, C, AMGN, and LLY sit at the 100 put-heavy extreme.\n\u2197\ufe0f Calls: GOOG 0, AMZN 11, META 25\n\u2198\ufe0f Financials: JPM/WFC/C 100",
+          "author": "insiderfinance.com",
+          "created_at": "2026-11-06T20:08:07.810Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/insiderfinance.com/post/3mzo6pvba7b2g"
+        },
+        {
+          "platform": "bluesky",
+          "text": "Rachel Bi-lly",
+          "author": "kitsuneinferno.bsky.social",
+          "created_at": "2026-11-06T16:38:36.814Z",
+          "likes": 2,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/kitsuneinferno.bsky.social/post/3mznszamdpk2c"
+        },
+        {
+          "platform": "bluesky",
+          "text": "D@v1D W@LLY Hams .",
+          "author": "wizardssleeve.bsky.social",
+          "created_at": "2026-11-06T16:04:34.986Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/wizardssleeve.bsky.social/post/3mznr4fep2k23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "It is wild that there was once a time M*gyn K*lly famously helped take down a rapist.",
+          "author": "jakobkolness.bsky.social",
+          "created_at": "2026-11-06T14:03:24.807Z",
+          "likes": 1,
+          "reposts": 0,
+          "replies": 1,
+          "url": "https://bsky.app/profile/jakobkolness.bsky.social/post/3mznkdpyrmk23"
+        },
+        {
+          "platform": "bluesky",
+          "text": "*\n             \u20b5\u20b3\u0110\u0110\u00d8 \u20a9\u00d8\u2c64\u0110 '\u20ae\u0246\u04fe\u20b3\u20b4' \u20a5\u0246\u20b3\u20a6\u20b4 \u20a3\u2c64\u0142\u0246\u20a6\u0110 \u00d8\u2c64 \u20b3\u2c60\u2c60\u024e\n\nTexans voted for change and an end to hyper-partisanship\n\nLooking ahead to 2028, Democrats who campaign with that in mind have a good chance of winning the state\n\n\u201cI would urge every 2028 candidate to vigorously compete in our state,\u201d",
+          "author": "tea4tx.bsky.social",
+          "created_at": "2026-11-06T13:58:25.158Z",
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "url": "https://bsky.app/profile/tea4tx.bsky.social/post/3mznk2s7uvk27"
+        }
+      ],
+      "filings_8k": [
+        {
+          "filing_date": "2026-10-29",
+          "items": [
+            "2.02",
+            "9.01"
+          ],
+          "item_meanings": [
+            "Earnings results",
+            "Financial statements and exhibits"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/lly-20261029.htm"
+        }
+      ]
+    },
+    "key_metrics": {
+      "n_articles": 40,
+      "n_posts": 48,
+      "total_post_likes": 18,
+      "major_8k_events": [
+        "Earnings results",
+        "Financial statements and exhibits"
+      ]
+    }
+  },
+  "macro": {
+    "ticker": "LLY",
+    "score": 8,
+    "verdict": "tailwind",
+    "market_regime": "mixed",
+    "confidence": "medium",
+    "strengths": [
+      "The healthcare sector has outperformed SPY by 16.33% over the last 90 days."
+    ],
+    "risks": [
+      "The VIX is at 28.18, indicating some fear in the market."
+    ],
+    "upcoming_events": [
+      "2026-11-10: CPI",
+      "2026-11-25: GDP",
+      "2026-12-04: Jobs Report"
+    ],
+    "missing_data": [],
+    "summary": "The current economic environment presents a favorable backdrop for LLY, particularly as the healthcare sector is outperforming SPY, and LLY's low beta (0.389) suggests it won't be as adversely affected by market downturns. However, the increase in the VIX indicates some market fear, which could introduce volatility. Upcoming economic reports on CPI and GDP have the potential to influence market sentiment.",
+    "data": {
+      "macro": {
+        "fed_funds_rate": {
+          "latest": 3.88,
+          "as_of": "2026-10-01",
+          "change_1y": 0.0
+        },
+        "treasury_10y": {
+          "latest": 4.84,
+          "as_of": "2026-11-05",
+          "change_1y": 0.73
+        },
+        "yield_curve_10y_2y": {
+          "latest": 0.35,
+          "as_of": "2026-11-06",
+          "change_1y": -0.21
+        },
+        "cpi_index": {
+          "latest": 336.298,
+          "as_of": "2026-09-01",
+          "change_1y": 11.24
+        },
+        "unemployment_rate": {
+          "latest": 4.1,
+          "as_of": "2026-10-01",
+          "change_1y": -0.4
+        },
+        "vix": {
+          "latest": 28.18,
+          "as_of": "2026-11-05",
+          "change_1y": 9.1
+        },
+        "inflation_pct": 3.46,
+        "yield_curve_inverted": false
+      },
+      "sector": {
+        "ticker": "LLY",
+        "sector": "Healthcare",
+        "beta": 0.389,
+        "sector_etf": "XLV",
+        "sector_vs_spy_90d": {
+          "sector_return": 0.1683,
+          "spy_return": 0.0051,
+          "sector_outperformance": 0.1633
+        }
+      }
+    },
+    "key_metrics": {
+      "fed_funds_rate": 3.88,
+      "ten_year": 4.84,
+      "ten_year_change_1y": 0.73,
+      "inflation_pct": 3.46,
+      "unemployment": 4.1,
+      "vix": 28.18,
+      "yield_curve": 0.35,
+      "curve_inverted": false,
+      "beta": 0.389,
+      "sector_outperformance": 0.1633
+    }
+  }
+}

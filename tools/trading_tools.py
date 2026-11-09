@@ -10,7 +10,7 @@ import os
 
 import requests
 from dotenv import load_dotenv
-from datetime import date
+from datetime import date,datetime   # update this import line
 
 load_dotenv()
 
@@ -103,12 +103,13 @@ def get_open_orders(ticker:str)->list:
     return r.json()
 
 def place_order(ticker:str,side:str,shares:int)->dict:
-    # Same stock + side + day = same id, so a rerun can't place the order twice
-    client_id=f"quorum-{ticker}-{side}-{date.today().isoformat()}"
+    # Unique per second: a later run the same day (e.g. the watcher) can still place an order
+    client_id=f"quorum-{ticker}-{side}-{datetime.now():%Y%m%d-%H%M%S}"
     body={"symbol":ticker,"qty":str(shares),"side":side,"type":"market",
           "time_in_force":"day","client_order_id":client_id}
     r=requests.post(f"{BASE_URL}/orders",headers=HEADERS,json=body,timeout=15)
-    r.raise_for_status()
+    if not r.ok:
+        raise RuntimeError(f"{r.status_code}: {r.text}")   # shows Alpaca's real reason
     return r.json()
 
 def get_order(order_id:str)->dict:

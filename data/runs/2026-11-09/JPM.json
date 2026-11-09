@@ -1,0 +1,1215 @@
+{
+  "ticker": "JPM",
+  "date": "2026-11-09",
+  "research": {
+    "fundamentals": {
+      "error": "fundamentals failed: Error code: 400 - Your input exceeds the context window of this model. Please adjust your input and try again."
+    },
+    "technical": {
+      "ticker": "JPM",
+      "score": 7,
+      "verdict": "bullish",
+      "trend": "uptrend",
+      "confidence": "high",
+      "strengths": [
+        "Price at 342.495 is above both 50-day (340.68) and 200-day (321.52) moving averages.",
+        "Outperforms SPY with a return of 0.0189 compared to SPY's 0.0042."
+      ],
+      "risks": [
+        "RSI at 53.16 indicates neutral momentum, suggesting potential for volatility."
+      ],
+      "missing_data": [],
+      "summary": "JPM shows a healthy uptrend as its price is above both the 50-day and 200-day moving averages, indicating long-term strength. The RSI at 53.16 reflects neutral momentum. Additionally, JPM has outperformed the SPY, indicating it is beating the market. Overall, the signals suggest a bullish outlook, though with some caution due to the neutral RSI.",
+      "data": {
+        "indicators": {
+          "price": 342.495,
+          "sma_50": 340.68,
+          "sma_200": 321.52,
+          "above_sma_50": true,
+          "above_sma_200": true,
+          "rsi_14": 53.16,
+          "volatility_20d": 0.282
+        },
+        "relative_strength": {
+          "stock_return": 0.0189,
+          "spy_return": 0.0042,
+          "outperformance": 0.0147
+        }
+      },
+      "key_metrics": {
+        "price": 342.495,
+        "above_sma_50": true,
+        "above_sma_200": true,
+        "rsi_14": 53.16,
+        "volatility_20d": 0.282,
+        "outperformance": 0.0147
+      }
+    },
+    "news": {
+      "ticker": "JPM",
+      "score": 6,
+      "sentiment": "neutral",
+      "crowd_mood": "neutral",
+      "confidence": "medium",
+      "key_events": [
+        "2026-11-09: JPMorgan added Meta to its Analyst Focus List, indicating a belief in AI-driven advertising growth which reflects optimism about Meta's short-term performance.",
+        "2026-11-09: JPMorgan announced $1.75 million in support for veteran entrepreneurs, reinforcing its community engagement and philanthropic commitments."
+      ],
+      "strengths": [
+        "JPMorgan sees strong near-term earnings momentum at Meta which may benefit from AI advancements, potentially improving advertising revenue significantly. (source: Yahoo Finance)",
+        "The bank's philanthropic support for veterans and military families underscores its commitment to social responsibility, aiming to strengthen small businesses and create jobs. (source: Finnhub)"
+      ],
+      "risks": [
+        "Concerns remain over Alphabet's AI monetization pace and cash flow pressures due to high expenses, leading to its removal from JPM's Analyst Focus List. (source: Yahoo Finance)",
+        "JPMorgan faces scrutiny from a Senate investigation regarding its past ties with Jeffrey Epstein, which could impact its reputation and operations. (source: Finnhub)"
+      ],
+      "missing_data": [],
+      "summary": "JPMorgan is actively reshaping its Analyst Focus List by adding Meta, reflecting confidence in AI-driven advertising growth, while simultaneously acknowledging Alphabet's slower performance. The bank's philanthropic initiative supporting military-connected entrepreneurs demonstrates its commitment to community engagement. However, concerns over Alphabet's cash flow and an ongoing Senate investigation into JPM's past relationships present notable risks that may weigh on its public perception.",
+      "data": {
+        "articles": [
+          {
+            "source_api": "yahoo",
+            "headline": "Meta Stocks Climb 4.82% as JPMorgan Bets on AI-Driven Ad Growth",
+            "summary": "The bank added Meta to its focus list, while a $135 billion-plus capex plan keeps cash flow under the microscope.",
+            "publisher": "GuruFocus.com",
+            "published_at": "2026-11-09T18:03:59Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stocks-climb-4-82-180359679.html"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "JPMorgan Just Removed Alphabet From Its Analyst Focus List",
+            "summary": "Google's search queries just hit a five-year growth high, yet revenue lagged far behind. JPMorgan spotted the gap, and it is steering its near-term conviction toward a rival while keeping a bullish long-term view.",
+            "publisher": "24/7 Wall St.",
+            "published_at": "2026-11-09T16:40:32Z",
+            "url": "https://247wallst.com/investing/2026/11/09/jpmorgan-just-removed-alphabet-from-its-analyst-focus-list/"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "JPMorgan Just Added Meta Platforms to Its Analyst Focus List",
+            "summary": "Meta's stock had slid for a month when JPMorgan quietly handed it a coveted spot, with no rating and no price target attached. What did the bank see in the ad numbers, and what risks still hide behind the AI spending spree?",
+            "publisher": "24/7 Wall St.",
+            "published_at": "2026-11-09T16:38:41Z",
+            "url": "https://247wallst.com/investing/2026/11/09/jpmorgan-just-added-meta-platforms-to-its-analyst-focus-list/"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "Why Palantir Stock Popped Today",
+            "summary": "Palantir Stock Rebounds as AI Fears Fade and Revenue Beats Estimates",
+            "publisher": "GuruFocus.com",
+            "published_at": "2026-11-09T16:15:53Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-stock-popped-today-161553360.html"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "Akamai Technologies Amends Credit Agreement with JPMorgan Chase",
+            "summary": "Akamai Technologies has amended its existing credit agreement with JPMorgan Chase, acting as administrative agent, to adjust leverage covenant limits through March 2028.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-09T16:01:35Z",
+            "url": "https://www.tradingview.com/news/tradingview:6d53922903065:0-akamai-amends-credit-agreement-raising-leverage-limits-through-march-2028/"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Typeface Inducted into JPMorganChase's 2026 Hall of Innovation",
+            "summary": "Recognition highlights joint AI innovation accelerating campaign execution from six weeks to four days.PALO ALTO, CA / ACCESS Newswire / November 9, 2026 / , the marketing orchestration engine for the world's leading enterprises, has been inducted into JPMorganChase's 2026 Hall of Innovation.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-09T15:20:00Z",
+            "url": "https://finnhub.io/api/news?id=178f54a53bc1e4fd53f105498b71cd0867448c433159baafb2c47a8cae774f46"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "Tronox Holdings (TROX) Stock Fair Value Falls As Analysts Cut Targets On Demand Concerns",
+            "summary": "Tronox Holdings has seen its Fair Value estimate cut from US$5.50 to US$4.75, a reduction of about 14% that directly affects how some investors may think about upside from current levels. This reset lines up with recent Street research, where bearish analysts have shifted Tronox Holdings price targets into a US$3.50 to US$5 range as they weigh titanium dioxide market conditions, end market demand, and rating changes from firms such as JPMorgan and Goldman Sachs. As you read on, you will see...",
+            "publisher": "Simply Wall St.",
+            "published_at": "2026-11-09T15:11:50Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/tronox-holdings-trox-stock-fair-151150949.html"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "Meta and Amazon Rise 5% as JPMorgan Names Them Top Internet Picks; Alphabet Gains 3% Despite Losing Its Spot",
+            "summary": "JPMorgan just reshuffled its favorite internet stocks, and one household name got cut yet still rallied. Find out which rival Meta displaced, why analysts say its ad engine is outrunning Google Search, and what could still derail the rotation.",
+            "publisher": "24/7 Wall St.",
+            "published_at": "2026-11-09T14:48:19Z",
+            "url": "https://247wallst.com/investing/2026/11/09/meta-and-amazon-rise-5-as-jpmorgan-names-them-top-internet-picks-alphabet-gains-3-despite-losing-its-spot/"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "Chase Enables Cash Deposits Through PayPoint Network Across UK",
+            "summary": "JPMorgan Chase's UK digital bank, Chase, has partnered with PayPoint to allow customers to deposit cash into their accounts at over 30,000 locations.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-09T14:32:19Z",
+            "url": "https://glenbrook.com/payments-news/all-payments-news/"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "After the Democratic Midterm Sweep: 4 Dividend Stocks Built for Gridlock",
+            "summary": "When Congress locks up, some dividends barely notice. Four blue chips span power, soap, medicine and banking, and one of them already survived a payout collapse that income investors should not forget before trusting it.",
+            "publisher": "24/7 Wall St.",
+            "published_at": "2026-11-09T14:27:09Z",
+            "url": "https://247wallst.com/investing/2026/11/09/after-the-democratic-midterm-sweep-4-dividend-stocks-built-for-gridlock/"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "Will PNC Financial's Expanding Branch Network Fuel Long-Term Growth?",
+            "summary": "PNC plans to invest $2.5 billion to add more than 370 branches by 2031, targeting high-growth markets to drive customer, deposit and lending growth.",
+            "publisher": "Zacks",
+            "published_at": "2026-11-09T14:24:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/pnc-financials-expanding-branch-network-142400010.html"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "JPMorgan drops Alphabet from focus list, adds Meta on AI advertising gains",
+            "summary": "Investing.com -- JPMorgan has removed Alphabet from its Analyst Focus List and added Meta Platforms, betting that AI-driven advertising gains and emerging monetization opportunities make Meta the more attractive internet stock.",
+            "publisher": "Investing.com",
+            "published_at": "2026-11-09T13:59:01Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-drops-alphabet-focus-list-135901285.html"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "JPMorganChase Provides $1.75 Million to Help Thousands of Veteran and Military Spouse Entrepreneurs Grow Their Businesses, Compete for Contracts, and Create Jobs",
+            "summary": "WASHINGTON, November 09, 2026--JPMorganChase today announced $1.75 million in philanthropic support to help veterans, military spouses, and veteran-owned small businesses strengthen their operations, compete for corporate and government contracts, and grow. The grants will support:",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-09T13:00:00Z",
+            "url": "https://finnhub.io/api/news?id=cf8a9c427b35c1ff85346a6e57d9435f178a0b3c3046e41212ccb1a3ce680044"
+          },
+          {
+            "source_api": "yahoo",
+            "headline": "JPM Expects M&A Slowdown in 2027: Can Private Equity Exits Offset?",
+            "summary": "JPMorgan expects M&A activity to slow in 2027, potentially pressuring advisory fees, but rising private equity exits could offer fresh revenue opportunities.",
+            "publisher": "Zacks",
+            "published_at": "2026-11-09T12:04:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/jpm-expects-m-slowdown-2027-120400794.html"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "DraftKings Faces Three Analyst Downgrades \u2014 JPMorgan Says It\u2019s \u2018Increasingly Difficult To Recommend\u2019 The Stock",
+            "summary": "UBS lowered its rating on DraftKings to \u2018Neutral\u2019 from \u2018Buy\u2019 and cut its price target to $22 from $48, according to The Fly.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-09T11:14:51Z",
+            "url": "https://finnhub.io/api/news?id=9ab5ccb8ee7150083555fa290cd9e07d0d06de9ebb3c15cc917046c3d78ad4fe"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "What State Street Fin Select Sector SPDR (XLF) Sold: Berkshire Leads on Thursday",
+            "summary": "The fund sold $737.7 million of stock on Thursday, trimming all 76 of its positions and adding nothing new.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-09T11:05:08Z",
+            "url": "https://finnhub.io/api/news?id=96b91162eef161aa596f577ef610aeae86eaeb752bb6f87104e9b008243830cf"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "ETFs Are Net Sellers of JPMorgan Chase (JPM) on Nov. 5",
+            "summary": "ETFs sold $144.5 million of JPMorgan Chase on Thursday, Nov. 5.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-09T11:02:50Z",
+            "url": "https://finnhub.io/api/news?id=9f8d75d7b0e29394a0dcca9f8adf0b42e99d5c8fc61d36ccd2f57ef924d8bab7"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "HEQ: Focus On Value Could Be Good For This Fund Right Now",
+            "summary": "Explore HEQ\u00e2\u0080\u0099s 8.85% yield, value-stock focus, and 9.31% NAV discount to see if this diversified income fund fits your portfolio now.",
+            "publisher": "SeekingAlpha",
+            "published_at": "2026-11-09T10:19:32Z",
+            "url": "https://finnhub.io/api/news?id=4e47b1f4c792cdac3ded3e9f302d29bdb99877996b9946bf83395cc735877394"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Jim Cramer Praises The 'Number One Oil Company In The World'",
+            "summary": "Jim Cramer discusses Okta, VF, Trinity Capital, JPMorgan, Ameriprise Financial, Cardinal Health, D-Wave, Chevron and Netflix.",
+            "publisher": "Benzinga",
+            "published_at": "2026-11-09T08:46:44Z",
+            "url": "https://finnhub.io/api/news?id=84253f4562a0b9bfa6fedb22228cd60b99e359deb9d4dea33b0f8bba0f52728a"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "An Analyst Who Expects One More Big Drop Still Sees Bitcoin Reaching $2 Million. Can BTC Rise 26 Times From $75,000?",
+            "summary": "Beth Kindig warns another sharp selloff is coming, yet she still holds a seven-figure target for Bitcoin. The math behind that call hinges on one deadline, and ETF outflows and a rising dollar are already testing it.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-08T23:01:42Z",
+            "url": "https://finnhub.io/api/news?id=37014b9e616629ce58cd86325da75a317e37a2130eb35fa26bbd7c2c0f642b01"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "JPMorgan vs. Bank of America: Which Dividend Stock Is Better for Retirement?",
+            "summary": "One bank missed earnings after a $1.2 billion settlement charge, while the other just boosted its payout. Yet the cheaper stock with the juicier yield may not be the safer place for retirement income. Three scorecards reveal the tradeoff.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-08T12:07:58Z",
+            "url": "https://finnhub.io/api/news?id=7668501e3fec5c062b0e865cf535adb98b99c4498db3a3aae6518bdafb949b44"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "JP Morgan Athlete Center of Excellence: athletes need a financial playbook now more than ever",
+            "summary": "These aren\u2019t professional athlete questions.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-08T11:00:00Z",
+            "url": "https://finnhub.io/api/news?id=f3476781fc526227faffc19e45068c4e78a4c3075626a411df07bf43380bfcf4"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Barclays (LSE:BARC) Stock Gets Fair Value Trim After Analyst Target Cuts",
+            "summary": "Price targets for Barclays have been marked down into a tighter band, with recent moves clustering around 460 GBp, 540 GBp and 580 GBp. These shifts reflect a more balanced analyst narrative, where some firms cut targets and keep neutral stances while others, like JPMorgan with its 580 GBp target and Overweight rating, continue to see upside potential based on their own fair value work. As you read on, you will see how these target changes fit into the broader story and how to keep track of...",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-08T04:20:20Z",
+            "url": "https://finnhub.io/api/news?id=fd0e5b027960a418a3bc61c82a2db6da78ba9dbc9f2a5647e9d6bfc56100a217"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "What Could A Senate Epstein Probe Mean For JPMorgan Chase (JPM)?",
+            "summary": "JPMorgan Chase (NYSE:JPM) faces a planned Senate Democratic investigation into its historic banking ties with Jeffrey Epstein. Lawmakers are expected to scrutinize the actions of senior JPMorgan executives involved in overseeing the Epstein relationship. The inquiry could involve subpoenas for internal JPMorgan records related to compliance reviews and executive communications. The move by Senate Democrats to probe JPMorgan's Epstein-era executive decisions highlights only one slice of the...",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-08T02:13:23Z",
+            "url": "https://finnhub.io/api/news?id=8f4f57e02605dd9c160138bb047150235ea40ecf561d042091b37aad9822d84b"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Here's How These 6 Big Bank Stocks Make Their Money",
+            "summary": "From card fees and wealth management to equities trading, here's where each of the six biggest banks made its money last quarter.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-07T15:05:00Z",
+            "url": "https://finnhub.io/api/news?id=b716de94569d6c63e3622378c823f41f31e5a6bf9ddd4829143c959146828fe6"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "JPMorgan CEO Jamie Dimon declares the US will hang on as the world's top reserve currency \u2014 for 2 key reasons",
+            "summary": "Dimon is still confident in the power of the U.S. dollar, though he recognizes that America needs to be \"a little careful how we use our power sometimes.\"",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-07T10:00:00Z",
+            "url": "https://finnhub.io/api/news?id=f0ecd58af2128aefc96687a3fc304aff6be87ca46aba146490478b889fad83f3"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "JPMorgan Chase & Co. Files Major Holdings Notification for Adtran Networks SE",
+            "summary": "JPMorgan Chase & Co. disclosed a change in its voting rights position in Adtran Networks SE, reporting a total position of 2.96% as of October 29, 2026.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-06T21:31:39Z",
+            "url": "https://www.placera.se/pressmeddelanden/adtran-networks-adtran-networks-se-release-according-to-article-40-section-1-of-the-wphg-the-german-securities-trading-act-with-the-objective-of-europe-wide-distribution-20261106"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "JPMorgan Chase & Co. Files Major Holdings Notification for Delivery Hero SE",
+            "summary": "JPMorgan Chase & Co. submitted a regulatory disclosure regarding its voting rights position in Delivery Hero SE.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-06T20:01:41Z",
+            "url": "https://www.tradingview.com/news/tradingview:e5f550686c362:0-delivery-hero-se-dher-reports-jpmorgan-chase-voting-rights-threshold-event/"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "JPMorgan Chase Reiterates Buy Rating on Axon Enterprise",
+            "summary": "JPMorgan Chase has reaffirmed its 'Buy' rating for Axon Enterprise, Inc. as part of its ongoing equity research coverage.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-06T19:02:00Z",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/axon-enterprise-inc-jpmorgan-chase-bekraeftigt-seine-kaufempfehlung-ce785fd2d88ff72c"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Week\u2019s Best: How to Get In on Anthropic\u2019s IPO",
+            "summary": "Here\u2019s our weekly roundup of the most-read articles at Barron\u2019s Advisor.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T18:25:00Z",
+            "url": "https://finnhub.io/api/news?id=c140f0f6f7dc24d9416a76b2dfb218997ac6737fa59d3cee02839e91236caab9"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "JPMorgan, Citi say Metlen growth drivers on track after trading update",
+            "summary": "Investing.com -- JPMorgan and Citi said in notes on Friday that Metlen Energy & Metals\u2019 (LON: MTLN) key medium-term growth drivers remain on track after the company\u2019s nine-month trading update on Thursday.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T15:50:59Z",
+            "url": "https://finnhub.io/api/news?id=5c7e10f8f4af10310f267c8c093a230859dc2e817350cf4623f4b434107394dc"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Analyst points to JPMorgan's Bitcoin figure most investors overlooked",
+            "summary": "A Grayscale research head breaks down the figures behind JPMorgan\u2019s 2027 outlook and what they could mean for Bitcoin in investor portfolios.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T15:30:00Z",
+            "url": "https://finnhub.io/api/news?id=1ac1e4b50cd0e03cd0df3946e1b64f982bb9527340cff798299e40c8053d04dc"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Top 20 S&P 500 Ranked By PEG Ratio After Massive Tech Route",
+            "summary": "Learn how the PEG ratio compares Apple, Microsoft, Nvidia and other mega-cap stocks to reveal growth-adjusted value.",
+            "publisher": "SeekingAlpha",
+            "published_at": "2026-11-06T14:52:58Z",
+            "url": "https://finnhub.io/api/news?id=f896b8d63598a82fe40a4aab1f177a637fa12b0a556b1f8a8a135c768708d9e8"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Forget pricey JPMorgan: Is this turnaround bank the better rebound bet?",
+            "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T14:39:43Z",
+            "url": "https://finnhub.io/api/news?id=2b8e7d1d9b8088418cc3838e48e8467c35175e826e6f90bd958c6fe3d30366b9"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "JPMorgan Chase Downgrades Munich Re and Hannover R\u00fcck",
+            "summary": "JPMorgan Chase analysts downgraded Munich Re and Hannover R\u00fcck, citing concerns over future pricing pressure in the reinsurance sector.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-06T14:32:04Z",
+            "url": "https://www.finanzen.at/nachrichten/aktien/aktien-von-munich-re-und-hannover-rueck-im-minus-jpmorgan-sorgt-fuer-abgaben-1036728616"
+          },
+          {
+            "source_api": "alpaca",
+            "headline": "JPMorgan Chase Upgrades Sociedad Qu\u00edmica y Minera de Chile S.A.",
+            "summary": "JPMorgan Chase has upgraded its rating for Sociedad Qu\u00edmica y Minera de Chile S.A. to 'Buy'.",
+            "publisher": "fiscal.ai",
+            "published_at": "2026-11-06T14:32:04Z",
+            "url": "https://de.marketscreener.com/boerse-nachrichten/sociedad-qu-mica-y-minera-de-chile-s-a-von-jpmorgan-chase-zum-kauf-angehoben-ce785fd2d88dff27"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "BAC Sees Untapped Merrill Banking Potential: Can Cross-Selling Pay Off?",
+            "summary": "Bank of America's untapped Merrill banking potential offers cross-selling opportunities, with rising wealth balances and lending growth supporting revenues.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T14:29:00Z",
+            "url": "https://finnhub.io/api/news?id=785d3aea99712c96513bc3a4671737dd8fd6bfd3b683d127f96c11c1a72de8e5"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Insperity to Participate in the J.P. Morgan 2026 Ultimate Services Investor Conference",
+            "summary": "HOUSTON, November 06, 2026--Insperity, Inc. (NYSE: NSP), a leading provider of human resources and business performance solutions for America\u2019s best businesses, announced today that Paul Sarvadi, Chairman and Chief Executive Officer, and Jim Allison, Chief Financial Officer, will speak at the J.P. Morgan Ultimate Services Investor Conference on November 17, 2026. The fireside chat presentation is scheduled for 3:20 p.m. Eastern Time.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T14:00:00Z",
+            "url": "https://finnhub.io/api/news?id=f7bf7af6f5a7e442e6bdb3506671b7be4cb9c3bf33695a975e19629baca0e4c3"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "Hannover Re, Munich Re fall 4% as J.P. Morgan sees weaker reinsurance pricing",
+            "summary": "Investing.com -- Shares in Hannover Re and Munich Re fell 4.4% and 4.2%, respectively, on Friday after J.P. Morgan downgraded both reinsurers, warning that reinsurance prices could fall further in 2027 following a benign 2026 hurricane season.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T13:29:06Z",
+            "url": "https://finnhub.io/api/news?id=98a1cdb7e02011894d38c0cdc5ac307470c81414796be881928b67d77b38c647"
+          },
+          {
+            "source_api": "finnhub",
+            "headline": "JPM Flags Higher Rate Risks: Can Its Balance Sheet Stay Resilient?",
+            "summary": "JPMorgan's disciplined duration management and stable deposits support resilience amid higher rates, but funding costs and regulatory risks remain in focus.",
+            "publisher": "Yahoo",
+            "published_at": "2026-11-06T13:12:00Z",
+            "url": "https://finnhub.io/api/news?id=6c625a1c41716cca6493612ec3ce385e9f8631bdc3e77de7936986dbf7e6a62c"
+          }
+        ],
+        "posts": [
+          {
+            "platform": "bluesky",
+            "text": "Volatile lately... good reminder that it's all about staying invested. \n\nMissing just the 10 best days can really hurt long-term performance! JPM GTR",
+            "author": "mikezaccardi.bsky.social",
+            "created_at": "2026-11-09T17:22:00.000Z",
+            "likes": 11,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/mikezaccardi.bsky.social/post/3mzvgtn3dva2w"
+          },
+          {
+            "platform": "bluesky",
+            "text": "\u201c.. It\u2019s never a great day when you have to Tweet the following (even if the deal in question was quite small).\u201d\n\n- JPM desk $ORCL",
+            "author": "carlquintanilla.bsky.social",
+            "created_at": "2026-11-09T14:26:43.821Z",
+            "likes": 243,
+            "reposts": 45,
+            "replies": 11,
+            "url": "https://bsky.app/profile/carlquintanilla.bsky.social/post/3mzv526lbgs2p"
+          },
+          {
+            "platform": "bluesky",
+            "text": "$GOOGL strength. Over pdh 8d, 290.40-291\n$AMZN JPM good comments, strength\n$MSFT as well, watch 542.30\n\n$ORCL holding off Friday bad news\n\n$TSLA $AAPL sideways\n$SPCX 136.50 8d\n$RKLB $ASTS er tonight\n\nOil $USO pulling - watch travel names: like $CCL $UAL $DAL for traders\n\nSmall data at 10",
+            "author": "julianthelemur.bsky.social",
+            "created_at": "2026-11-09T14:22:22.115Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/julianthelemur.bsky.social/post/3mzv4sezw6s2s"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Hot jobs Friday put rates back in focus.\n\nWe ranked $JPM, $TLT, $DHI, $LEN, $XLU and $BAC on technicals. Weekly keeps five, excludes $BAC. Pick: $JPM.\n\nBut $JPM's daily chart is Pessimistic (-100%).\n\nDoes a weekly keep hold when the daily chart is already weak?\n\nResearch only.",
+            "author": "greedbot-dot-com.bsky.social",
+            "created_at": "2026-11-09T13:40:06.051Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/greedbot-dot-com.bsky.social/post/3mzv2gsh5ww2z"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Love the barbell strategy JPM is pushing right now. Balancing tech with cyclicals makes perfect sense when the market is still waiting for cloud capex and earnings to confirm the AI narrative.",
+            "author": "volflash.com",
+            "created_at": "2026-11-09T13:07:25.284Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/volflash.com/post/3mzuymei5ps2y"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Do you agree with JPM?\n\n#charlesleclerc #lewishamilton #scuderiaferrari \ud83c\uddee\ud83c\uddf9 \n\nVIA: [gpfans] ",
+            "author": "thisisformula1.bsky.social",
+            "created_at": "2026-11-09T11:54:25.436Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "url": "https://bsky.app/profile/thisisformula1.bsky.social/post/3mzuujtqfit2q"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Do you agree with JPM?\n\n#ScuderiaFerrari #LewisHamilton #CharlesLeclerc \ud83c\uddee\ud83c\uddf9 \n\nvia - (gpfans)",
+            "author": "thisisf1media.bsky.social",
+            "created_at": "2026-11-09T11:54:05.808Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/thisisf1media.bsky.social/post/3mzuujb32ao2f"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Dark pool check on $JPM: what traded off the exchanges in the latest session.\n\nLook up any stock's options flow and dark pools on the GTA Terminal, free for 7 days.\n\nRead the full article for the full details.\n#darkpool #stocks #trading",
+            "author": "gta-terminal.bsky.social",
+            "created_at": "2026-11-09T10:21:15.106809Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzupdaamoa2x"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Well we bought on Osorio before those two. Who as usual looked like he\u2019s got a spark. \n\nI\u2019d say attacking options \n\nJPM backed up by JSL and Nketiah\n\nPino, Sarr, Osorio, Guessand, McNeil \n\nShould not be bottom of the league. Will look better when 2 of those are back & we have a decent manager",
+            "author": "blueskynav.bsky.social",
+            "created_at": "2026-11-09T08:06:47.093Z",
+            "likes": 4,
+            "reposts": 0,
+            "replies": 1,
+            "url": "https://bsky.app/profile/blueskynav.bsky.social/post/3mzuhsrwbsc2v"
+          },
+          {
+            "platform": "bluesky",
+            "text": "\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u5909\u66f4\u60c5\u5831\u0000\u2460(11/09)\n\n\u3010JPM\u3011\nSBI\u65b0\u751f(8303/\u6771P) Neutral\u7d99\u7d9a 1560\u21921640\u5186\n\n\u3010MSMUFG\u3011\n\uff33\uff27\uff28\uff24(9143/\u6771P) Equal\u7d99\u7d9a 1600\u21921640\u5186\n\u4eac\u6210(9009/\u6771P) Equal\u7d99\u7d9a 1370\u21921480\u5186\n\uff2a\uff2d\uff24\uff23(4483/\u6771P) Over\u7d99\u7d9a 4400\u21924700\u5186\n\n\u3010SBI\u3011\n\u30a4\u30f3\u30d5\u30a9\u30de\u30fc\u30c8(2492/\u6771P) \u58f2\u308a\u7d99\u7d9a 340\u2192390\u5186\n",
+            "author": "twiongiru.bsky.social",
+            "created_at": "2026-11-09T07:42:00.756765+00:00",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/twiongiru.bsky.social/post/3mzugghf3rw24"
+          },
+          {
+            "platform": "bluesky",
+            "text": "$TMDX price target raises post Q3 \n\nCanacoord to $125\nJPM to $85\nStifel to $70\nBaird to $117",
+            "author": "fathefree.bsky.social",
+            "created_at": "2026-11-09T06:31:30.702Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/fathefree.bsky.social/post/3mzucigdupk2c"
+          },
+          {
+            "platform": "bluesky",
+            "text": "#Gold is down ~28% from its January high\n\nyet the banks aren\u2019t aligned \ud83d\udc40\n\nGoldman: $4,150\nJPM: $4,500\nReuters median: $4,495\nSprott: $4,000 floor (a view, not a fact)\n\nPrice is at 4,126 now. \n\nReset or reversal?",
+            "author": "pipcartcapital.bsky.social",
+            "created_at": "2026-11-09T05:16:25.212Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/pipcartcapital.bsky.social/post/3mzu6c5la522e"
+          },
+          {
+            "platform": "bluesky",
+            "text": "\ud83c\udfa5 JPMRC 27-01: How the Army Fights (video, 0:31)\n25th Infantry Division \u00b7 Army\nCredit: SGT Abreanna Goodrich\n\u201cU.S. Army Soldiers and multinational partners demonstrate how the U.S. Army fights during the Joint Pa\u2026\u201d\nwww.dvidshub.net/video/1029146/jpm\u2026\nSource: DVIDS, official US DoD release. #DVIDS",
+            "author": "dominar16.bsky.social",
+            "created_at": "2026-11-09T04:12:16.365320+00:00",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/dominar16.bsky.social/post/3mzu2ph4r672m"
+          },
+          {
+            "platform": "bluesky",
+            "text": "BOTD Alain Delon!!\nMCCT5: 5)Purple Noon 4)L'Eclisse 3)La Piscine 2)Mr. Klein 1)JPM x3: Samourai/Circle/Flic \nMore:\n@selfstyledsiren.bsky.social: www.rogerebert.com/tributes/in-... \n@manohladargis.bsky.social: www.nytimes.com/2024/04/12/m...\n@evincentelli.bsky.social: www.nytimes.com/2024/08/18/m...",
+            "author": "midcenturycinema.bsky.social",
+            "created_at": "2026-11-08T19:11:52.096Z",
+            "likes": 26,
+            "reposts": 5,
+            "replies": 4,
+            "url": "https://bsky.app/profile/midcenturycinema.bsky.social/post/3mzt4j4tq6c2y"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Unusual options activity in $JPM. Both sides are getting paid for here. Somebody expects a move, they just don't agree which way.\n\nTry it free for 7 days\n#optionsflow #stocks",
+            "author": "gta-terminal.bsky.social",
+            "created_at": "2026-11-08T17:45:03.816424Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/gta-terminal.bsky.social/post/3mzsxnvw3uu2y"
+          },
+          {
+            "platform": "bluesky",
+            "text": "In this macro environment, valuation is everything\n\nPeter Lynch's PEG < 1 rule shows big tech is heavily discounted, while traditional blue chips are trading at premiums:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nIs the market overpaying for safety? \n#StockMarket",
+            "author": "morosskeets1964.bsky.social",
+            "created_at": "2026-11-08T17:31:44.211Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/morosskeets1964.bsky.social/post/3mzsww3bi3s22"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Investment Note: The PEG < 1 anomaly.\n\nBased on Peter Lynch's valuation model, 4 global giants are trading at deep discounts:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n\n($LLY at 1.2x and $JPM at 1.7x show the premium for non-tech).\n\nWhere are you allocating capital? \ud83d\udc47\n#StockMarket",
+            "author": "delfierromaione24.bsky.social",
+            "created_at": "2026-11-08T17:29:57.709Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/delfierromaione24.bsky.social/post/3mzswsvpcac2s"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Everyone says big tech is overvalued. But if we use Peter Lynch's PEG < 1 rule, the data says otherwise:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nAre we in an AI valuation bubble, or is this the cheapest tech has ever been? \n#StockMarket",
+            "author": "salachknoy03.bsky.social",
+            "created_at": "2026-11-08T17:27:48.906Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/salachknoy03.bsky.social/post/3mzswp2uk2k2v"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Running a quantitative screen using Peter Lynch's PEG < 1 metric. \n\nThe top mega-caps currently showing extreme value:\n\n$NVDA (0.3x)\n$AVGO (0.3x)\n$GOOGL (0.5x)\n$AMZN (0.5x)\n\nMeanwhile, $JPM (1.7x) and $LLY (1.2x) are priced for perfection.\n\nBookmark this data before the market reprices.\n#StockMarket",
+            "author": "cattleyahiylinas.bsky.social",
+            "created_at": "2026-11-08T17:22:12.764Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/cattleyahiylinas.bsky.social/post/3mzswf2ccf22q"
+          },
+          {
+            "platform": "bluesky",
+            "text": "As an analyst, screening for value using Peter Lynch's PEG < 1 rule reveals a massive divergence:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nIf you are building a portfolio today, are you rotating into cheap tech or paying up for defensive stability?\n#StockMarket",
+            "author": "james1007.bsky.social",
+            "created_at": "2026-11-08T17:20:28.490Z",
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/james1007.bsky.social/post/3mzswbwu4ck2v"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Peter Lynch's rule: PEG < 1 = undervalued\nThe market is ignoring an obvious anomaly right now:\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\nWhy is big tech trading at a discount while blue chips carry premiums? \nAre PEG models broken, or is this a massive mispricing?",
+            "author": "robert0975.bsky.social",
+            "created_at": "2026-11-08T17:19:31.923Z",
+            "likes": 2,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/robert0975.bsky.social/post/3mzswaavt3s2m"
+          },
+          {
+            "platform": "bluesky",
+            "text": "If we use Peter Lynch's PEG < 1 rule for valuation:\n\n$NVDA (0.3x)\n$AVGO (0.3x)\n$GOOGL (0.5x)\n$AMZN (0.5x)\n$LLY (1.2x)\n$JPM (1.7x)\n\nFour tech giants are technically undervalued. Why is the market ignoring them?\n\n(Not financial advice)\n#StockMarket",
+            "author": "rosanoscarpato315.bsky.social",
+            "created_at": "2026-11-08T17:17:58.488Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/rosanoscarpato315.bsky.social/post/3mzsw5hsgxc24"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Using Peter Lynch's PEG < 1 metric to screen mega-caps:\n\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nWhy is the market ignoring the massive discount on big tech here? \n\nAre you buying value or premium?\n\n(Not financial advice)\n#StockMarket",
+            "author": "terrettnatalie06.bsky.social",
+            "created_at": "2026-11-08T17:15:19.997Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/terrettnatalie06.bsky.social/post/3mzsvyqnnmc2v"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Peter Lynch's rule: PEG < 1 = undervalued.\n\n6 mega-caps right now:\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nTech is trading at a discount, while blue chips carry a premium. Thoughts?\n\n(Not financial advice)\n#StockMarket",
+            "author": "keenygaymon43.bsky.social",
+            "created_at": "2026-11-08T17:15:03.390Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/keenygaymon43.bsky.social/post/3mzsvyassuc2x"
+          },
+          {
+            "platform": "bluesky",
+            "text": "I'm only going to say this ONCE.\n\nPeter Lynch: A PEG ratio below 1 = undervalued. \n\nLook at these global giants:\n$NVDA \u2014 0.3x\n$AVGO \u2014 0.3x\n$GOOGL \u2014 0.5x\n$AMZN \u2014 0.5x\n$LLY \u2014 1.2x\n$JPM \u2014 1.7x\n\nThe first 4 are screaming value. Which one is your pick? \ud83d\udc47\n\n(Not financial advice)",
+            "author": "grenkostrandburg77.bsky.social",
+            "created_at": "2026-11-08T17:10:51.387Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/grenkostrandburg77.bsky.social/post/3mzsvqqic6k2t"
+          },
+          {
+            "platform": "bluesky",
+            "text": "JPM sentiment jumped +4.0 pts to 1.5/10 across 17 articles. While the narrative is still barely above the neutral floor, the velocity of this shift is notable. The data shows a rapid clearing of the reporting friction that has dominated JPMorgan Chase recently. assetfeel.com #stocks",
+            "author": "assetfeel.bsky.social",
+            "created_at": "2026-11-08T12:15:05.018Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/assetfeel.bsky.social/post/3mzsf7ucxim2l"
+          },
+          {
+            "platform": "bluesky",
+            "text": "What could an Epstein probe by the Senate mean for JPMorgan Chase?\nsg.finance.yahoo.com/news/could-s...",
+            "author": "piyushmittal.bsky.social",
+            "created_at": "2026-11-08T12:13:49.860Z",
+            "likes": 3,
+            "reposts": 2,
+            "replies": 0,
+            "url": "https://bsky.app/profile/piyushmittal.bsky.social/post/3mzsf5mki722a"
+          },
+          {
+            "platform": "bluesky",
+            "text": "More than $3 Trillion dollars was wiped from US stocks so far \ud83d\udd25\ud83d\ude2e\u200d\ud83d\udca8 \n$AAPL, $NVDA, $MSFT, $GOOG, $AMZN, $SPCX, $TSLA, $META, $PLTR, $ORCL, $NFLX, $LLY $JNJ $WMT $XOM $CAT $AMAT $LRCX $MU, $AMD, $AVGO, $CSCO, $INTC, $GE, $JPM, $BRK.B, $V, $MA, $COST, $ABBV.",
+            "author": "lordcandle.bsky.social",
+            "created_at": "2026-11-08T10:39:19.875Z",
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/lordcandle.bsky.social/post/3mzs7unage22f"
+          },
+          {
+            "platform": "bluesky",
+            "text": "One small anecdote from that era. I was in the region working on Y2k remedition from Summer 1997. A major govt bribery scandal with IBM prevented JPM counterparties like Central Bank, clearing houses, stock exchange from fixes. Govt couldn\u2019t buy from IBM. archive.seattletimes.com/archive/1998...",
+            "author": "fmckenna.bsky.social",
+            "created_at": "2026-11-08T05:57:14.746Z",
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/fmckenna.bsky.social/post/3mzrq4a6d6k2g"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Sceptical: JPMorgan and $JPM have AI PR and fee stories       -       but deposit mix, funding costs and a Senate probe undercut the narative. I fade it. I use @bluestocks.app #finsky",
+            "author": "alphaskeptic.bsky.social",
+            "created_at": "2026-11-08T01:09:32Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/alphaskeptic.bsky.social/post/3mzr7zrhxox2g"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Maybe that\u2019s the film I make. I was the JPM Y2K Project Director in M\u00e9xico, Brazil, Argentina! Do I have stories!",
+            "author": "fmckenna.bsky.social",
+            "created_at": "2026-11-08T00:57:03.339Z",
+            "likes": 13,
+            "reposts": 0,
+            "replies": 2,
+            "url": "https://bsky.app/profile/fmckenna.bsky.social/post/3mzr7dh5uic24"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Read the piece, the split is the interesting part. Dropbox bought the record layer, JPM and Mastercard bought the money layer. My money is on the record, a payment means nothing if nobody can prove what the agent actually touched. That's the Trustline bet on MuseFM, the receipt is the scarce part.",
+            "author": "musefm.bsky.social",
+            "created_at": "2026-11-08T00:38:25.444Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 1,
+            "url": "https://bsky.app/profile/musefm.bsky.social/post/3mzr6c52e722x"
+          },
+          {
+            "platform": "bluesky",
+            "text": "$JPM: The Chase case alleges a $16.99 foreign transaction fee on a U.S. hotel booking in Oct. 2025, in dollars, on a U.S. site. No claim yet: openclassactions.com/news/financi...",
+            "author": "openclassactions.bsky.social",
+            "created_at": "2026-11-07T23:27:40.840Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/openclassactions.bsky.social/post/3mzr2dn3d422z"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Crunching reality: JPMorgan looks priced for perpetual fee growth and AI PR while deposit mix, funding costs and a looming Senate probe are underappreciated. I fade $JPM. https://www.reuters.com/business/finance/democrats-gearing-up-probe-jpmorgans-relationship-with-epstein-cnbc-reports-2026-11-05/",
+            "author": "alphaskeptic.bsky.social",
+            "created_at": "2026-11-07T21:06:13Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/alphaskeptic.bsky.social/post/3mzqsgpefll2x"
+          },
+          {
+            "platform": "bluesky",
+            "text": "2/ activity to regulators & top bankers continued to work with him informally & thru channels where he could continue to give JPM referrals for ultra-wealthy clients.\n\nREAD THE REPORT: Looking the Other Way: How Wall Street Banks Enabled Jeffrey Epstein\u2018s Sex Trafficking.",
+            "author": "headdoc35.bsky.social",
+            "created_at": "2026-11-07T17:26:15.171Z",
+            "likes": 6,
+            "reposts": 2,
+            "replies": 0,
+            "url": "https://bsky.app/profile/headdoc35.bsky.social/post/3mzqg5dz6yk25"
+          },
+          {
+            "platform": "bluesky",
+            "text": "1/ Documents reviewed during Sen. Wyden\u2019s investigation show JP Morgan\u2019s senior leadership kept protecting Epstein as a client despite warnings that internal compliance personnel gave them. Even after JPM terminated Epstein as a client b/c of sex trafficking concerns, they waited yrs. to report his",
+            "author": "headdoc35.bsky.social",
+            "created_at": "2026-11-07T17:23:25.876Z",
+            "likes": 11,
+            "reposts": 3,
+            "replies": 1,
+            "url": "https://bsky.app/profile/headdoc35.bsky.social/post/3mzqfyckpts25"
+          },
+          {
+            "platform": "bluesky",
+            "text": "[Business] Guardian Perluas Kanal Ritel, Masuk Hub Transportasi",
+            "author": "fortuneidn.bsky.social",
+            "created_at": "2026-11-07T16:21:41Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/fortuneidn.bsky.social/post/3mzqcjvvzql2h"
+          },
+          {
+            "platform": "bluesky",
+            "text": "It is end of cycle dynamics. The poor figures from the delay of Ai and cost versus return on Ai just are nowhere near coming through yet. Doesn\u2019t mean it hasn\u2019t been initiated.\nJPM is always king of the bulls.",
+            "author": "diogenes-original.bsky.social",
+            "created_at": "2026-11-07T15:36:30.275Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/diogenes-original.bsky.social/post/3mzq7z464ik2w"
+          },
+          {
+            "platform": "bluesky",
+            "text": "JPM: \u201c.. If we were heading into end-cycle dynamics, with significant downward revisions to 2027 earnings, the capitulation process would certainly have further room to run. However, we see this more as an intra-cycle reset .. in the AI supercycle.\n\n.. we maintain our S&P 500 price target of 8,000.\u201d",
+            "author": "carlquintanilla.bsky.social",
+            "created_at": "2026-11-07T12:36:02.103Z",
+            "likes": 169,
+            "reposts": 27,
+            "replies": 18,
+            "url": "https://bsky.app/profile/carlquintanilla.bsky.social/post/3mzpvwfmnok2g"
+          },
+          {
+            "platform": "bluesky",
+            "text": "\ud83c\udfa5 JPMRC 27-01: 2nd Mobile Brigade Rehearsals (video, 1:26)\n25th Infantry Division \u00b7 Army\nCredit: SGT Duke Edwards\n\u201cU.S. Soldiers assigned to the 2nd Mobile Brigade, 25th Infantry Division, rehearse reconnaissance\u2026\u201d\nwww.dvidshub.net/video/1028986/jpm\u2026\nSource: DVIDS, official US DoD release. #DVIDS",
+            "author": "dominar16.bsky.social",
+            "created_at": "2026-11-07T04:12:23.381928+00:00",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/dominar16.bsky.social/post/3mzozrsvazy2k"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Segundo o banco, a estrat\u00e9gia mais cautelosa adotada entre junho e outubro deste ano se mostrou acertada\n\nLeia mais no site do InfoMoney: www.infomoney.com.br/mercados/jpm...\n\nFoto: Reuters\n\n#JPMorgan #SmallCaps #MidCaps #Empresas #Mundo",
+            "author": "infomoneyoficial.bsky.social",
+            "created_at": "2026-11-07T01:30:01.410Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/infomoneyoficial.bsky.social/post/3mzoqpi5trs2k"
+          },
+          {
+            "platform": "bluesky",
+            "text": "#JPM $JPM\n\nFalse seller zone breakout. Buyer zone bounce. Seller zone formed. Local maximum confirmed.\n\nhttps://tr3n.do/stocks/jpm?utm_source=bluesky",
+            "author": "tr3ndo.bsky.social",
+            "created_at": "2026-11-06T23:26:26.1430046+00:00",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/tr3ndo.bsky.social/post/3mzobq4pffarj"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Sest promotakse km langetust, et marginaali selle arvelt t\u00f5sta saaks. Vt ka n\u00e4ljas ja paljad k\u00fctusekartellid, euro hindu ei t\u00f5sta jpm",
+            "author": "erikvd.bsky.social",
+            "created_at": "2026-11-06T22:47:29.062Z",
+            "likes": 2,
+            "reposts": 0,
+            "replies": 1,
+            "url": "https://bsky.app/profile/erikvd.bsky.social/post/3mzohmtkx5k2c"
+          },
+          {
+            "platform": "bluesky",
+            "text": "No caso do Brasil, o banco v\u00ea um cen\u00e1rio mais desafiador do ponto de vista macroecon\u00f4mico, mas destaca que os resultados corporativos t\u00eam mostrado resist\u00eancia\n\nLeia mais no site do InfoMoney: www.infomoney.com.br/mercados/jpm...\n\nFoto: Reuters\n\n#JPMorgan #Brasil #Emergentes #Economia",
+            "author": "infomoneyoficial.bsky.social",
+            "created_at": "2026-11-06T20:30:01.331Z",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/infomoneyoficial.bsky.social/post/3mzo7wzw6yt25"
+          },
+          {
+            "platform": "bluesky",
+            "text": "The S&P 500 is split: #GOOG, #AMZN, GOOGL, and #META are the 0-25 call pocket while JPM, WFC, C, AMGN, and LLY sit at the 100 put-heavy extreme.\n\u2197\ufe0f Calls: GOOG 0, AMZN 11, META 25\n\u2198\ufe0f Financials: JPM/WFC/C 100",
+            "author": "insiderfinance.com",
+            "created_at": "2026-11-06T20:08:07.810Z",
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/insiderfinance.com/post/3mzo6pvba7b2g"
+          },
+          {
+            "platform": "bluesky",
+            "text": "\ud83d\udce3 A reminder: we're looking for nominations for new Editorial Board members!\n \n\ud83d\udc49\ufe0f Submit a statement of interest, CV and a short biography to jpm@physoc.org by 30 November 2026.",
+            "author": "jprecmed.bsky.social",
+            "created_at": "2026-11-06T13:45:06.697Z",
+            "likes": 1,
+            "reposts": 1,
+            "replies": 0,
+            "url": "https://bsky.app/profile/jprecmed.bsky.social/post/3mznjcyx7x323"
+          },
+          {
+            "platform": "bluesky",
+            "text": "Guardian Perluas Kanal Ritel, Masuk Hub Transportasi",
+            "author": "fortuneidn.bsky.social",
+            "created_at": "2026-11-06T12:20:54Z",
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/fortuneidn.bsky.social/post/3mznemgp4dc2r"
+          },
+          {
+            "platform": "bluesky",
+            "text": "\u30ec\u30fc\u30c6\u30a3\u30f3\u30b0\u5909\u66f4\u60c5\u5831\u0000\u2460(11/06)\n\n\u3010JPM\u3011\n\u30b3\u30ca\u30df\uff27(9766/\u6771P) Over\u7d99\u7d9a 29100\u219235100\u5186\n\u30a2\u30a4\u30b7\u30f3(7259/\u6771P) Neutral\u7d99\u7d9a 2200\u21922000\u5186\n\n\u3010MSMUFG\u3011\nJR\u897f\u65e5\u672c(9021/\u6771P) Equal\u7d99\u7d9a 2910\u21923320\u5186\n\u30cf\u30a6\u30b9\u30ea\u30fc\u30c8(8984/\u6771) Equal\u7d99\u7d9a 141000\u2192148000\u5186\n\u30bd\u30cb\u30fc\uff27(6758/\u6771P) Over\u7d99\u7d9a 5000\u21925500\u5186\n",
+            "author": "twiongiru.bsky.social",
+            "created_at": "2026-11-06T09:57:54.927027+00:00",
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/twiongiru.bsky.social/post/3mzn4mpq4wm2g"
+          },
+          {
+            "platform": "bluesky",
+            "text": "#jpmorganchase was his banker \u2b06\ufe0f $jpm",
+            "author": "kieranhannon.bsky.social",
+            "created_at": "2026-11-06T05:13:40.839Z",
+            "likes": 1,
+            "reposts": 0,
+            "replies": 0,
+            "url": "https://bsky.app/profile/kieranhannon.bsky.social/post/3mzmmqigpms23"
+          }
+        ],
+        "filings_8k": [
+          {
+            "filing_date": "2026-10-20",
+            "items": [
+              "8.01",
+              "9.01"
+            ],
+            "item_meanings": [
+              "Other events",
+              "Financial statements and exhibits"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312526426704/d351999d8k.htm"
+          },
+          {
+            "filing_date": "2026-10-13",
+            "items": [
+              "7.01",
+              "9.01"
+            ],
+            "item_meanings": [
+              "Investor disclosure (Reg FD)",
+              "Financial statements and exhibits"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/jpm-20261013.htm"
+          },
+          {
+            "filing_date": "2026-10-13",
+            "items": [
+              "2.02",
+              "9.01"
+            ],
+            "item_meanings": [
+              "Earnings results",
+              "Financial statements and exhibits"
+            ],
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm"
+          }
+        ]
+      },
+      "key_metrics": {
+        "n_articles": 40,
+        "n_posts": 49,
+        "total_post_likes": 497,
+        "major_8k_events": [
+          "Other events",
+          "Financial statements and exhibits",
+          "Investor disclosure (Reg FD)",
+          "Financial statements and exhibits",
+          "Earnings results",
+          "Financial statements and exhibits"
+        ]
+      }
+    },
+    "macro": {
+      "ticker": "JPM",
+      "score": 6,
+      "verdict": "neutral",
+      "market_regime": "mixed",
+      "confidence": "medium",
+      "strengths": [
+        "Sector has outperformed SPY by 3.54% over 90 days, indicating strong sector momentum."
+      ],
+      "risks": [
+        "VIX at 28.18 shows elevated market fear, suggesting uncertainty."
+      ],
+      "upcoming_events": [
+        "2026-11-10: CPI report",
+        "2026-11-25: GDP report",
+        "2026-12-04: Jobs report"
+      ],
+      "missing_data": [],
+      "summary": "The current macro environment presents mixed signals for JPM and the Financial Services sector. Although the sector has outperformed the broader market, the elevated VIX indicates heightened fear and uncertainty. High Fed funds rate of 3.88% combined with a non-inverted yield curve suggests challenges ahead, but overall, the strong sector performance provides some tailwind.",
+      "data": {
+        "macro": {
+          "fed_funds_rate": {
+            "latest": 3.88,
+            "as_of": "2026-10-01",
+            "change_1y": 0.0
+          },
+          "treasury_10y": {
+            "latest": 4.84,
+            "as_of": "2026-11-05",
+            "change_1y": 0.73
+          },
+          "yield_curve_10y_2y": {
+            "latest": 0.35,
+            "as_of": "2026-11-06",
+            "change_1y": -0.21
+          },
+          "cpi_index": {
+            "latest": 336.298,
+            "as_of": "2026-09-01",
+            "change_1y": 11.24
+          },
+          "unemployment_rate": {
+            "latest": 4.1,
+            "as_of": "2026-10-01",
+            "change_1y": -0.4
+          },
+          "vix": {
+            "latest": 28.18,
+            "as_of": "2026-11-05",
+            "change_1y": 9.1
+          },
+          "inflation_pct": 3.46,
+          "yield_curve_inverted": false
+        },
+        "sector": {
+          "ticker": "JPM",
+          "sector": "Financial Services",
+          "beta": 1.02,
+          "sector_etf": "XLF",
+          "sector_vs_spy_90d": {
+            "sector_return": 0.0397,
+            "spy_return": 0.0042,
+            "sector_outperformance": 0.0354
+          }
+        }
+      },
+      "key_metrics": {
+        "fed_funds_rate": 3.88,
+        "ten_year": 4.84,
+        "ten_year_change_1y": 0.73,
+        "inflation_pct": 3.46,
+        "unemployment": 4.1,
+        "vix": 28.18,
+        "yield_curve": 0.35,
+        "curve_inverted": false,
+        "beta": 1.02,
+        "sector_outperformance": 0.0354
+      }
+    }
+  },
+  "bull": {
+    "agent": "bull",
+    "ticker": "JPM",
+    "conviction": 7,
+    "thesis": "JPM's strong technical indicators and positive sentiment surrounding its new focus areas support a bullish outlook amidst a challenging macro environment.",
+    "arguments": [
+      {
+        "point": "JPM's price is currently at 342.495, which is above both the 50-day (340.68) and 200-day (321.52) moving averages, indicating a healthy uptrend and long-term strength.",
+        "source": "technical"
+      },
+      {
+        "point": "JPM has outperformed the SPY with a return of 1.89% compared to SPY's 0.42%, suggesting it is performing well relative to the broader market.",
+        "source": "technical"
+      },
+      {
+        "point": "The financial services sector has outperformed SPY by 3.54% over the past 90 days, indicating strong sector momentum that could support JPM's performance.",
+        "source": "macro"
+      },
+      {
+        "point": "Positive sentiment from JPMorgan's addition of Meta to its Analyst Focus List suggests confidence in AI-driven advertising growth, which may boost future performance.",
+        "source": "news"
+      },
+      {
+        "point": "JPMorgan's $1.75 million commitment to support veteran entrepreneurs reflects strong corporate social responsibility, potentially enhancing its reputation and community ties.",
+        "source": "news"
+      }
+    ],
+    "weaknesses_acknowledged": [
+      "RSI at 53.16 indicates neutral momentum, suggesting potential for volatility which could impact performance.",
+      "Concerns over ongoing Senate investigations regarding past ties could affect JPM's reputation and operational stability."
+    ],
+    "catalysts": [
+      "2026-11-10: CPI report",
+      "2026-11-25: GDP report",
+      "2026-12-04: Jobs report"
+    ]
+  },
+  "bear": {
+    "agent": "bear",
+    "ticker": "JPM",
+    "conviction": 7,
+    "thesis": "JPMorgan faces significant reputational risks and market uncertainties that could negatively impact its future performance.",
+    "arguments": [
+      {
+        "point": "JPMorgan is under scrutiny from a Senate investigation regarding its past ties with Jeffrey Epstein, which could severely harm its public perception and operational integrity.",
+        "source": "news"
+      },
+      {
+        "point": "The elevated VIX at 28.18 indicates heightened market fear and uncertainty, which could lead to greater volatility for JPM's stock price.",
+        "source": "macro"
+      },
+      {
+        "point": "Concerns persist over Alphabet's AI monetization and cash flow pressures, which may indicate weaknesses in JPM's partnerships and investment decisions.",
+        "source": "news"
+      }
+    ],
+    "strengths_acknowledged": [
+      "JPMorgan shows healthy technical performance, with its price above both the 50-day and 200-day moving averages.",
+      "The financial services sector has outperformed SPY by 3.54% over the past 90 days."
+    ],
+    "risks": [
+      "Upcoming economic reports (CPI, GDP, and Jobs) could introduce volatility."
+    ]
+  },
+  "decision": {
+    "agent": "pm",
+    "ticker": "JPM",
+    "action": "buy",
+    "target_weight": 0.05,
+    "confidence": 8,
+    "reasoning": "The strong technical indicators and positive sentiment surrounding JPMogan's new focus areas support a bullish outlook, despite some reputational risks. The overall sentiment, along with the sector's strong performance, outweighs the risks at this stage.",
+    "deciding_factors": [
+      "Technical Indicators (price above moving averages)",
+      "Sector Outperformance",
+      "Positive Sentiment from News"
+    ],
+    "risks_accepted": [
+      "Potential volatility from ongoing Senate investigation",
+      "Market uncertainty reflected in elevated VIX",
+      "Neutral momentum indicated by RSI"
+    ],
+    "order": {
+      "ticker": "JPM",
+      "price": 342.45,
+      "current_weight": 0.0,
+      "target_weight": 0.05,
+      "side": "buy",
+      "shares": 14,
+      "est_value": 4794.3
+    },
+    "tool_trace": [
+      {
+        "tool": "get_portfolio_context",
+        "args": "{\"ticker\":\"JPM\"}",
+        "result": {
+          "account": {
+            "cash": 62272.26,
+            "equity": 100051.87,
+            "buying_power": 353058.6,
+            "trading_blocked": false
+          },
+          "position": {
+            "ticker": "JPM",
+            "qty": 0.0,
+            "market_value": 0.0,
+            "avg_entry_price": null,
+            "current_price": null,
+            "unrealized_pl_pct": null,
+            "weight": 0.0
+          },
+          "cash_weight": 0.6224
+        }
+      },
+      {
+        "tool": "compute_order_size",
+        "args": "{\"ticker\":\"JPM\",\"target_weight\":0.05}",
+        "result": {
+          "ticker": "JPM",
+          "price": 342.45,
+          "current_weight": 0.0,
+          "target_weight": 0.05,
+          "side": "buy",
+          "shares": 14,
+          "est_value": 4794.3
+        }
+      }
+    ]
+  },
+  "risk": {
+    "agent": "risk",
+    "ticker": "JPM",
+    "status": "approved",
+    "original_order": {
+      "side": "buy",
+      "shares": 14
+    },
+    "final_order": {
+      "side": "buy",
+      "shares": 14
+    },
+    "checks": [
+      {
+        "rule": "action_matches",
+        "passed": true,
+        "note": "PM said buy but target weight means buy"
+      },
+      {
+        "rule": "account_ok",
+        "passed": true,
+        "note": "trading is blocked"
+      },
+      {
+        "rule": "market_open",
+        "passed": true,
+        "note": "market is closed"
+      },
+      {
+        "rule": "no_duplicates",
+        "passed": true,
+        "note": "an order is already open"
+      },
+      {
+        "rule": "min_confidence",
+        "passed": true,
+        "note": "confidence 8 < 6"
+      },
+      {
+        "rule": "drawdown_brake",
+        "passed": true,
+        "note": "portfolio down 0.0% from peak"
+      },
+      {
+        "rule": "max_position",
+        "passed": true
+      },
+      {
+        "rule": "min_cash",
+        "passed": true
+      },
+      {
+        "rule": "max_sector",
+        "passed": true
+      },
+      {
+        "rule": "volatility",
+        "passed": true
+      }
+    ]
+  },
+  "execution": {
+    "agent": "execution",
+    "ticker": "JPM",
+    "side": "buy",
+    "shares": 14,
+    "status": "filled",
+    "order_id": "7bdc8f65-5d8b-48c9-aa08-3598dd712bef",
+    "filled_qty": "14",
+    "fill_price": "342.52"
+  }
+}
