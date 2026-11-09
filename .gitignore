@@ -1,1 +1,6 @@
 .env
+data/*
+!data/performance.csv
+
+data/*
+!data/performance.csv
