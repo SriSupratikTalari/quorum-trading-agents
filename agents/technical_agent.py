@@ -2,12 +2,13 @@ from openai import OpenAI
 import json
 from dotenv import load_dotenv
 from tools.technical_tools import technical_tools, Technical_tools_schema
+from agents.key_metrics import add_key_metrics
 
 load_dotenv()
-client=OpenAI()
-model='gpt-4o-mini'
+client = OpenAI()
+model = 'gpt-4o-mini'
 
-system_prompt="""You are the Technical Agent in Quorum, a multi-agent trading system.
+system_prompt = """You are the Technical Agent in Quorum, a multi-agent trading system.
 Your one question: what is the stock's price doing, and is the trend healthy?
 Your report goes to the Bull and Bear agents and the Portfolio Manager. You do NOT decide buy or sell.
 
@@ -19,6 +20,7 @@ HOW TO READ THE SIGNALS
   50-day above the 200-day = long-term uptrend.
 - Momentum: RSI above 70 = overbought (may pull back). Below 30 = oversold (may bounce). 40-60 = neutral.
 - Relative strength: positive outperformance = beating the market. Negative = lagging it.
+- Returns, outperformance and volatility are decimals: 0.12 means 12%. Write them as percentages.
 
 RULES
 1. Take ALL numbers from the tools. Never make up a number.
@@ -45,41 +47,44 @@ Respond with only valid JSON:
   "summary": "one paragraph: what the trend, momentum, and relative strength show together"
 }"""
 
-def run_tool(name,args):
+
+def run_tool(name, args):
     try:
         return technical_tools[name](**args)
     except Exception as e:
-        return {"error":f"{name} failed: {e}"}
+        return {"error": f"{name} failed: {e}"}
 
-from agents.key_metrics import add_key_metrics   # move to the top with the other imports
 
 def react_loop(msg):
-    collected={}
-    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
-                                 tools=Technical_tools_schema,text={"format":{"type":"json_object"}})
+    collected = {}
+    resp = client.responses.create(model=model, instructions=system_prompt, input=msg,
+                                   tools=Technical_tools_schema, text={"format": {"type": "json_object"}})
     for _ in range(8):
-        calls=[i for i in resp.output if i.type=='function_call']
+        calls = [i for i in resp.output if i.type == 'function_call']
         if not calls:
-            return resp.output_text,collected
-        tools_output=[]
+            return resp.output_text, collected
+        tools_output = []
         for i in calls:
-            result=run_tool(i.name,json.loads(i.arguments))
-            collected[i.name]=result
-            tools_output.append({'type':'function_call_output','call_id':i.call_id,
-                                 'output':json.dumps(result,default=str)})
-        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
-                                     previous_response_id=resp.id,tools=Technical_tools_schema,
-                                     text={"format":{"type":"json_object"}})
-    return json.dumps({"error":"Technical agent hit the step limit without an answer"}),collected
+            result = run_tool(i.name, json.loads(i.arguments))
+            collected[i.name] = result
+            tools_output.append({'type': 'function_call_output', 'call_id': i.call_id,
+                                 'output': json.dumps(result, default=str)})
+        resp = client.responses.create(model=model, instructions=system_prompt, input=tools_output,
+                                       previous_response_id=resp.id, tools=Technical_tools_schema,
+                                       text={"format": {"type": "json_object"}})
+    return json.dumps({"error": "Technical agent hit the step limit without an answer"}), collected
+
 
 def run(ticker):
-    out,collected=react_loop(f"Analyze the price action of {ticker.upper()}. Respond in JSON.")
+    out, collected = react_loop(f"Analyze the price action of {ticker.upper()}. Respond in JSON.")
     try:
-        report=json.loads(out)
+        report = json.loads(out)
     except json.JSONDecodeError:
-        report={"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
-    report["data"]={"indicators":collected.get("get_technicals",{}),
-                    "relative_strength":collected.get("get_relative_strength",{})}
-    return add_key_metrics("technical",report)
-if __name__=="__main__":
-    print(json.dumps(run("AAPL"),indent=2))
+        report = {"ticker": ticker.upper(), "error": "invalid JSON", "raw": out}
+    report["data"] = {"indicators": collected.get("get_technicals", {}),
+                      "relative_strength": collected.get("get_relative_strength", {})}
+    return add_key_metrics("technical", report)
+
+
+if __name__ == "__main__":
+    print(json.dumps(run("AAPL"), indent=2))

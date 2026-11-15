@@ -2,12 +2,13 @@ from openai import OpenAI
 import json
 from dotenv import load_dotenv
 from tools.marcos_tools import macro_tools, Macro_tools_schema
+from agents.key_metrics import add_key_metrics
 
 load_dotenv()
-client=OpenAI()
-model='gpt-4o-mini'
+client = OpenAI()
+model = 'gpt-4o-mini'
 
-system_prompt="""You are the Macro Agent in Quorum, a multi-agent trading system.
+system_prompt = """You are the Macro Agent in Quorum, a multi-agent trading system.
 Your one question: is the economy and overall market a tailwind or a headwind for this stock right now?
 Your report goes to the Bull and Bear agents and the Portfolio Manager. You do NOT decide buy or sell.
 
@@ -21,7 +22,8 @@ HOW TO READ THE SIGNALS
 - Unemployment: rising unemployment means a weakening economy and weaker consumer spending.
 - VIX: above 30 = fear in the market. Below 20 = calm.
 - Market trend: SPY below its 200-day average = the overall market is weak.
-- Sector: a sector beating SPY has wind at its back. One lagging SPY is fighting the market.
+- Sector: sector_outperformance is the SECTOR ETF vs SPY, not the stock itself.
+  A sector beating SPY has wind at its back. One lagging SPY is fighting the market.
 - Beta: above 1 = the stock swings more than the market, so it gets hit harder in a downturn.
 - Releases: a CPI, jobs, or GDP report in the next few days can move the market sharply.
 
@@ -53,41 +55,44 @@ Respond with only valid JSON:
   "summary": "one paragraph: the economic picture and what it means for this stock's sector"
 }"""
 
-def run_tool(name,args):
+
+def run_tool(name, args):
     try:
         return macro_tools[name](**args)
     except Exception as e:
-        return {"error":f"{name} failed: {e}"}
+        return {"error": f"{name} failed: {e}"}
 
-from agents.key_metrics import add_key_metrics   # top of file
 
 def react_loop(msg):
-    collected={}
-    resp=client.responses.create(model=model,instructions=system_prompt,input=msg,
-                                 tools=Macro_tools_schema,text={"format":{"type":"json_object"}})
+    collected = {}
+    resp = client.responses.create(model=model, instructions=system_prompt, input=msg,
+                                   tools=Macro_tools_schema, text={"format": {"type": "json_object"}})
     for _ in range(8):
-        calls=[i for i in resp.output if i.type=='function_call']
+        calls = [i for i in resp.output if i.type == 'function_call']
         if not calls:
-            return resp.output_text,collected
-        tools_output=[]
+            return resp.output_text, collected
+        tools_output = []
         for i in calls:
-            result=run_tool(i.name,json.loads(i.arguments))
-            collected[i.name]=result
-            tools_output.append({'type':'function_call_output','call_id':i.call_id,
-                                 'output':json.dumps(result,default=str)})
-        resp=client.responses.create(model=model,instructions=system_prompt,input=tools_output,
-                                     previous_response_id=resp.id,tools=Macro_tools_schema,
-                                     text={"format":{"type":"json_object"}})
-    return json.dumps({"error":"Macro agent hit the step limit without an answer"}),collected
+            result = run_tool(i.name, json.loads(i.arguments))
+            collected[i.name] = result
+            tools_output.append({'type': 'function_call_output', 'call_id': i.call_id,
+                                 'output': json.dumps(result, default=str)})
+        resp = client.responses.create(model=model, instructions=system_prompt, input=tools_output,
+                                       previous_response_id=resp.id, tools=Macro_tools_schema,
+                                       text={"format": {"type": "json_object"}})
+    return json.dumps({"error": "Macro agent hit the step limit without an answer"}), collected
+
 
 def run(ticker):
-    out,collected=react_loop(f"Analyze the macro environment for {ticker.upper()}. Respond in JSON.")
+    out, collected = react_loop(f"Analyze the macro environment for {ticker.upper()}. Respond in JSON.")
     try:
-        report=json.loads(out)
+        report = json.loads(out)
     except json.JSONDecodeError:
-        report={"ticker":ticker.upper(),"error":"invalid JSON","raw":out}
-    report["data"]={"macro":collected.get("get_macro_data",{}),
-                    "sector":collected.get("get_sector_context",{})}
-    return add_key_metrics("macro",report)
-if __name__=="__main__":
-    print(json.dumps(run("AAPL"),indent=2))
+        report = {"ticker": ticker.upper(), "error": "invalid JSON", "raw": out}
+    report["data"] = {"macro": collected.get("get_macro_data", {}),
+                      "sector": collected.get("get_sector_context", {})}
+    return add_key_metrics("macro", report)
+
+
+if __name__ == "__main__":
+    print(json.dumps(run("AAPL"), indent=2))

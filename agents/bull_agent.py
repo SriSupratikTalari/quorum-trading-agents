@@ -4,8 +4,9 @@ Makes the strongest HONEST case for buying a stock, using only the 4 research re
 No tools: it reads and argues. The Portfolio Manager makes the decision.
 """
 import json
-from pathlib import Path
 from datetime import date
+from pathlib import Path
+
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -15,8 +16,10 @@ MODEL = "gpt-4o-mini"
 
 SYSTEM_PROMPT = """You are the Bull agent in Quorum, a multi-agent trading system.
 
-You receive 4 research reports on the same stock, written by 4 analyst agents:
-fundamentals, technical, news, and macro.
+You receive 4 research reports on the same stock (fundamentals, technical, news, macro),
+plus valuation numbers (P/E, forward P/E, PEG, analyst target).
+Use valuation to judge whether the current price is justified by the business.
+Use today's date (given in the message) to tell past events from upcoming ones.
 
 Your job: make the strongest HONEST case for buying this stock.
 
@@ -42,7 +45,7 @@ BULL_SCHEMA = {
                 "type": "object",
                 "properties": {
                     "point": {"type": "string"},
-                    "source": {"type": "string", "enum": ["fundamentals", "technical", "news", "macro"]},
+                    "source": {"type": "string", "enum": ["fundamentals", "technical", "news", "macro", "valuation"]},
                 },
                 "required": ["point", "source"],
                 "additionalProperties": False,
@@ -73,7 +76,7 @@ def _clean_reports(research: dict) -> dict:
 
 def run(ticker: str, research: dict) -> dict:
     ticker = ticker.upper()
-    msg = f"Today: {date.today().isoformat()}\nTicker: {ticker}\n\nResearch reports:\n{json.dumps(_clean_reports(research), indent=2)}"
+    msg = f"Today: {date.today().isoformat()}\nTicker: {ticker}\n\nResearch reports:\n{json.dumps(_clean_reports(research), indent=2, default=str)}"
     out = call_llm(msg)
     try:
         return {"agent": "bull", "ticker": ticker, **json.loads(out)}

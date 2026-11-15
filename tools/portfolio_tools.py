@@ -17,7 +17,7 @@ HEADERS = {
     "APCA-API-KEY-ID": os.getenv("ALPACA_API_KEY"),
     "APCA-API-SECRET-KEY": os.getenv("ALPACA_SECRET_KEY"),
 }
-MAX_WEIGHT = 0.10        # no stock above 10% of the portfolio (Risk agent enforces this too)
+from config import MAX_POSITION_WEIGHT as MAX_WEIGHT  # one source of truth (Risk uses it too)
 MIN_TRADE_VALUE = 100.0  # skip tiny trades that aren't worth placing
 
 

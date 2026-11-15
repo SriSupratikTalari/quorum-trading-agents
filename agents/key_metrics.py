@@ -50,7 +50,8 @@ def news_metrics(data: dict) -> dict:
         "major_8k_events": [m for f in filings for m in f.get("item_meanings", [])],
     }
     # Keep counts the agent already computed (e.g. positive/negative from the LLM)
-    out.update(_pick(data, ["n_last_24h", "n_positive", "n_negative"]))
+    out.update(_pick(data, ["n_last_24h", "n_positive", "n_negative", "severity"]))
+    out["serious_8k"] = any(f.get("serious") for f in filings)
     return out
 
 

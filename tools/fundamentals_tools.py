@@ -6,6 +6,8 @@ Tools the agent uses:
   1. get_fundamentals(ticker)   -> numbers + ratios (companyfacts API)
   2. get_10k_document(ticker)   -> full text of the latest 10-K
   3. get_10q_document(ticker)   -> full text of the latest 10-Q
+Helper (not an agent tool):
+  get_latest_filing_ids(ticker) -> newest 10-K/10-Q IDs, used for the report cache
 """
 import os
 import re
@@ -224,6 +226,18 @@ def _get_document(ticker: str, form: str):
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(doc))
     return doc
+
+
+def get_latest_filing_ids(ticker: str) -> dict:
+    """Accession numbers of the newest 10-K and 10-Q (one cheap SEC call).
+    If these haven't changed, the Fundamentals agent can reuse its saved report."""
+    cik = get_cik(ticker)
+    recent = _get(f"https://data.sec.gov/submissions/CIK{cik}.json").json()["filings"]["recent"]
+    ids = {}
+    for i, f in enumerate(recent["form"]):  # newest first
+        if f in ("10-K", "10-Q") and f not in ids:
+            ids[f] = recent["accessionNumber"][i]
+    return ids
 
 
 def get_10k_document(ticker: str):

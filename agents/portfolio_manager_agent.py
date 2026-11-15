@@ -1,11 +1,12 @@
 """
 portfolio_manager_agent.py
-Reads the 4 research reports + the Bull and Bear cases, checks the portfolio with its tools,
+Reads the research reports + valuation + the Bull and Bear cases, checks the portfolio with its tools,
 and decides: buy, sell, or hold, and the target portfolio weight.
 Python (not the LLM) turns that weight into a share count.
 """
 import os
 import json
+from datetime import date
 from pathlib import Path
 
 from openai import OpenAI
@@ -14,6 +15,7 @@ from dotenv import load_dotenv
 from tools.portfolio_tools import (
     portfolio_manager_tools, portfolio_manager_tools_schema, compute_order_size, MAX_WEIGHT,
 )
+from config import COOLDOWN_DAYS, EARNINGS_BLOCK_DAYS
 
 load_dotenv()
 client = OpenAI()
@@ -24,7 +26,9 @@ SYSTEM_PROMPT = f"""You are the Portfolio Manager in Quorum, a multi-agent tradi
 
 You receive, for one stock:
 - 4 research reports (fundamentals, technical, news, macro), each with key_metrics
+- valuation numbers: is the stock cheap or expensive for what the business delivers?
 - a Bull case (argument for buying) and a Bear case (argument against)
+- rule context: cooldowns, earnings dates, and recent trades made by Quorum's automatic sell rules
 
 Your job: decide BUY, SELL, or HOLD, and the target portfolio weight for this stock.
 
@@ -40,6 +44,14 @@ Rules:
 - Use only facts from the inputs and your tools. Never invent numbers or events.
 - Confidence is 1-10.
 - Name the factors that decided it and the risks you are accepting.
+
+Automatic rules (respect them, don't fight them):
+- Cooldown: after a rule (stop, news sell, rebalance) sells a stock, it cannot be bought again for {COOLDOWN_DAYS} days.
+  If rule_context says the stock is in cooldown, do not choose BUY.
+- Earnings block: no new buys within {EARNINGS_BLOCK_DAYS} days before an earnings report.
+  If rule_context says earnings_block is true, do not choose BUY.
+- If a rule recently sold or trimmed this stock, do not simply undo it. Only raise the weight
+  if the evidence has clearly changed since that rule trade.
 
 Respond in JSON matching the required schema."""
 
@@ -88,18 +100,21 @@ def agent_loop(msg: str):
             except Exception as e:  # a failed tool shouldn't crash the agent; tell the model instead
                 result = {"error": str(e)}
             trace.append({"tool": call.name, "args": call.arguments, "result": result})
-            inputs.append({"type": "function_call_output", "call_id": call.call_id, "output": json.dumps(result)})
+            inputs.append({"type": "function_call_output", "call_id": call.call_id, "output": json.dumps(result, default=str)})
 
     raise RuntimeError(f"PM did not finish within {MAX_STEPS} steps")
 
 
-def run(ticker: str, research: dict, bull: dict, bear: dict) -> dict:
+def run(ticker: str, research: dict, bull: dict, bear: dict, rule_context: dict | None = None) -> dict:
     ticker = ticker.upper()
+    rule_context = rule_context or {}
     msg = (
+        f"Today: {date.today().isoformat()}\n"
         f"Ticker: {ticker}\n\n"
-        f"Research reports:\n{json.dumps(_clean_reports(research), indent=2)}\n\n"
-        f"Bull case:\n{json.dumps(bull, indent=2)}\n\n"
-        f"Bear case:\n{json.dumps(bear, indent=2)}"
+        f"Research reports:\n{json.dumps(_clean_reports(research), indent=2, default=str)}\n\n"
+        f"Bull case:\n{json.dumps(bull, indent=2, default=str)}\n\n"
+        f"Bear case:\n{json.dumps(bear, indent=2, default=str)}\n\n"
+        f"Rule context:\n{json.dumps(rule_context, indent=2, default=str)}"
     )
 
     try:
@@ -110,6 +125,9 @@ def run(ticker: str, research: dict, bull: dict, bear: dict) -> dict:
 
     # Python sanity checks: never trust the LLM's numbers blindly
     decision["target_weight"] = max(0.0, min(float(decision["target_weight"]), MAX_WEIGHT))
+    if decision["action"] == "buy" and (rule_context.get("in_cooldown") or rule_context.get("earnings_block")):
+        decision["warning"] = "buy blocked by cooldown or earnings rule"
+        decision["action"] = "hold"
     order = {"side": "none", "shares": 0} if decision["action"] == "hold" \
         else compute_order_size(ticker, decision["target_weight"])
 
