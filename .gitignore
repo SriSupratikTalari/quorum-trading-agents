@@ -4,3 +4,5 @@ data/*
 
 data/*
 !data/performance.csv
+__pycache__/
+*.pyc
