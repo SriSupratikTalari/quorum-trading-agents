@@ -5,7 +5,7 @@ import requests
 from datetime import date
 from pathlib import Path
 from dotenv import load_dotenv
-
+from alerts import alert
 from agents import news_agent
 from orchestrator import run_ticker
 from main import save
@@ -23,15 +23,6 @@ def save_scores(scores):
     DATA.mkdir(exist_ok=True)
     SCORES.write_text(json.dumps(scores,indent=2))
 
-def alert(text):
-    """Print, and send to Discord if a webhook is set."""
-    print(text)
-    url=os.getenv("DISCORD_WEBHOOK_URL")
-    if url:
-        try:
-            requests.post(url,json={"content":text[:1900]},timeout=10)  # Discord limit is 2000 chars
-        except Exception as e:
-            print(f"alert failed: {e}")
 
 def check_once(runs_today:set):
     scores=load_scores()
@@ -46,7 +37,7 @@ def check_once(runs_today:set):
         old=scores.get(ticker)
         scores[ticker]=new
 
-        bad=new<=NEWS_LOW_SCORE or (old is not None and old-new>=NEWS_DROP_TRIGGER)
+        bad=(new<=NEWS_LOW_SCORE and (old is None or old>NEWS_LOW_SCORE)) or (old is not None and old-new>=NEWS_DROP_TRIGGER)
         if not bad:
             continue
 

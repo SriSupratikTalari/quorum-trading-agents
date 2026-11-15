@@ -21,8 +21,8 @@ def risk_check(pm_decision:dict,research:dict)->dict:
     checks=[]
     original=NO_ORDER
 
-    def check(rule,passed,note=None):
-        checks.append({"rule":rule,"passed":passed,**({"note":note} if note else {})})
+    def check(rule, passed, note=None, info=False):
+        checks.append({"rule": rule, "passed": passed, **({"note": note} if note and (not passed or info) else {})})
         return passed
 
     def result(status,final):
@@ -91,7 +91,7 @@ def risk_check(pm_decision:dict,research:dict)->dict:
             cap("max_sector",math.floor((MAX_SECTOR_WEIGHT*equity-in_sector)/price),
                 f"{sector} would pass {MAX_SECTOR_WEIGHT:.0%}")
         else:
-            check("max_sector",True,"sector unknown, rule skipped")
+            check("max_sector",True,"sector unknown, rule skipped",info=True)
 
         # Volatility
         vol=research.get("technical",{}).get("key_metrics",{}).get("volatility_20d")
@@ -101,7 +101,7 @@ def risk_check(pm_decision:dict,research:dict)->dict:
             check("volatility",False,f"volatility {vol:.0%} → size halved: {shares} → {shares//2}")
             shares//=2
         else:
-            check("volatility",True,None if vol is not None else "no volatility data")
+            check("volatility",True,None if vol is not None else "no volatility data",info=True)
 
         if shares<=0:
             return result("rejected",NO_ORDER)
@@ -116,5 +116,5 @@ def risk_check(pm_decision:dict,research:dict)->dict:
 if __name__=="__main__":
     import json
     pm={"ticker":"AAPL","action":"buy","target_weight":0.06,"confidence":7}
-    research={"technical":{"key_metrics":{"volatility":0.28}}}
+    research={"technical":{"key_metrics":{"volatility_20d":0.28}}}
     print(json.dumps(risk_check(pm,research),indent=2))

@@ -22,13 +22,20 @@ def save(state:dict):
 def log_performance():
     """One row per day: portfolio value vs SPY price. This is how we track 'beat SPY'."""
     path=DATA/"performance.csv"
-    new=not path.exists()
+    today=date.today().isoformat()
     equity=get_account()["equity"]
     spy=get_latest_price(BENCHMARK)["price"]
-    with open(path,"a") as f:
-        if new:
-            f.write("date,equity,spy_price\n")
-        f.write(f"{date.today().isoformat()},{equity},{spy}\n")
+
+    if path.exists():
+        lines=path.read_text().splitlines()
+        header=lines[0]
+        rows=[l for l in lines[1:] if not l.startswith(today)]
+    else:
+        header="date,equity,spy_price"
+        rows=[]
+
+    rows.append(f"{today},{equity},{spy}")
+    path.write_text("\n".join([header]+rows)+"\n")
 
 def main():
     p=argparse.ArgumentParser()
