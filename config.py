@@ -49,10 +49,10 @@ MAX_DRAWDOWN = 0.10          # portfolio down 10% from peak = no new buys
 # enabled = rule runs at all. practice = rule only LOGS what it would do (no real trade).
 # Leave practice=True for about a week per rule, review data/trades.csv, then set False.
 RULES = {
-    "stop":      {"enabled": True, "practice": True},
-    "news_sell": {"enabled": True, "practice": True},
-    "rebalance": {"enabled": True, "practice": True},
-    "bench":     {"enabled": True, "practice": True},
+    "stop":      {"enabled": True, "practice": False},
+    "news_sell": {"enabled": True, "practice": False},
+    "rebalance": {"enabled": True, "practice": False},
+    "bench":     {"enabled": True, "practice": False},
 }
 MAX_RULE_TRADES_PER_DAY = 4  # cap on rule-based trades (stop, news, rebalance)
 
